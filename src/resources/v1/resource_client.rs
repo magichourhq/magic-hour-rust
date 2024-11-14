@@ -35,6 +35,13 @@ impl V1Client {
             self.base_client.clone(),
         )
     }
+    pub fn ai_qr_code_generator(
+        &self,
+    ) -> crate::resources::v1::ai_qr_code_generator::resource_client::AiQrCodeGeneratorClient {
+        crate::resources::v1::ai_qr_code_generator::resource_client::AiQrCodeGeneratorClient::new(
+            self.base_client.clone(),
+        )
+    }
     pub fn face_swap(
         &self,
     ) -> crate::resources::v1::face_swap::resource_client::FaceSwapClient {
