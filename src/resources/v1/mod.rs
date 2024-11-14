@@ -2,6 +2,7 @@
 pub(crate) mod resource_client;
 pub mod ai_headshot_generator;
 pub mod ai_image_generator;
+pub mod ai_qr_code_generator;
 pub mod face_swap;
 pub mod face_swap_photo;
 pub mod files;
