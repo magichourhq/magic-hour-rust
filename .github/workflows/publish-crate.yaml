@@ -1,4 +1,4 @@
-name: Rust
+name: Publish Crate
 
 on:
   release:
@@ -13,9 +13,6 @@ env:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    if: needs.release-please.outputs.created
-
-
     steps:
       - uses: actions/checkout@v3
       - uses: swatinem/rust-cache@v2
