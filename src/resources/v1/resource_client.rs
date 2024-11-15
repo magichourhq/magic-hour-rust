@@ -35,6 +35,13 @@ impl V1Client {
             self.base_client.clone(),
         )
     }
+    pub fn ai_image_upscaler(
+        &self,
+    ) -> crate::resources::v1::ai_image_upscaler::resource_client::AiImageUpscalerClient {
+        crate::resources::v1::ai_image_upscaler::resource_client::AiImageUpscalerClient::new(
+            self.base_client.clone(),
+        )
+    }
     pub fn ai_qr_code_generator(
         &self,
     ) -> crate::resources::v1::ai_qr_code_generator::resource_client::AiQrCodeGeneratorClient {
