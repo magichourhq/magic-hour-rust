@@ -19,11 +19,12 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Rust
-        uses: actions-rs/toolchain@v1
+        uses: dtolnay/rust-toolchain@stable
         with:
           toolchain: stable
-          profile: minimal
-          override: true
+
+      - name: Install dependencies
+        run: cargo install
 
       - name: Get current version from main
         run: |
