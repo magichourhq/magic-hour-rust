@@ -69,6 +69,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add Cargo.toml
+          git add Cargo.toml Cargo.lock
           git commit -m "chore: version bump" || echo "No changes to commit"
           git push
