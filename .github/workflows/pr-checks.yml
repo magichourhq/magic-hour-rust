@@ -3,6 +3,9 @@ name: checks
 on:
   pull_request:
     types: [opened, synchronize, labeled, unlabeled]
+  workflow_run:
+    types:
+      - completed
 
 permissions:
   contents: write
