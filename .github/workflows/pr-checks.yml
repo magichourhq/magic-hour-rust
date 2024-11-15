@@ -23,8 +23,8 @@ jobs:
         with:
           toolchain: stable
 
-      - name: Install dependencies
-        run: cargo install
+      - name: ensure lockfile is up to date
+        run: cargo build
 
       - name: Get current version from main
         run: |
