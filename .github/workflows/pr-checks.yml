@@ -3,14 +3,11 @@ name: checks
 on:
   pull_request:
     types: [opened, synchronize, labeled, unlabeled]
-  workflow_run:
-    workflows: [version-bump"]
-    types:
-      - completed
 
 permissions:
   contents: write
   pull-requests: write
+  actions: write
 
 jobs:
   version-bump:
