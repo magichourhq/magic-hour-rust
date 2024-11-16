@@ -6,7 +6,7 @@ pub struct PostV1VideoToVideoBody {
     #[serde(skip_serializing_if = "Option::is_none")]
     pub fps_resolution: Option<crate::models::PostV1VideoToVideoBodyFpsResolutionEnum>,
     pub height: f64,
-    #[serde(deserialize_with = "crate::core::patch::deserialize_required_nullable")]
+    #[serde(skip_serializing_if = "Option::is_none")]
     pub name: Option<String>,
     pub start_seconds: f64,
     pub style: crate::models::PostV1VideoToVideoBodyStyle,

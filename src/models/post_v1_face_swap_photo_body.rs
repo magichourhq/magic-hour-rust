@@ -2,6 +2,6 @@
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub struct PostV1FaceSwapPhotoBody {
     pub assets: crate::models::PostV1FaceSwapPhotoBodyAssets,
-    #[serde(deserialize_with = "crate::core::patch::deserialize_required_nullable")]
+    #[serde(skip_serializing_if = "Option::is_none")]
     pub name: Option<String>,
 }
