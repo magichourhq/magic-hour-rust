@@ -27,6 +27,9 @@ jobs:
       - name: ensure lockfile is up to date
         run: cargo build
 
+      - name: running codemod
+        run: sh ./codemod/main.sh
+
       - name: Get current version from main
         run: |
           git fetch origin main
@@ -69,10 +72,10 @@ jobs:
           sed -i "s/^version = \".*\"/version = \"$NEW_VERSION\"/" Cargo.toml
 
       - name: Commit changes
-        if: steps.bump-version.outcome == 'success'
+        continue-on-error: true
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add Cargo.toml Cargo.lock
+          git add .
           git commit -m "chore: version bump" || echo "No changes to commit"
           git push
