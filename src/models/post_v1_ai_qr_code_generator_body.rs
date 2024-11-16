@@ -2,7 +2,7 @@
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub struct PostV1AiQrCodeGeneratorBody {
     pub content: String,
-    #[serde(deserialize_with = "crate::core::patch::deserialize_required_nullable")]
+    #[serde(skip_serializing_if = "Option::is_none")]
     pub name: Option<String>,
     pub style: crate::models::PostV1AiQrCodeGeneratorBodyStyle,
 }
