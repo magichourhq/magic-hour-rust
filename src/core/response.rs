@@ -11,6 +11,7 @@ impl BinaryResponse {
         Self { headers, content }
     }
 }
+#[allow(unused)]
 pub(crate) async fn process_json<T>(response: reqwest::Response) -> crate::SdkResult<T>
 where
     T: serde::de::DeserializeOwned,

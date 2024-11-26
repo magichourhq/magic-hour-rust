@@ -8,6 +8,8 @@ impl AiImageGeneratorClient {
         Self { base_client }
     }
     /// Create an AI image. Each image costs 5 frames.
+    ///
+    /// POST /v1/ai-image-generator
     pub async fn create(
         &self,
         request: super::request_types::CreateRequest,

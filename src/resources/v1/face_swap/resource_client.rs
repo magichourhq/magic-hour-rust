@@ -11,6 +11,8 @@ impl FaceSwapClient {
     ///
     /// Get more information about this mode at our [product page](/products/face-swap).
     ///
+    ///
+    /// POST /v1/face-swap
     pub async fn create(
         &self,
         request: super::request_types::CreateRequest,

@@ -11,6 +11,8 @@ impl LipSyncClient {
     ///
     /// Get more information about this mode at our [product page](/products/lip-sync).
     ///
+    ///
+    /// POST /v1/lip-sync
     pub async fn create(
         &self,
         request: super::request_types::CreateRequest,

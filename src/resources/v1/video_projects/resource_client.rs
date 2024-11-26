@@ -17,6 +17,8 @@ impl VideoProjectsClient {
     /// - `error` - an error occurred during rendering
     /// - `canceled` - video render is canceled by the user
     ///
+    ///
+    /// GET /v1/video-projects/{id}
     pub async fn get(
         &self,
         request: super::request_types::GetRequest,

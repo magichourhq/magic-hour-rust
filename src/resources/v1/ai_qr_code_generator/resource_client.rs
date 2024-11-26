@@ -8,6 +8,8 @@ impl AiQrCodeGeneratorClient {
         Self { base_client }
     }
     /// Create an AI QR code. Each QR code costs 20 frames.
+    ///
+    /// POST /v1/ai-qr-code-generator
     pub async fn create(
         &self,
         request: super::request_types::CreateRequest,
