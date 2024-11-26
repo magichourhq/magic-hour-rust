@@ -8,6 +8,8 @@ impl AiHeadshotGeneratorClient {
         Self { base_client }
     }
     /// Create an AI headshot. Each headshot costs 50 frames.
+    ///
+    /// POST /v1/ai-headshot-generator
     pub async fn create(
         &self,
         request: super::request_types::CreateRequest,

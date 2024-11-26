@@ -8,12 +8,15 @@ pub enum Patch<T> {
     Value(T),
 }
 impl<T> Patch<T> {
+    #[allow(unused)]
     pub fn new(val: T) -> Self {
         Self::Value(val)
     }
+    #[allow(unused)]
     pub fn is_null(&self) -> bool {
         matches!(self, Patch::Null)
     }
+    #[allow(unused)]
     pub fn is_undefined(&self) -> bool {
         matches!(self, Patch::Undefined)
     }

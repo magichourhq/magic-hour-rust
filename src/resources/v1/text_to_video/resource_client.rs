@@ -11,6 +11,8 @@ impl TextToVideoClient {
     ///
     /// Get more information about this mode at our [product page](/products/text-to-video).
     ///
+    ///
+    /// POST /v1/text-to-video
     pub async fn create(
         &self,
         request: super::request_types::CreateRequest,

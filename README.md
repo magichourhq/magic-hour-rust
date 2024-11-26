@@ -1,7 +1,6 @@
 
 # Magic Hour API Rust SDK
 
-
 ## Overview
 
 # Introduction 
@@ -27,7 +26,6 @@ Then, add the `Authorization` header to the request.
 > **Warning**: any API call that renders a video will utilize frames in your account.
 
 
-
 ### Example Client Initialization
 
 ```rust
@@ -35,5 +33,58 @@ let client = magic_hour::Client::default()
     .with_bearer_auth(&std::env::var("API_TOKEN").unwrap());
 ```
 
-### SDK Usage 
- See [SDK Examples](SDK_EXAMPLES.md) for example usage of all SDK functionality
+## Module Documentation and Snippets
+
+### [v1.ai_headshot_generator](src/resources/v1/ai_headshot_generator/README.md)
+
+* [create](src/resources/v1/ai_headshot_generator/README.md#create) - Create AI Headshots
+
+### [v1.ai_image_generator](src/resources/v1/ai_image_generator/README.md)
+
+* [create](src/resources/v1/ai_image_generator/README.md#create) - Create AI Images
+
+### [v1.ai_image_upscaler](src/resources/v1/ai_image_upscaler/README.md)
+
+* [create](src/resources/v1/ai_image_upscaler/README.md#create) - Create Upscaled Image
+
+### [v1.ai_qr_code_generator](src/resources/v1/ai_qr_code_generator/README.md)
+
+* [create](src/resources/v1/ai_qr_code_generator/README.md#create) - Create AI QR Code
+
+### [v1.face_swap](src/resources/v1/face_swap/README.md)
+
+* [create](src/resources/v1/face_swap/README.md#create) - Create Face Swap video
+
+### [v1.face_swap_photo](src/resources/v1/face_swap_photo/README.md)
+
+* [create](src/resources/v1/face_swap_photo/README.md#create) - Create Face Swap Photo
+
+### [v1.files.upload_urls](src/resources/v1/files/upload_urls/README.md)
+
+* [create](src/resources/v1/files/upload_urls/README.md#create) - Generate asset upload urls
+
+### [v1.image_projects](src/resources/v1/image_projects/README.md)
+
+* [get](src/resources/v1/image_projects/README.md#get) - Get image project details
+
+### [v1.image_to_video](src/resources/v1/image_to_video/README.md)
+
+* [create](src/resources/v1/image_to_video/README.md#create) - Create Image-to-Video
+
+### [v1.lip_sync](src/resources/v1/lip_sync/README.md)
+
+* [create](src/resources/v1/lip_sync/README.md#create) - Create Lip Sync video
+
+### [v1.text_to_video](src/resources/v1/text_to_video/README.md)
+
+* [create](src/resources/v1/text_to_video/README.md#create) - Create Text-to-Video
+
+### [v1.video_projects](src/resources/v1/video_projects/README.md)
+
+* [get](src/resources/v1/video_projects/README.md#get) - Get video project details
+
+### [v1.video_to_video](src/resources/v1/video_to_video/README.md)
+
+* [create](src/resources/v1/video_to_video/README.md#create) - Create Video-to-Video
+
+<!-- MODULE DOCS END -->

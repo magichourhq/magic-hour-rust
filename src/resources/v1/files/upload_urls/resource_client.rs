@@ -27,6 +27,8 @@ impl UploadUrlsClient {
     ///   https://videos.magichour.ai/api-assets/id/video.mp4?auth-value=1234567890
     /// `-`-`
     ///
+    ///
+    /// POST /v1/files/upload-urls
     pub async fn create(
         &self,
         request: super::request_types::CreateRequest,

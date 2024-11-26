@@ -11,6 +11,8 @@ impl VideoToVideoClient {
     ///
     /// Get more information about this mode at our [product page](/products/video-to-video).
     ///
+    ///
+    /// POST /v1/video-to-video
     pub async fn create(
         &self,
         request: super::request_types::CreateRequest,

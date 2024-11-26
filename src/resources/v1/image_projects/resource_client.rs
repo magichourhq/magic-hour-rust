@@ -17,6 +17,8 @@ impl ImageProjectsClient {
     /// - `error` - an error occurred during rendering
     /// - `canceled` - image render is canceled by the user
     ///
+    ///
+    /// GET /v1/image-projects/{id}
     pub async fn get(
         &self,
         request: super::request_types::GetRequest,
