@@ -11,6 +11,8 @@ pub enum GetV1ImageProjectsIdResponseTypeEnum {
     FaceSwap,
     #[serde(rename = "IMAGE_UPSCALER")]
     ImageUpscaler,
+    #[serde(rename = "PHOTO_EDITOR")]
+    PhotoEditor,
     #[serde(rename = "QR_CODE")]
     QrCode,
 }
@@ -21,6 +23,7 @@ impl std::fmt::Display for GetV1ImageProjectsIdResponseTypeEnum {
             GetV1ImageProjectsIdResponseTypeEnum::AiImage => "AI_IMAGE",
             GetV1ImageProjectsIdResponseTypeEnum::FaceSwap => "FACE_SWAP",
             GetV1ImageProjectsIdResponseTypeEnum::ImageUpscaler => "IMAGE_UPSCALER",
+            GetV1ImageProjectsIdResponseTypeEnum::PhotoEditor => "PHOTO_EDITOR",
             GetV1ImageProjectsIdResponseTypeEnum::QrCode => "QR_CODE",
         };
         write!(f, "{}", str_val)

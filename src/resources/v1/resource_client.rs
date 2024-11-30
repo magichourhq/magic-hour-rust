@@ -42,6 +42,13 @@ impl V1Client {
             self.base_client.clone(),
         )
     }
+    pub fn ai_photo_editor(
+        &self,
+    ) -> crate::resources::v1::ai_photo_editor::resource_client::AiPhotoEditorClient {
+        crate::resources::v1::ai_photo_editor::resource_client::AiPhotoEditorClient::new(
+            self.base_client.clone(),
+        )
+    }
     pub fn ai_qr_code_generator(
         &self,
     ) -> crate::resources::v1::ai_qr_code_generator::resource_client::AiQrCodeGeneratorClient {
