@@ -56,6 +56,13 @@ impl V1Client {
             self.base_client.clone(),
         )
     }
+    pub fn animation(
+        &self,
+    ) -> crate::resources::v1::animation::resource_client::AnimationClient {
+        crate::resources::v1::animation::resource_client::AnimationClient::new(
+            self.base_client.clone(),
+        )
+    }
     pub fn face_swap(
         &self,
     ) -> crate::resources::v1::face_swap::resource_client::FaceSwapClient {
