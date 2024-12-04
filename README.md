@@ -69,6 +69,7 @@ let client = magic_hour::Client::default()
 
 ### [v1.image_projects](src/resources/v1/image_projects/README.md)
 
+* [delete](src/resources/v1/image_projects/README.md#delete) - Delete image
 * [get](src/resources/v1/image_projects/README.md#get) - Get image project details
 
 ### [v1.image_to_video](src/resources/v1/image_to_video/README.md)
@@ -85,7 +86,8 @@ let client = magic_hour::Client::default()
 
 ### [v1.video_projects](src/resources/v1/video_projects/README.md)
 
-* [get](src/resources/v1/video_projects/README.md#get) - Get video project details
+* [delete](src/resources/v1/video_projects/README.md#delete) - Delete video
+* [get](src/resources/v1/video_projects/README.md#get) - Get video details
 
 ### [v1.video_to_video](src/resources/v1/video_to_video/README.md)
 

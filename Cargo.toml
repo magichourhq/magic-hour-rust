@@ -1,12 +1,12 @@
 [package]
 name = "magic_hour"
-version = "0.2.0"
+version = "0.1.0"
 edition = "2021"
 description = "Rust API Client"
 license = "MIT"
 
 [target.x86_64-unknown-linux-musl.dependencies]
-openssl = { version = "0.10.46", features = ["vendored"] }
+openssl = { version = "*", features = ["vendored"] }
 
 [lib]
 crate-type = ["lib"]
