@@ -4,6 +4,11 @@
 pub struct GetV1ImageProjectsIdResponse {
     pub created_at: String,
     pub downloads: Vec<crate::models::GetV1ImageProjectsIdResponseDownloadsItem>,
+    /// Indicates whether the resource is deleted
+    pub enabled: bool,
+    /// In the case of an error, this object will contain the error encountered during video render
+    #[serde(deserialize_with = "crate::core::patch::deserialize_required_nullable")]
+    pub error: Option<crate::models::GetV1ImageProjectsIdResponseError>,
     /// Unique ID of the image. This value can be used in the [get image project API](/api/tag/image-projects/get/v1/image-projects/{id}) to fetch additional details such as status
     pub id: String,
     /// Number of images generated

@@ -6,8 +6,13 @@ pub struct GetV1VideoProjectsIdResponse {
     /// The download url and expiration date of the video project
     #[serde(deserialize_with = "crate::core::patch::deserialize_required_nullable")]
     pub download: Option<crate::models::GetV1VideoProjectsIdResponseDownload>,
+    /// Indicates whether the resource is deleted
+    pub enabled: bool,
     /// The end time of the input video in seconds
     pub end_seconds: f64,
+    /// In the case of an error, this object will contain the error encountered during video render
+    #[serde(deserialize_with = "crate::core::patch::deserialize_required_nullable")]
+    pub error: Option<crate::models::GetV1VideoProjectsIdResponseError>,
     /// Frame rate of the video. If the status is not 'complete', the frame rate is an estimate and will be adjusted when the video completes.
     pub fps: f64,
     /// The height of the final output video. The maximum height depends on your subscription. Please refer to our [pricing page](https://magichour.ai/pricing) for more details

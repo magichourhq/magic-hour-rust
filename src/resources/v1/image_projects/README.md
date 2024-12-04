@@ -1,4 +1,25 @@
 
+### delete <a name="delete"></a>
+Delete image
+
+Permanently delete the rendered image. This action is not reversible, please be sure before deleting.
+
+**API Endpoint**: `DELETE /v1/image-projects/{id}`
+
+#### Example Snippet
+
+```rust
+let client = magic_hour::Client::default()
+    .with_bearer_auth(&std::env::var("API_TOKEN").unwrap());
+let res = client
+    .v1()
+    .image_projects()
+    .delete(magic_hour::resources::v1::image_projects::DeleteRequest {
+        id: "string".to_string(),
+    })
+    .await;
+```
+
 ### get <a name="get"></a>
 Get image project details
 

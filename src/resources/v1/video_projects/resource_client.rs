@@ -7,6 +7,28 @@ impl VideoProjectsClient {
     pub(crate) fn new(base_client: crate::core::base_client::BaseClient) -> Self {
         Self { base_client }
     }
+    /// Permanently delete the rendered video. This action is not reversible, please be sure before deleting.
+    ///
+    /// DELETE /v1/video-projects/{id}
+    pub async fn delete(
+        &self,
+        request: super::request_types::DeleteRequest,
+    ) -> crate::SdkResult<()> {
+        let url = self
+            .base_client
+            .build_url(
+                &format!(
+                    "/v1/video-projects/{}", crate ::core::params::format_string_param(&
+                    request.id)
+                ),
+            );
+        let mut builder = reqwest::Client::default().delete(&url);
+        builder = builder.header("x-sideko-sdk-language", "rust");
+        builder = self.base_client.apply_auths_to_builder(builder, &["bearerAuth"]);
+        let response = builder.send().await?;
+        self.base_client.error_for_status(response).await?;
+        Ok(())
+    }
     /// Get the details of a video project. The `download` field will be `null` unless the video was successfully rendered.
     ///
     /// The video can be one of the following status
