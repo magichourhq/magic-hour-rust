@@ -55,6 +55,10 @@ let client = magic_hour::Client::default()
 
 * [create](src/resources/v1/ai_qr_code_generator/README.md#create) - Create AI QR Code
 
+### [v1.animation](src/resources/v1/animation/README.md)
+
+* [create](src/resources/v1/animation/README.md#create) - Create Animation
+
 ### [v1.face_swap](src/resources/v1/face_swap/README.md)
 
 * [create](src/resources/v1/face_swap/README.md#create) - Create Face Swap video
