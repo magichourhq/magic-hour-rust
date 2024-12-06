@@ -13,4 +13,7 @@ pub struct PostV1AiPhotoEditorBodyStyle {
     pub prompt: String,
     /// Determines the prompt's influence. Higher values align the output more with the prompt.
     pub prompt_strength: f64,
+    /// Number of iterations used to generate the output. Higher values improve quality and increase the strength of the prompt but increase processing time.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub steps: Option<f64>,
 }

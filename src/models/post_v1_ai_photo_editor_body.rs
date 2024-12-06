@@ -9,7 +9,8 @@ pub struct PostV1AiPhotoEditorBody {
     pub name: Option<String>,
     /// The resolution of the final output image. The allowed value is based on your subscription. Please refer to our [pricing page](https://magichour.ai/pricing) for more details
     pub resolution: f64,
-    /// Number of iterations used to generate the output. Higher values improve quality and increase the strength of the prompt but increase processing time.
-    pub steps: f64,
+    /// Deprecated: Please use `.style.steps` instead. Number of iterations used to generate the output. Higher values improve quality and increase the strength of the prompt but increase processing time.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub steps: Option<f64>,
     pub style: crate::models::PostV1AiPhotoEditorBodyStyle,
 }
