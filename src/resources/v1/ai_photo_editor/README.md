@@ -23,13 +23,14 @@ let res = client
             },
             name: Some("Photo Editor image".to_string()),
             resolution: 768,
-            steps: 4,
+            steps: Some(123.45),
             style: magic_hour::models::PostV1AiPhotoEditorBodyStyle {
                 image_description: "A photo of a person".to_string(),
                 likeness_strength: 5.2,
                 negative_prompt: Some("painting, cartoon, sketch".to_string()),
                 prompt: "A photo portrait of a person wearing a hat".to_string(),
                 prompt_strength: 3.75,
+                steps: Some(4),
             },
         },
     })
