@@ -16,7 +16,7 @@ pub struct GetV1VideoProjectsIdResponse {
     /// Frame rate of the video. If the status is not 'complete', the frame rate is an estimate and will be adjusted when the video completes.
     pub fps: f64,
     /// The height of the final output video. The maximum height depends on your subscription. Please refer to our [pricing page](https://magichour.ai/pricing) for more details
-    pub height: f64,
+    pub height: i64,
     /// Unique ID of the video. This value can be used in the [get video project API](/api/tag/video-projects/get/v1/video-projects/{id}) to fetch additional details such as status
     pub id: String,
     /// The name of the video.
@@ -27,9 +27,9 @@ pub struct GetV1VideoProjectsIdResponse {
     /// The status of the video.
     pub status: crate::models::GetV1VideoProjectsIdResponseStatusEnum,
     /// The amount of frames used to generate the video. If the status is not 'complete', the cost is an estimate and will be adjusted when the video completes.
-    pub total_frame_cost: f64,
+    pub total_frame_cost: i64,
     #[serde(rename = "type")]
     pub type_field: crate::models::GetV1VideoProjectsIdResponseTypeEnum,
     /// The width of the final output video. The maximum width depends on your subscription. Please refer to our [pricing page](https://magichour.ai/pricing) for more details
-    pub width: f64,
+    pub width: i64,
 }
