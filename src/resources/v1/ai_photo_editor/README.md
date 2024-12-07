@@ -23,7 +23,7 @@ let res = client
             },
             name: Some("Photo Editor image".to_string()),
             resolution: 768,
-            steps: Some(123.45),
+            steps: Some(123),
             style: magic_hour::models::PostV1AiPhotoEditorBodyStyle {
                 image_description: "A photo of a person".to_string(),
                 likeness_strength: 5.2,
