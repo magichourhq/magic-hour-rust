@@ -11,7 +11,7 @@ pub struct PostV1VideoToVideoBody {
     /// * `HALF` - the result video will have half the FPS as the input video
     #[serde(skip_serializing_if = "Option::is_none")]
     pub fps_resolution: Option<crate::models::PostV1VideoToVideoBodyFpsResolutionEnum>,
-    /// The height of the final output video. The maximum height depends on your subscription. Please refer to our [pricing page](https://magichour.ai/pricing) for more details
+    /// The height of the final output video. Must be divisible by 64. The maximum height depends on your subscription. Please refer to our [pricing page](https://magichour.ai/pricing) for more details
     pub height: i64,
     /// The name of video
     #[serde(skip_serializing_if = "Option::is_none")]
@@ -19,6 +19,6 @@ pub struct PostV1VideoToVideoBody {
     /// The start time of the input video in seconds
     pub start_seconds: f64,
     pub style: crate::models::PostV1VideoToVideoBodyStyle,
-    /// The width of the final output video. The maximum width depends on your subscription. Please refer to our [pricing page](https://magichour.ai/pricing) for more details
+    /// The width of the final output video. Must be divisible by 64. The maximum width depends on your subscription. Please refer to our [pricing page](https://magichour.ai/pricing) for more details
     pub width: i64,
 }
