@@ -7,11 +7,11 @@ pub struct PostV1ImageToVideoBody {
     /// The total duration of the output video in seconds.
     pub end_seconds: f64,
     /// The height of the input video. This value will help determine the final orientation of the output video. The output video resolution may not match the input.
-    pub height: f64,
+    pub height: i64,
     /// The name of video
     #[serde(skip_serializing_if = "Option::is_none")]
     pub name: Option<String>,
     pub style: crate::models::PostV1ImageToVideoBodyStyle,
     /// The width of the input video. This value will help determine the final orientation of the output video. The output video resolution may not match the input.
-    pub width: f64,
+    pub width: i64,
 }
