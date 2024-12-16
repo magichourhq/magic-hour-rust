@@ -19,12 +19,12 @@ impl Client {
         self.base_client.client = client;
         self
     }
-    pub fn with_bearer_auth(mut self, val: &str) -> Self {
+    pub fn with_bearer_auth(mut self, token: &str) -> Self {
         self.base_client
             .auth
             .insert(
                 "bearerAuth".into(),
-                crate::core::auth::AuthProvider::Bearer(val.into()),
+                crate::core::auth::AuthProvider::Bearer(token.into()),
             );
         self
     }

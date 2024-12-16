@@ -15,14 +15,12 @@ let res = client
     .v1()
     .ai_image_generator()
     .create(magic_hour::resources::v1::ai_image_generator::CreateRequest {
-        data: magic_hour::models::PostV1AiImageGeneratorBody {
-            image_count: 1,
-            name: Some("Ai Image image".to_string()),
-            orientation: magic_hour::models::PostV1AiImageGeneratorBodyOrientationEnum::Landscape,
-            style: magic_hour::models::PostV1AiImageGeneratorBodyStyle {
-                prompt: "Cool image".to_string(),
-            },
+        image_count: 1,
+        orientation: magic_hour::models::PostV1AiImageGeneratorBodyOrientationEnum::Landscape,
+        style: magic_hour::models::PostV1AiImageGeneratorBodyStyle {
+            prompt: "Cool image".to_string(),
         },
+        ..Default::default()
     })
     .await;
 ```

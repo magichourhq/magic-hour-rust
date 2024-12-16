@@ -35,17 +35,14 @@ let res = client
     .files()
     .upload_urls()
     .create(magic_hour::resources::v1::files::upload_urls::CreateRequest {
-        data: magic_hour::models::PostV1FilesUploadUrlsBody {
-            items: vec![
-                magic_hour::models::PostV1FilesUploadUrlsBodyItemsItem { extension :
-                "mp4".to_string(), type_field :
-                magic_hour::models::PostV1FilesUploadUrlsBodyItemsItemTypeEnum::Video
-                }, magic_hour::models::PostV1FilesUploadUrlsBodyItemsItem { extension
-                : "mp3".to_string(), type_field :
-                magic_hour::models::PostV1FilesUploadUrlsBodyItemsItemTypeEnum::Audio
-                }
-            ],
-        },
+        items: vec![
+            magic_hour::models::PostV1FilesUploadUrlsBodyItemsItem { extension :
+            "mp4".to_string(), type_field :
+            magic_hour::models::PostV1FilesUploadUrlsBodyItemsItemTypeEnum::Video },
+            magic_hour::models::PostV1FilesUploadUrlsBodyItemsItem { extension :
+            "mp3".to_string(), type_field :
+            magic_hour::models::PostV1FilesUploadUrlsBodyItemsItemTypeEnum::Audio }
+        ],
     })
     .await;
 ```

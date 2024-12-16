@@ -15,13 +15,11 @@ let res = client
     .v1()
     .face_swap_photo()
     .create(magic_hour::resources::v1::face_swap_photo::CreateRequest {
-        data: magic_hour::models::PostV1FaceSwapPhotoBody {
-            assets: magic_hour::models::PostV1FaceSwapPhotoBodyAssets {
-                source_file_path: "image/id/1234.png".to_string(),
-                target_file_path: "image/id/1234.png".to_string(),
-            },
-            name: Some("Face Swap image".to_string()),
+        assets: magic_hour::models::PostV1FaceSwapPhotoBodyAssets {
+            source_file_path: "image/id/1234.png".to_string(),
+            target_file_path: "image/id/1234.png".to_string(),
         },
+        ..Default::default()
     })
     .await;
 ```

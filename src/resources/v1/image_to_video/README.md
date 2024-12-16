@@ -18,18 +18,16 @@ let res = client
     .v1()
     .image_to_video()
     .create(magic_hour::resources::v1::image_to_video::CreateRequest {
-        data: magic_hour::models::PostV1ImageToVideoBody {
-            assets: magic_hour::models::PostV1ImageToVideoBodyAssets {
-                image_file_path: "image/id/1234.png".to_string(),
-            },
-            end_seconds: 5,
-            height: 960,
-            name: Some("Image To Video video".to_string()),
-            style: magic_hour::models::PostV1ImageToVideoBodyStyle {
-                prompt: Some("string".to_string()),
-            },
-            width: 512,
+        assets: magic_hour::models::PostV1ImageToVideoBodyAssets {
+            image_file_path: "image/id/1234.png".to_string(),
         },
+        end_seconds: 5,
+        height: 960,
+        style: magic_hour::models::PostV1ImageToVideoBodyStyle {
+            ..Default::default()
+        },
+        width: 512,
+        ..Default::default()
     })
     .await;
 ```
