@@ -15,17 +15,15 @@ let res = client
     .v1()
     .ai_image_upscaler()
     .create(magic_hour::resources::v1::ai_image_upscaler::CreateRequest {
-        data: magic_hour::models::PostV1AiImageUpscalerBody {
-            assets: magic_hour::models::PostV1AiImageUpscalerBodyAssets {
-                image_file_path: "image/id/1234.png".to_string(),
-            },
-            name: Some("Image Upscaler image".to_string()),
-            scale_factor: 123.45,
-            style: magic_hour::models::PostV1AiImageUpscalerBodyStyle {
-                enhancement: magic_hour::models::PostV1AiImageUpscalerBodyStyleEnhancementEnum::Balanced,
-                prompt: Some("string".to_string()),
-            },
+        assets: magic_hour::models::PostV1AiImageUpscalerBodyAssets {
+            image_file_path: "image/id/1234.png".to_string(),
         },
+        scale_factor: 123.45,
+        style: magic_hour::models::PostV1AiImageUpscalerBodyStyle {
+            enhancement: magic_hour::models::PostV1AiImageUpscalerBodyStyleEnhancementEnum::Balanced,
+            ..Default::default()
+        },
+        ..Default::default()
     })
     .await;
 ```

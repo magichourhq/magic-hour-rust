@@ -17,22 +17,18 @@ let res = client
     .v1()
     .ai_photo_editor()
     .create(magic_hour::resources::v1::ai_photo_editor::CreateRequest {
-        data: magic_hour::models::PostV1AiPhotoEditorBody {
-            assets: magic_hour::models::PostV1AiPhotoEditorBodyAssets {
-                image_file_path: "image/id/1234.png".to_string(),
-            },
-            name: Some("Photo Editor image".to_string()),
-            resolution: 768,
-            steps: Some(123),
-            style: magic_hour::models::PostV1AiPhotoEditorBodyStyle {
-                image_description: "A photo of a person".to_string(),
-                likeness_strength: 5.2,
-                negative_prompt: Some("painting, cartoon, sketch".to_string()),
-                prompt: "A photo portrait of a person wearing a hat".to_string(),
-                prompt_strength: 3.75,
-                steps: Some(4),
-            },
+        assets: magic_hour::models::PostV1AiPhotoEditorBodyAssets {
+            image_file_path: "image/id/1234.png".to_string(),
         },
+        resolution: 768,
+        style: magic_hour::models::PostV1AiPhotoEditorBodyStyle {
+            image_description: "A photo of a person".to_string(),
+            likeness_strength: 5.2,
+            prompt: "A photo portrait of a person wearing a hat".to_string(),
+            prompt_strength: 3.75,
+            ..Default::default()
+        },
+        ..Default::default()
     })
     .await;
 ```

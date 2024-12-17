@@ -71,6 +71,10 @@ let client = magic_hour::Client::default()
 
 * [create](src/resources/v1/files/upload_urls/README.md#create) - Generate asset upload urls
 
+### [v1.image_background_remover](src/resources/v1/image_background_remover/README.md)
+
+* [create](src/resources/v1/image_background_remover/README.md#create) - Image Background Remover
+
 ### [v1.image_projects](src/resources/v1/image_projects/README.md)
 
 * [delete](src/resources/v1/image_projects/README.md#delete) - Delete image

@@ -15,13 +15,11 @@ let res = client
     .v1()
     .ai_qr_code_generator()
     .create(magic_hour::resources::v1::ai_qr_code_generator::CreateRequest {
-        data: magic_hour::models::PostV1AiQrCodeGeneratorBody {
-            content: "https://magichour.ai".to_string(),
-            name: Some("Qr Code image".to_string()),
-            style: magic_hour::models::PostV1AiQrCodeGeneratorBodyStyle {
-                art_style: "Watercolor".to_string(),
-            },
+        content: "https://magichour.ai".to_string(),
+        style: magic_hour::models::PostV1AiQrCodeGeneratorBodyStyle {
+            art_style: "Watercolor".to_string(),
         },
+        ..Default::default()
     })
     .await;
 ```

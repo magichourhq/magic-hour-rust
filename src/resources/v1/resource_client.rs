@@ -82,6 +82,13 @@ impl V1Client {
             self.base_client.clone(),
         )
     }
+    pub fn image_background_remover(
+        &self,
+    ) -> crate::resources::v1::image_background_remover::resource_client::ImageBackgroundRemoverClient {
+        crate::resources::v1::image_background_remover::resource_client::ImageBackgroundRemoverClient::new(
+            self.base_client.clone(),
+        )
+    }
     pub fn image_to_video(
         &self,
     ) -> crate::resources::v1::image_to_video::resource_client::ImageToVideoClient {

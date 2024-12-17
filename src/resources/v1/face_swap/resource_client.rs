@@ -21,7 +21,17 @@ impl FaceSwapClient {
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
         builder = builder.header("content-type", "application/json");
-        builder = builder.json(&request.data);
+        builder = builder
+            .json(
+                &crate::models::PostV1FaceSwapBody {
+                    name: request.name,
+                    assets: request.assets,
+                    end_seconds: request.end_seconds,
+                    height: request.height,
+                    start_seconds: request.start_seconds,
+                    width: request.width,
+                },
+            );
         builder = self.base_client.apply_auths_to_builder(builder, &["bearerAuth"]);
         let mut response = builder.send().await?;
         response = self.base_client.error_for_status(response).await?;

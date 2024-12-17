@@ -18,14 +18,12 @@ let res = client
     .v1()
     .text_to_video()
     .create(magic_hour::resources::v1::text_to_video::CreateRequest {
-        data: magic_hour::models::PostV1TextToVideoBody {
-            end_seconds: 5,
-            name: Some("Text To Video video".to_string()),
-            orientation: magic_hour::models::PostV1TextToVideoBodyOrientationEnum::Landscape,
-            style: magic_hour::models::PostV1TextToVideoBodyStyle {
-                prompt: "string".to_string(),
-            },
+        end_seconds: 5,
+        orientation: magic_hour::models::PostV1TextToVideoBodyOrientationEnum::Landscape,
+        style: magic_hour::models::PostV1TextToVideoBodyStyle {
+            prompt: "string".to_string(),
         },
+        ..Default::default()
     })
     .await;
 ```

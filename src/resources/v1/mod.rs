@@ -9,6 +9,7 @@ pub mod animation;
 pub mod face_swap;
 pub mod face_swap_photo;
 pub mod files;
+pub mod image_background_remover;
 pub mod image_projects;
 pub mod image_to_video;
 pub mod lip_sync;
