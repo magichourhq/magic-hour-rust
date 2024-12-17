@@ -3,9 +3,10 @@
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub struct GetV1VideoProjectsIdResponse {
     pub created_at: String,
-    /// The download url and expiration date of the video project
+    /// Deprecated: Please use `.downloads` instead. The download url and expiration date of the video project
     #[serde(deserialize_with = "crate::core::patch::deserialize_required_nullable")]
     pub download: Option<crate::models::GetV1VideoProjectsIdResponseDownload>,
+    pub downloads: Vec<crate::models::GetV1VideoProjectsIdResponseDownloadsItem>,
     /// Indicates whether the resource is deleted
     pub enabled: bool,
     /// The end time of the input video in seconds
