@@ -18,7 +18,7 @@ let res = client
     .ai_photo_editor()
     .create(magic_hour::resources::v1::ai_photo_editor::CreateRequest {
         assets: magic_hour::models::PostV1AiPhotoEditorBodyAssets {
-            image_file_path: "image/id/1234.png".to_string(),
+            image_file_path: "api-assets/id/1234.png".to_string(),
         },
         resolution: 768,
         style: magic_hour::models::PostV1AiPhotoEditorBodyStyle {
