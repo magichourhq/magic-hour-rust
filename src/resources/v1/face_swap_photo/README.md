@@ -16,8 +16,8 @@ let res = client
     .face_swap_photo()
     .create(magic_hour::resources::v1::face_swap_photo::CreateRequest {
         assets: magic_hour::models::PostV1FaceSwapPhotoBodyAssets {
-            source_file_path: "image/id/1234.png".to_string(),
-            target_file_path: "image/id/1234.png".to_string(),
+            source_file_path: "api-assets/id/1234.png".to_string(),
+            target_file_path: "api-assets/id/1234.png".to_string(),
         },
         ..Default::default()
     })
