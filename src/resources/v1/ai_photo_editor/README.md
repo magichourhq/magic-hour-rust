@@ -24,13 +24,12 @@ let res = client
         style: magic_hour::models::PostV1AiPhotoEditorBodyStyle {
             image_description: "A photo of a person".to_string(),
             likeness_strength: 5.2,
+            negative_prompt: Some("painting, cartoon, sketch".to_string()),
             prompt: "A photo portrait of a person wearing a hat".to_string(),
             prompt_strength: 3.75,
-            ..Default::default()
+            steps: Some(4),
         },
         ..Default::default()
     })
     .await;
 ```
-
-**Upgrade to see all examples**

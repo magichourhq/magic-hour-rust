@@ -24,5 +24,3 @@ let res = client
     })
     .await;
 ```
-
-**Upgrade to see all examples**
