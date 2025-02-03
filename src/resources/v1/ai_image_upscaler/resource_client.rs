@@ -8,7 +8,7 @@ impl<'a> AiImageUpscalerClient<'a> {
     ) -> Self {
         Self { base_client }
     }
-    /// Create Upscaled Image
+    /// AI Image Upscaler
     ///
     /// Upscale your image using AI. Each 2x upscale costs 50 frames, and 4x upscale costs 200 frames.
     ///

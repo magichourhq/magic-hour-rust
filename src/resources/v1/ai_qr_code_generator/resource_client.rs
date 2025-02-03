@@ -8,7 +8,7 @@ impl<'a> AiQrCodeGeneratorClient<'a> {
     ) -> Self {
         Self { base_client }
     }
-    /// Create AI QR Code
+    /// AI QR Code
     ///
     /// Create an AI QR code. Each QR code costs 20 frames.
     ///

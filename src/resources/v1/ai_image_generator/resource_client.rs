@@ -8,7 +8,7 @@ impl<'a> AiImageGeneratorClient<'a> {
     ) -> Self {
         Self { base_client }
     }
-    /// Create AI Images
+    /// AI Images
     ///
     /// Create an AI image. Each image costs 5 frames.
     ///
