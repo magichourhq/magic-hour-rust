@@ -1,0 +1,27 @@
+# This workflow will test the rust package against Sideko's Mock Servers
+# Tests will run automatically on a push to `main` or a pull request event
+
+name: Run Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      #---------------------------------------------------
+      #  -----  checkout & setup rust toolchain  -----
+      #---------------------------------------------------
+      - name: checkout repository
+        uses: actions/checkout@v4
+      - name: setup rust
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+      #---------------------------------------------------
+      #  -----  install dependencies & run tests -----
+      #---------------------------------------------------
+      - name: run tests
+        run: cargo test --no-fail-fast

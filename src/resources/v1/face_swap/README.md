@@ -20,6 +20,7 @@ let res = client
     .create(magic_hour::resources::v1::face_swap::CreateRequest {
         assets: magic_hour::models::PostV1FaceSwapBodyAssets {
             image_file_path: "image/id/1234.png".to_string(),
+            video_file_path: Some("video/id/1234.mp4".to_string()),
             video_source: magic_hour::models::PostV1FaceSwapBodyAssetsVideoSourceEnum::File,
             ..Default::default()
         },
@@ -31,5 +32,3 @@ let res = client
     })
     .await;
 ```
-
-**Upgrade to see all examples**
