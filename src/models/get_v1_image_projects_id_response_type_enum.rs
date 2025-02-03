@@ -8,6 +8,8 @@ pub enum GetV1ImageProjectsIdResponseTypeEnum {
     AiImage,
     #[serde(rename = "BACKGROUND_REMOVER")]
     BackgroundRemover,
+    #[serde(rename = "CLOTHES_CHANGER")]
+    ClothesChanger,
     #[serde(rename = "FACE_SWAP")]
     FaceSwap,
     #[serde(rename = "IMAGE_UPSCALER")]
@@ -25,6 +27,7 @@ impl std::fmt::Display for GetV1ImageProjectsIdResponseTypeEnum {
             GetV1ImageProjectsIdResponseTypeEnum::BackgroundRemover => {
                 "BACKGROUND_REMOVER"
             }
+            GetV1ImageProjectsIdResponseTypeEnum::ClothesChanger => "CLOTHES_CHANGER",
             GetV1ImageProjectsIdResponseTypeEnum::FaceSwap => "FACE_SWAP",
             GetV1ImageProjectsIdResponseTypeEnum::ImageUpscaler => "IMAGE_UPSCALER",
             GetV1ImageProjectsIdResponseTypeEnum::PhotoEditor => "PHOTO_EDITOR",

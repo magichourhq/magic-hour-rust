@@ -1,36 +1,31 @@
 #[derive(Debug)]
-pub struct TextToVideoClient<'a> {
+pub struct AiClothesChangerClient<'a> {
     base_client: &'a mut crate::core::base_client::BaseClient,
 }
-impl<'a> TextToVideoClient<'a> {
+impl<'a> AiClothesChangerClient<'a> {
     pub(crate) fn _new(
         base_client: &'a mut crate::core::base_client::BaseClient,
     ) -> Self {
         Self { base_client }
     }
-    /// Text-to-Video
+    /// AI Clothes Changer
     ///
-    /// Create a Text To Video video. The estimated frame cost is calculated using 30 FPS. This amount is deducted from your account balance when a video is queued. Once the video is complete, the cost will be updated based on the actual number of frames rendered.
+    /// Change outfits in photos in seconds with just a photo reference. Each photo costs 25 frames.
     ///
-    /// Get more information about this mode at our [product page](/products/text-to-video).
-    ///
-    ///
-    /// POST /v1/text-to-video
+    /// POST /v1/ai-clothes-changer
     pub async fn create(
         &mut self,
         request: super::request_types::CreateRequest,
-    ) -> crate::SdkResult<crate::models::PostV1TextToVideoResponse> {
-        let url = self.base_client.build_url("/v1/text-to-video");
+    ) -> crate::SdkResult<crate::models::PostV1AiClothesChangerResponse> {
+        let url = self.base_client.build_url("/v1/ai-clothes-changer");
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
         builder = builder.header("content-type", "application/json");
         builder = builder
             .json(
-                &crate::models::PostV1TextToVideoBody {
+                &crate::models::PostV1AiClothesChangerBody {
                     name: request.name,
-                    end_seconds: request.end_seconds,
-                    orientation: request.orientation,
-                    style: request.style,
+                    assets: request.assets,
                 },
             );
         builder = self
@@ -40,7 +35,7 @@ impl<'a> TextToVideoClient<'a> {
         let mut response = builder.send().await?;
         response = self.base_client.error_for_status("POST", response).await?;
         crate::core::response::process_json::<
-            crate::models::PostV1TextToVideoResponse,
+            crate::models::PostV1AiClothesChangerResponse,
         >(response)
             .await
     }

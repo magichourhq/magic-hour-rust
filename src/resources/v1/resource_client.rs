@@ -22,6 +22,13 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
+    pub fn ai_clothes_changer(
+        &mut self,
+    ) -> crate::resources::v1::ai_clothes_changer::resource_client::AiClothesChangerClient {
+        crate::resources::v1::ai_clothes_changer::resource_client::AiClothesChangerClient::_new(
+            self.base_client,
+        )
+    }
     pub fn ai_headshot_generator(
         &mut self,
     ) -> crate::resources::v1::ai_headshot_generator::resource_client::AiHeadshotGeneratorClient {

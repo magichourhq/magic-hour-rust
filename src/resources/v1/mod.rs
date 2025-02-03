@@ -1,4 +1,5 @@
 pub(crate) mod resource_client;
+pub mod ai_clothes_changer;
 pub mod ai_headshot_generator;
 pub mod ai_image_generator;
 pub mod ai_image_upscaler;
