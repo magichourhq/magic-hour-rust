@@ -16,7 +16,7 @@ impl<'a> ImageBackgroundRemoverClient<'a> {
     pub async fn create(
         &mut self,
         request: super::request_types::CreateRequest,
-    ) -> crate::SdkResult<crate::models::PostV1ImageBackgroundRemoverResponse> {
+    ) -> crate::SdkResult<crate::models::V1ImageBackgroundRemovercreateResponse> {
         let url = self.base_client.build_url("/v1/image-background-remover");
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
@@ -35,7 +35,7 @@ impl<'a> ImageBackgroundRemoverClient<'a> {
         let mut response = builder.send().await?;
         response = self.base_client.error_for_status("POST", response).await?;
         crate::core::response::process_json::<
-            crate::models::PostV1ImageBackgroundRemoverResponse,
+            crate::models::V1ImageBackgroundRemovercreateResponse,
         >(response)
             .await
     }

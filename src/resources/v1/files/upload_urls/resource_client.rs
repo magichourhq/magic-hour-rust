@@ -35,7 +35,7 @@ impl<'a> UploadUrlsClient<'a> {
     pub async fn create(
         &mut self,
         request: super::request_types::CreateRequest,
-    ) -> crate::SdkResult<crate::models::PostV1FilesUploadUrlsResponse> {
+    ) -> crate::SdkResult<crate::models::V1FilesUploadUrlscreateResponse> {
         let url = self.base_client.build_url("/v1/files/upload-urls");
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
@@ -53,7 +53,7 @@ impl<'a> UploadUrlsClient<'a> {
         let mut response = builder.send().await?;
         response = self.base_client.error_for_status("POST", response).await?;
         crate::core::response::process_json::<
-            crate::models::PostV1FilesUploadUrlsResponse,
+            crate::models::V1FilesUploadUrlscreateResponse,
         >(response)
             .await
     }
