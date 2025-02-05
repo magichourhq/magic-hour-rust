@@ -15,7 +15,7 @@ let res = client
     .v1()
     .video_projects()
     .delete(magic_hour::resources::v1::video_projects::DeleteRequest {
-        id: "string".to_string(),
+        id: "cm6pvghix03bvyz0zwash6noj".to_string(),
     })
     .await;
 ```
@@ -45,7 +45,7 @@ let res = client
     .v1()
     .video_projects()
     .get(magic_hour::resources::v1::video_projects::GetRequest {
-        id: "string".to_string(),
+        id: "cm6pvghix03bvyz0zwash6noj".to_string(),
     })
     .await;
 ```

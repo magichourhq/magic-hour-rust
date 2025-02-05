@@ -18,7 +18,7 @@ let res = client
     .v1()
     .text_to_video()
     .create(magic_hour::resources::v1::text_to_video::CreateRequest {
-        end_seconds: 5,
+        end_seconds: 5.0,
         orientation: magic_hour::models::PostV1TextToVideoBodyOrientationEnum::Landscape,
         style: magic_hour::models::PostV1TextToVideoBodyStyle {
             prompt: "string".to_string(),

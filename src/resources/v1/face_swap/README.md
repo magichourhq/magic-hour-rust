@@ -24,9 +24,9 @@ let res = client
             video_source: magic_hour::models::PostV1FaceSwapBodyAssetsVideoSourceEnum::File,
             ..Default::default()
         },
-        end_seconds: 15,
+        end_seconds: 15.0,
         height: 960,
-        start_seconds: 0,
+        start_seconds: 0.0,
         width: 512,
         ..Default::default()
     })

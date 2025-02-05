@@ -21,8 +21,8 @@ let res = client
             image_file_path: Some("api-assets/id/1234.png".to_string()),
             ..Default::default()
         },
-        end_seconds: 15,
-        fps: 12,
+        end_seconds: 15.0,
+        fps: 12.0,
         height: 960,
         style: magic_hour::models::PostV1AnimationBodyStyle {
             art_style: magic_hour::models::PostV1AnimationBodyStyleArtStyleEnum::PainterlyIllustration,
