@@ -1,5 +1,7 @@
 # Magic Hour Rust SDK
 
+[![Crates.io Version](https://img.shields.io/crates/v/magic_hour)](https://crates.io/crates/magic_hour)
+
 Magic Hour provides an API (beta) that can be integrated into your own application to generate videos and images using AI.
 
 Webhook documentation can be found [here](https://magichour.ai/docs/webhook).
