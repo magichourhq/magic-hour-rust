@@ -21,7 +21,7 @@ let res = client
         assets: magic_hour::models::PostV1ImageToVideoBodyAssets {
             image_file_path: "image/id/1234.png".to_string(),
         },
-        end_seconds: 5,
+        end_seconds: 5.0,
         height: 960,
         style: magic_hour::models::PostV1ImageToVideoBodyStyle {
             ..Default::default()

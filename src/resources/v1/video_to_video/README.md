@@ -23,9 +23,9 @@ let res = client
             video_source: magic_hour::models::PostV1VideoToVideoBodyAssetsVideoSourceEnum::File,
             ..Default::default()
         },
-        end_seconds: 15,
+        end_seconds: 15.0,
         height: 960,
-        start_seconds: 0,
+        start_seconds: 0.0,
         style: magic_hour::models::PostV1VideoToVideoBodyStyle {
             art_style: magic_hour::models::PostV1VideoToVideoBodyStyleArtStyleEnum::_3dRender,
             model: magic_hour::models::PostV1VideoToVideoBodyStyleModelEnum::AbsoluteReality,
