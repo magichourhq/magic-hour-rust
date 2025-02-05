@@ -1,8 +1,8 @@
 [package]
 name = "magic_hour"
-version = "0.8.1"
+version = "0.8.2"
 edition = "2021"
-description = "Rust API Client"
+description = "Magic Hour Rust SDK"
 license = "MIT"
 
 [target.x86_64-unknown-linux-musl.dependencies]
