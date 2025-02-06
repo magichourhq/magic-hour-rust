@@ -16,7 +16,7 @@ let res = client
     .image_background_remover()
     .create(magic_hour::resources::v1::image_background_remover::CreateRequest {
         assets: magic_hour::models::PostV1ImageBackgroundRemoverBodyAssets {
-            image_file_path: "image/id/1234.png".to_string(),
+            image_file_path: "api-assets/id/1234.png".to_string(),
         },
         ..Default::default()
     })
