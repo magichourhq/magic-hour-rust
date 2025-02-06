@@ -16,7 +16,7 @@ let res = client
     .ai_image_upscaler()
     .create(magic_hour::resources::v1::ai_image_upscaler::CreateRequest {
         assets: magic_hour::models::PostV1AiImageUpscalerBodyAssets {
-            image_file_path: "image/id/1234.png".to_string(),
+            image_file_path: "api-assets/id/1234.png".to_string(),
         },
         scale_factor: 123.45,
         style: magic_hour::models::PostV1AiImageUpscalerBodyStyle {
