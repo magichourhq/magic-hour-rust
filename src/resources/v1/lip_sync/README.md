@@ -19,8 +19,8 @@ let res = client
     .lip_sync()
     .create(magic_hour::resources::v1::lip_sync::CreateRequest {
         assets: magic_hour::models::PostV1LipSyncBodyAssets {
-            audio_file_path: "audio/id/1234.mp3".to_string(),
-            video_file_path: Some("video/id/1234.mp4".to_string()),
+            audio_file_path: "api-assets/id/1234.mp3".to_string(),
+            video_file_path: Some("api-assets/id/1234.mp4".to_string()),
             video_source: magic_hour::models::PostV1LipSyncBodyAssetsVideoSourceEnum::File,
             ..Default::default()
         },

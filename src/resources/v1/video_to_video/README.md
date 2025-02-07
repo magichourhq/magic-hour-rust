@@ -19,7 +19,7 @@ let res = client
     .video_to_video()
     .create(magic_hour::resources::v1::video_to_video::CreateRequest {
         assets: magic_hour::models::PostV1VideoToVideoBodyAssets {
-            video_file_path: Some("video/id/1234.mp4".to_string()),
+            video_file_path: Some("api-assets/id/1234.mp4".to_string()),
             video_source: magic_hour::models::PostV1VideoToVideoBodyAssetsVideoSourceEnum::File,
             ..Default::default()
         },
