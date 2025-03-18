@@ -25,6 +25,7 @@ impl<'a> AiHeadshotGeneratorClient<'a> {
             .json(
                 &crate::models::PostV1AiHeadshotGeneratorBody {
                     name: request.name,
+                    style: request.style,
                     assets: request.assets,
                 },
             );
