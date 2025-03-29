@@ -16,14 +16,14 @@ impl<'a> AiQrCodeGeneratorClient<'a> {
     pub async fn create(
         &mut self,
         request: super::request_types::CreateRequest,
-    ) -> crate::SdkResult<crate::models::PostV1AiQrCodeGeneratorResponse> {
+    ) -> crate::SdkResult<crate::models::V1AiQrCodeGeneratorCreateResponse> {
         let url = self.base_client.build_url("/v1/ai-qr-code-generator");
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
         builder = builder.header("content-type", "application/json");
         builder = builder
             .json(
-                &crate::models::PostV1AiQrCodeGeneratorBody {
+                &crate::models::V1AiQrCodeGeneratorCreateBody {
                     name: request.name,
                     content: request.content,
                     style: request.style,
@@ -36,7 +36,7 @@ impl<'a> AiQrCodeGeneratorClient<'a> {
         let mut response = builder.send().await?;
         response = self.base_client.error_for_status("POST", response).await?;
         crate::core::response::process_json::<
-            crate::models::PostV1AiQrCodeGeneratorResponse,
+            crate::models::V1AiQrCodeGeneratorCreateResponse,
         >(response)
             .await
     }

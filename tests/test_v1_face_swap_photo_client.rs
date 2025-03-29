@@ -8,7 +8,7 @@ async fn test_create_200_success_default() {
         .v1()
         .face_swap_photo()
         .create(magic_hour::resources::v1::face_swap_photo::CreateRequest {
-            assets: magic_hour::models::PostV1FaceSwapPhotoBodyAssets {
+            assets: magic_hour::models::V1FaceSwapPhotoCreateBodyAssets {
                 source_file_path: "api-assets/id/1234.png".to_string(),
                 target_file_path: "api-assets/id/1234.png".to_string(),
             },

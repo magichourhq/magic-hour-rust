@@ -52,7 +52,7 @@ impl<'a> VideoProjectsClient<'a> {
     pub async fn get(
         &mut self,
         request: super::request_types::GetRequest,
-    ) -> crate::SdkResult<crate::models::GetV1VideoProjectsIdResponse> {
+    ) -> crate::SdkResult<crate::models::V1VideoProjectsGetResponse> {
         let url = self
             .base_client
             .build_url(
@@ -70,7 +70,7 @@ impl<'a> VideoProjectsClient<'a> {
         let mut response = builder.send().await?;
         response = self.base_client.error_for_status("GET", response).await?;
         crate::core::response::process_json::<
-            crate::models::GetV1VideoProjectsIdResponse,
+            crate::models::V1VideoProjectsGetResponse,
         >(response)
             .await
     }

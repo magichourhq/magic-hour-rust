@@ -16,7 +16,7 @@ let res = client
     .ai_qr_code_generator()
     .create(magic_hour::resources::v1::ai_qr_code_generator::CreateRequest {
         content: "https://magichour.ai".to_string(),
-        style: magic_hour::models::PostV1AiQrCodeGeneratorBodyStyle {
+        style: magic_hour::models::V1AiQrCodeGeneratorCreateBodyStyle {
             art_style: "Watercolor".to_string(),
         },
         ..Default::default()

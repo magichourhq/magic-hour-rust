@@ -8,10 +8,10 @@ async fn test_create_200_success_default() {
         .v1()
         .face_swap()
         .create(magic_hour::resources::v1::face_swap::CreateRequest {
-            assets: magic_hour::models::PostV1FaceSwapBodyAssets {
+            assets: magic_hour::models::V1FaceSwapCreateBodyAssets {
                 image_file_path: "image/id/1234.png".to_string(),
                 video_file_path: Some("api-assets/id/1234.mp4".to_string()),
-                video_source: magic_hour::models::PostV1FaceSwapBodyAssetsVideoSourceEnum::File,
+                video_source: magic_hour::models::V1FaceSwapCreateBodyAssetsVideoSourceEnum::File,
                 ..Default::default()
             },
             end_seconds: 15.0,
