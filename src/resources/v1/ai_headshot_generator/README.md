@@ -15,7 +15,7 @@ let res = client
     .v1()
     .ai_headshot_generator()
     .create(magic_hour::resources::v1::ai_headshot_generator::CreateRequest {
-        assets: magic_hour::models::PostV1AiHeadshotGeneratorBodyAssets {
+        assets: magic_hour::models::V1AiHeadshotGeneratorCreateBodyAssets {
             image_file_path: "api-assets/id/1234.png".to_string(),
         },
         ..Default::default()

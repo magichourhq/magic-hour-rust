@@ -17,11 +17,11 @@ let res = client
     .v1()
     .ai_photo_editor()
     .create(magic_hour::resources::v1::ai_photo_editor::CreateRequest {
-        assets: magic_hour::models::PostV1AiPhotoEditorBodyAssets {
+        assets: magic_hour::models::V1AiPhotoEditorCreateBodyAssets {
             image_file_path: "api-assets/id/1234.png".to_string(),
         },
         resolution: 768,
-        style: magic_hour::models::PostV1AiPhotoEditorBodyStyle {
+        style: magic_hour::models::V1AiPhotoEditorCreateBodyStyle {
             image_description: "A photo of a person".to_string(),
             likeness_strength: 5.2,
             negative_prompt: Some("painting, cartoon, sketch".to_string()),

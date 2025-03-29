@@ -15,9 +15,9 @@ let res = client
     .v1()
     .ai_clothes_changer()
     .create(magic_hour::resources::v1::ai_clothes_changer::CreateRequest {
-        assets: magic_hour::models::PostV1AiClothesChangerBodyAssets {
+        assets: magic_hour::models::V1AiClothesChangerCreateBodyAssets {
             garment_file_path: "api-assets/id/outfit.png".to_string(),
-            garment_type: magic_hour::models::PostV1AiClothesChangerBodyAssetsGarmentTypeEnum::Dresses,
+            garment_type: magic_hour::models::V1AiClothesChangerCreateBodyAssetsGarmentTypeEnum::Dresses,
             person_file_path: "api-assets/id/model.png".to_string(),
         },
         ..Default::default()

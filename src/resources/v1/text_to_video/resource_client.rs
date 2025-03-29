@@ -19,14 +19,14 @@ impl<'a> TextToVideoClient<'a> {
     pub async fn create(
         &mut self,
         request: super::request_types::CreateRequest,
-    ) -> crate::SdkResult<crate::models::PostV1TextToVideoResponse> {
+    ) -> crate::SdkResult<crate::models::V1TextToVideoCreateResponse> {
         let url = self.base_client.build_url("/v1/text-to-video");
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
         builder = builder.header("content-type", "application/json");
         builder = builder
             .json(
-                &crate::models::PostV1TextToVideoBody {
+                &crate::models::V1TextToVideoCreateBody {
                     name: request.name,
                     end_seconds: request.end_seconds,
                     orientation: request.orientation,
@@ -40,7 +40,7 @@ impl<'a> TextToVideoClient<'a> {
         let mut response = builder.send().await?;
         response = self.base_client.error_for_status("POST", response).await?;
         crate::core::response::process_json::<
-            crate::models::PostV1TextToVideoResponse,
+            crate::models::V1TextToVideoCreateResponse,
         >(response)
             .await
     }

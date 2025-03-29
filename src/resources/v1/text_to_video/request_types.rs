@@ -7,6 +7,6 @@ pub struct CreateRequest {
     #[serde(skip_serializing_if = "Option::is_none")]
     pub name: Option<String>,
     /// Determines the orientation of the output video
-    pub orientation: crate::models::PostV1TextToVideoBodyOrientationEnum,
-    pub style: crate::models::PostV1TextToVideoBodyStyle,
+    pub orientation: crate::models::V1TextToVideoCreateBodyOrientationEnum,
+    pub style: crate::models::V1TextToVideoCreateBodyStyle,
 }

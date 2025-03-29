@@ -36,12 +36,12 @@ let res = client
     .upload_urls()
     .create(magic_hour::resources::v1::files::upload_urls::CreateRequest {
         items: vec![
-            magic_hour::models::PostV1FilesUploadUrlsBodyItemsItem { extension :
-            "mp4".to_string(), type_field :
-            magic_hour::models::PostV1FilesUploadUrlsBodyItemsItemTypeEnum::Video },
-            magic_hour::models::PostV1FilesUploadUrlsBodyItemsItem { extension :
-            "mp3".to_string(), type_field :
-            magic_hour::models::PostV1FilesUploadUrlsBodyItemsItemTypeEnum::Audio }
+            magic_hour::models::V1FilesUploadUrlsCreateBodyItemsItem { extension :
+            "mp4".to_string(), type_ :
+            magic_hour::models::V1FilesUploadUrlsCreateBodyItemsItemTypeEnum::Video
+            }, magic_hour::models::V1FilesUploadUrlsCreateBodyItemsItem { extension :
+            "mp3".to_string(), type_ :
+            magic_hour::models::V1FilesUploadUrlsCreateBodyItemsItemTypeEnum::Audio }
         ],
     })
     .await;

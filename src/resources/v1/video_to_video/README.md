@@ -18,19 +18,19 @@ let res = client
     .v1()
     .video_to_video()
     .create(magic_hour::resources::v1::video_to_video::CreateRequest {
-        assets: magic_hour::models::PostV1VideoToVideoBodyAssets {
+        assets: magic_hour::models::V1VideoToVideoCreateBodyAssets {
             video_file_path: Some("api-assets/id/1234.mp4".to_string()),
-            video_source: magic_hour::models::PostV1VideoToVideoBodyAssetsVideoSourceEnum::File,
+            video_source: magic_hour::models::V1VideoToVideoCreateBodyAssetsVideoSourceEnum::File,
             ..Default::default()
         },
         end_seconds: 15.0,
         height: 960,
         start_seconds: 0.0,
-        style: magic_hour::models::PostV1VideoToVideoBodyStyle {
-            art_style: magic_hour::models::PostV1VideoToVideoBodyStyleArtStyleEnum::_3dRender,
-            model: magic_hour::models::PostV1VideoToVideoBodyStyleModelEnum::AbsoluteReality,
-            prompt_type: magic_hour::models::PostV1VideoToVideoBodyStylePromptTypeEnum::AppendDefault,
-            version: magic_hour::models::PostV1VideoToVideoBodyStyleVersionEnum::Default,
+        style: magic_hour::models::V1VideoToVideoCreateBodyStyle {
+            art_style: magic_hour::models::V1VideoToVideoCreateBodyStyleArtStyleEnum::Enum3dRender,
+            model: magic_hour::models::V1VideoToVideoCreateBodyStyleModelEnum::AbsoluteReality,
+            prompt_type: magic_hour::models::V1VideoToVideoCreateBodyStylePromptTypeEnum::AppendDefault,
+            version: magic_hour::models::V1VideoToVideoCreateBodyStyleVersionEnum::Default,
             ..Default::default()
         },
         width: 512,
