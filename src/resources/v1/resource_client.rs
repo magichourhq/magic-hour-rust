@@ -64,6 +64,13 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
+    pub fn ai_talking_photo(
+        &mut self,
+    ) -> crate::resources::v1::ai_talking_photo::resource_client::AiTalkingPhotoClient {
+        crate::resources::v1::ai_talking_photo::resource_client::AiTalkingPhotoClient::_new(
+            self.base_client,
+        )
+    }
     pub fn animation(
         &mut self,
     ) -> crate::resources::v1::animation::resource_client::AnimationClient {

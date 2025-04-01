@@ -5,6 +5,7 @@ pub mod ai_image_generator;
 pub mod ai_image_upscaler;
 pub mod ai_photo_editor;
 pub mod ai_qr_code_generator;
+pub mod ai_talking_photo;
 pub mod animation;
 pub mod face_swap;
 pub mod face_swap_photo;
