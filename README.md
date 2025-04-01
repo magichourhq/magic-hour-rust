@@ -53,6 +53,10 @@ let client = magic_hour::Client::default()
 
 * [create](src/resources/v1/ai_qr_code_generator/README.md#create) - AI QR Code
 
+### [v1.ai_talking_photo](src/resources/v1/ai_talking_photo/README.md)
+
+* [create](src/resources/v1/ai_talking_photo/README.md#create) - AI Talking Photo
+
 ### [v1.animation](src/resources/v1/animation/README.md)
 
 * [create](src/resources/v1/animation/README.md#create) - Animation

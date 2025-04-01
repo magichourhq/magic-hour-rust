@@ -22,6 +22,8 @@ pub enum V1VideoToVideoCreateBodyStyleArtStyleEnum {
     BobaFett,
     #[serde(rename = "Celestial Skin")]
     CelestialSkin,
+    #[serde(rename = "Chinese Swordsmen")]
+    ChineseSwordsmen,
     #[serde(rename = "Clay")]
     Clay,
     #[serde(rename = "Comic")]
@@ -64,12 +66,16 @@ pub enum V1VideoToVideoCreateBodyStyleArtStyleEnum {
     Link,
     #[serde(rename = "Marble")]
     Marble,
+    #[serde(rename = "Mario")]
+    Mario,
     #[serde(rename = "Master Chief")]
     MasterChief,
     #[serde(rename = "Mech")]
     Mech,
     #[serde(rename = "Minecraft")]
     Minecraft,
+    #[serde(rename = "Mystique")]
+    Mystique,
     #[serde(rename = "Naruto")]
     Naruto,
     #[serde(rename = "Neon Dream")]
@@ -80,6 +86,8 @@ pub enum V1VideoToVideoCreateBodyStyleArtStyleEnum {
     OnFire,
     #[serde(rename = "Origami")]
     Origami,
+    #[serde(rename = "Pixar")]
+    Pixar,
     #[serde(rename = "Pixel")]
     Pixel,
     #[serde(rename = "Power Armor")]
@@ -108,6 +116,8 @@ pub enum V1VideoToVideoCreateBodyStyleArtStyleEnum {
     SubZero,
     #[serde(rename = "The Void")]
     TheVoid,
+    #[serde(rename = "Tomb Raider")]
+    TombRaider,
     #[serde(rename = "Underwater")]
     Underwater,
     #[serde(rename = "Van Gogh")]
@@ -138,6 +148,9 @@ impl std::fmt::Display for V1VideoToVideoCreateBodyStyleArtStyleEnum {
             }
             V1VideoToVideoCreateBodyStyleArtStyleEnum::BobaFett => "Boba Fett",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::CelestialSkin => "Celestial Skin",
+            V1VideoToVideoCreateBodyStyleArtStyleEnum::ChineseSwordsmen => {
+                "Chinese Swordsmen"
+            }
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Clay => "Clay",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Comic => "Comic",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Cyberpunk => "Cyberpunk",
@@ -161,14 +174,17 @@ impl std::fmt::Display for V1VideoToVideoCreateBodyStyleArtStyleEnum {
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Lego => "Lego",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Link => "Link",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Marble => "Marble",
+            V1VideoToVideoCreateBodyStyleArtStyleEnum::Mario => "Mario",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::MasterChief => "Master Chief",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Mech => "Mech",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Minecraft => "Minecraft",
+            V1VideoToVideoCreateBodyStyleArtStyleEnum::Mystique => "Mystique",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Naruto => "Naruto",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::NeonDream => "Neon Dream",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::OilPainting => "Oil Painting",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::OnFire => "On Fire",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Origami => "Origami",
+            V1VideoToVideoCreateBodyStyleArtStyleEnum::Pixar => "Pixar",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Pixel => "Pixel",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::PowerArmor => "Power Armor",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::PowerRanger => "Power Ranger",
@@ -183,6 +199,7 @@ impl std::fmt::Display for V1VideoToVideoCreateBodyStyleArtStyleEnum {
             V1VideoToVideoCreateBodyStyleArtStyleEnum::StudioGhibli => "Studio Ghibli",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::SubZero => "Sub-Zero",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::TheVoid => "The Void",
+            V1VideoToVideoCreateBodyStyleArtStyleEnum::TombRaider => "Tomb Raider",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Underwater => "Underwater",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::VanGogh => "Van Gogh",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Viking => "Viking",
