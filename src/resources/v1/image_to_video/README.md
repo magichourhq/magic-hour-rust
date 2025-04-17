@@ -23,11 +23,12 @@ let res = client
         },
         end_seconds: 5.0,
         height: 960,
+        name: Some("Image To Video video".to_string()),
         style: magic_hour::models::V1ImageToVideoCreateBodyStyle {
+            prompt: Some("string".to_string()),
             ..Default::default()
         },
         width: 512,
-        ..Default::default()
     })
     .await;
 ```

@@ -20,7 +20,7 @@ let res = client
             garment_type: magic_hour::models::V1AiClothesChangerCreateBodyAssetsGarmentTypeEnum::Dresses,
             person_file_path: "api-assets/id/model.png".to_string(),
         },
-        ..Default::default()
+        name: Some("Clothes Changer image".to_string()),
     })
     .await;
 ```

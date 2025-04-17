@@ -28,8 +28,9 @@ pub struct V1VideoProjectsGetResponse {
     pub status: crate::models::V1VideoProjectsGetResponseStatusEnum,
     /// The amount of frames used to generate the video. If the status is not 'complete', the cost is an estimate and will be adjusted when the video completes.
     pub total_frame_cost: i64,
+    /// The type of the video project. Possible values are ANIMATION, IMAGE_TO_VIDEO, VIDEO_TO_VIDEO, TEXT_TO_VIDEO, FACE_SWAP, LIP_SYNC, AUTO_SUBTITLE, TALKING_PHOTO
     #[serde(rename = "type")]
-    pub type_: crate::models::V1VideoProjectsGetResponseTypeEnum,
+    pub type_: String,
     /// The width of the final output video. A value of -1 indicates the width can be ignored.
     pub width: i64,
 }

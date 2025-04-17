@@ -3,6 +3,7 @@ pub mod ai_clothes_changer;
 pub mod ai_headshot_generator;
 pub mod ai_image_generator;
 pub mod ai_image_upscaler;
+pub mod ai_meme_generator;
 pub mod ai_photo_editor;
 pub mod ai_qr_code_generator;
 pub mod ai_talking_photo;

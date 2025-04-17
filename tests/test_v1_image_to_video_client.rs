@@ -13,11 +13,12 @@ async fn test_create_200_success_default() {
             },
             end_seconds: 5.0,
             height: 960,
+            name: Some("Image To Video video".to_string()),
             style: magic_hour::models::V1ImageToVideoCreateBodyStyle {
+                prompt: Some("string".to_string()),
                 ..Default::default()
             },
             width: 512,
-            ..Default::default()
         })
         .await;
     println!("{:?}", res);

@@ -17,6 +17,7 @@ async fn test_create_200_success_default() {
             end_seconds: 15.0,
             fps: 12.0,
             height: 960,
+            name: Some("Animation video".to_string()),
             style: magic_hour::models::V1AnimationCreateBodyStyle {
                 art_style: magic_hour::models::V1AnimationCreateBodyStyleArtStyleEnum::PainterlyIllustration,
                 camera_effect: magic_hour::models::V1AnimationCreateBodyStyleCameraEffectEnum::Accelerate,
@@ -26,7 +27,6 @@ async fn test_create_200_success_default() {
                 ..Default::default()
             },
             width: 512,
-            ..Default::default()
         })
         .await;
     println!("{:?}", res);

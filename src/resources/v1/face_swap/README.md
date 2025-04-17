@@ -26,9 +26,9 @@ let res = client
         },
         end_seconds: 15.0,
         height: 960,
+        name: Some("Face Swap video".to_string()),
         start_seconds: 0.0,
         width: 512,
-        ..Default::default()
     })
     .await;
 ```
