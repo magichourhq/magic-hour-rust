@@ -16,11 +16,11 @@ let res = client
     .ai_image_generator()
     .create(magic_hour::resources::v1::ai_image_generator::CreateRequest {
         image_count: 1,
+        name: Some("Ai Image image".to_string()),
         orientation: magic_hour::models::V1AiImageGeneratorCreateBodyOrientationEnum::Landscape,
         style: magic_hour::models::V1AiImageGeneratorCreateBodyStyle {
             prompt: "Cool image".to_string(),
         },
-        ..Default::default()
     })
     .await;
 ```

@@ -11,6 +11,7 @@ async fn test_create_200_success_default() {
             assets: magic_hour::models::V1AiHeadshotGeneratorCreateBodyAssets {
                 image_file_path: "api-assets/id/1234.png".to_string(),
             },
+            name: Some("Ai Headshot image".to_string()),
             ..Default::default()
         })
         .await;

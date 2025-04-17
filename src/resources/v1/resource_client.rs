@@ -50,6 +50,13 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
+    pub fn ai_meme_generator(
+        &mut self,
+    ) -> crate::resources::v1::ai_meme_generator::resource_client::AiMemeGeneratorClient {
+        crate::resources::v1::ai_meme_generator::resource_client::AiMemeGeneratorClient::_new(
+            self.base_client,
+        )
+    }
     pub fn ai_photo_editor(
         &mut self,
     ) -> crate::resources::v1::ai_photo_editor::resource_client::AiPhotoEditorClient {

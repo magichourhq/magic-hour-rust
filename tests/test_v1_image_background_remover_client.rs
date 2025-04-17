@@ -11,7 +11,7 @@ async fn test_create_200_success_default() {
             assets: magic_hour::models::V1ImageBackgroundRemoverCreateBodyAssets {
                 image_file_path: "api-assets/id/1234.png".to_string(),
             },
-            ..Default::default()
+            name: Some("Background Remover image".to_string()),
         })
         .await;
     println!("{:?}", res);

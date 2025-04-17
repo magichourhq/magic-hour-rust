@@ -19,11 +19,11 @@ let res = client
     .text_to_video()
     .create(magic_hour::resources::v1::text_to_video::CreateRequest {
         end_seconds: 5.0,
+        name: Some("Text To Video video".to_string()),
         orientation: magic_hour::models::V1TextToVideoCreateBodyOrientationEnum::Landscape,
         style: magic_hour::models::V1TextToVideoCreateBodyStyle {
             prompt: "string".to_string(),
         },
-        ..Default::default()
     })
     .await;
 ```

@@ -13,8 +13,8 @@ async fn test_create_200_success_default() {
                 image_file_path: "api-assets/id/1234.png".to_string(),
             },
             end_seconds: 15.0,
+            name: Some("Talking Photo image".to_string()),
             start_seconds: 0.0,
-            ..Default::default()
         })
         .await;
     println!("{:?}", res);

@@ -12,7 +12,7 @@ async fn test_create_200_success_default() {
                 source_file_path: "api-assets/id/1234.png".to_string(),
                 target_file_path: "api-assets/id/1234.png".to_string(),
             },
-            ..Default::default()
+            name: Some("Face Swap image".to_string()),
         })
         .await;
     println!("{:?}", res);

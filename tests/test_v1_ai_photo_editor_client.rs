@@ -11,6 +11,7 @@ async fn test_create_200_success_default() {
             assets: magic_hour::models::V1AiPhotoEditorCreateBodyAssets {
                 image_file_path: "api-assets/id/1234.png".to_string(),
             },
+            name: Some("Photo Editor image".to_string()),
             resolution: 768,
             style: magic_hour::models::V1AiPhotoEditorCreateBodyStyle {
                 image_description: "A photo of a person".to_string(),
