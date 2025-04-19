@@ -15,7 +15,7 @@ async fn test_create_200_success_default() {
             height: 960,
             name: Some("Image To Video video".to_string()),
             style: magic_hour::models::V1ImageToVideoCreateBodyStyle {
-                prompt: Some("string".to_string()),
+                prompt: Some("a dog running".to_string()),
                 ..Default::default()
             },
             width: 512,
