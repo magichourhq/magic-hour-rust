@@ -25,10 +25,10 @@ let res = client
             ..Default::default()
         },
         end_seconds: 15.0,
-        height: 960,
+        height: Some(960),
         name: Some("Face Swap video".to_string()),
         start_seconds: 0.0,
-        width: 512,
+        width: Some(512),
     })
     .await;
 ```
