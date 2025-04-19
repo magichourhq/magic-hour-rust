@@ -10,6 +10,7 @@ pub struct CreateRequest {
     /// The name of video
     #[serde(skip_serializing_if = "Option::is_none")]
     pub name: Option<String>,
+    /// Attributed used to dictate the style of the output
     pub style: crate::models::V1ImageToVideoCreateBodyStyle,
     /// The width of the input video. This value will help determine the final orientation of the output video. The output video resolution may not match the input.
     pub width: i64,

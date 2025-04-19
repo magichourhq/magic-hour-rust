@@ -12,7 +12,8 @@ async fn test_create_200_success_default() {
             name: Some("Text To Video video".to_string()),
             orientation: magic_hour::models::V1TextToVideoCreateBodyOrientationEnum::Landscape,
             style: magic_hour::models::V1TextToVideoCreateBodyStyle {
-                prompt: "string".to_string(),
+                prompt: "a dog running".to_string(),
+                ..Default::default()
             },
         })
         .await;
