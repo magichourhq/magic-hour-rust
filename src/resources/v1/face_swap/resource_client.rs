@@ -27,12 +27,12 @@ impl<'a> FaceSwapClient<'a> {
         builder = builder
             .json(
                 &crate::models::V1FaceSwapCreateBody {
+                    height: request.height,
                     name: request.name,
+                    width: request.width,
                     assets: request.assets,
                     end_seconds: request.end_seconds,
-                    height: request.height,
                     start_seconds: request.start_seconds,
-                    width: request.width,
                 },
             );
         builder = self
