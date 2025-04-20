@@ -1,39 +1,32 @@
 #[derive(Debug)]
-pub struct LipSyncClient<'a> {
+pub struct AiFaceEditorClient<'a> {
     base_client: &'a mut crate::core::base_client::BaseClient,
 }
-impl<'a> LipSyncClient<'a> {
+impl<'a> AiFaceEditorClient<'a> {
     pub(crate) fn _new(
         base_client: &'a mut crate::core::base_client::BaseClient,
     ) -> Self {
         Self { base_client }
     }
-    /// Lip Sync
+    /// AI Face Editor
     ///
-    /// Create a Lip Sync video. The estimated frame cost is calculated using 30 FPS. This amount is deducted from your account balance when a video is queued. Once the video is complete, the cost will be updated based on the actual number of frames rendered.
+    /// Edit facial features of an image using AI. Each edit costs 1 frame. The height/width of the output image depends on your subscription. Please refer to our [pricing](/pricing) page for more details
     ///
-    /// Get more information about this mode at our [product page](/products/lip-sync).
-    ///
-    ///
-    /// POST /v1/lip-sync
+    /// POST /v1/ai-face-editor
     pub async fn create(
         &mut self,
         request: super::request_types::CreateRequest,
-    ) -> crate::SdkResult<crate::models::V1LipSyncCreateResponse> {
-        let url = self.base_client.build_url("/v1/lip-sync");
+    ) -> crate::SdkResult<crate::models::V1AiFaceEditorCreateResponse> {
+        let url = self.base_client.build_url("/v1/ai-face-editor");
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
         builder = builder.header("content-type", "application/json");
         builder = builder
             .json(
-                &crate::models::V1LipSyncCreateBody {
-                    height: request.height,
-                    max_fps_limit: request.max_fps_limit,
+                &crate::models::V1AiFaceEditorCreateBody {
                     name: request.name,
-                    width: request.width,
                     assets: request.assets,
-                    end_seconds: request.end_seconds,
-                    start_seconds: request.start_seconds,
+                    style: request.style,
                 },
             );
         builder = self
@@ -43,7 +36,7 @@ impl<'a> LipSyncClient<'a> {
         let mut response = builder.send().await?;
         response = self.base_client.error_for_status("POST", response).await?;
         crate::core::response::process_json::<
-            crate::models::V1LipSyncCreateResponse,
+            crate::models::V1AiFaceEditorCreateResponse,
         >(response)
             .await
     }

@@ -15,11 +15,11 @@ async fn test_create_200_success_default() {
                 ..Default::default()
             },
             end_seconds: 15.0,
-            height: 960,
+            height: Some(960),
             max_fps_limit: Some(12.0),
             name: Some("Lip Sync video".to_string()),
             start_seconds: 0.0,
-            width: 512,
+            width: Some(512),
         })
         .await;
     println!("{:?}", res);
