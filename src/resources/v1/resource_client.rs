@@ -29,6 +29,13 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
+    pub fn ai_face_editor(
+        &mut self,
+    ) -> crate::resources::v1::ai_face_editor::resource_client::AiFaceEditorClient {
+        crate::resources::v1::ai_face_editor::resource_client::AiFaceEditorClient::_new(
+            self.base_client,
+        )
+    }
     pub fn ai_headshot_generator(
         &mut self,
     ) -> crate::resources::v1::ai_headshot_generator::resource_client::AiHeadshotGeneratorClient {
