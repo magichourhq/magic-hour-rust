@@ -16,6 +16,7 @@ pub mod image_background_remover;
 pub mod image_projects;
 pub mod image_to_video;
 pub mod lip_sync;
+pub mod photo_colorizer;
 pub mod text_to_video;
 pub mod video_projects;
 pub mod video_to_video;
