@@ -98,6 +98,10 @@ let client = magic_hour::Client::default()
 
 * [create](src/resources/v1/lip_sync/README.md#create) - Lip Sync
 
+### [v1.photo_colorizer](src/resources/v1/photo_colorizer/README.md)
+
+* [create](src/resources/v1/photo_colorizer/README.md#create) - Photo Colorizer
+
 ### [v1.text_to_video](src/resources/v1/text_to_video/README.md)
 
 * [create](src/resources/v1/text_to_video/README.md#create) - Text-to-Video

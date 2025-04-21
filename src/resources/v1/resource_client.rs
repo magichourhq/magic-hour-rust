@@ -132,6 +132,13 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
+    pub fn photo_colorizer(
+        &mut self,
+    ) -> crate::resources::v1::photo_colorizer::resource_client::PhotoColorizerClient {
+        crate::resources::v1::photo_colorizer::resource_client::PhotoColorizerClient::_new(
+            self.base_client,
+        )
+    }
     pub fn text_to_video(
         &mut self,
     ) -> crate::resources::v1::text_to_video::resource_client::TextToVideoClient {
