@@ -22,13 +22,13 @@ let res = client
             image_file_path: "api-assets/id/1234.png".to_string(),
         },
         end_seconds: 5.0,
-        height: 960,
+        height: Some(960),
         name: Some("Image To Video video".to_string()),
         style: magic_hour::models::V1ImageToVideoCreateBodyStyle {
             prompt: Some("a dog running".to_string()),
             ..Default::default()
         },
-        width: 512,
+        width: Some(512),
     })
     .await;
 ```

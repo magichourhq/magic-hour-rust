@@ -27,12 +27,12 @@ impl<'a> ImageToVideoClient<'a> {
         builder = builder
             .json(
                 &crate::models::V1ImageToVideoCreateBody {
+                    height: request.height,
                     name: request.name,
+                    width: request.width,
                     assets: request.assets,
                     end_seconds: request.end_seconds,
-                    height: request.height,
                     style: request.style,
-                    width: request.width,
                 },
             );
         builder = self
