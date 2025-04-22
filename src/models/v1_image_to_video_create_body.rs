@@ -5,13 +5,19 @@ pub struct V1ImageToVideoCreateBody {
     pub assets: crate::models::V1ImageToVideoCreateBodyAssets,
     /// The total duration of the output video in seconds.
     pub end_seconds: f64,
-    /// The height of the input video. This value will help determine the final orientation of the output video. The output video resolution may not match the input.
-    pub height: i64,
+    /// This field does not affect the output video's resolution. The video's orientation will match that of the input image.
+    ///
+    /// It is retained solely for backward compatibility and will be deprecated in the future.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub height: Option<i64>,
     /// The name of video
     #[serde(skip_serializing_if = "Option::is_none")]
     pub name: Option<String>,
     /// Attributed used to dictate the style of the output
     pub style: crate::models::V1ImageToVideoCreateBodyStyle,
-    /// The width of the input video. This value will help determine the final orientation of the output video. The output video resolution may not match the input.
-    pub width: i64,
+    /// This field does not affect the output video's resolution. The video's orientation will match that of the input image.
+    ///
+    /// It is retained solely for backward compatibility and will be deprecated in the future.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub width: Option<i64>,
 }
