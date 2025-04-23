@@ -19,7 +19,7 @@ pub struct V1ImageProjectsGetResponse {
     pub status: crate::models::V1ImageProjectsGetResponseStatusEnum,
     /// The amount of frames used to generate the image.
     pub total_frame_cost: i64,
-    /// The type of the image project. Possible values are AI_HEADSHOT, AI_IMAGE, IMAGE_UPSCALER, FACE_SWAP, PHOTO_EDITOR, QR_CODE, BACKGROUND_REMOVER, CLOTHES_CHANGER, AI_MEME, FACE_EDITOR, PHOTO_COLORIZER
+    /// The type of the image project. Possible values are AI_HEADSHOT, AI_IMAGE, IMAGE_UPSCALER, FACE_SWAP, PHOTO_EDITOR, QR_CODE, BACKGROUND_REMOVER, CLOTHES_CHANGER, AI_MEME, FACE_EDITOR, PHOTO_COLORIZER, AI_GIF
     #[serde(rename = "type")]
     pub type_: String,
 }

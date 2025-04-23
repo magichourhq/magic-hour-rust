@@ -37,6 +37,10 @@ let client = magic_hour::Client::default()
 
 * [create](src/resources/v1/ai_face_editor/README.md#create) - AI Face Editor
 
+### [v1.ai_gif_generator](src/resources/v1/ai_gif_generator/README.md)
+
+* [create](src/resources/v1/ai_gif_generator/README.md#create) - AI GIFs
+
 ### [v1.ai_headshot_generator](src/resources/v1/ai_headshot_generator/README.md)
 
 * [create](src/resources/v1/ai_headshot_generator/README.md#create) - AI Headshots

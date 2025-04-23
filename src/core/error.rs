@@ -10,6 +10,8 @@ pub enum Error {
     Api(ApiError),
     #[error("API returned an unexpected content type")]
     ContentType(ApiError),
+    #[error("{0}")]
+    Custom(String),
 }
 #[derive(Debug, Clone)]
 pub struct ApiError {
