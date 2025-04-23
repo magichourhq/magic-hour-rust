@@ -1,6 +1,10 @@
+use std::collections::BTreeMap;
 use serde_json::json;
+use crate::{Error, SdkResult};
 #[allow(unused)]
+#[derive(Default, Clone, Debug)]
 pub enum QueryStyle {
+    #[default]
     Form,
     SpaceDelimited,
     PipeDelimited,
@@ -28,35 +32,29 @@ impl QueryParams {
             QueryStyle::PipeDelimited => {
                 self.add_pipe_delimited(name, &serde_val, explode)
             }
-            QueryStyle::DeepObject => self.add_deep_object(name, &serde_val, explode),
+            QueryStyle::DeepObject => self.add_deep_object(name, &serde_val),
         }
     }
     #[allow(unused)]
-    pub fn add_option<T>(
+    pub fn add_option<T: serde::Serialize>(
         &mut self,
         name: &str,
         val: &Option<T>,
         style: QueryStyle,
         explode: bool,
-    )
-    where
-        T: serde::Serialize,
-    {
+    ) {
         if let Some(v) = val {
             self.add(name, v, style, explode)
         }
     }
     #[allow(unused)]
-    pub fn add_patch<T>(
+    pub fn add_patch<T: serde::Serialize>(
         &mut self,
         name: &str,
         val: &super::patch::Patch<T>,
         style: QueryStyle,
         explode: bool,
-    )
-    where
-        T: serde::Serialize,
-    {
+    ) {
         if let super::patch::Patch::Value(v) = val {
             self.add(name, v, style, explode);
         }
@@ -138,39 +136,53 @@ impl QueryParams {
             }
         }
     }
-    fn add_deep_object(&mut self, name: &str, val: &serde_json::Value, explode: bool) {
-        match val {
-            serde_json::Value::Object(_) => {
-                self.add_deep_obj_key(name, val);
-            }
-            _ => {
-                self.add_form(name, val, explode);
-            }
-        }
-    }
-    fn add_deep_obj_key(&mut self, key: &str, val: &serde_json::Value) {
+    fn add_deep_object(&mut self, name: &str, val: &serde_json::Value) {
         match val {
             serde_json::Value::Object(map) => {
                 map.iter()
-                    .for_each(|(k, v)| self.add_deep_obj_key(&format!("{key}[{k}]"), v));
+                    .for_each(|(k, v)| self.add_deep_object(&format!("{name}[{k}]"), v));
             }
             serde_json::Value::Array(values) => {
                 values
                     .iter()
                     .enumerate()
                     .for_each(|(i, v)| {
-                        self.add_deep_obj_key(&format!("{key}[{i}]"), v);
+                        self.add_deep_object(&format!("{name}[{i}]"), v);
                     });
             }
-            _ => self.params.push((key.into(), format_string_param(val))),
+            _ => self.params.push((name.into(), format_string_param(val))),
         }
     }
 }
 #[allow(unused)]
-pub fn format_string_param<T>(val: &T) -> String
-where
-    T: serde::Serialize,
-{
+pub fn format_form_urlencoded<T: serde::Serialize>(
+    val: &T,
+    style: BTreeMap<&str, QueryStyle>,
+    explode: BTreeMap<&str, bool>,
+) -> SdkResult<String> {
+    let json_val = json!(val);
+    if let serde_json::Value::Object(obj) = json_val {
+        let mut form_data = QueryParams::default();
+        for (name, val) in &obj {
+            let style = style.get(&name.as_str()).cloned().unwrap_or_default();
+            let explode = explode
+                .get(&name.as_str())
+                .cloned()
+                .unwrap_or(matches!(& style, QueryStyle::Form));
+            form_data.add(name, val, style, explode);
+        }
+        serde_urlencoded::to_string(&form_data.params)
+            .map_err(|e| Error::Custom(format!("failed form-urlencoding body: {e}")))
+    } else {
+        Err(
+            Error::Custom(
+                "x-www-form-urlencoded data must be an object at the top level".into(),
+            ),
+        )
+    }
+}
+#[allow(unused)]
+pub fn format_string_param<T: serde::Serialize>(val: &T) -> String {
     let serde_val = serde_json::json!(val);
     if let serde_json::Value::String(str) = serde_val {
         str

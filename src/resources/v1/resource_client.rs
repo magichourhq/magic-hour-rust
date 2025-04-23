@@ -36,6 +36,13 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
+    pub fn ai_gif_generator(
+        &mut self,
+    ) -> crate::resources::v1::ai_gif_generator::resource_client::AiGifGeneratorClient {
+        crate::resources::v1::ai_gif_generator::resource_client::AiGifGeneratorClient::_new(
+            self.base_client,
+        )
+    }
     pub fn ai_headshot_generator(
         &mut self,
     ) -> crate::resources::v1::ai_headshot_generator::resource_client::AiHeadshotGeneratorClient {
