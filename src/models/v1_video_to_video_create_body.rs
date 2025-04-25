@@ -10,14 +10,30 @@ pub struct V1VideoToVideoCreateBody {
     /// * `HALF` - the result video will have half the FPS as the input video
     #[serde(skip_serializing_if = "Option::is_none")]
     pub fps_resolution: Option<crate::models::V1VideoToVideoCreateBodyFpsResolutionEnum>,
-    /// The height of the final output video. Must be divisible by 64. The maximum height depends on your subscription. Please refer to our [pricing page](https://magichour.ai/pricing) for more details
-    pub height: i64,
+    /// Used to determine the dimensions of the output video.
+    ///
+    /// * If height is provided, width will also be required. The larger value between width and height will be used to determine the maximum output resolution while maintaining the original aspect ratio.
+    /// * If both height and width are omitted, the video will be resized according to your subscription's maximum resolution, while preserving aspect ratio.
+    ///
+    /// Note: if the video's original resolution is less than the maximum, the video will not be resized.
+    ///
+    /// See our [pricing page](https://magichour.ai/pricing) for more details.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub height: Option<i64>,
     /// The name of video
     #[serde(skip_serializing_if = "Option::is_none")]
     pub name: Option<String>,
     /// The start time of the input video in seconds
     pub start_seconds: f64,
     pub style: crate::models::V1VideoToVideoCreateBodyStyle,
-    /// The width of the final output video. Must be divisible by 64. The maximum width depends on your subscription. Please refer to our [pricing page](https://magichour.ai/pricing) for more details
-    pub width: i64,
+    /// Used to determine the dimensions of the output video.
+    ///
+    /// * If width is provided, height will also be required. The larger value between width and height will be used to determine the maximum output resolution while maintaining the original aspect ratio.
+    /// * If both height and width are omitted, the video will be resized according to your subscription's maximum resolution, while preserving aspect ratio.
+    ///
+    /// Note: if the video's original resolution is less than the maximum, the video will not be resized.
+    ///
+    /// See our [pricing page](https://magichour.ai/pricing) for more details.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub width: Option<i64>,
 }

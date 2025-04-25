@@ -28,13 +28,13 @@ impl<'a> VideoToVideoClient<'a> {
             .json(
                 &crate::models::V1VideoToVideoCreateBody {
                     fps_resolution: request.fps_resolution,
+                    height: request.height,
                     name: request.name,
+                    width: request.width,
                     assets: request.assets,
                     end_seconds: request.end_seconds,
-                    height: request.height,
                     start_seconds: request.start_seconds,
                     style: request.style,
-                    width: request.width,
                 },
             );
         builder = self
