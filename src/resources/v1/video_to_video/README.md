@@ -27,7 +27,7 @@ let res = client
         fps_resolution: Some(
             magic_hour::models::V1VideoToVideoCreateBodyFpsResolutionEnum::Half,
         ),
-        height: 960,
+        height: Some(960),
         name: Some("Video To Video video".to_string()),
         start_seconds: 0.0,
         style: magic_hour::models::V1VideoToVideoCreateBodyStyle {
@@ -37,7 +37,7 @@ let res = client
             prompt_type: magic_hour::models::V1VideoToVideoCreateBodyStylePromptTypeEnum::AppendDefault,
             version: magic_hour::models::V1VideoToVideoCreateBodyStyleVersionEnum::Default,
         },
-        width: 512,
+        width: Some(512),
     })
     .await;
 ```
