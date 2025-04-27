@@ -15,4 +15,10 @@ pub struct V1AiPhotoEditorCreateBodyStyle {
     /// Number of iterations used to generate the output. Higher values improve quality and increase the strength of the prompt but increase processing time.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub steps: Option<i64>,
+    /// The multiplier applied to an image's original dimensions during the upscaling process. For example, a scale of 2 doubles the width and height (e.g., from 512x512 to 1024x1024).
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub upscale_factor: Option<i64>,
+    /// Upscale fidelity refers to the level of quality desired in the generated image. Fidelity value of 1 means more details.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub upscale_fidelity: Option<f64>,
 }

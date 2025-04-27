@@ -20,6 +20,8 @@ async fn test_create_200_success_default() {
                 prompt: "A photo portrait of a person wearing a hat".to_string(),
                 prompt_strength: 3.75,
                 steps: Some(4),
+                upscale_factor: Some(2),
+                upscale_fidelity: Some(0.5),
             },
             ..Default::default()
         })
