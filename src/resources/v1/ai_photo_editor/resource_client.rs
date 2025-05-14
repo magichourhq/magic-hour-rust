@@ -12,14 +12,14 @@ impl<'a> AiPhotoEditorClient<'a> {
     ///
     /// > **NOTE**: this API is still in early development stages, and should be avoided. Please reach out to us if you're interested in this API.
     ///
-    /// Edit photo using AI. Each photo costs 10 frames.
+    /// Edit photo using AI. Each photo costs 10 credits.
     ///
     /// POST /v1/ai-photo-editor
     pub async fn create(
         &mut self,
         request: super::request_types::CreateRequest,
     ) -> crate::SdkResult<crate::models::V1AiPhotoEditorCreateResponse> {
-        let url = self.base_client.build_url("/v1/ai-photo-editor");
+        let url = self.base_client.build_url("/v1/ai-photo-editor", None);
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
         builder = builder.header("content-type", "application/json");

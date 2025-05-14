@@ -10,14 +10,14 @@ impl<'a> AiQrCodeGeneratorClient<'a> {
     }
     /// AI QR Code
     ///
-    /// Create an AI QR code. Each QR code costs 20 frames.
+    /// Create an AI QR code. Each QR code costs 20 credits.
     ///
     /// POST /v1/ai-qr-code-generator
     pub async fn create(
         &mut self,
         request: super::request_types::CreateRequest,
     ) -> crate::SdkResult<crate::models::V1AiQrCodeGeneratorCreateResponse> {
-        let url = self.base_client.build_url("/v1/ai-qr-code-generator");
+        let url = self.base_client.build_url("/v1/ai-qr-code-generator", None);
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
         builder = builder.header("content-type", "application/json");

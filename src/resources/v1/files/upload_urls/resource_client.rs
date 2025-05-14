@@ -36,7 +36,7 @@ impl<'a> UploadUrlsClient<'a> {
         &mut self,
         request: super::request_types::CreateRequest,
     ) -> crate::SdkResult<crate::models::V1FilesUploadUrlsCreateResponse> {
-        let url = self.base_client.build_url("/v1/files/upload-urls");
+        let url = self.base_client.build_url("/v1/files/upload-urls", None);
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
         builder = builder.header("content-type", "application/json");

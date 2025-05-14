@@ -10,14 +10,14 @@ impl<'a> AiHeadshotGeneratorClient<'a> {
     }
     /// AI Headshots
     ///
-    /// Create an AI headshot. Each headshot costs 50 frames.
+    /// Create an AI headshot. Each headshot costs 50 credits.
     ///
     /// POST /v1/ai-headshot-generator
     pub async fn create(
         &mut self,
         request: super::request_types::CreateRequest,
     ) -> crate::SdkResult<crate::models::V1AiHeadshotGeneratorCreateResponse> {
-        let url = self.base_client.build_url("/v1/ai-headshot-generator");
+        let url = self.base_client.build_url("/v1/ai-headshot-generator", None);
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
         builder = builder.header("content-type", "application/json");

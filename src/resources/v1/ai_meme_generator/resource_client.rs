@@ -10,14 +10,14 @@ impl<'a> AiMemeGeneratorClient<'a> {
     }
     /// AI Meme Generator
     ///
-    /// Create an AI generated meme. Each meme costs 10 frames.
+    /// Create an AI generated meme. Each meme costs 10 credits.
     ///
     /// POST /v1/ai-meme-generator
     pub async fn create(
         &mut self,
         request: super::request_types::CreateRequest,
     ) -> crate::SdkResult<crate::models::V1AiMemeGeneratorCreateResponse> {
-        let url = self.base_client.build_url("/v1/ai-meme-generator");
+        let url = self.base_client.build_url("/v1/ai-meme-generator", None);
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
         builder = builder.header("content-type", "application/json");

@@ -10,13 +10,13 @@ impl Display for Environment {
         match self {
             Environment::Environment => write!(f, "https://api.magichour.ai"),
             Environment::MockServer => {
-                write!(f, "https://api.sideko.dev/v1/mock/magichour/magic-hour/0.21.0")
+                write!(f, "https://api.sideko.dev/v1/mock/magichour/magic-hour/0.22.0")
             }
         }
     }
 }
 #[derive(Clone, Debug)]
-pub(crate) enum BaseUrl {
+pub enum BaseUrl {
     Env(crate::environment::Environment),
     Custom(String),
 }
@@ -31,5 +31,15 @@ impl std::fmt::Display for BaseUrl {
             Self::Env(e) => write!(f, "{e}"),
             Self::Custom(url) => write!(f, "{url}"),
         }
+    }
+}
+impl From<String> for BaseUrl {
+    fn from(value: String) -> Self {
+        BaseUrl::Custom(value)
+    }
+}
+impl From<Environment> for BaseUrl {
+    fn from(value: Environment) -> Self {
+        BaseUrl::Env(value)
     }
 }

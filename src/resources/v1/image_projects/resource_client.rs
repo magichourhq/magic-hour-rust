@@ -24,6 +24,7 @@ impl<'a> ImageProjectsClient<'a> {
                     "/v1/image-projects/{}", crate ::core::params::format_string_param(&
                     request.id)
                 ),
+                None,
             );
         let mut builder = reqwest::Client::default().delete(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
@@ -60,6 +61,7 @@ impl<'a> ImageProjectsClient<'a> {
                     "/v1/image-projects/{}", crate ::core::params::format_string_param(&
                     request.id)
                 ),
+                None,
             );
         let mut builder = reqwest::Client::default().get(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");

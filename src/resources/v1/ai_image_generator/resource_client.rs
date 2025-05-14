@@ -10,14 +10,14 @@ impl<'a> AiImageGeneratorClient<'a> {
     }
     /// AI Images
     ///
-    /// Create an AI image. Each image costs 5 frames.
+    /// Create an AI image. Each image costs 5 credits.
     ///
     /// POST /v1/ai-image-generator
     pub async fn create(
         &mut self,
         request: super::request_types::CreateRequest,
     ) -> crate::SdkResult<crate::models::V1AiImageGeneratorCreateResponse> {
-        let url = self.base_client.build_url("/v1/ai-image-generator");
+        let url = self.base_client.build_url("/v1/ai-image-generator", None);
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
         builder = builder.header("content-type", "application/json");

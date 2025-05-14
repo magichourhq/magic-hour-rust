@@ -20,7 +20,7 @@ impl<'a> TextToVideoClient<'a> {
         &mut self,
         request: super::request_types::CreateRequest,
     ) -> crate::SdkResult<crate::models::V1TextToVideoCreateResponse> {
-        let url = self.base_client.build_url("/v1/text-to-video");
+        let url = self.base_client.build_url("/v1/text-to-video", None);
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
         builder = builder.header("content-type", "application/json");

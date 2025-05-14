@@ -10,14 +10,14 @@ impl<'a> FaceSwapPhotoClient<'a> {
     }
     /// Face Swap Photo
     ///
-    /// Create a face swap photo. Each photo costs 5 frames. The height/width of the output image depends on your subscription. Please refer to our [pricing](/pricing) page for more details
+    /// Create a face swap photo. Each photo costs 5 credits. The height/width of the output image depends on your subscription. Please refer to our [pricing](/pricing) page for more details
     ///
     /// POST /v1/face-swap-photo
     pub async fn create(
         &mut self,
         request: super::request_types::CreateRequest,
     ) -> crate::SdkResult<crate::models::V1FaceSwapPhotoCreateResponse> {
-        let url = self.base_client.build_url("/v1/face-swap-photo");
+        let url = self.base_client.build_url("/v1/face-swap-photo", None);
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
         builder = builder.header("content-type", "application/json");

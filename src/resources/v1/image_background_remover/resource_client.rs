@@ -10,14 +10,14 @@ impl<'a> ImageBackgroundRemoverClient<'a> {
     }
     /// Image Background Remover
     ///
-    /// Remove background from image. Each image costs 5 frames.
+    /// Remove background from image. Each image costs 5 credits.
     ///
     /// POST /v1/image-background-remover
     pub async fn create(
         &mut self,
         request: super::request_types::CreateRequest,
     ) -> crate::SdkResult<crate::models::V1ImageBackgroundRemoverCreateResponse> {
-        let url = self.base_client.build_url("/v1/image-background-remover");
+        let url = self.base_client.build_url("/v1/image-background-remover", None);
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
         builder = builder.header("content-type", "application/json");

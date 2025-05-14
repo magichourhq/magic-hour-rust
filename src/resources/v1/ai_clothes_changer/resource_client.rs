@@ -10,14 +10,14 @@ impl<'a> AiClothesChangerClient<'a> {
     }
     /// AI Clothes Changer
     ///
-    /// Change outfits in photos in seconds with just a photo reference. Each photo costs 25 frames.
+    /// Change outfits in photos in seconds with just a photo reference. Each photo costs 25 credits.
     ///
     /// POST /v1/ai-clothes-changer
     pub async fn create(
         &mut self,
         request: super::request_types::CreateRequest,
     ) -> crate::SdkResult<crate::models::V1AiClothesChangerCreateResponse> {
-        let url = self.base_client.build_url("/v1/ai-clothes-changer");
+        let url = self.base_client.build_url("/v1/ai-clothes-changer", None);
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
         builder = builder.header("content-type", "application/json");

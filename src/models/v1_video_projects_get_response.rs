@@ -2,6 +2,10 @@
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub struct V1VideoProjectsGetResponse {
     pub created_at: String,
+    /// The amount of credits deducted from your account to generate the video. If the status is not 'complete', this value is an estimate and may be adjusted upon completion based on the actual FPS of the output video.
+    ///
+    /// If video generation fails, credits will be refunded, and this field will be updated to include the refund.
+    pub credits_charged: i64,
     /// Deprecated: Please use `.downloads` instead. The download url and expiration date of the video project
     #[serde(deserialize_with = "crate::core::patch::deserialize_required_nullable")]
     pub download: Option<crate::models::V1VideoProjectsGetResponseDownload>,
@@ -26,6 +30,8 @@ pub struct V1VideoProjectsGetResponse {
     pub start_seconds: f64,
     /// The status of the video.
     pub status: crate::models::V1VideoProjectsGetResponseStatusEnum,
+    /// Deprecated: Previously represented the number of frames (original name of our credit system) used for video generation. Use 'credits_charged' instead.
+    ///
     /// The amount of frames used to generate the video. If the status is not 'complete', the cost is an estimate and will be adjusted when the video completes.
     pub total_frame_cost: i64,
     /// The type of the video project. Possible values are ANIMATION, IMAGE_TO_VIDEO, VIDEO_TO_VIDEO, TEXT_TO_VIDEO, FACE_SWAP, LIP_SYNC, AUTO_SUBTITLE, TALKING_PHOTO

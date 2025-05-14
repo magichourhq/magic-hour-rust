@@ -10,14 +10,14 @@ impl<'a> AiGifGeneratorClient<'a> {
     }
     /// AI GIFs
     ///
-    /// Create an AI GIF. Each GIF costs 25 frames.
+    /// Create an AI GIF. Each GIF costs 25 credits.
     ///
     /// POST /v1/ai-gif-generator
     pub async fn create(
         &mut self,
         request: super::request_types::CreateRequest,
     ) -> crate::SdkResult<crate::models::V1AiGifGeneratorCreateResponse> {
-        let url = self.base_client.build_url("/v1/ai-gif-generator");
+        let url = self.base_client.build_url("/v1/ai-gif-generator", None);
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
         builder = builder.header("content-type", "application/json");

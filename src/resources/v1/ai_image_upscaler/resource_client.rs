@@ -10,14 +10,14 @@ impl<'a> AiImageUpscalerClient<'a> {
     }
     /// AI Image Upscaler
     ///
-    /// Upscale your image using AI. Each 2x upscale costs 50 frames, and 4x upscale costs 200 frames.
+    /// Upscale your image using AI. Each 2x upscale costs 50 credits, and 4x upscale costs 200 credits.
     ///
     /// POST /v1/ai-image-upscaler
     pub async fn create(
         &mut self,
         request: super::request_types::CreateRequest,
     ) -> crate::SdkResult<crate::models::V1AiImageUpscalerCreateResponse> {
-        let url = self.base_client.build_url("/v1/ai-image-upscaler");
+        let url = self.base_client.build_url("/v1/ai-image-upscaler", None);
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
         builder = builder.header("content-type", "application/json");
