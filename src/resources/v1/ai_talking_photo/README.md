@@ -21,6 +21,7 @@ let res = client
         end_seconds: 15.0,
         name: Some("Talking Photo image".to_string()),
         start_seconds: 0.0,
+        ..Default::default()
     })
     .await;
 ```
