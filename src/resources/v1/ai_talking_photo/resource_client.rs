@@ -25,6 +25,7 @@ impl<'a> AiTalkingPhotoClient<'a> {
             .json(
                 &crate::models::V1AiTalkingPhotoCreateBody {
                     name: request.name,
+                    style: request.style,
                     assets: request.assets,
                     end_seconds: request.end_seconds,
                     start_seconds: request.start_seconds,
