@@ -26,27 +26,3 @@ jobs:
 
       - name: ensure lockfile is up to date
         run: cargo build
-
-      - name: running codemod
-        run: sh ./codemod/main.sh
-
-      - name: Get current version from main
-        run: |
-          git fetch origin main
-          MAIN_VERSION=$(git show origin/main:Cargo.toml | grep '^version =' | cut -d'"' -f2)
-          echo "MAIN_VERSION=$MAIN_VERSION" >> $GITHUB_ENV
-
-      - name: Determine version bump type
-        id: bump-type
-        run: |
-          if [[ $(gh pr view ${{ github.event.pull_request.number }} --json labels -q '.labels[].name' | grep -c "major") -gt 0 ]]; then
-            echo "TYPE=major" >> $GITHUB_OUTPUT
-          elif [[ $(gh pr view ${{ github.event.pull_request.number }} --json labels -q '.labels[].name' | grep -c "minor") -gt 0 ]]; then
-            echo "TYPE=minor" >> $GITHUB_OUTPUT
-          elif [[ $(gh pr view ${{ github.event.pull_request.number }} --json labels -q '.labels[].name' | grep -c "patch") -gt 0 ]]; then
-            echo "TYPE=patch" >> $GITHUB_OUTPUT
-          else
-            echo "TYPE=none" >> $GITHUB_OUTPUT
-          fi
-        env:
-          GH_TOKEN: ${{ github.token }}
