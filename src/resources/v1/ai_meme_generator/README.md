@@ -23,3 +23,10 @@ let res = client
     })
     .await;
 ```
+
+#### Parameters
+
+| Parameter | Required | Description | Example |
+|-----------|:--------:|-------------|--------|
+| `style` | ✓ |  | `V1AiMemeGeneratorCreateBodyStyle {search_web: Some(false), template: V1AiMemeGeneratorCreateBodyStyleTemplateEnum::DrakeHotlineBling, topic: "When the code finally works".to_string()}` |
+| `name` | ✗ | The name of the meme. | `"My Funny Meme".to_string()` |

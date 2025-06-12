@@ -27,3 +27,12 @@ let res = client
     })
     .await;
 ```
+
+#### Parameters
+
+| Parameter | Required | Description | Example |
+|-----------|:--------:|-------------|--------|
+| `end_seconds` | ✓ | The total duration of the output video in seconds. | `5.0` |
+| `orientation` | ✓ | Determines the orientation of the output video | `V1TextToVideoCreateBodyOrientationEnum::Landscape` |
+| `style` | ✓ |  | `V1TextToVideoCreateBodyStyle {prompt: "a dog running".to_string(), ..Default::default()}` |
+| `name` | ✗ | The name of video | `"Text To Video video".to_string()` |

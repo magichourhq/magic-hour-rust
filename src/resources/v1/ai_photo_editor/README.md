@@ -35,3 +35,13 @@ let res = client
     })
     .await;
 ```
+
+#### Parameters
+
+| Parameter | Required | Description | Example |
+|-----------|:--------:|-------------|--------|
+| `assets` | ✓ | Provide the assets for photo editor | `V1AiPhotoEditorCreateBodyAssets {image_file_path: "api-assets/id/1234.png".to_string()}` |
+| `resolution` | ✓ | The resolution of the final output image. The allowed value is based on your subscription. Please refer to our [pricing page](https://magichour.ai/pricing) for more details | `768` |
+| `style` | ✓ |  | `V1AiPhotoEditorCreateBodyStyle {image_description: "A photo of a person".to_string(), likeness_strength: 5.2, negative_prompt: Some("painting, cartoon, sketch".to_string()), prompt: "A photo portrait of a person wearing a hat".to_string(), prompt_strength: 3.75, steps: Some(4), upscale_factor: Some(2), upscale_fidelity: Some(0.5)}` |
+| `name` | ✗ | The name of image | `"Photo Editor image".to_string()` |
+| `steps` | ✗ | Deprecated: Please use `.style.steps` instead. Number of iterations used to generate the output. Higher values improve quality and increase the strength of the prompt but increase processing time. | `123` |

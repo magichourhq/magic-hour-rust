@@ -23,3 +23,8 @@ impl From<&UploadFile> for reqwest::multipart::Part {
             .file_name(value.file_name.clone())
     }
 }
+impl From<UploadFile> for reqwest::multipart::Part {
+    fn from(value: UploadFile) -> Self {
+        reqwest::multipart::Part::from(&value)
+    }
+}

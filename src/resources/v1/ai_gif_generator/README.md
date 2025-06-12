@@ -21,3 +21,10 @@ let res = client
     })
     .await;
 ```
+
+#### Parameters
+
+| Parameter | Required | Description | Example |
+|-----------|:--------:|-------------|--------|
+| `style` | ✓ |  | `V1AiGifGeneratorCreateBodyStyle {prompt: "Cute dancing cat, pixel art".to_string()}` |
+| `name` | ✗ | The name of gif | `"Ai Gif gif".to_string()` |
