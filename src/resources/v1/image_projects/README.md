@@ -19,6 +19,12 @@ let res = client
     .await;
 ```
 
+#### Parameters
+
+| Parameter | Required | Description | Example |
+|-----------|:--------:|-------------|--------|
+| `id` | ✓ | The id of the image project | `"cm6pvghix03bvyz0zwash6noj".to_string()` |
+
 ### Get image details <a name="get"></a>
 
 Get the details of a image project. The `downloads` field will be empty unless the image was successfully rendered.
@@ -47,3 +53,9 @@ let res = client
     })
     .await;
 ```
+
+#### Parameters
+
+| Parameter | Required | Description | Example |
+|-----------|:--------:|-------------|--------|
+| `id` | ✓ | The id of the image project | `"cm6pvghix03bvyz0zwash6noj".to_string()` |

@@ -13,6 +13,9 @@ async fn test_create_200_success_default() {
             orientation: magic_hour::models::V1AiImageGeneratorCreateBodyOrientationEnum::Landscape,
             style: magic_hour::models::V1AiImageGeneratorCreateBodyStyle {
                 prompt: "Cool image".to_string(),
+                tool: Some(
+                    magic_hour::models::V1AiImageGeneratorCreateBodyStyleToolEnum::AiAnimeGenerator,
+                ),
             },
         })
         .await;

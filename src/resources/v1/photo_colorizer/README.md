@@ -21,3 +21,10 @@ let res = client
     })
     .await;
 ```
+
+#### Parameters
+
+| Parameter | Required | Description | Example |
+|-----------|:--------:|-------------|--------|
+| `assets` | ✓ | Provide the assets for photo colorization | `V1PhotoColorizerCreateBodyAssets {image_file_path: "api-assets/id/1234.png".to_string()}` |
+| `name` | ✗ | The name of image | `"Photo Colorizer image".to_string()` |

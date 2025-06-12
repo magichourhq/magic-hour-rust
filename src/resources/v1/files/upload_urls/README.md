@@ -45,3 +45,9 @@ let res = client
     })
     .await;
 ```
+
+#### Parameters
+
+| Parameter | Required | Description | Example |
+|-----------|:--------:|-------------|--------|
+| `items` | ✓ |  | `vec![V1FilesUploadUrlsCreateBodyItemsItem {extension: "mp4".to_string(), type_: V1FilesUploadUrlsCreateBodyItemsItemTypeEnum::Video}, V1FilesUploadUrlsCreateBodyItemsItem {extension: "mp3".to_string(), type_: V1FilesUploadUrlsCreateBodyItemsItemTypeEnum::Audio}]` |

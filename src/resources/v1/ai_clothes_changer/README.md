@@ -23,3 +23,10 @@ let res = client
     })
     .await;
 ```
+
+#### Parameters
+
+| Parameter | Required | Description | Example |
+|-----------|:--------:|-------------|--------|
+| `assets` | ✓ | Provide the assets for clothes changer | `V1AiClothesChangerCreateBodyAssets {garment_file_path: "api-assets/id/outfit.png".to_string(), garment_type: V1AiClothesChangerCreateBodyAssetsGarmentTypeEnum::Dresses, person_file_path: "api-assets/id/model.png".to_string()}` |
+| `name` | ✗ | The name of image | `"Clothes Changer image".to_string()` |

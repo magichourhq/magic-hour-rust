@@ -22,3 +22,10 @@ let res = client
     })
     .await;
 ```
+
+#### Parameters
+
+| Parameter | Required | Description | Example |
+|-----------|:--------:|-------------|--------|
+| `assets` | ✓ | Provide the assets for face swap photo | `V1FaceSwapPhotoCreateBodyAssets {source_file_path: "api-assets/id/1234.png".to_string(), target_file_path: "api-assets/id/1234.png".to_string()}` |
+| `name` | ✗ | The name of image | `"Face Swap image".to_string()` |

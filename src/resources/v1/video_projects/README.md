@@ -19,6 +19,12 @@ let res = client
     .await;
 ```
 
+#### Parameters
+
+| Parameter | Required | Description | Example |
+|-----------|:--------:|-------------|--------|
+| `id` | ✓ | The id of the video project | `"cm6pvghix03bvyz0zwash6noj".to_string()` |
+
 ### Get video details <a name="get"></a>
 
 Get the details of a video project. The `downloads` field will be empty unless the video was successfully rendered.
@@ -47,3 +53,9 @@ let res = client
     })
     .await;
 ```
+
+#### Parameters
+
+| Parameter | Required | Description | Example |
+|-----------|:--------:|-------------|--------|
+| `id` | ✓ | The id of the video | `"cm6pvghix03bvyz0zwash6noj".to_string()` |

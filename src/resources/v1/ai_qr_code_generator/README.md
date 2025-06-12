@@ -22,3 +22,11 @@ let res = client
     })
     .await;
 ```
+
+#### Parameters
+
+| Parameter | Required | Description | Example |
+|-----------|:--------:|-------------|--------|
+| `content` | ✓ | The content of the QR code. | `"https://magichour.ai".to_string()` |
+| `style` | ✓ |  | `V1AiQrCodeGeneratorCreateBodyStyle {art_style: "Watercolor".to_string()}` |
+| `name` | ✗ | The name of image | `"Qr Code image".to_string()` |
