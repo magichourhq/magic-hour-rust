@@ -5,6 +5,13 @@ Colorize image. Each image costs 5 credits.
 
 **API Endpoint**: `POST /v1/photo-colorizer`
 
+#### Parameters
+
+| Parameter | Required | Description | Example |
+|-----------|:--------:|-------------|--------|
+| `assets` | ✓ | Provide the assets for photo colorization | `V1PhotoColorizerCreateBodyAssets {image_file_path: "api-assets/id/1234.png".to_string()}` |
+| `name` | ✗ | The name of image | `"Photo Colorizer image".to_string()` |
+
 #### Example Snippet
 
 ```rust
@@ -22,9 +29,10 @@ let res = client
     .await;
 ```
 
-#### Parameters
+#### Response
 
-| Parameter | Required | Description | Example |
-|-----------|:--------:|-------------|--------|
-| `assets` | ✓ | Provide the assets for photo colorization | `V1PhotoColorizerCreateBodyAssets {image_file_path: "api-assets/id/1234.png".to_string()}` |
-| `name` | ✗ | The name of image | `"Photo Colorizer image".to_string()` |
+##### Type
+[V1PhotoColorizerCreateResponse](/src/models/v1_photo_colorizer_create_response.rs)
+
+##### Example
+`V1PhotoColorizerCreateResponse {credits_charged: 5, frame_cost: 5, id: "clx7uu86w0a5qp55yxz315r6r".to_string()}`

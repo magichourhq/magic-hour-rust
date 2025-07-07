@@ -6,12 +6,15 @@ async fn test_create_200_success_all_params() {
         .with_environment(magic_hour::Environment::MockServer);
     let res = client
         .v1()
-        .image_background_remover()
-        .create(magic_hour::resources::v1::image_background_remover::CreateRequest {
-            assets: magic_hour::models::V1ImageBackgroundRemoverCreateBodyAssets {
+        .ai_image_editor()
+        .create(magic_hour::resources::v1::ai_image_editor::CreateRequest {
+            assets: magic_hour::models::V1AiImageEditorCreateBodyAssets {
                 image_file_path: "api-assets/id/1234.png".to_string(),
             },
-            name: Some("Background Remover image".to_string()),
+            name: Some("Ai Image Editor image".to_string()),
+            style: magic_hour::models::V1AiImageEditorCreateBodyStyle {
+                prompt: "Give me sunglasses".to_string(),
+            },
         })
         .await;
     println!("{:?}", res);

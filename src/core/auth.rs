@@ -52,6 +52,7 @@ pub struct OAuth2Password {
     pub client_secret: Option<String>,
     pub grant_type: Option<String>,
     pub scope: Option<Vec<String>>,
+    pub token_url: Option<String>,
 }
 /// OAuth2 authentication props for a password flow
 ///
@@ -63,6 +64,7 @@ pub struct OAuth2ClientCredentials {
     pub client_secret: String,
     pub grant_type: Option<String>,
     pub scope: Option<Vec<String>>,
+    pub token_url: Option<String>,
 }
 #[derive(Clone, Debug)]
 pub(crate) enum OAuth2Flow {
@@ -70,6 +72,14 @@ pub(crate) enum OAuth2Flow {
     Password(OAuth2Password),
     #[allow(unused)]
     ClientCredentials(OAuth2ClientCredentials),
+}
+impl OAuth2Flow {
+    fn token_url(&self) -> Option<String> {
+        match self {
+            OAuth2Flow::Password(pwd) => pwd.token_url.clone(),
+            OAuth2Flow::ClientCredentials(creds) => creds.token_url.clone(),
+        }
+    }
 }
 #[derive(Clone, Debug)]
 pub(crate) enum OAuth2CredentialsLocation {
@@ -87,7 +97,8 @@ pub(crate) enum OAuthBodyContentType {
 }
 #[derive(Clone, Debug)]
 pub(crate) struct OAuth2ProviderConfig {
-    pub(crate) token_url: String,
+    pub(crate) base_url: String,
+    pub(crate) default_token_url: String,
     pub(crate) access_token_pointer: String,
     pub(crate) expires_in_pointer: String,
     pub(crate) credentials_location: OAuth2CredentialsLocation,
@@ -112,8 +123,19 @@ impl OAuth2Provider {
         }
     }
     async fn refresh(&mut self) -> crate::SdkResult<String> {
-        let mut access_token_builder = reqwest::Client::new()
-            .post(&self.config.token_url);
+        let mut token_url = self
+            .flow
+            .token_url()
+            .unwrap_or(self.config.default_token_url.clone());
+        if token_url.starts_with('/') {
+            token_url = format!(
+                "{base}/{path}", base = & self.config.base_url.trim_end_matches('/'),
+                path = token_url.trim_start_matches('/')
+            )
+                .trim_end_matches('/')
+                .into();
+        }
+        let mut access_token_builder = reqwest::Client::new().post(&token_url);
         let (client_id, client_secret, mut req_data) = match &self.flow {
             OAuth2Flow::Password(pwd) => {
                 let mut data = std::collections::BTreeMap::from_iter([

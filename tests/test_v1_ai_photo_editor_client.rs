@@ -1,6 +1,6 @@
 #[serial_test::serial]
 #[tokio::test]
-async fn test_create_200_success_default() {
+async fn test_create_200_success_all_params() {
     let mut client = magic_hour::Client::default()
         .with_bearer_auth("API_TOKEN")
         .with_environment(magic_hour::Environment::MockServer);
@@ -13,6 +13,7 @@ async fn test_create_200_success_default() {
             },
             name: Some("Photo Editor image".to_string()),
             resolution: 768,
+            steps: Some(123),
             style: magic_hour::models::V1AiPhotoEditorCreateBodyStyle {
                 image_description: "A photo of a person".to_string(),
                 likeness_strength: 5.2,
@@ -23,7 +24,6 @@ async fn test_create_200_success_default() {
                 upscale_factor: Some(2),
                 upscale_fidelity: Some(0.5),
             },
-            ..Default::default()
         })
         .await;
     println!("{:?}", res);

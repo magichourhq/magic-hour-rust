@@ -50,6 +50,13 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
+    pub fn ai_image_editor(
+        &mut self,
+    ) -> crate::resources::v1::ai_image_editor::resource_client::AiImageEditorClient {
+        crate::resources::v1::ai_image_editor::resource_client::AiImageEditorClient::_new(
+            self.base_client,
+        )
+    }
     pub fn ai_image_generator(
         &mut self,
     ) -> crate::resources::v1::ai_image_generator::resource_client::AiImageGeneratorClient {

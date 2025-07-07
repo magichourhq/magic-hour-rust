@@ -1,6 +1,6 @@
 #[serial_test::serial]
 #[tokio::test]
-async fn test_create_200_success_default() {
+async fn test_create_200_success_all_params() {
     let mut client = magic_hour::Client::default()
         .with_bearer_auth("API_TOKEN")
         .with_environment(magic_hour::Environment::MockServer);
@@ -11,7 +11,7 @@ async fn test_create_200_success_default() {
             assets: magic_hour::models::V1VideoToVideoCreateBodyAssets {
                 video_file_path: Some("api-assets/id/1234.mp4".to_string()),
                 video_source: magic_hour::models::V1VideoToVideoCreateBodyAssetsVideoSourceEnum::File,
-                ..Default::default()
+                youtube_url: Some("http://www.example.com".to_string()),
             },
             end_seconds: 15.0,
             fps_resolution: Some(
