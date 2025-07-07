@@ -1,6 +1,6 @@
 #[serial_test::serial]
 #[tokio::test]
-async fn test_delete_204_generated_success() {
+async fn test_delete_204_success_all_params() {
     let mut client = magic_hour::Client::default()
         .with_bearer_auth("API_TOKEN")
         .with_environment(magic_hour::Environment::MockServer);
@@ -16,7 +16,7 @@ async fn test_delete_204_generated_success() {
 }
 #[serial_test::serial]
 #[tokio::test]
-async fn test_get_200_generated_success() {
+async fn test_get_200_success_all_params() {
     let mut client = magic_hour::Client::default()
         .with_bearer_auth("API_TOKEN")
         .with_environment(magic_hour::Environment::MockServer);

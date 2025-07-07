@@ -23,6 +23,8 @@ impl BaseClient {
             .cloned()
             .unwrap_or_default();
         format!("{}/{}", base.trim_end_matches('/'), endpoint.trim_start_matches('/'))
+            .trim_end_matches('/')
+            .into()
     }
     #[allow(unused)]
     pub async fn apply_auths_to_builder(

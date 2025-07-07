@@ -1,6 +1,6 @@
 #[serial_test::serial]
 #[tokio::test]
-async fn test_create_200_success_default() {
+async fn test_create_200_success_all_params() {
     let mut client = magic_hour::Client::default()
         .with_bearer_auth("API_TOKEN")
         .with_environment(magic_hour::Environment::MockServer);
@@ -12,7 +12,12 @@ async fn test_create_200_success_default() {
                 image_file_path: "api-assets/id/1234.png".to_string(),
             },
             name: Some("Ai Headshot image".to_string()),
-            ..Default::default()
+            style: Some(magic_hour::models::V1AiHeadshotGeneratorCreateBodyStyle {
+                prompt: Some(
+                    "professional passport photo, business attire, smiling, good posture, light blue background, centered, plain background"
+                        .to_string(),
+                ),
+            }),
         })
         .await;
     println!("{:?}", res);

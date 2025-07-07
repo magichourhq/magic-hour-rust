@@ -11,18 +11,23 @@ Below is the list of valid extensions for each asset type:
 
 Note: `.gif` is supported for face swap API `video_file_path` field.
 
-After receiving the upload url, you can upload the file by sending a PUT request with the header `'Content-Type: application/octet-stream'`.
+After receiving the upload url, you can upload the file by sending a PUT request.
 
 For example using curl
 
 ```
-curl -X PUT -H 'Content-Type: application/octet-stream' \
-  --data '@/path/to/file/video.mp4' \
-  https://videos.magichour.ai/api-assets/id/video.mp4?auth-value=1234567890
+curl -X PUT --data '@/path/to/file/video.mp4' \
+  https://videos.magichour.ai/api-assets/id/video.mp4?<auth params from the API response>
 ```
 
 
 **API Endpoint**: `POST /v1/files/upload-urls`
+
+#### Parameters
+
+| Parameter | Required | Description | Example |
+|-----------|:--------:|-------------|--------|
+| `items` | ✓ |  | `vec![V1FilesUploadUrlsCreateBodyItemsItem {extension: "mp4".to_string(), type_: V1FilesUploadUrlsCreateBodyItemsItemTypeEnum::Video}, V1FilesUploadUrlsCreateBodyItemsItem {extension: "mp3".to_string(), type_: V1FilesUploadUrlsCreateBodyItemsItemTypeEnum::Audio}]` |
 
 #### Example Snippet
 
@@ -46,8 +51,10 @@ let res = client
     .await;
 ```
 
-#### Parameters
+#### Response
 
-| Parameter | Required | Description | Example |
-|-----------|:--------:|-------------|--------|
-| `items` | ✓ |  | `vec![V1FilesUploadUrlsCreateBodyItemsItem {extension: "mp4".to_string(), type_: V1FilesUploadUrlsCreateBodyItemsItemTypeEnum::Video}, V1FilesUploadUrlsCreateBodyItemsItem {extension: "mp3".to_string(), type_: V1FilesUploadUrlsCreateBodyItemsItemTypeEnum::Audio}]` |
+##### Type
+[V1FilesUploadUrlsCreateResponse](/src/models/v1_files_upload_urls_create_response.rs)
+
+##### Example
+`V1FilesUploadUrlsCreateResponse {items: vec![V1FilesUploadUrlsCreateResponseItemsItem {expires_at: "2024-07-25T16:56:21.932Z".to_string(), file_path: "api-assets/id/video.mp4".to_string(), upload_url: "https://videos.magichour.ai/api-assets/id/video.mp4?auth-value=1234567890".to_string()}, V1FilesUploadUrlsCreateResponseItemsItem {expires_at: "2024-07-25T16:56:21.932Z".to_string(), file_path: "api-assets/id/audio.mp3".to_string(), upload_url: "https://videos.magichour.ai/api-assets/id/audio.mp3?auth-value=1234567890".to_string()}]}`

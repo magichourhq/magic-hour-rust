@@ -1,6 +1,6 @@
 #[serial_test::serial]
 #[tokio::test]
-async fn test_create_200_success_default() {
+async fn test_create_200_success_all_params() {
     let mut client = magic_hour::Client::default()
         .with_bearer_auth("API_TOKEN")
         .with_environment(magic_hour::Environment::MockServer);
@@ -15,8 +15,11 @@ async fn test_create_200_success_default() {
             height: Some(960),
             name: Some("Image To Video video".to_string()),
             style: magic_hour::models::V1ImageToVideoCreateBodyStyle {
+                high_quality: Some(true),
                 prompt: Some("a dog running".to_string()),
-                ..Default::default()
+                quality_mode: Some(
+                    magic_hour::models::V1ImageToVideoCreateBodyStyleQualityModeEnum::Quick,
+                ),
             },
             width: Some(512),
         })

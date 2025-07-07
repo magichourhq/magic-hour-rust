@@ -8,6 +8,15 @@ Get more information about this mode at our [product page](/products/text-to-vid
 
 **API Endpoint**: `POST /v1/text-to-video`
 
+#### Parameters
+
+| Parameter | Required | Description | Example |
+|-----------|:--------:|-------------|--------|
+| `end_seconds` | ✓ | The total duration of the output video in seconds. | `5.0` |
+| `orientation` | ✓ | Determines the orientation of the output video | `V1TextToVideoCreateBodyOrientationEnum::Landscape` |
+| `style` | ✓ |  | `V1TextToVideoCreateBodyStyle {prompt: "a dog running".to_string(), ..Default::default()}` |
+| `name` | ✗ | The name of video | `"Text To Video video".to_string()` |
+
 #### Example Snippet
 
 ```rust
@@ -28,11 +37,10 @@ let res = client
     .await;
 ```
 
-#### Parameters
+#### Response
 
-| Parameter | Required | Description | Example |
-|-----------|:--------:|-------------|--------|
-| `end_seconds` | ✓ | The total duration of the output video in seconds. | `5.0` |
-| `orientation` | ✓ | Determines the orientation of the output video | `V1TextToVideoCreateBodyOrientationEnum::Landscape` |
-| `style` | ✓ |  | `V1TextToVideoCreateBodyStyle {prompt: "a dog running".to_string(), ..Default::default()}` |
-| `name` | ✗ | The name of video | `"Text To Video video".to_string()` |
+##### Type
+[V1TextToVideoCreateResponse](/src/models/v1_text_to_video_create_response.rs)
+
+##### Example
+`V1TextToVideoCreateResponse {credits_charged: 450, estimated_frame_cost: 450, id: "clx7uu86w0a5qp55yxz315r6r".to_string()}`

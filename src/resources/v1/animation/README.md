@@ -5,6 +5,18 @@ Create a Animation video. The estimated frame cost is calculated based on the `f
 
 **API Endpoint**: `POST /v1/animation`
 
+#### Parameters
+
+| Parameter | Required | Description | Example |
+|-----------|:--------:|-------------|--------|
+| `assets` | ✓ | Provide the assets for animation. | `V1AnimationCreateBodyAssets {audio_file_path: Some("api-assets/id/1234.mp3".to_string()), audio_source: V1AnimationCreateBodyAssetsAudioSourceEnum::File, image_file_path: Some("api-assets/id/1234.png".to_string()), ..Default::default()}` |
+| `end_seconds` | ✓ | The end time of the input video in seconds | `15.0` |
+| `fps` | ✓ | The desire output video frame rate | `12.0` |
+| `height` | ✓ | The height of the final output video. The maximum height depends on your subscription. Please refer to our [pricing page](https://magichour.ai/pricing) for more details | `960` |
+| `style` | ✓ | Defines the style of the output video | `V1AnimationCreateBodyStyle {art_style: V1AnimationCreateBodyStyleArtStyleEnum::PainterlyIllustration, camera_effect: V1AnimationCreateBodyStyleCameraEffectEnum::Accelerate, prompt: Some("Cyberpunk city".to_string()), prompt_type: V1AnimationCreateBodyStylePromptTypeEnum::AiChoose, transition_speed: 5, ..Default::default()}` |
+| `width` | ✓ | The width of the final output video. The maximum width depends on your subscription. Please refer to our [pricing page](https://magichour.ai/pricing) for more details | `512` |
+| `name` | ✗ | The name of video | `"Animation video".to_string()` |
+
 #### Example Snippet
 
 ```rust
@@ -37,14 +49,10 @@ let res = client
     .await;
 ```
 
-#### Parameters
+#### Response
 
-| Parameter | Required | Description | Example |
-|-----------|:--------:|-------------|--------|
-| `assets` | ✓ | Provide the assets for animation. | `V1AnimationCreateBodyAssets {audio_file_path: Some("api-assets/id/1234.mp3".to_string()), audio_source: V1AnimationCreateBodyAssetsAudioSourceEnum::File, image_file_path: Some("api-assets/id/1234.png".to_string()), ..Default::default()}` |
-| `end_seconds` | ✓ | The end time of the input video in seconds | `15.0` |
-| `fps` | ✓ | The desire output video frame rate | `12.0` |
-| `height` | ✓ | The height of the final output video. The maximum height depends on your subscription. Please refer to our [pricing page](https://magichour.ai/pricing) for more details | `960` |
-| `style` | ✓ | Defines the style of the output video | `V1AnimationCreateBodyStyle {art_style: V1AnimationCreateBodyStyleArtStyleEnum::PainterlyIllustration, camera_effect: V1AnimationCreateBodyStyleCameraEffectEnum::Accelerate, prompt: Some("Cyberpunk city".to_string()), prompt_type: V1AnimationCreateBodyStylePromptTypeEnum::AiChoose, transition_speed: 5, ..Default::default()}` |
-| `width` | ✓ | The width of the final output video. The maximum width depends on your subscription. Please refer to our [pricing page](https://magichour.ai/pricing) for more details | `512` |
-| `name` | ✗ | The name of video | `"Animation video".to_string()` |
+##### Type
+[V1AnimationCreateResponse](/src/models/v1_animation_create_response.rs)
+
+##### Example
+`V1AnimationCreateResponse {credits_charged: 450, estimated_frame_cost: 450, id: "clx7uu86w0a5qp55yxz315r6r".to_string()}`

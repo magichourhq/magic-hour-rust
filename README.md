@@ -45,6 +45,10 @@ let client = magic_hour::Client::default()
 
 * [create](src/resources/v1/ai_headshot_generator/README.md#create) - AI Headshots
 
+### [v1.ai_image_editor](src/resources/v1/ai_image_editor/README.md)
+
+* [create](src/resources/v1/ai_image_editor/README.md#create) - AI Image Editor
+
 ### [v1.ai_image_generator](src/resources/v1/ai_image_generator/README.md)
 
 * [create](src/resources/v1/ai_image_generator/README.md#create) - AI Images

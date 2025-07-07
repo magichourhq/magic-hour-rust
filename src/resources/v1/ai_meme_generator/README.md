@@ -5,6 +5,13 @@ Create an AI generated meme. Each meme costs 10 credits.
 
 **API Endpoint**: `POST /v1/ai-meme-generator`
 
+#### Parameters
+
+| Parameter | Required | Description | Example |
+|-----------|:--------:|-------------|--------|
+| `style` | ✓ |  | `V1AiMemeGeneratorCreateBodyStyle {search_web: Some(false), template: V1AiMemeGeneratorCreateBodyStyleTemplateEnum::DrakeHotlineBling, topic: "When the code finally works".to_string()}` |
+| `name` | ✗ | The name of the meme. | `"My Funny Meme".to_string()` |
+
 #### Example Snippet
 
 ```rust
@@ -24,9 +31,10 @@ let res = client
     .await;
 ```
 
-#### Parameters
+#### Response
 
-| Parameter | Required | Description | Example |
-|-----------|:--------:|-------------|--------|
-| `style` | ✓ |  | `V1AiMemeGeneratorCreateBodyStyle {search_web: Some(false), template: V1AiMemeGeneratorCreateBodyStyleTemplateEnum::DrakeHotlineBling, topic: "When the code finally works".to_string()}` |
-| `name` | ✗ | The name of the meme. | `"My Funny Meme".to_string()` |
+##### Type
+[V1AiMemeGeneratorCreateResponse](/src/models/v1_ai_meme_generator_create_response.rs)
+
+##### Example
+`V1AiMemeGeneratorCreateResponse {credits_charged: 10, frame_cost: 10, id: "clx7uu86w0a5qp55yxz315r6r".to_string()}`
