@@ -22,7 +22,8 @@ pub struct V1ImageToVideoCreateBody {
     #[serde(skip_serializing_if = "Option::is_none")]
     pub resolution: Option<crate::models::V1ImageToVideoCreateBodyResolutionEnum>,
     /// Attributed used to dictate the style of the output
-    pub style: crate::models::V1ImageToVideoCreateBodyStyle,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub style: Option<crate::models::V1ImageToVideoCreateBodyStyle>,
     /// This field does not affect the output video's resolution. The video's orientation will match that of the input image.
     ///
     /// It is retained solely for backward compatibility and will be deprecated in the future.

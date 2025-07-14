@@ -17,13 +17,13 @@ async fn test_create_200_success_all_params() {
             resolution: Some(
                 magic_hour::models::V1ImageToVideoCreateBodyResolutionEnum::Enum1080p,
             ),
-            style: magic_hour::models::V1ImageToVideoCreateBodyStyle {
+            style: Some(magic_hour::models::V1ImageToVideoCreateBodyStyle {
                 high_quality: Some(true),
                 prompt: Some("a dog running".to_string()),
                 quality_mode: Some(
                     magic_hour::models::V1ImageToVideoCreateBodyStyleQualityModeEnum::Quick,
                 ),
-            },
+            }),
             width: Some(512),
         })
         .await;
