@@ -30,10 +30,10 @@ impl<'a> ImageToVideoClient<'a> {
                     height: request.height,
                     name: request.name,
                     resolution: request.resolution,
+                    style: request.style,
                     width: request.width,
                     assets: request.assets,
                     end_seconds: request.end_seconds,
-                    style: request.style,
                 },
             );
         builder = self
