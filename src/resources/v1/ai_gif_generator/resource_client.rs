@@ -10,7 +10,7 @@ impl<'a> AiGifGeneratorClient<'a> {
     }
     /// AI GIFs
     ///
-    /// Create an AI GIF. Each GIF costs 25 credits.
+    /// Create an AI GIF. Each GIF costs 50 credits.
     ///
     /// POST /v1/ai-gif-generator
     pub async fn create(
