@@ -14,6 +14,9 @@ async fn test_create_200_success_all_params() {
             end_seconds: 5.0,
             height: Some(960),
             name: Some("Image To Video video".to_string()),
+            resolution: Some(
+                magic_hour::models::V1ImageToVideoCreateBodyResolutionEnum::Enum1080p,
+            ),
             style: magic_hour::models::V1ImageToVideoCreateBodyStyle {
                 high_quality: Some(true),
                 prompt: Some("a dog running".to_string()),
