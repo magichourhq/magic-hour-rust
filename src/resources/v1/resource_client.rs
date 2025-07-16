@@ -106,6 +106,13 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
+    pub fn auto_subtitle_generator(
+        &mut self,
+    ) -> crate::resources::v1::auto_subtitle_generator::resource_client::AutoSubtitleGeneratorClient {
+        crate::resources::v1::auto_subtitle_generator::resource_client::AutoSubtitleGeneratorClient::_new(
+            self.base_client,
+        )
+    }
     pub fn face_swap(
         &mut self,
     ) -> crate::resources::v1::face_swap::resource_client::FaceSwapClient {
