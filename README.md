@@ -77,6 +77,10 @@ let client = magic_hour::Client::default()
 
 * [create](src/resources/v1/animation/README.md#create) - Animation
 
+### [v1.auto_subtitle_generator](src/resources/v1/auto_subtitle_generator/README.md)
+
+* [create](src/resources/v1/auto_subtitle_generator/README.md#create) - Auto Subtitle Generator
+
 ### [v1.face_swap](src/resources/v1/face_swap/README.md)
 
 * [create](src/resources/v1/face_swap/README.md#create) - Face Swap video
