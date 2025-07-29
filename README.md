@@ -81,6 +81,11 @@ let client = magic_hour::Client::default()
 
 * [create](src/resources/v1/auto_subtitle_generator/README.md#create) - Auto Subtitle Generator
 
+### [v1.face_detection](src/resources/v1/face_detection/README.md)
+
+* [create](src/resources/v1/face_detection/README.md#create) - Face Detection
+* [get](src/resources/v1/face_detection/README.md#get) - Get face detection details
+
 ### [v1.face_swap](src/resources/v1/face_swap/README.md)
 
 * [create](src/resources/v1/face_swap/README.md#create) - Face Swap video

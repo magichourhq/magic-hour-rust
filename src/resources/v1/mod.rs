@@ -12,6 +12,7 @@ pub mod ai_qr_code_generator;
 pub mod ai_talking_photo;
 pub mod animation;
 pub mod auto_subtitle_generator;
+pub mod face_detection;
 pub mod face_swap;
 pub mod face_swap_photo;
 pub mod files;
