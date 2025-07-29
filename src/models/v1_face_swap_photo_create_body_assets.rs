@@ -7,8 +7,8 @@ pub struct V1FaceSwapPhotoCreateBodyAssets {
         Vec<crate::models::V1FaceSwapPhotoCreateBodyAssetsFaceMappingsItem>,
     >,
     /// The mode of face swap.
-    /// * `all-faces` - Swap all faces in the target image. `source_file_path` is required.
-    /// * `individual-faces` - Swap individual faces in the target image. `source_faces` is required.
+    /// * `all-faces` - Swap all faces in the target image or video. `source_file_path` is required.
+    /// * `individual-faces` - Swap individual faces in the target image or video. `source_faces` is required.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub face_swap_mode: Option<
         crate::models::V1FaceSwapPhotoCreateBodyAssetsFaceSwapModeEnum,

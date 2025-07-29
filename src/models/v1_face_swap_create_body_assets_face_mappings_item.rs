@@ -1,6 +1,6 @@
-/// V1FaceSwapPhotoCreateBodyAssetsFaceMappingsItem
+/// V1FaceSwapCreateBodyAssetsFaceMappingsItem
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
-pub struct V1FaceSwapPhotoCreateBodyAssetsFaceMappingsItem {
+pub struct V1FaceSwapCreateBodyAssetsFaceMappingsItem {
     /// The face image that will be used to replace the face in the `original_face`. This value can be either the `file_path` field from the response of the [upload urls API](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls), or the url of the file.
     pub new_face: String,
     /// The face detected from the image in `target_file_path`. The file name is in the format of `<face_frame>-<face_index>.png`. This value is corresponds to the response in the [face detection API](https://docs.magichour.ai/api-reference/files/get-face-detection-details).
