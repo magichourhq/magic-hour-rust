@@ -19,7 +19,7 @@ async fn test_create_200_success_all_params() {
                 face_swap_mode: Some(
                     magic_hour::models::V1FaceSwapCreateBodyAssetsFaceSwapModeEnum::AllFaces,
                 ),
-                image_file_path: "image/id/1234.png".to_string(),
+                image_file_path: Some("image/id/1234.png".to_string()),
                 video_file_path: Some("api-assets/id/1234.mp4".to_string()),
                 video_source: magic_hour::models::V1FaceSwapCreateBodyAssetsVideoSourceEnum::File,
                 youtube_url: Some("http://www.example.com".to_string()),
