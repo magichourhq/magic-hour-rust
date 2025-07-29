@@ -28,6 +28,10 @@ impl<'a> FaceDetectionClient<'a> {
             );
         let mut builder = reqwest::Client::default().get(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
+        builder = self
+            .base_client
+            .apply_auths_to_builder(builder, &["bearerAuth"])
+            .await?;
         let mut response = builder.send().await?;
         response = self.base_client.error_for_status("GET", response).await?;
         crate::core::response::process_json::<
