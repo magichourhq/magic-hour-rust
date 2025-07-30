@@ -9,7 +9,7 @@ Remove background from image. Each image costs 5 credits.
 
 | Parameter | Required | Description | Example |
 |-----------|:--------:|-------------|--------|
-| `assets` | ✓ | Provide the assets for background removal | `V1ImageBackgroundRemoverCreateBodyAssets {image_file_path: "api-assets/id/1234.png".to_string()}` |
+| `assets` | ✓ | Provide the assets for background removal | `V1ImageBackgroundRemoverCreateBodyAssets {background_image_file_path: Some("api-assets/id/1234.png".to_string()), image_file_path: "api-assets/id/1234.png".to_string()}` |
 | `name` | ✗ | The name of image | `"Background Remover image".to_string()` |
 
 #### Example Snippet
@@ -22,6 +22,7 @@ let res = client
     .image_background_remover()
     .create(magic_hour::resources::v1::image_background_remover::CreateRequest {
         assets: magic_hour::models::V1ImageBackgroundRemoverCreateBodyAssets {
+            background_image_file_path: Some("api-assets/id/1234.png".to_string()),
             image_file_path: "api-assets/id/1234.png".to_string(),
         },
         name: Some("Background Remover image".to_string()),
