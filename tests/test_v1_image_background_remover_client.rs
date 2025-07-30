@@ -9,6 +9,7 @@ async fn test_create_200_success_all_params() {
         .image_background_remover()
         .create(magic_hour::resources::v1::image_background_remover::CreateRequest {
             assets: magic_hour::models::V1ImageBackgroundRemoverCreateBodyAssets {
+                background_image_file_path: Some("api-assets/id/1234.png".to_string()),
                 image_file_path: "api-assets/id/1234.png".to_string(),
             },
             name: Some("Background Remover image".to_string()),
