@@ -1,6 +1,6 @@
 [package]
 name = "magic_hour"
-version = "0.33.0"
+version = "0.33.1"
 edition = "2021"
 description = "Magic Hour Rust SDK"
 license = "MIT"
