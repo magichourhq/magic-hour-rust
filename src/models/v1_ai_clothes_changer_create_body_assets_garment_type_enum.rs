@@ -1,4 +1,4 @@
-/// V1AiClothesChangerCreateBodyAssetsGarmentTypeEnum
+/// The type of the outfit.
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub enum V1AiClothesChangerCreateBodyAssetsGarmentTypeEnum {
     #[default]

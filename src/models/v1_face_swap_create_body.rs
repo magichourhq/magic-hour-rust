@@ -3,7 +3,7 @@
 pub struct V1FaceSwapCreateBody {
     /// Provide the assets for face swap. For video, The `video_source` field determines whether `video_file_path` or `youtube_url` field is used
     pub assets: crate::models::V1FaceSwapCreateBodyAssets,
-    /// The end time of the input video in seconds
+    /// The end time of the input video in seconds. This value is used to trim the input video. The value must be greater than 0.1, and more than the start_seconds.
     pub end_seconds: f64,
     /// Used to determine the dimensions of the output video.
     ///
@@ -15,10 +15,10 @@ pub struct V1FaceSwapCreateBody {
     /// See our [pricing page](https://magichour.ai/pricing) for more details.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub height: Option<i64>,
-    /// The name of video
+    /// The name of video. This value is mainly used for your own identification of the video.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub name: Option<String>,
-    /// The start time of the input video in seconds
+    /// The start time of the input video in seconds. This value is used to trim the input video. The value must be greater than 0.
     pub start_seconds: f64,
     /// Used to determine the dimensions of the output video.
     ///

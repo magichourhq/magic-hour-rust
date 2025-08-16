@@ -17,6 +17,6 @@ async fn test_create_200_success_all_params() {
             },
         })
         .await;
-    println!("{:?}", res);
+    println!("{res:?}");
     assert!(res.is_ok());
 }

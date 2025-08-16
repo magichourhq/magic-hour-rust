@@ -10,7 +10,7 @@ Remove background from image. Each image costs 5 credits.
 | Parameter | Required | Description | Example |
 |-----------|:--------:|-------------|--------|
 | `assets` | ✓ | Provide the assets for background removal | `V1ImageBackgroundRemoverCreateBodyAssets {background_image_file_path: Some("api-assets/id/1234.png".to_string()), image_file_path: "api-assets/id/1234.png".to_string()}` |
-| `name` | ✗ | The name of image | `"Background Remover image".to_string()` |
+| `name` | ✗ | The name of image. This value is mainly used for your own identification of the image. | `"Background Remover image".to_string()` |
 
 #### Example Snippet
 
@@ -36,4 +36,4 @@ let res = client
 [V1ImageBackgroundRemoverCreateResponse](/src/models/v1_image_background_remover_create_response.rs)
 
 ##### Example
-`V1ImageBackgroundRemoverCreateResponse {credits_charged: 5, frame_cost: 5, id: "clx7uu86w0a5qp55yxz315r6r".to_string()}`
+`V1ImageBackgroundRemoverCreateResponse {credits_charged: 5, frame_cost: 5, id: "cuid-example".to_string()}`

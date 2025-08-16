@@ -14,6 +14,6 @@ async fn test_create_200_success_all_params() {
             name: Some("Photo Colorizer image".to_string()),
         })
         .await;
-    println!("{:?}", res);
+    println!("{res:?}");
     assert!(res.is_ok());
 }

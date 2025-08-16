@@ -22,6 +22,6 @@ async fn test_create_200_success_all_params() {
             width: Some(512),
         })
         .await;
-    println!("{:?}", res);
+    println!("{res:?}");
     assert!(res.is_ok());
 }

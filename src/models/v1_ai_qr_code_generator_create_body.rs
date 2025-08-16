@@ -3,7 +3,7 @@
 pub struct V1AiQrCodeGeneratorCreateBody {
     /// The content of the QR code.
     pub content: String,
-    /// The name of image
+    /// The name of image. This value is mainly used for your own identification of the image.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub name: Option<String>,
     pub style: crate::models::V1AiQrCodeGeneratorCreateBodyStyle,

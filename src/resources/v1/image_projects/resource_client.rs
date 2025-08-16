@@ -10,7 +10,7 @@ impl<'a> ImageProjectsClient<'a> {
     }
     /// Delete image
     ///
-    /// Permanently delete the rendered image. This action is not reversible, please be sure before deleting.
+    /// Permanently delete the rendered image(s). This action is not reversible, please be sure before deleting.
     ///
     /// DELETE /v1/image-projects/{id}
     pub async fn delete(
