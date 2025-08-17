@@ -15,8 +15,8 @@ Get more information about this mode at our [product page](https://magichour.ai/
 | `assets` | ✓ | Provide the assets for image-to-video. | `V1ImageToVideoCreateBodyAssets {image_file_path: "api-assets/id/1234.png".to_string()}` |
 | `end_seconds` | ✓ | The total duration of the output video in seconds. | `5.0` |
 | `height` | ✗ | This field does not affect the output video's resolution. The video's orientation will match that of the input image.  It is retained solely for backward compatibility and will be deprecated in the future. | `123` |
-| `name` | ✗ | The name of video | `"Image To Video video".to_string()` |
-| `resolution` | ✗ | Controls the output video resolution. Defaults to `720p` if not specified.  **Options:** - `480p` - Supports only 5 or 10 second videos. Output: 24fps. Cost: 120 credits per 5 seconds. - `720p` - Supports videos between 5-60 seconds. Output: 30fps. Cost: 300 credits per 5 seconds. - `1080p` - Supports videos between 5-60 seconds. Output: 30fps. Cost: 600 credits per 5 seconds. **Requires** `pro` or `business` tier. | `V1ImageToVideoCreateBodyResolutionEnum::Enum1080p` |
+| `name` | ✗ | The name of video. This value is mainly used for your own identification of the video. | `"Image To Video video".to_string()` |
+| `resolution` | ✗ | Controls the output video resolution. Defaults to `720p` if not specified.  480p and 720p are available on Creator, Pro, or Business tiers. However, 1080p require Pro or Business tier.  **Options:** - `480p` - Supports only 5 or 10 second videos. Output: 24fps. Cost: 120 credits per 5 seconds. - `720p` - Supports videos between 5-60 seconds. Output: 30fps. Cost: 300 credits per 5 seconds. - `1080p` - Supports videos between 5-60 seconds. Output: 30fps. Cost: 600 credits per 5 seconds. | `V1ImageToVideoCreateBodyResolutionEnum::Enum720p` |
 | `style` | ✗ | Attributed used to dictate the style of the output | `V1ImageToVideoCreateBodyStyle {prompt: Some("a dog running".to_string()), ..Default::default()}` |
 | `width` | ✗ | This field does not affect the output video's resolution. The video's orientation will match that of the input image.  It is retained solely for backward compatibility and will be deprecated in the future. | `123` |
 
@@ -34,6 +34,9 @@ let res = client
         },
         end_seconds: 5.0,
         name: Some("Image To Video video".to_string()),
+        resolution: Some(
+            magic_hour::models::V1ImageToVideoCreateBodyResolutionEnum::Enum720p,
+        ),
         ..Default::default()
     })
     .await;
@@ -45,4 +48,4 @@ let res = client
 [V1ImageToVideoCreateResponse](/src/models/v1_image_to_video_create_response.rs)
 
 ##### Example
-`V1ImageToVideoCreateResponse {credits_charged: 450, estimated_frame_cost: 450, id: "clx7uu86w0a5qp55yxz315r6r".to_string()}`
+`V1ImageToVideoCreateResponse {credits_charged: 450, estimated_frame_cost: 450, id: "cuid-example".to_string()}`

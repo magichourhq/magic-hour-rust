@@ -1,12 +1,12 @@
 /// DeleteRequest
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub struct DeleteRequest {
-    /// The id of the video project
+    /// Unique ID of the video project. This value is returned by all of the POST APIs that create a video.
     pub id: String,
 }
 /// GetRequest
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub struct GetRequest {
-    /// The id of the video
+    /// Unique ID of the video project. This value is returned by all of the POST APIs that create a video.
     pub id: String,
 }

@@ -5,7 +5,7 @@ pub struct V1AiTalkingPhotoCreateBody {
     pub assets: crate::models::V1AiTalkingPhotoCreateBodyAssets,
     /// The end time of the input audio in seconds. The maximum duration allowed is 60 seconds.
     pub end_seconds: f64,
-    /// The name of image
+    /// The name of image. This value is mainly used for your own identification of the image.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub name: Option<String>,
     /// The start time of the input audio in seconds. The maximum duration allowed is 60 seconds.

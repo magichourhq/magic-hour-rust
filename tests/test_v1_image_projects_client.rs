@@ -8,10 +8,10 @@ async fn test_delete_204_success_all_params() {
         .v1()
         .image_projects()
         .delete(magic_hour::resources::v1::image_projects::DeleteRequest {
-            id: "cm6pvghix03bvyz0zwash6noj".to_string(),
+            id: "cuid-example".to_string(),
         })
         .await;
-    println!("{:?}", res);
+    println!("{res:?}");
     assert!(res.is_ok());
 }
 #[serial_test::serial]
@@ -24,9 +24,9 @@ async fn test_get_200_success_all_params() {
         .v1()
         .image_projects()
         .get(magic_hour::resources::v1::image_projects::GetRequest {
-            id: "cm6pvghix03bvyz0zwash6noj".to_string(),
+            id: "cuid-example".to_string(),
         })
         .await;
-    println!("{:?}", res);
+    println!("{res:?}");
     assert!(res.is_ok());
 }

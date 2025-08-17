@@ -15,7 +15,7 @@ async fn test_create_200_success_all_params() {
             height: Some(123),
             name: Some("Image To Video video".to_string()),
             resolution: Some(
-                magic_hour::models::V1ImageToVideoCreateBodyResolutionEnum::Enum1080p,
+                magic_hour::models::V1ImageToVideoCreateBodyResolutionEnum::Enum720p,
             ),
             style: Some(magic_hour::models::V1ImageToVideoCreateBodyStyle {
                 high_quality: Some(true),
@@ -27,6 +27,6 @@ async fn test_create_200_success_all_params() {
             width: Some(123),
         })
         .await;
-    println!("{:?}", res);
+    println!("{res:?}");
     assert!(res.is_ok());
 }

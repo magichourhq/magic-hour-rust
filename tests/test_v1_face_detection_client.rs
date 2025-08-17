@@ -8,10 +8,10 @@ async fn test_get_200_success_all_params() {
         .v1()
         .face_detection()
         .get(magic_hour::resources::v1::face_detection::GetRequest {
-            id: "string".to_string(),
+            id: "uuid-example".to_string(),
         })
         .await;
-    println!("{:?}", res);
+    println!("{res:?}");
     assert!(res.is_ok());
 }
 #[serial_test::serial]
@@ -30,6 +30,6 @@ async fn test_create_200_success_all_params() {
             confidence_score: Some(0.5),
         })
         .await;
-    println!("{:?}", res);
+    println!("{res:?}");
     assert!(res.is_ok());
 }

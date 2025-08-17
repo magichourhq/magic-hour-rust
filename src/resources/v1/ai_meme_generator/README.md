@@ -37,4 +37,4 @@ let res = client
 [V1AiMemeGeneratorCreateResponse](/src/models/v1_ai_meme_generator_create_response.rs)
 
 ##### Example
-`V1AiMemeGeneratorCreateResponse {credits_charged: 10, frame_cost: 10, id: "clx7uu86w0a5qp55yxz315r6r".to_string()}`
+`V1AiMemeGeneratorCreateResponse {credits_charged: 10, frame_cost: 10, id: "cuid-example".to_string()}`

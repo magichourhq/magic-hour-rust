@@ -1,4 +1,4 @@
-/// The art style of the final output video
+/// The art style used to create the output video
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub enum V1AnimationCreateBodyStyleArtStyleEnum {
     #[default]

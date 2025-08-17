@@ -21,14 +21,14 @@ async fn test_create_200_success_all_params() {
             style: magic_hour::models::V1AnimationCreateBodyStyle {
                 art_style: magic_hour::models::V1AnimationCreateBodyStyleArtStyleEnum::PainterlyIllustration,
                 art_style_custom: Some("string".to_string()),
-                camera_effect: magic_hour::models::V1AnimationCreateBodyStyleCameraEffectEnum::Accelerate,
+                camera_effect: magic_hour::models::V1AnimationCreateBodyStyleCameraEffectEnum::SimpleZoomIn,
                 prompt: Some("Cyberpunk city".to_string()),
-                prompt_type: magic_hour::models::V1AnimationCreateBodyStylePromptTypeEnum::AiChoose,
+                prompt_type: magic_hour::models::V1AnimationCreateBodyStylePromptTypeEnum::Custom,
                 transition_speed: 5,
             },
             width: 512,
         })
         .await;
-    println!("{:?}", res);
+    println!("{res:?}");
     assert!(res.is_ok());
 }

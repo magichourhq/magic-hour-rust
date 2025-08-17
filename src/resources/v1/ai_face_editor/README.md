@@ -10,8 +10,8 @@ Edit facial features of an image using AI. Each edit costs 1 frame. The height/w
 | Parameter | Required | Description | Example |
 |-----------|:--------:|-------------|--------|
 | `assets` | ✓ | Provide the assets for face editor | `V1AiFaceEditorCreateBodyAssets {image_file_path: "api-assets/id/1234.png".to_string()}` |
-| `style` | ✓ | Face editing parameters | `V1AiFaceEditorCreateBodyStyle {enhance_face: false, eye_gaze_horizontal: 0.0, eye_gaze_vertical: 0.0, eye_open_ratio: 0.0, eyebrow_direction: 0.0, head_pitch: 0.0, head_roll: 0.0, head_yaw: 0.0, lip_open_ratio: 0.0, mouth_grim: 0.0, mouth_position_horizontal: 0.0, mouth_position_vertical: 0.0, mouth_pout: 0.0, mouth_purse: 0.0, mouth_smile: 0.0}` |
-| `name` | ✗ | The name of image | `"Face Editor image".to_string()` |
+| `style` | ✓ | Face editing parameters | `V1AiFaceEditorCreateBodyStyle {enhance_face: Some(false), eye_gaze_horizontal: Some(0.0), eye_gaze_vertical: Some(0.0), eye_open_ratio: Some(0.0), eyebrow_direction: Some(0.0), head_pitch: Some(0.0), head_roll: Some(0.0), head_yaw: Some(0.0), lip_open_ratio: Some(0.0), mouth_grim: Some(0.0), mouth_position_horizontal: Some(0.0), mouth_position_vertical: Some(0.0), mouth_pout: Some(0.0), mouth_purse: Some(0.0), mouth_smile: Some(0.0)}` |
+| `name` | ✗ | The name of image. This value is mainly used for your own identification of the image. | `"Face Editor image".to_string()` |
 
 #### Example Snippet
 
@@ -27,21 +27,21 @@ let res = client
         },
         name: Some("Face Editor image".to_string()),
         style: magic_hour::models::V1AiFaceEditorCreateBodyStyle {
-            enhance_face: false,
-            eye_gaze_horizontal: 0.0,
-            eye_gaze_vertical: 0.0,
-            eye_open_ratio: 0.0,
-            eyebrow_direction: 0.0,
-            head_pitch: 0.0,
-            head_roll: 0.0,
-            head_yaw: 0.0,
-            lip_open_ratio: 0.0,
-            mouth_grim: 0.0,
-            mouth_position_horizontal: 0.0,
-            mouth_position_vertical: 0.0,
-            mouth_pout: 0.0,
-            mouth_purse: 0.0,
-            mouth_smile: 0.0,
+            enhance_face: Some(false),
+            eye_gaze_horizontal: Some(0.0),
+            eye_gaze_vertical: Some(0.0),
+            eye_open_ratio: Some(0.0),
+            eyebrow_direction: Some(0.0),
+            head_pitch: Some(0.0),
+            head_roll: Some(0.0),
+            head_yaw: Some(0.0),
+            lip_open_ratio: Some(0.0),
+            mouth_grim: Some(0.0),
+            mouth_position_horizontal: Some(0.0),
+            mouth_position_vertical: Some(0.0),
+            mouth_pout: Some(0.0),
+            mouth_purse: Some(0.0),
+            mouth_smile: Some(0.0),
         },
     })
     .await;
@@ -53,4 +53,4 @@ let res = client
 [V1AiFaceEditorCreateResponse](/src/models/v1_ai_face_editor_create_response.rs)
 
 ##### Example
-`V1AiFaceEditorCreateResponse {credits_charged: 1, frame_cost: 1, id: "clx7uu86w0a5qp55yxz315r6r".to_string()}`
+`V1AiFaceEditorCreateResponse {credits_charged: 1, frame_cost: 1, id: "cuid-example".to_string()}`

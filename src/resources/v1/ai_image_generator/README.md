@@ -9,10 +9,10 @@ Create an AI image. Each image costs 5 credits.
 
 | Parameter | Required | Description | Example |
 |-----------|:--------:|-------------|--------|
-| `image_count` | ✓ | number to images to generate | `1` |
-| `orientation` | ✓ |  | `V1AiImageGeneratorCreateBodyOrientationEnum::Landscape` |
-| `style` | ✓ |  | `V1AiImageGeneratorCreateBodyStyle {prompt: "Cool image".to_string(), tool: Some(V1AiImageGeneratorCreateBodyStyleToolEnum::AiAnimeGenerator)}` |
-| `name` | ✗ | The name of image | `"Ai Image image".to_string()` |
+| `image_count` | ✓ | Number of images to generate. | `1` |
+| `orientation` | ✓ | The orientation of the output image(s). | `V1AiImageGeneratorCreateBodyOrientationEnum::Landscape` |
+| `style` | ✓ | The art style to use for image generation. | `V1AiImageGeneratorCreateBodyStyle {prompt: "Cool image".to_string(), tool: Some(V1AiImageGeneratorCreateBodyStyleToolEnum::AiAnimeGenerator)}` |
+| `name` | ✗ | The name of image. This value is mainly used for your own identification of the image. | `"Ai Image image".to_string()` |
 
 #### Example Snippet
 
@@ -42,4 +42,4 @@ let res = client
 [V1AiImageGeneratorCreateResponse](/src/models/v1_ai_image_generator_create_response.rs)
 
 ##### Example
-`V1AiImageGeneratorCreateResponse {credits_charged: 5, frame_cost: 5, id: "clx7uu86w0a5qp55yxz315r6r".to_string()}`
+`V1AiImageGeneratorCreateResponse {credits_charged: 5, frame_cost: 5, id: "cuid-example".to_string()}`

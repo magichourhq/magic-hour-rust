@@ -12,7 +12,7 @@ pub struct V1VideoProjectsGetResponse {
     pub downloads: Vec<crate::models::V1VideoProjectsGetResponseDownloadsItem>,
     /// Indicates whether the resource is deleted
     pub enabled: bool,
-    /// The end time of the input video in seconds
+    /// The end time of the input video in seconds. This value is used to trim the input video. The value must be greater than 0.1, and more than the start_seconds.
     pub end_seconds: f64,
     /// In the case of an error, this object will contain the error encountered during video render
     #[serde(deserialize_with = "crate::core::patch::deserialize_required_nullable")]
@@ -26,7 +26,7 @@ pub struct V1VideoProjectsGetResponse {
     /// The name of the video.
     #[serde(deserialize_with = "crate::core::patch::deserialize_required_nullable")]
     pub name: Option<String>,
-    /// The start time of the input video in seconds
+    /// The start time of the input video in seconds. This value is used to trim the input video. The value must be greater than 0.
     pub start_seconds: f64,
     /// The status of the video.
     pub status: crate::models::V1VideoProjectsGetResponseStatusEnum,

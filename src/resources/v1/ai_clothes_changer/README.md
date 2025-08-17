@@ -9,8 +9,8 @@ Change outfits in photos in seconds with just a photo reference. Each photo cost
 
 | Parameter | Required | Description | Example |
 |-----------|:--------:|-------------|--------|
-| `assets` | ✓ | Provide the assets for clothes changer | `V1AiClothesChangerCreateBodyAssets {garment_file_path: "api-assets/id/outfit.png".to_string(), garment_type: V1AiClothesChangerCreateBodyAssetsGarmentTypeEnum::Dresses, person_file_path: "api-assets/id/model.png".to_string()}` |
-| `name` | ✗ | The name of image | `"Clothes Changer image".to_string()` |
+| `assets` | ✓ | Provide the assets for clothes changer | `V1AiClothesChangerCreateBodyAssets {garment_file_path: "api-assets/id/outfit.png".to_string(), garment_type: V1AiClothesChangerCreateBodyAssetsGarmentTypeEnum::UpperBody, person_file_path: "api-assets/id/model.png".to_string()}` |
+| `name` | ✗ | The name of image. This value is mainly used for your own identification of the image. | `"Clothes Changer image".to_string()` |
 
 #### Example Snippet
 
@@ -23,7 +23,7 @@ let res = client
     .create(magic_hour::resources::v1::ai_clothes_changer::CreateRequest {
         assets: magic_hour::models::V1AiClothesChangerCreateBodyAssets {
             garment_file_path: "api-assets/id/outfit.png".to_string(),
-            garment_type: magic_hour::models::V1AiClothesChangerCreateBodyAssetsGarmentTypeEnum::Dresses,
+            garment_type: magic_hour::models::V1AiClothesChangerCreateBodyAssetsGarmentTypeEnum::UpperBody,
             person_file_path: "api-assets/id/model.png".to_string(),
         },
         name: Some("Clothes Changer image".to_string()),
@@ -37,4 +37,4 @@ let res = client
 [V1AiClothesChangerCreateResponse](/src/models/v1_ai_clothes_changer_create_response.rs)
 
 ##### Example
-`V1AiClothesChangerCreateResponse {credits_charged: 25, frame_cost: 25, id: "clx7uu86w0a5qp55yxz315r6r".to_string()}`
+`V1AiClothesChangerCreateResponse {credits_charged: 25, frame_cost: 25, id: "cuid-example".to_string()}`

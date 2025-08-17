@@ -1,4 +1,4 @@
-/// V1AiImageGeneratorCreateBodyOrientationEnum
+/// The orientation of the output image(s).
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub enum V1AiImageGeneratorCreateBodyOrientationEnum {
     #[default]
