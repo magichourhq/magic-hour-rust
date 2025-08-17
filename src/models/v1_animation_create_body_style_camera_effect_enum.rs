@@ -1,4 +1,4 @@
-/// V1AnimationCreateBodyStyleCameraEffectEnum
+/// The camera effect used to create the output video
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub enum V1AnimationCreateBodyStyleCameraEffectEnum {
     #[default]

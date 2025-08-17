@@ -1,7 +1,7 @@
 /// GetRequest
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub struct GetRequest {
-    /// The id of the task
+    /// The id of the task. This value is returned by the [face detection API](/api-reference/files/face-detection#response-id).
     pub id: String,
 }
 /// CreateRequest

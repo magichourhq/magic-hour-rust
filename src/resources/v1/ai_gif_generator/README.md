@@ -10,7 +10,7 @@ Create an AI GIF. Each GIF costs 50 credits.
 | Parameter | Required | Description | Example |
 |-----------|:--------:|-------------|--------|
 | `style` | ✓ |  | `V1AiGifGeneratorCreateBodyStyle {prompt: "Cute dancing cat, pixel art".to_string()}` |
-| `name` | ✗ | The name of gif | `"Ai Gif gif".to_string()` |
+| `name` | ✗ | The name of gif. This value is mainly used for your own identification of the gif. | `"Ai Gif gif".to_string()` |
 
 #### Example Snippet
 
@@ -35,4 +35,4 @@ let res = client
 [V1AiGifGeneratorCreateResponse](/src/models/v1_ai_gif_generator_create_response.rs)
 
 ##### Example
-`V1AiGifGeneratorCreateResponse {credits_charged: 50, frame_cost: 50, id: "clx7uu86w0a5qp55yxz315r6r".to_string()}`
+`V1AiGifGeneratorCreateResponse {credits_charged: 50, frame_cost: 50, id: "cuid-example".to_string()}`

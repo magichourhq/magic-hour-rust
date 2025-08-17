@@ -12,7 +12,7 @@ async fn test_create_200_success_all_params() {
             name: Some("Text To Video video".to_string()),
             orientation: magic_hour::models::V1TextToVideoCreateBodyOrientationEnum::Landscape,
             resolution: Some(
-                magic_hour::models::V1TextToVideoCreateBodyResolutionEnum::Enum1080p,
+                magic_hour::models::V1TextToVideoCreateBodyResolutionEnum::Enum720p,
             ),
             style: magic_hour::models::V1TextToVideoCreateBodyStyle {
                 prompt: "a dog running".to_string(),
@@ -22,6 +22,6 @@ async fn test_create_200_success_all_params() {
             },
         })
         .await;
-    println!("{:?}", res);
+    println!("{res:?}");
     assert!(res.is_ok());
 }

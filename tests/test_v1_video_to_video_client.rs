@@ -17,19 +17,19 @@ async fn test_create_200_success_all_params() {
             fps_resolution: Some(
                 magic_hour::models::V1VideoToVideoCreateBodyFpsResolutionEnum::Half,
             ),
-            height: Some(960),
+            height: magic_hour::Patch::new(123),
             name: Some("Video To Video video".to_string()),
             start_seconds: 0.0,
             style: magic_hour::models::V1VideoToVideoCreateBodyStyle {
                 art_style: magic_hour::models::V1VideoToVideoCreateBodyStyleArtStyleEnum::Enum3dRender,
-                model: magic_hour::models::V1VideoToVideoCreateBodyStyleModelEnum::AbsoluteReality,
+                model: magic_hour::models::V1VideoToVideoCreateBodyStyleModelEnum::Default,
                 prompt: Some("string".to_string()),
-                prompt_type: magic_hour::models::V1VideoToVideoCreateBodyStylePromptTypeEnum::AppendDefault,
+                prompt_type: magic_hour::models::V1VideoToVideoCreateBodyStylePromptTypeEnum::Default,
                 version: magic_hour::models::V1VideoToVideoCreateBodyStyleVersionEnum::Default,
             },
-            width: Some(512),
+            width: magic_hour::Patch::new(123),
         })
         .await;
-    println!("{:?}", res);
+    println!("{res:?}");
     assert!(res.is_ok());
 }

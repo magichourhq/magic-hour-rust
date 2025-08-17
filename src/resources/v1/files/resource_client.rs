@@ -10,7 +10,9 @@ impl<'a> FilesClient<'a> {
     }
     pub fn upload_urls(
         &mut self,
-    ) -> crate::resources::v1::files::upload_urls::resource_client::UploadUrlsClient {
+    ) -> crate::resources::v1::files::upload_urls::resource_client::UploadUrlsClient<
+        '_,
+    > {
         crate::resources::v1::files::upload_urls::resource_client::UploadUrlsClient::_new(
             self.base_client,
         )

@@ -13,11 +13,11 @@ Get more information about this mode at our [product page](https://magichour.ai/
 | Parameter | Required | Description | Example |
 |-----------|:--------:|-------------|--------|
 | `assets` | ✓ | Provide the assets for face swap. For video, The `video_source` field determines whether `video_file_path` or `youtube_url` field is used | `V1FaceSwapCreateBodyAssets {face_mappings: Some(vec![V1FaceSwapCreateBodyAssetsFaceMappingsItem {new_face: "api-assets/id/1234.png".to_string(), original_face: "api-assets/id/0-0.png".to_string()}]), face_swap_mode: Some(V1FaceSwapCreateBodyAssetsFaceSwapModeEnum::AllFaces), image_file_path: Some("image/id/1234.png".to_string()), video_file_path: Some("api-assets/id/1234.mp4".to_string()), video_source: V1FaceSwapCreateBodyAssetsVideoSourceEnum::File, ..Default::default()}` |
-| `end_seconds` | ✓ | The end time of the input video in seconds | `15.0` |
-| `start_seconds` | ✓ | The start time of the input video in seconds | `0.0` |
-| `height` | ✗ | Used to determine the dimensions of the output video.     * If height is provided, width will also be required. The larger value between width and height will be used to determine the maximum output resolution while maintaining the original aspect ratio. * If both height and width are omitted, the video will be resized according to your subscription's maximum resolution, while preserving aspect ratio.  Note: if the video's original resolution is less than the maximum, the video will not be resized.  See our [pricing page](https://magichour.ai/pricing) for more details. | `960` |
-| `name` | ✗ | The name of video | `"Face Swap video".to_string()` |
-| `width` | ✗ | Used to determine the dimensions of the output video.     * If width is provided, height will also be required. The larger value between width and height will be used to determine the maximum output resolution while maintaining the original aspect ratio. * If both height and width are omitted, the video will be resized according to your subscription's maximum resolution, while preserving aspect ratio.  Note: if the video's original resolution is less than the maximum, the video will not be resized.  See our [pricing page](https://magichour.ai/pricing) for more details. | `512` |
+| `end_seconds` | ✓ | The end time of the input video in seconds. This value is used to trim the input video. The value must be greater than 0.1, and more than the start_seconds. | `15.0` |
+| `start_seconds` | ✓ | The start time of the input video in seconds. This value is used to trim the input video. The value must be greater than 0. | `0.0` |
+| `height` | ✗ | `height` is deprecated and no longer influences the output video's resolution.  Output resolution is determined by the **minimum** of: - The resolution of the input video - The maximum resolution allowed by your subscription tier. See our [pricing page](https://magichour.ai/pricing) for more details.  This field is retained only for backward compatibility and will be removed in a future release. | `123` |
+| `name` | ✗ | The name of video. This value is mainly used for your own identification of the video. | `"Face Swap video".to_string()` |
+| `width` | ✗ | `width` is deprecated and no longer influences the output video's resolution.  Output resolution is determined by the **minimum** of: - The resolution of the input video - The maximum resolution allowed by your subscription tier. See our [pricing page](https://magichour.ai/pricing) for more details.  This field is retained only for backward compatibility and will be removed in a future release. | `123` |
 
 #### Example Snippet
 
@@ -45,10 +45,9 @@ let res = client
             ..Default::default()
         },
         end_seconds: 15.0,
-        height: Some(960),
         name: Some("Face Swap video".to_string()),
         start_seconds: 0.0,
-        width: Some(512),
+        ..Default::default()
     })
     .await;
 ```
@@ -59,4 +58,4 @@ let res = client
 [V1FaceSwapCreateResponse](/src/models/v1_face_swap_create_response.rs)
 
 ##### Example
-`V1FaceSwapCreateResponse {credits_charged: 450, estimated_frame_cost: 450, id: "clx7uu86w0a5qp55yxz315r6r".to_string()}`
+`V1FaceSwapCreateResponse {credits_charged: 450, estimated_frame_cost: 450, id: "cuid-example".to_string()}`

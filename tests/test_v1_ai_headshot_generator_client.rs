@@ -13,13 +13,10 @@ async fn test_create_200_success_all_params() {
             },
             name: Some("Ai Headshot image".to_string()),
             style: Some(magic_hour::models::V1AiHeadshotGeneratorCreateBodyStyle {
-                prompt: Some(
-                    "professional passport photo, business attire, smiling, good posture, light blue background, centered, plain background"
-                        .to_string(),
-                ),
+                prompt: Some("string".to_string()),
             }),
         })
         .await;
-    println!("{:?}", res);
+    println!("{res:?}");
     assert!(res.is_ok());
 }

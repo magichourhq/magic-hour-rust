@@ -1,4 +1,4 @@
-/// The type of asset to upload
+/// The type of asset to upload. Possible types are video, audio, image
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub enum V1FilesUploadUrlsCreateBodyItemsItemTypeEnum {
     #[default]

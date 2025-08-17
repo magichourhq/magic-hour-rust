@@ -37,7 +37,7 @@ impl Client {
             );
         self
     }
-    pub fn v1(&mut self) -> crate::resources::v1::resource_client::V1Client {
+    pub fn v1(&mut self) -> crate::resources::v1::resource_client::V1Client<'_> {
         crate::resources::v1::resource_client::V1Client::_new(&mut self.base_client)
     }
 }
