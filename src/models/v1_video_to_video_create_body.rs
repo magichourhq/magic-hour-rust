@@ -10,30 +10,30 @@ pub struct V1VideoToVideoCreateBody {
     /// * `HALF` - the result video will have half the FPS as the input video
     #[serde(skip_serializing_if = "Option::is_none")]
     pub fps_resolution: Option<crate::models::V1VideoToVideoCreateBodyFpsResolutionEnum>,
-    /// Used to determine the dimensions of the output video.
+    /// `height` is deprecated and no longer influences the output video's resolution.
     ///
-    /// * If height is provided, width will also be required. The larger value between width and height will be used to determine the maximum output resolution while maintaining the original aspect ratio.
-    /// * If both height and width are omitted, the video will be resized according to your subscription's maximum resolution, while preserving aspect ratio.
+    /// Output resolution is determined by the **minimum** of:
+    /// - The resolution of the input video
+    /// - The maximum resolution allowed by your subscription tier. See our [pricing page](https://magichour.ai/pricing) for more details.
     ///
-    /// Note: if the video's original resolution is less than the maximum, the video will not be resized.
-    ///
-    /// See our [pricing page](https://magichour.ai/pricing) for more details.
-    #[serde(skip_serializing_if = "Option::is_none")]
-    pub height: Option<i64>,
+    /// This field is retained only for backward compatibility and will be removed in a future release.
+    #[serde(default)]
+    #[serde(skip_serializing_if = "crate::core::patch::Patch::is_undefined")]
+    pub height: crate::core::patch::Patch<i64>,
     /// The name of video. This value is mainly used for your own identification of the video.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub name: Option<String>,
     /// The start time of the input video in seconds. This value is used to trim the input video. The value must be greater than 0.
     pub start_seconds: f64,
     pub style: crate::models::V1VideoToVideoCreateBodyStyle,
-    /// Used to determine the dimensions of the output video.
+    /// `width` is deprecated and no longer influences the output video's resolution.
     ///
-    /// * If width is provided, height will also be required. The larger value between width and height will be used to determine the maximum output resolution while maintaining the original aspect ratio.
-    /// * If both height and width are omitted, the video will be resized according to your subscription's maximum resolution, while preserving aspect ratio.
+    /// Output resolution is determined by the **minimum** of:
+    /// - The resolution of the input video
+    /// - The maximum resolution allowed by your subscription tier. See our [pricing page](https://magichour.ai/pricing) for more details.
     ///
-    /// Note: if the video's original resolution is less than the maximum, the video will not be resized.
-    ///
-    /// See our [pricing page](https://magichour.ai/pricing) for more details.
-    #[serde(skip_serializing_if = "Option::is_none")]
-    pub width: Option<i64>,
+    /// This field is retained only for backward compatibility and will be removed in a future release.
+    #[serde(default)]
+    #[serde(skip_serializing_if = "crate::core::patch::Patch::is_undefined")]
+    pub width: crate::core::patch::Patch<i64>,
 }

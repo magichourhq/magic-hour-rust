@@ -25,10 +25,10 @@ async fn test_create_200_success_all_params() {
                 youtube_url: Some("http://www.example.com".to_string()),
             },
             end_seconds: 15.0,
-            height: Some(960),
+            height: magic_hour::Patch::new(123),
             name: Some("Face Swap video".to_string()),
             start_seconds: 0.0,
-            width: Some(512),
+            width: magic_hour::Patch::new(123),
         })
         .await;
     println!("{res:?}");

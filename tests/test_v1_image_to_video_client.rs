@@ -12,7 +12,7 @@ async fn test_create_200_success_all_params() {
                 image_file_path: "api-assets/id/1234.png".to_string(),
             },
             end_seconds: 5.0,
-            height: Some(123),
+            height: magic_hour::Patch::new(123),
             name: Some("Image To Video video".to_string()),
             resolution: Some(
                 magic_hour::models::V1ImageToVideoCreateBodyResolutionEnum::Enum720p,
@@ -24,7 +24,7 @@ async fn test_create_200_success_all_params() {
                     magic_hour::models::V1ImageToVideoCreateBodyStyleQualityModeEnum::Quick,
                 ),
             }),
-            width: Some(123),
+            width: magic_hour::Patch::new(123),
         })
         .await;
     println!("{res:?}");
