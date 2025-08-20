@@ -17,12 +17,13 @@ jobs:
   test:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         rust_version:
-          - "1.60"
-          - "1.70"
-          - "1.80"
-          - "1.90"
+          - "1.60.x"
+          - "1.70.x"
+          - "1.80.x"
+          - "1.90.x"
           - "stable"
     steps:
       #---------------------------------------------------
