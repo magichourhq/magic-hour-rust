@@ -9,9 +9,21 @@ on:
       - main
   pull_request: {}
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   test:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        rust_version:
+          - "1.60"
+          - "1.70"
+          - "1.80"
+          - "1.90"
+          - "stable"
     steps:
       #---------------------------------------------------
       #  -----  checkout & setup rust toolchain  -----
@@ -20,6 +32,8 @@ jobs:
         uses: actions/checkout@v4
       - name: setup rust
         uses: actions-rust-lang/setup-rust-toolchain@v1
+        with:
+          toolchain: ${{ matrix.rust_version }}
       #---------------------------------------------------
       #  -----  install dependencies & run tests -----
       #---------------------------------------------------
