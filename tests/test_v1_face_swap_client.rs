@@ -28,6 +28,11 @@ async fn test_create_200_success_all_params() {
             height: magic_hour::Patch::new(123),
             name: Some("Face Swap video".to_string()),
             start_seconds: 0.0,
+            style: Some(magic_hour::models::V1FaceSwapCreateBodyStyle {
+                version: Some(
+                    magic_hour::models::V1FaceSwapCreateBodyStyleVersionEnum::Default,
+                ),
+            }),
             width: magic_hour::Patch::new(123),
         })
         .await;

@@ -29,6 +29,7 @@ impl<'a> FaceSwapClient<'a> {
                 &crate::models::V1FaceSwapCreateBody {
                     height: request.height,
                     name: request.name,
+                    style: request.style,
                     width: request.width,
                     assets: request.assets,
                     end_seconds: request.end_seconds,
