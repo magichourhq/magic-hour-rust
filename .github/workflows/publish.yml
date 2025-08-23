@@ -33,7 +33,7 @@ jobs:
       #  -----  publish to crates.io -----
       #---------------------------------------
       - name: publish
-        run: cargo publish --token ${{ secrets.CRATES_IO_API_TOKEN }}
+        run: cargo publish --token ${{ secrets.CRATES_IO_TOKEN }}
       #----------------------------------------------
       #  -----  mark SDK as released in Sideko  -----
       #----------------------------------------------

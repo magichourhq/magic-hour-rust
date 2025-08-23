@@ -20,6 +20,9 @@ pub struct V1FaceSwapCreateBody {
     pub name: Option<String>,
     /// The start time of the input video in seconds. This value is used to trim the input video. The value must be greater than 0.
     pub start_seconds: f64,
+    /// Style of the face swap video.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub style: Option<crate::models::V1FaceSwapCreateBodyStyle>,
     /// `width` is deprecated and no longer influences the output video's resolution.
     ///
     /// Output resolution is determined by the **minimum** of:
