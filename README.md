@@ -29,6 +29,9 @@ let client = magic_hour::Client::default()
 
 ## Module Documentation and Snippets
 
+### [v1](src/resources/v1/README.md)
+
+
 ### [v1.ai_clothes_changer](src/resources/v1/ai_clothes_changer/README.md)
 
 * [create](src/resources/v1/ai_clothes_changer/README.md#create) - AI Clothes Changer
@@ -93,6 +96,9 @@ let client = magic_hour::Client::default()
 ### [v1.face_swap_photo](src/resources/v1/face_swap_photo/README.md)
 
 * [create](src/resources/v1/face_swap_photo/README.md#create) - Face Swap Photo
+
+### [v1.files](src/resources/v1/files/README.md)
+
 
 ### [v1.files.upload_urls](src/resources/v1/files/upload_urls/README.md)
 
