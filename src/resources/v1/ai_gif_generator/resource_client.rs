@@ -25,6 +25,7 @@ impl<'a> AiGifGeneratorClient<'a> {
             .json(
                 &crate::models::V1AiGifGeneratorCreateBody {
                     name: request.name,
+                    output_format: request.output_format,
                     style: request.style,
                 },
             );
