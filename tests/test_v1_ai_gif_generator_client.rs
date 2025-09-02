@@ -9,6 +9,9 @@ async fn test_create_200_success_all_params() {
         .ai_gif_generator()
         .create(magic_hour::resources::v1::ai_gif_generator::CreateRequest {
             name: Some("Ai Gif gif".to_string()),
+            output_format: Some(
+                magic_hour::models::V1AiGifGeneratorCreateBodyOutputFormatEnum::Gif,
+            ),
             style: magic_hour::models::V1AiGifGeneratorCreateBodyStyle {
                 prompt: "Cute dancing cat, pixel art".to_string(),
             },
