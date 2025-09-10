@@ -1,4 +1,6 @@
+# v1.face_detection
 
+## Module Functions
 ### Get face detection details <a name="get"></a>
 
 Get the details of a face detection task. 
@@ -50,6 +52,7 @@ Note: Face detection is free to use for the near future. Pricing may change in t
 | Parameter | Required | Description | Example |
 |-----------|:--------:|-------------|--------|
 | `assets` | ✓ | Provide the assets for face detection | `V1FaceDetectionCreateBodyAssets {target_file_path: "api-assets/id/1234.png".to_string()}` |
+| `└─ target_file_path` | ✓ | This is the image or video where the face will be detected. This value is either - a direct URL to the video file - `file_path` field from the response of the [upload urls API](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls).  Please refer to the [Input File documentation](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls#input-file) to learn more.  | `"api-assets/id/1234.png".to_string()` |
 | `confidence_score` | ✗ | Confidence threshold for filtering detected faces.  * Higher values (e.g., 0.9) include only faces detected with high certainty, reducing false positives.  * Lower values (e.g., 0.3) include more faces, but may increase the chance of incorrect detections. | `0.5` |
 
 #### Example Snippet
@@ -76,3 +79,7 @@ let res = client
 
 ##### Example
 `V1FaceDetectionCreateResponse {credits_charged: 123, id: "uuid-example".to_string()}`
+<!-- CUSTOM DOCS START -->
+
+<!-- CUSTOM DOCS END -->
+

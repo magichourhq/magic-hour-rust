@@ -1,4 +1,6 @@
+# v1.ai_image_upscaler
 
+## Module Functions
 ### AI Image Upscaler <a name="create"></a>
 
 Upscale your image using AI. Each 2x upscale costs 50 credits, and 4x upscale costs 200 credits.
@@ -10,8 +12,11 @@ Upscale your image using AI. Each 2x upscale costs 50 credits, and 4x upscale co
 | Parameter | Required | Description | Example |
 |-----------|:--------:|-------------|--------|
 | `assets` | ✓ | Provide the assets for upscaling | `V1AiImageUpscalerCreateBodyAssets {image_file_path: "api-assets/id/1234.png".to_string()}` |
+| `└─ image_file_path` | ✓ | The image to upscale. This value is either - a direct URL to the video file - `file_path` field from the response of the [upload urls API](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls).  Please refer to the [Input File documentation](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls#input-file) to learn more.  | `"api-assets/id/1234.png".to_string()` |
 | `scale_factor` | ✓ | How much to scale the image. Must be either 2 or 4.              Note: 4x upscale is only available on Creator, Pro, or Business tier. | `2.0` |
 | `style` | ✓ |  | `V1AiImageUpscalerCreateBodyStyle {enhancement: V1AiImageUpscalerCreateBodyStyleEnhancementEnum::Balanced, ..Default::default()}` |
+| `└─ enhancement` | ✓ |  | `V1AiImageUpscalerCreateBodyStyleEnhancementEnum::Balanced` |
+| `└─ prompt` | ✗ | A prompt to guide the final image. This value is ignored if `enhancement` is not Creative | `"string".to_string()` |
 | `name` | ✗ | The name of image. This value is mainly used for your own identification of the image. | `"Image Upscaler image".to_string()` |
 
 #### Example Snippet
@@ -43,3 +48,7 @@ let res = client
 
 ##### Example
 `V1AiImageUpscalerCreateResponse {credits_charged: 50, frame_cost: 50, id: "cuid-example".to_string()}`
+<!-- CUSTOM DOCS START -->
+
+<!-- CUSTOM DOCS END -->
+

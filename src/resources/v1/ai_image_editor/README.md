@@ -1,4 +1,6 @@
+# v1.ai_image_editor
 
+## Module Functions
 ### AI Image Editor <a name="create"></a>
 
 Edit images with AI. Each edit costs 50 credits.
@@ -10,7 +12,9 @@ Edit images with AI. Each edit costs 50 credits.
 | Parameter | Required | Description | Example |
 |-----------|:--------:|-------------|--------|
 | `assets` | ✓ | Provide the assets for image edit | `V1AiImageEditorCreateBodyAssets {image_file_path: "api-assets/id/1234.png".to_string()}` |
+| `└─ image_file_path` | ✓ | The image used in the edit. This value is either - a direct URL to the video file - `file_path` field from the response of the [upload urls API](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls).  Please refer to the [Input File documentation](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls#input-file) to learn more.  | `"api-assets/id/1234.png".to_string()` |
 | `style` | ✓ |  | `V1AiImageEditorCreateBodyStyle {prompt: "Give me sunglasses".to_string()}` |
+| `└─ prompt` | ✓ | The prompt used to edit the image. | `"Give me sunglasses".to_string()` |
 | `name` | ✗ | The name of image. This value is mainly used for your own identification of the image. | `"Ai Image Editor image".to_string()` |
 
 #### Example Snippet
@@ -40,3 +44,7 @@ let res = client
 
 ##### Example
 `V1AiImageEditorCreateResponse {credits_charged: 50, frame_cost: 50, id: "cuid-example".to_string()}`
+<!-- CUSTOM DOCS START -->
+
+<!-- CUSTOM DOCS END -->
+

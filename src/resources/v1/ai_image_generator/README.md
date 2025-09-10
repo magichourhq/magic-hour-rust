@@ -1,4 +1,6 @@
+# v1.ai_image_generator
 
+## Module Functions
 ### AI Images <a name="create"></a>
 
 Create an AI image. Each image costs 5 credits.
@@ -12,6 +14,8 @@ Create an AI image. Each image costs 5 credits.
 | `image_count` | ✓ | Number of images to generate. | `1` |
 | `orientation` | ✓ | The orientation of the output image(s). | `V1AiImageGeneratorCreateBodyOrientationEnum::Landscape` |
 | `style` | ✓ | The art style to use for image generation. | `V1AiImageGeneratorCreateBodyStyle {prompt: "Cool image".to_string(), tool: Some(V1AiImageGeneratorCreateBodyStyleToolEnum::AiAnimeGenerator)}` |
+| `└─ prompt` | ✓ | The prompt used for the image(s). | `"Cool image".to_string()` |
+| `└─ tool` | ✗ | The art style to use for image generation. Defaults to 'general' if not provided. | `V1AiImageGeneratorCreateBodyStyleToolEnum::AiAnimeGenerator` |
 | `name` | ✗ | The name of image. This value is mainly used for your own identification of the image. | `"Ai Image image".to_string()` |
 
 #### Example Snippet
@@ -43,3 +47,7 @@ let res = client
 
 ##### Example
 `V1AiImageGeneratorCreateResponse {credits_charged: 5, frame_cost: 5, id: "cuid-example".to_string()}`
+<!-- CUSTOM DOCS START -->
+
+<!-- CUSTOM DOCS END -->
+
