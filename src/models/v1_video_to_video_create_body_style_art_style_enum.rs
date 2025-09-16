@@ -88,6 +88,8 @@ pub enum V1VideoToVideoCreateBodyStyleArtStyleEnum {
     OnFire,
     #[serde(rename = "Origami")]
     Origami,
+    #[serde(rename = "Painterly Anime")]
+    PainterlyAnime,
     #[serde(rename = "Pixar")]
     Pixar,
     #[serde(rename = "Pixel")]
@@ -187,6 +189,9 @@ impl std::fmt::Display for V1VideoToVideoCreateBodyStyleArtStyleEnum {
             V1VideoToVideoCreateBodyStyleArtStyleEnum::OilPainting => "Oil Painting",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::OnFire => "On Fire",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Origami => "Origami",
+            V1VideoToVideoCreateBodyStyleArtStyleEnum::PainterlyAnime => {
+                "Painterly Anime"
+            }
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Pixar => "Pixar",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Pixel => "Pixel",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::PowerArmor => "Power Armor",

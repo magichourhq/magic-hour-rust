@@ -1,4 +1,6 @@
+# v1.ai_clothes_changer
 
+## Module Functions
 ### AI Clothes Changer <a name="create"></a>
 
 Change outfits in photos in seconds with just a photo reference. Each photo costs 25 credits.
@@ -10,6 +12,9 @@ Change outfits in photos in seconds with just a photo reference. Each photo cost
 | Parameter | Required | Description | Example |
 |-----------|:--------:|-------------|--------|
 | `assets` | ✓ | Provide the assets for clothes changer | `V1AiClothesChangerCreateBodyAssets {garment_file_path: "api-assets/id/outfit.png".to_string(), garment_type: V1AiClothesChangerCreateBodyAssetsGarmentTypeEnum::UpperBody, person_file_path: "api-assets/id/model.png".to_string()}` |
+| `└─ garment_file_path` | ✓ | The image of the outfit. This value is either - a direct URL to the video file - `file_path` field from the response of the [upload urls API](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls).  Please refer to the [Input File documentation](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls#input-file) to learn more.  | `"api-assets/id/outfit.png".to_string()` |
+| `└─ garment_type` | ✓ | The type of the outfit. | `V1AiClothesChangerCreateBodyAssetsGarmentTypeEnum::UpperBody` |
+| `└─ person_file_path` | ✓ | The image with the person. This value is either - a direct URL to the video file - `file_path` field from the response of the [upload urls API](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls).  Please refer to the [Input File documentation](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls#input-file) to learn more.  | `"api-assets/id/model.png".to_string()` |
 | `name` | ✗ | The name of image. This value is mainly used for your own identification of the image. | `"Clothes Changer image".to_string()` |
 
 #### Example Snippet
@@ -38,3 +43,7 @@ let res = client
 
 ##### Example
 `V1AiClothesChangerCreateResponse {credits_charged: 25, frame_cost: 25, id: "cuid-example".to_string()}`
+<!-- CUSTOM DOCS START -->
+
+<!-- CUSTOM DOCS END -->
+
