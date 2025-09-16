@@ -1,6 +1,7 @@
 # v1.ai_clothes_changer
 
 ## Module Functions
+
 ### AI Clothes Changer <a name="create"></a>
 
 Change outfits in photos in seconds with just a photo reference. Each photo costs 25 credits.
@@ -43,7 +44,5 @@ let res = client
 
 ##### Example
 `V1AiClothesChangerCreateResponse {credits_charged: 25, frame_cost: 25, id: "cuid-example".to_string()}`
-<!-- CUSTOM DOCS START -->
 
-<!-- CUSTOM DOCS END -->
 

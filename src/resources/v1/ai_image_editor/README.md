@@ -1,6 +1,7 @@
 # v1.ai_image_editor
 
 ## Module Functions
+
 ### AI Image Editor <a name="create"></a>
 
 Edit images with AI. Each edit costs 50 credits.
@@ -44,7 +45,5 @@ let res = client
 
 ##### Example
 `V1AiImageEditorCreateResponse {credits_charged: 50, frame_cost: 50, id: "cuid-example".to_string()}`
-<!-- CUSTOM DOCS START -->
 
-<!-- CUSTOM DOCS END -->
 

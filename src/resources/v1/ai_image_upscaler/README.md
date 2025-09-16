@@ -1,6 +1,7 @@
 # v1.ai_image_upscaler
 
 ## Module Functions
+
 ### AI Image Upscaler <a name="create"></a>
 
 Upscale your image using AI. Each 2x upscale costs 50 credits, and 4x upscale costs 200 credits.
@@ -48,7 +49,5 @@ let res = client
 
 ##### Example
 `V1AiImageUpscalerCreateResponse {credits_charged: 50, frame_cost: 50, id: "cuid-example".to_string()}`
-<!-- CUSTOM DOCS START -->
 
-<!-- CUSTOM DOCS END -->
 

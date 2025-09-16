@@ -8,6 +8,13 @@ impl<'a> V1Client<'a> {
     ) -> Self {
         Self { base_client }
     }
+    pub fn audio_projects(
+        &mut self,
+    ) -> crate::resources::v1::audio_projects::resource_client::AudioProjectsClient<'_> {
+        crate::resources::v1::audio_projects::resource_client::AudioProjectsClient::_new(
+            self.base_client,
+        )
+    }
     pub fn image_projects(
         &mut self,
     ) -> crate::resources::v1::image_projects::resource_client::ImageProjectsClient<'_> {
@@ -123,6 +130,15 @@ impl<'a> V1Client<'a> {
         '_,
     > {
         crate::resources::v1::ai_talking_photo::resource_client::AiTalkingPhotoClient::_new(
+            self.base_client,
+        )
+    }
+    pub fn ai_voice_generator(
+        &mut self,
+    ) -> crate::resources::v1::ai_voice_generator::resource_client::AiVoiceGeneratorClient<
+        '_,
+    > {
+        crate::resources::v1::ai_voice_generator::resource_client::AiVoiceGeneratorClient::_new(
             self.base_client,
         )
     }

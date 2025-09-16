@@ -1,6 +1,7 @@
 # v1.text_to_video
 
 ## Module Functions
+
 ### Text-to-Video <a name="create"></a>
 
 Create a Text To Video video. The estimated frame cost is calculated using 30 FPS. This amount is deducted from your account balance when a video is queued. Once the video is complete, the cost will be updated based on the actual number of frames rendered.
@@ -52,7 +53,5 @@ let res = client
 
 ##### Example
 `V1TextToVideoCreateResponse {credits_charged: 450, estimated_frame_cost: 450, id: "cuid-example".to_string()}`
-<!-- CUSTOM DOCS START -->
 
-<!-- CUSTOM DOCS END -->
 

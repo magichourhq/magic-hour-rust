@@ -1,6 +1,7 @@
 # v1.photo_colorizer
 
 ## Module Functions
+
 ### Photo Colorizer <a name="create"></a>
 
 Colorize image. Each image costs 5 credits.
@@ -39,7 +40,5 @@ let res = client
 
 ##### Example
 `V1PhotoColorizerCreateResponse {credits_charged: 5, frame_cost: 5, id: "cuid-example".to_string()}`
-<!-- CUSTOM DOCS START -->
 
-<!-- CUSTOM DOCS END -->
 

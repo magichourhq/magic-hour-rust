@@ -1,6 +1,7 @@
 # v1.ai_photo_editor
 
 ## Module Functions
+
 ### AI Photo Editor <a name="create"></a>
 
 > **NOTE**: this API is still in early development stages, and should be avoided. Please reach out to us if you're interested in this API. 
@@ -64,7 +65,5 @@ let res = client
 
 ##### Example
 `V1AiPhotoEditorCreateResponse {credits_charged: 10, frame_cost: 10, id: "cuid-example".to_string()}`
-<!-- CUSTOM DOCS START -->
 
-<!-- CUSTOM DOCS END -->
 

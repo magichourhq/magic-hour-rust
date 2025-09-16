@@ -74,9 +74,18 @@ let client = magic_hour::Client::default()
 
 * [create](src/resources/v1/ai_talking_photo/README.md#create) - AI Talking Photo
 
+### [v1.ai_voice_generator](src/resources/v1/ai_voice_generator/README.md)
+
+* [create](src/resources/v1/ai_voice_generator/README.md#create) - AI Voice Generator
+
 ### [v1.animation](src/resources/v1/animation/README.md)
 
 * [create](src/resources/v1/animation/README.md#create) - Animation
+
+### [v1.audio_projects](src/resources/v1/audio_projects/README.md)
+
+* [delete](src/resources/v1/audio_projects/README.md#delete) - Delete audio
+* [get](src/resources/v1/audio_projects/README.md#get) - Get audio details
 
 ### [v1.auto_subtitle_generator](src/resources/v1/auto_subtitle_generator/README.md)
 

@@ -1,6 +1,7 @@
 # v1.image_background_remover
 
 ## Module Functions
+
 ### Image Background Remover <a name="create"></a>
 
 Remove background from image. Each image costs 5 credits.
@@ -41,7 +42,5 @@ let res = client
 
 ##### Example
 `V1ImageBackgroundRemoverCreateResponse {credits_charged: 5, frame_cost: 5, id: "cuid-example".to_string()}`
-<!-- CUSTOM DOCS START -->
 
-<!-- CUSTOM DOCS END -->
 

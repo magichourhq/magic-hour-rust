@@ -20,6 +20,8 @@ pub enum V1VideoToVideoCreateBodyStyleArtStyleEnum {
     BlackSpiderman,
     #[serde(rename = "Boba Fett")]
     BobaFett,
+    #[serde(rename = "Bold Anime")]
+    BoldAnime,
     #[serde(rename = "Celestial Skin")]
     CelestialSkin,
     #[serde(rename = "Chinese Swordsmen")]
@@ -98,6 +100,8 @@ pub enum V1VideoToVideoCreateBodyStyleArtStyleEnum {
     PowerArmor,
     #[serde(rename = "Power Ranger")]
     PowerRanger,
+    #[serde(rename = "Realistic Anime")]
+    RealisticAnime,
     #[serde(rename = "Retro Anime")]
     RetroAnime,
     #[serde(rename = "Retro Sci-Fi")]
@@ -151,6 +155,7 @@ impl std::fmt::Display for V1VideoToVideoCreateBodyStyleArtStyleEnum {
                 "Black Spiderman"
             }
             V1VideoToVideoCreateBodyStyleArtStyleEnum::BobaFett => "Boba Fett",
+            V1VideoToVideoCreateBodyStyleArtStyleEnum::BoldAnime => "Bold Anime",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::CelestialSkin => "Celestial Skin",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::ChineseSwordsmen => {
                 "Chinese Swordsmen"
@@ -196,6 +201,9 @@ impl std::fmt::Display for V1VideoToVideoCreateBodyStyleArtStyleEnum {
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Pixel => "Pixel",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::PowerArmor => "Power Armor",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::PowerRanger => "Power Ranger",
+            V1VideoToVideoCreateBodyStyleArtStyleEnum::RealisticAnime => {
+                "Realistic Anime"
+            }
             V1VideoToVideoCreateBodyStyleArtStyleEnum::RetroAnime => "Retro Anime",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::RetroSciFi => "Retro Sci-Fi",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Samurai => "Samurai",
