@@ -30,6 +30,7 @@ impl<'a> LipSyncClient<'a> {
                     height: request.height,
                     max_fps_limit: request.max_fps_limit,
                     name: request.name,
+                    style: request.style,
                     width: request.width,
                     assets: request.assets,
                     end_seconds: request.end_seconds,

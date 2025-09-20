@@ -17,7 +17,7 @@ async fn test_create_200_success_all_params() {
             start_seconds: 0.0,
             style: Some(magic_hour::models::V1AiTalkingPhotoCreateBodyStyle {
                 generation_mode: Some(
-                    magic_hour::models::V1AiTalkingPhotoCreateBodyStyleGenerationModeEnum::Expressive,
+                    magic_hour::models::V1AiTalkingPhotoCreateBodyStyleGenerationModeEnum::Pro,
                 ),
                 intensity: Some(1.5),
             }),

@@ -1,5 +1,5 @@
 {
-  "id": "056b4490-7faa-460c-a40d-7d9552c44109",
+  "id": "0ab8c10a-a6d3-42fa-ba00-85ef2b3a1e46",
   "tracked_paths": [
     {
       "editable": true,
@@ -492,6 +492,14 @@
     {
       "editable": false,
       "path": "src/models/v1_lip_sync_create_body_assets_video_source_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_lip_sync_create_body_style.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_lip_sync_create_body_style_generation_mode_enum.rs"
     },
     {
       "editable": false,
