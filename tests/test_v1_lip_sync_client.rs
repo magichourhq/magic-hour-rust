@@ -19,6 +19,11 @@ async fn test_create_200_success_all_params() {
             max_fps_limit: Some(12.0),
             name: Some("Lip Sync video".to_string()),
             start_seconds: 0.0,
+            style: Some(magic_hour::models::V1LipSyncCreateBodyStyle {
+                generation_mode: Some(
+                    magic_hour::models::V1LipSyncCreateBodyStyleGenerationModeEnum::Lite,
+                ),
+            }),
             width: magic_hour::Patch::new(123),
         })
         .await;
