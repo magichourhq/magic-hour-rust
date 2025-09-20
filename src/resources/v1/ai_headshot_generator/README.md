@@ -1,6 +1,7 @@
 # v1.ai_headshot_generator
 
 ## Module Functions
+
 ### AI Headshots <a name="create"></a>
 
 Create an AI headshot. Each headshot costs 50 credits.
@@ -42,7 +43,5 @@ let res = client
 
 ##### Example
 `V1AiHeadshotGeneratorCreateResponse {credits_charged: 50, frame_cost: 50, id: "cuid-example".to_string()}`
-<!-- CUSTOM DOCS START -->
 
-<!-- CUSTOM DOCS END -->
 

@@ -1,6 +1,7 @@
 # v1.ai_gif_generator
 
 ## Module Functions
+
 ### AI GIFs <a name="create"></a>
 
 Create an AI GIF. Each GIF costs 50 credits.
@@ -43,7 +44,5 @@ let res = client
 
 ##### Example
 `V1AiGifGeneratorCreateResponse {credits_charged: 50, frame_cost: 50, id: "cuid-example".to_string()}`
-<!-- CUSTOM DOCS START -->
 
-<!-- CUSTOM DOCS END -->
 

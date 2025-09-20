@@ -1,6 +1,7 @@
 # v1.face_detection
 
 ## Module Functions
+
 ### Get face detection details <a name="get"></a>
 
 Get the details of a face detection task. 
@@ -79,7 +80,5 @@ let res = client
 
 ##### Example
 `V1FaceDetectionCreateResponse {credits_charged: 123, id: "uuid-example".to_string()}`
-<!-- CUSTOM DOCS START -->
 
-<!-- CUSTOM DOCS END -->
 

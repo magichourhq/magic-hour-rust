@@ -1,6 +1,7 @@
 # v1.ai_image_generator
 
 ## Module Functions
+
 ### AI Images <a name="create"></a>
 
 Create an AI image. Each image costs 5 credits.
@@ -47,7 +48,5 @@ let res = client
 
 ##### Example
 `V1AiImageGeneratorCreateResponse {credits_charged: 5, frame_cost: 5, id: "cuid-example".to_string()}`
-<!-- CUSTOM DOCS START -->
 
-<!-- CUSTOM DOCS END -->
 

@@ -1,5 +1,5 @@
 {
-  "id": "cf9fb15c-654f-4ec3-98ad-bf689ba6f0a9",
+  "id": "056b4490-7faa-460c-a40d-7d9552c44109",
   "tracked_paths": [
     {
       "editable": true,
@@ -247,6 +247,22 @@
     },
     {
       "editable": false,
+      "path": "src/models/v1_ai_voice_generator_create_body.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_voice_generator_create_body_style.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_voice_generator_create_body_style_voice_name_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_voice_generator_create_response.rs"
+    },
+    {
+      "editable": false,
       "path": "src/models/v1_animation_create_body.rs"
     },
     {
@@ -276,6 +292,22 @@
     {
       "editable": false,
       "path": "src/models/v1_animation_create_response.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_audio_projects_get_response.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_audio_projects_get_response_downloads_item.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_audio_projects_get_response_error.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_audio_projects_get_response_status_enum.rs"
     },
     {
       "editable": false,
@@ -751,6 +783,22 @@
     },
     {
       "editable": true,
+      "path": "src/resources/v1/ai_voice_generator/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_voice_generator/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_voice_generator/request_types.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_voice_generator/resource_client.rs"
+    },
+    {
+      "editable": true,
       "path": "src/resources/v1/animation/README.md"
     },
     {
@@ -764,6 +812,22 @@
     {
       "editable": false,
       "path": "src/resources/v1/animation/resource_client.rs"
+    },
+    {
+      "editable": true,
+      "path": "src/resources/v1/audio_projects/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/audio_projects/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/audio_projects/request_types.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/audio_projects/resource_client.rs"
     },
     {
       "editable": true,
@@ -1047,7 +1111,15 @@
     },
     {
       "editable": false,
+      "path": "tests/test_v1_ai_voice_generator_client.rs"
+    },
+    {
+      "editable": false,
       "path": "tests/test_v1_animation_client.rs"
+    },
+    {
+      "editable": false,
+      "path": "tests/test_v1_audio_projects_client.rs"
     },
     {
       "editable": false,

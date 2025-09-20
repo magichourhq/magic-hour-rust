@@ -1,6 +1,7 @@
 # v1.image_projects
 
 ## Module Functions
+
 ### Delete image <a name="delete"></a>
 
 Permanently delete the rendered image(s). This action is not reversible, please be sure before deleting.
@@ -69,7 +70,5 @@ let res = client
 
 ##### Example
 `V1ImageProjectsGetResponse {created_at: "1970-01-01T00:00:00".to_string(), credits_charged: 5, downloads: vec![V1ImageProjectsGetResponseDownloadsItem {expires_at: "2024-10-19T05:16:19.027Z".to_string(), url: "https://videos.magichour.ai/id/output.png".to_string()}], enabled: true, error: Some(V1ImageProjectsGetResponseError {code: "no_source_face".to_string(), message: "Please use an image with a detectable face".to_string()}), id: "cuid-example".to_string(), image_count: 1, name: Some("Example Name".to_string()), status: V1ImageProjectsGetResponseStatusEnum::Complete, total_frame_cost: 5, type_: "AI_IMAGE".to_string()}`
-<!-- CUSTOM DOCS START -->
 
-<!-- CUSTOM DOCS END -->
 

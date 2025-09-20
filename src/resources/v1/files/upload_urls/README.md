@@ -1,6 +1,7 @@
 # v1.files.upload_urls
 
 ## Module Functions
+
 ### Generate asset upload urls <a name="create"></a>
 
 Generates a list of pre-signed upload URLs for the assets required. This API is only necessary if you want to upload to Magic Hour's storage. Refer to the [Input Files Guide](/integration/input-files) for more details.
@@ -61,7 +62,5 @@ let res = client
 
 ##### Example
 `V1FilesUploadUrlsCreateResponse {items: vec![V1FilesUploadUrlsCreateResponseItemsItem {expires_at: "2024-07-25T16:56:21.932Z".to_string(), file_path: "api-assets/id/video.mp4".to_string(), upload_url: "https://videos.magichour.ai/api-assets/id/video.mp4?auth-value=1234567890".to_string()}, V1FilesUploadUrlsCreateResponseItemsItem {expires_at: "2024-07-25T16:56:21.932Z".to_string(), file_path: "api-assets/id/audio.mp3".to_string(), upload_url: "https://videos.magichour.ai/api-assets/id/audio.mp3?auth-value=1234567890".to_string()}]}`
-<!-- CUSTOM DOCS START -->
 
-<!-- CUSTOM DOCS END -->
 

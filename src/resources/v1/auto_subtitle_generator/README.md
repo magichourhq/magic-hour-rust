@@ -1,6 +1,7 @@
 # v1.auto_subtitle_generator
 
 ## Module Functions
+
 ### Auto Subtitle Generator <a name="create"></a>
 
 Automatically generate subtitles for your video in multiple languages.
@@ -49,7 +50,5 @@ let res = client
 
 ##### Example
 `V1AutoSubtitleGeneratorCreateResponse {credits_charged: 450, estimated_frame_cost: 450, id: "cuid-example".to_string()}`
-<!-- CUSTOM DOCS START -->
 
-<!-- CUSTOM DOCS END -->
 
