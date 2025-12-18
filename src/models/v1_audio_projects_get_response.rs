@@ -19,7 +19,7 @@ pub struct V1AudioProjectsGetResponse {
     pub name: Option<String>,
     /// The status of the audio.
     pub status: crate::models::V1AudioProjectsGetResponseStatusEnum,
-    /// The type of the audio project. Possible values are VOICE_GENERATOR, VOICE_CHANGER
+    /// The type of the audio project. Possible values are VOICE_GENERATOR, VOICE_CHANGER, VOICE_CLONER
     #[serde(rename = "type")]
     pub type_: String,
 }
