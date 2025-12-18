@@ -8,9 +8,9 @@ impl<'a> AiImageGeneratorClient<'a> {
     ) -> Self {
         Self { base_client }
     }
-    /// AI Images
+    /// AI Image Generator
     ///
-    /// Create an AI image. Each image costs 5 credits.
+    /// Create an AI image. Each standard image costs 5 credits. Pro quality images cost 30 credits.
     ///
     /// POST /v1/ai-image-generator
     pub async fn create(

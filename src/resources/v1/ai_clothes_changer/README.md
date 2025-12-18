@@ -45,4 +45,3 @@ let res = client
 ##### Example
 `V1AiClothesChangerCreateResponse {credits_charged: 25, frame_cost: 25, id: "cuid-example".to_string()}`
 
-

@@ -8,7 +8,7 @@ impl<'a> AiHeadshotGeneratorClient<'a> {
     ) -> Self {
         Self { base_client }
     }
-    /// AI Headshots
+    /// AI Headshot Generator
     ///
     /// Create an AI headshot. Each headshot costs 50 credits.
     ///

@@ -29,7 +29,6 @@ let client = magic_hour::Client::default()
 
 ## Module Documentation and Snippets
 
-
 ### [v1.ai_clothes_changer](src/resources/v1/ai_clothes_changer/README.md)
 
 * [create](src/resources/v1/ai_clothes_changer/README.md#create) - AI Clothes Changer
@@ -40,11 +39,11 @@ let client = magic_hour::Client::default()
 
 ### [v1.ai_gif_generator](src/resources/v1/ai_gif_generator/README.md)
 
-* [create](src/resources/v1/ai_gif_generator/README.md#create) - AI GIFs
+* [create](src/resources/v1/ai_gif_generator/README.md#create) - AI GIF Generator
 
 ### [v1.ai_headshot_generator](src/resources/v1/ai_headshot_generator/README.md)
 
-* [create](src/resources/v1/ai_headshot_generator/README.md#create) - AI Headshots
+* [create](src/resources/v1/ai_headshot_generator/README.md#create) - AI Headshot Generator
 
 ### [v1.ai_image_editor](src/resources/v1/ai_image_editor/README.md)
 
@@ -52,7 +51,7 @@ let client = magic_hour::Client::default()
 
 ### [v1.ai_image_generator](src/resources/v1/ai_image_generator/README.md)
 
-* [create](src/resources/v1/ai_image_generator/README.md#create) - AI Images
+* [create](src/resources/v1/ai_image_generator/README.md#create) - AI Image Generator
 
 ### [v1.ai_image_upscaler](src/resources/v1/ai_image_upscaler/README.md)
 
@@ -68,7 +67,7 @@ let client = magic_hour::Client::default()
 
 ### [v1.ai_qr_code_generator](src/resources/v1/ai_qr_code_generator/README.md)
 
-* [create](src/resources/v1/ai_qr_code_generator/README.md#create) - AI QR Code
+* [create](src/resources/v1/ai_qr_code_generator/README.md#create) - AI QR Code Generator
 
 ### [v1.ai_talking_photo](src/resources/v1/ai_talking_photo/README.md)
 
@@ -98,7 +97,7 @@ let client = magic_hour::Client::default()
 
 ### [v1.face_swap](src/resources/v1/face_swap/README.md)
 
-* [create](src/resources/v1/face_swap/README.md#create) - Face Swap video
+* [create](src/resources/v1/face_swap/README.md#create) - Face Swap Video
 
 ### [v1.face_swap_photo](src/resources/v1/face_swap_photo/README.md)
 

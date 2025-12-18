@@ -5,21 +5,33 @@
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub enum V1VideoToVideoCreateBodyStyleModelEnum {
     #[default]
+    #[serde(rename = "3D Anime")]
+    Enum3dAnime,
     #[serde(rename = "Absolute Reality")]
     AbsoluteReality,
     #[serde(rename = "Dreamshaper")]
     Dreamshaper,
     #[serde(rename = "Flat 2D Anime")]
     Flat2dAnime,
+    #[serde(rename = "Kaywaii")]
+    Kaywaii,
+    #[serde(rename = "Soft Anime")]
+    SoftAnime,
+    #[serde(rename = "Western Anime")]
+    WesternAnime,
     #[serde(rename = "default")]
     Default,
 }
 impl std::fmt::Display for V1VideoToVideoCreateBodyStyleModelEnum {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         let str_val = match self {
+            V1VideoToVideoCreateBodyStyleModelEnum::Enum3dAnime => "3D Anime",
             V1VideoToVideoCreateBodyStyleModelEnum::AbsoluteReality => "Absolute Reality",
             V1VideoToVideoCreateBodyStyleModelEnum::Dreamshaper => "Dreamshaper",
             V1VideoToVideoCreateBodyStyleModelEnum::Flat2dAnime => "Flat 2D Anime",
+            V1VideoToVideoCreateBodyStyleModelEnum::Kaywaii => "Kaywaii",
+            V1VideoToVideoCreateBodyStyleModelEnum::SoftAnime => "Soft Anime",
+            V1VideoToVideoCreateBodyStyleModelEnum::WesternAnime => "Western Anime",
             V1VideoToVideoCreateBodyStyleModelEnum::Default => "default",
         };
         write!(f, "{}", str_val)

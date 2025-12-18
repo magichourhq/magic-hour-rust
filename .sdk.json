@@ -1,5 +1,5 @@
 {
-  "id": "0ab8c10a-a6d3-42fa-ba00-85ef2b3a1e46",
+  "id": "f0209ab0-bafd-4b28-b050-3364d98ec38f",
   "tracked_paths": [
     {
       "editable": true,
@@ -139,6 +139,10 @@
     },
     {
       "editable": false,
+      "path": "src/models/v1_ai_image_editor_create_body_style_model_enum.rs"
+    },
+    {
+      "editable": false,
       "path": "src/models/v1_ai_image_editor_create_response.rs"
     },
     {
@@ -152,6 +156,10 @@
     {
       "editable": false,
       "path": "src/models/v1_ai_image_generator_create_body_style.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_image_generator_create_body_style_quality_mode_enum.rs"
     },
     {
       "editable": false,

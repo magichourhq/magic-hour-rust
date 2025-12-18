@@ -40,7 +40,6 @@ The audio can be one of the following status
 - `error` - an error occurred during rendering
 - `canceled` - audio render is canceled by the user
 
-
 **API Endpoint**: `GET /v1/audio-projects/{id}`
 
 #### Parameters
@@ -70,5 +69,4 @@ let res = client
 
 ##### Example
 `V1AudioProjectsGetResponse {created_at: "1970-01-01T00:00:00".to_string(), credits_charged: 2, downloads: vec![V1AudioProjectsGetResponseDownloadsItem {expires_at: "2024-10-19T05:16:19.027Z".to_string(), url: "https://videos.magichour.ai/id/output.wav".to_string()}], enabled: true, error: Some(V1AudioProjectsGetResponseError {code: "no_source_face".to_string(), message: "Please use an image with a detectable face".to_string()}), id: "cuid-example".to_string(), name: Some("Example Name".to_string()), status: V1AudioProjectsGetResponseStatusEnum::Complete, type_: "VOICE_GENERATOR".to_string()}`
-
 

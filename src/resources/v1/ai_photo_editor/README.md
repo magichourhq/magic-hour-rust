@@ -66,4 +66,3 @@ let res = client
 ##### Example
 `V1AiPhotoEditorCreateResponse {credits_charged: 10, frame_cost: 10, id: "cuid-example".to_string()}`
 
-

@@ -70,4 +70,3 @@ let res = client
 ##### Example
 `V1AnimationCreateResponse {credits_charged: 450, estimated_frame_cost: 450, id: "cuid-example".to_string()}`
 
-
