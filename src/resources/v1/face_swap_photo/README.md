@@ -55,4 +55,3 @@ let res = client
 ##### Example
 `V1FaceSwapPhotoCreateResponse {credits_charged: 5, frame_cost: 5, id: "cuid-example".to_string()}`
 
-

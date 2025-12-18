@@ -43,4 +43,3 @@ let res = client
 ##### Example
 `V1ImageBackgroundRemoverCreateResponse {credits_charged: 5, frame_cost: 5, id: "cuid-example".to_string()}`
 
-

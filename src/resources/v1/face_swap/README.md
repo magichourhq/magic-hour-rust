@@ -2,7 +2,7 @@
 
 ## Module Functions
 
-### Face Swap video <a name="create"></a>
+### Face Swap Video <a name="create"></a>
 
 Create a Face Swap video. The estimated frame cost is calculated using 30 FPS. This amount is deducted from your account balance when a video is queued. Once the video is complete, the cost will be updated based on the actual number of frames rendered.
   
@@ -27,7 +27,7 @@ Get more information about this mode at our [product page](https://magichour.ai/
 | `height` | ✗ | ✓ | `height` is deprecated and no longer influences the output video's resolution.  Output resolution is determined by the **minimum** of: - The resolution of the input video - The maximum resolution allowed by your subscription tier. See our [pricing page](https://magichour.ai/pricing) for more details.  This field is retained only for backward compatibility and will be removed in a future release. | `123` |
 | `name` | ✗ | ✗ | The name of video. This value is mainly used for your own identification of the video. | `"Face Swap video".to_string()` |
 | `style` | ✗ | ✗ | Style of the face swap video. | `V1FaceSwapCreateBodyStyle {version: Some(V1FaceSwapCreateBodyStyleVersionEnum::Default)}` |
-| `└─ version` | ✗ | — | * `v1` - May preserve skin detail and texture better, but weaker identity preservation. * `v2` - Faster, sharper, better handling of hair and glasses. stronger identity preservation. (Recommended) * `default` - Use the version we recommend, which will change over time. This is recommended unless you need a specific earlier version. This is the default behavior. | `V1FaceSwapCreateBodyStyleVersionEnum::Default` |
+| `└─ version` | ✗ | — | * `v1` - May preserve skin detail and texture better, but weaker identity preservation. * `v2` - Faster, sharper, better handling of hair and glasses. stronger identity preservation. * `default` - Use the version we recommend, which will change over time. This is recommended unless you need a specific earlier version. This is the default behavior. | `V1FaceSwapCreateBodyStyleVersionEnum::Default` |
 | `width` | ✗ | ✓ | `width` is deprecated and no longer influences the output video's resolution.  Output resolution is determined by the **minimum** of: - The resolution of the input video - The maximum resolution allowed by your subscription tier. See our [pricing page](https://magichour.ai/pricing) for more details.  This field is retained only for backward compatibility and will be removed in a future release. | `123` |
 
 #### Example Snippet
@@ -75,5 +75,4 @@ let res = client
 
 ##### Example
 `V1FaceSwapCreateResponse {credits_charged: 450, estimated_frame_cost: 450, id: "cuid-example".to_string()}`
-
 

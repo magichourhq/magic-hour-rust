@@ -2,9 +2,9 @@
 
 ## Module Functions
 
-### AI QR Code <a name="create"></a>
+### AI QR Code Generator <a name="create"></a>
 
-Create an AI QR code. Each QR code costs 20 credits.
+Create an AI QR code. Each QR code costs 0 credits.
 
 **API Endpoint**: `POST /v1/ai-qr-code-generator`
 
@@ -41,6 +41,5 @@ let res = client
 [V1AiQrCodeGeneratorCreateResponse](/src/models/v1_ai_qr_code_generator_create_response.rs)
 
 ##### Example
-`V1AiQrCodeGeneratorCreateResponse {credits_charged: 20, frame_cost: 20, id: "cuid-example".to_string()}`
-
+`V1AiQrCodeGeneratorCreateResponse {credits_charged: 0, frame_cost: 0, id: "cuid-example".to_string()}`
 

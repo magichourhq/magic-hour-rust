@@ -44,6 +44,8 @@ pub enum V1VideoToVideoCreateBodyStyleArtStyleEnum {
     FuturisticFantasy,
     #[serde(rename = "GTA")]
     Gta,
+    #[serde(rename = "Ghibli Anime")]
+    GhibliAnime,
     #[serde(rename = "Ghost")]
     Ghost,
     #[serde(rename = "Gundam")]
@@ -100,8 +102,12 @@ pub enum V1VideoToVideoCreateBodyStyleArtStyleEnum {
     PowerArmor,
     #[serde(rename = "Power Ranger")]
     PowerRanger,
+    #[serde(rename = "Radiant Anime")]
+    RadiantAnime,
     #[serde(rename = "Realistic Anime")]
     RealisticAnime,
+    #[serde(rename = "Realistic Pixar")]
+    RealisticPixar,
     #[serde(rename = "Retro Anime")]
     RetroAnime,
     #[serde(rename = "Retro Sci-Fi")]
@@ -110,6 +116,10 @@ pub enum V1VideoToVideoCreateBodyStyleArtStyleEnum {
     Samurai,
     #[serde(rename = "Samurai Bot")]
     SamuraiBot,
+    #[serde(rename = "Sharp Anime")]
+    SharpAnime,
+    #[serde(rename = "Soft Anime")]
+    SoftAnime,
     #[serde(rename = "Solid Snake")]
     SolidSnake,
     #[serde(rename = "Spartan")]
@@ -134,8 +144,12 @@ pub enum V1VideoToVideoCreateBodyStyleArtStyleEnum {
     Viking,
     #[serde(rename = "Watercolor")]
     Watercolor,
+    #[serde(rename = "Western Anime")]
+    WesternAnime,
     #[serde(rename = "Wu Kong")]
     WuKong,
+    #[serde(rename = "Wuxia Anime")]
+    WuxiaAnime,
     #[serde(rename = "Zelda")]
     Zelda,
 }
@@ -171,6 +185,7 @@ impl std::fmt::Display for V1VideoToVideoCreateBodyStyleArtStyleEnum {
                 "Futuristic Fantasy"
             }
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Gta => "GTA",
+            V1VideoToVideoCreateBodyStyleArtStyleEnum::GhibliAnime => "Ghibli Anime",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Ghost => "Ghost",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Gundam => "Gundam",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Hologram => "Hologram",
@@ -201,13 +216,19 @@ impl std::fmt::Display for V1VideoToVideoCreateBodyStyleArtStyleEnum {
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Pixel => "Pixel",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::PowerArmor => "Power Armor",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::PowerRanger => "Power Ranger",
+            V1VideoToVideoCreateBodyStyleArtStyleEnum::RadiantAnime => "Radiant Anime",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::RealisticAnime => {
                 "Realistic Anime"
+            }
+            V1VideoToVideoCreateBodyStyleArtStyleEnum::RealisticPixar => {
+                "Realistic Pixar"
             }
             V1VideoToVideoCreateBodyStyleArtStyleEnum::RetroAnime => "Retro Anime",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::RetroSciFi => "Retro Sci-Fi",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Samurai => "Samurai",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::SamuraiBot => "Samurai Bot",
+            V1VideoToVideoCreateBodyStyleArtStyleEnum::SharpAnime => "Sharp Anime",
+            V1VideoToVideoCreateBodyStyleArtStyleEnum::SoftAnime => "Soft Anime",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::SolidSnake => "Solid Snake",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Spartan => "Spartan",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Starfield => "Starfield",
@@ -220,7 +241,9 @@ impl std::fmt::Display for V1VideoToVideoCreateBodyStyleArtStyleEnum {
             V1VideoToVideoCreateBodyStyleArtStyleEnum::VanGogh => "Van Gogh",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Viking => "Viking",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Watercolor => "Watercolor",
+            V1VideoToVideoCreateBodyStyleArtStyleEnum::WesternAnime => "Western Anime",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::WuKong => "Wu Kong",
+            V1VideoToVideoCreateBodyStyleArtStyleEnum::WuxiaAnime => "Wuxia Anime",
             V1VideoToVideoCreateBodyStyleArtStyleEnum::Zelda => "Zelda",
         };
         write!(f, "{}", str_val)

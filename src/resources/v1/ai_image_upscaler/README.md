@@ -50,4 +50,3 @@ let res = client
 ##### Example
 `V1AiImageUpscalerCreateResponse {credits_charged: 50, frame_cost: 50, id: "cuid-example".to_string()}`
 
-

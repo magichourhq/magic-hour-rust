@@ -81,4 +81,3 @@ let res = client
 ##### Example
 `V1FaceDetectionCreateResponse {credits_charged: 123, id: "uuid-example".to_string()}`
 
-
