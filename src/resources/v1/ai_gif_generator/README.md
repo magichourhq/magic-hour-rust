@@ -10,12 +10,12 @@ Create an AI GIF. Each GIF costs 50 credits.
 
 #### Parameters
 
-| Parameter | Required | Description | Example |
-|-----------|:--------:|-------------|--------|
-| `style` | ✓ |  | `V1AiGifGeneratorCreateBodyStyle {prompt: "Cute dancing cat, pixel art".to_string()}` |
-| `└─ prompt` | ✓ | The prompt used for the GIF. | `"Cute dancing cat, pixel art".to_string()` |
-| `name` | ✗ | The name of gif. This value is mainly used for your own identification of the gif. | `"Ai Gif gif".to_string()` |
-| `output_format` | ✗ | The output file format for the generated animation. | `V1AiGifGeneratorCreateBodyOutputFormatEnum::Gif` |
+| Parameter       | Required | Description                                                                        | Example                                                                               |
+| --------------- | :------: | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| `style`         |    ✓     |                                                                                    | `V1AiGifGeneratorCreateBodyStyle {prompt: "Cute dancing cat, pixel art".to_string()}` |
+| `└─ prompt`     |    ✓     | The prompt used for the GIF.                                                       | `"Cute dancing cat, pixel art".to_string()`                                           |
+| `name`          |    ✗     | The name of gif. This value is mainly used for your own identification of the gif. | `"Ai Gif gif".to_string()`                                                            |
+| `output_format` |    ✗     | The output file format for the generated animation.                                | `V1AiGifGeneratorCreateBodyOutputFormatEnum::Gif`                                     |
 
 #### Example Snippet
 
@@ -40,8 +40,11 @@ let res = client
 #### Response
 
 ##### Type
+
 [V1AiGifGeneratorCreateResponse](/src/models/v1_ai_gif_generator_create_response.rs)
 
 ##### Example
-`V1AiGifGeneratorCreateResponse {credits_charged: 50, frame_cost: 50, id: "cuid-example".to_string()}`
 
+```rust
+V1AiGifGeneratorCreateResponse {credits_charged: 50, frame_cost: 50, id: "cuid-example".to_string()}
+```

@@ -10,9 +10,9 @@ Permanently delete the rendered image(s). This action is not reversible, please 
 
 #### Parameters
 
-| Parameter | Required | Description | Example |
-|-----------|:--------:|-------------|--------|
-| `id` | ✓ | Unique ID of the image project. This value is returned by all of the POST APIs that create an image. | `"cuid-example".to_string()` |
+| Parameter | Required | Description                                                                                          | Example                      |
+| --------- | :------: | ---------------------------------------------------------------------------------------------------- | ---------------------------- |
+| `id`      |    ✓     | Unique ID of the image project. This value is returned by all of the POST APIs that create an image. | `"cuid-example".to_string()` |
 
 #### Example Snippet
 
@@ -33,6 +33,7 @@ let res = client
 Get the details of a image project. The `downloads` field will be empty unless the image was successfully rendered.
 
 The image can be one of the following status
+
 - `draft` - not currently used
 - `queued` - the job is queued and waiting for a GPU
 - `rendering` - the generation is in progress
@@ -44,9 +45,9 @@ The image can be one of the following status
 
 #### Parameters
 
-| Parameter | Required | Description | Example |
-|-----------|:--------:|-------------|--------|
-| `id` | ✓ | Unique ID of the image project. This value is returned by all of the POST APIs that create an image. | `"cuid-example".to_string()` |
+| Parameter | Required | Description                                                                                          | Example                      |
+| --------- | :------: | ---------------------------------------------------------------------------------------------------- | ---------------------------- |
+| `id`      |    ✓     | Unique ID of the image project. This value is returned by all of the POST APIs that create an image. | `"cuid-example".to_string()` |
 
 #### Example Snippet
 
@@ -65,8 +66,11 @@ let res = client
 #### Response
 
 ##### Type
+
 [V1ImageProjectsGetResponse](/src/models/v1_image_projects_get_response.rs)
 
 ##### Example
-`V1ImageProjectsGetResponse {created_at: "1970-01-01T00:00:00".to_string(), credits_charged: 5, downloads: vec![V1ImageProjectsGetResponseDownloadsItem {expires_at: "2024-10-19T05:16:19.027Z".to_string(), url: "https://videos.magichour.ai/id/output.png".to_string()}], enabled: true, error: Some(V1ImageProjectsGetResponseError {code: "no_source_face".to_string(), message: "Please use an image with a detectable face".to_string()}), id: "cuid-example".to_string(), image_count: 1, name: Some("Example Name".to_string()), status: V1ImageProjectsGetResponseStatusEnum::Complete, total_frame_cost: 5, type_: "AI_IMAGE".to_string()}`
 
+```rust
+V1ImageProjectsGetResponse {created_at: "1970-01-01T00:00:00".to_string(), credits_charged: 5, downloads: vec![V1ImageProjectsGetResponseDownloadsItem {expires_at: "2024-10-19T05:16:19.027Z".to_string(), url: "https://videos.magichour.ai/id/output.png".to_string()}], enabled: true, error: Some(V1ImageProjectsGetResponseError {code: "no_source_face".to_string(), message: "Please use an image with a detectable face".to_string()}), id: "cuid-example".to_string(), image_count: 1, name: Some("Example Name".to_string()), status: V1ImageProjectsGetResponseStatusEnum::Complete, total_frame_cost: 5, type_: "AI_IMAGE".to_string()}
+```
