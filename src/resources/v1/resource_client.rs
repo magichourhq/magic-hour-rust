@@ -133,6 +133,15 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
+    pub fn ai_voice_cloner(
+        &mut self,
+    ) -> crate::resources::v1::ai_voice_cloner::resource_client::AiVoiceClonerClient<
+        '_,
+    > {
+        crate::resources::v1::ai_voice_cloner::resource_client::AiVoiceClonerClient::_new(
+            self.base_client,
+        )
+    }
     pub fn ai_voice_generator(
         &mut self,
     ) -> crate::resources::v1::ai_voice_generator::resource_client::AiVoiceGeneratorClient<

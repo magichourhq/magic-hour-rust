@@ -1,5 +1,5 @@
 {
-  "id": "45ad5bfc-c10d-4aa1-bc62-c7c9c921a911",
+  "id": "94189094-ae7f-4629-a5fa-5c0c8fb8e7a8",
   "tracked_paths": [
     {
       "editable": true,
@@ -252,6 +252,22 @@
     {
       "editable": false,
       "path": "src/models/v1_ai_talking_photo_create_response.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_voice_cloner_create_body.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_voice_cloner_create_body_assets.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_voice_cloner_create_body_style.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_voice_cloner_create_response.rs"
     },
     {
       "editable": false,
@@ -799,6 +815,22 @@
     },
     {
       "editable": true,
+      "path": "src/resources/v1/ai_voice_cloner/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_voice_cloner/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_voice_cloner/request_types.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_voice_cloner/resource_client.rs"
+    },
+    {
+      "editable": true,
       "path": "src/resources/v1/ai_voice_generator/README.md"
     },
     {
@@ -1124,6 +1156,10 @@
     {
       "editable": false,
       "path": "tests/test_v1_ai_talking_photo_client.rs"
+    },
+    {
+      "editable": false,
+      "path": "tests/test_v1_ai_voice_cloner_client.rs"
     },
     {
       "editable": false,

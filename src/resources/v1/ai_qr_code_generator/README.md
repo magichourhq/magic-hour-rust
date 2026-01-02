@@ -10,12 +10,12 @@ Create an AI QR code. Each QR code costs 0 credits.
 
 #### Parameters
 
-| Parameter | Required | Description | Example |
-|-----------|:--------:|-------------|--------|
-| `content` | ✓ | The content of the QR code. | `"https://magichour.ai".to_string()` |
-| `style` | ✓ |  | `V1AiQrCodeGeneratorCreateBodyStyle {art_style: "Watercolor".to_string()}` |
-| `└─ art_style` | ✓ | To use our templates, pass in one of Watercolor, Cyberpunk City, Ink Landscape, Interior Painting, Japanese Street, Mech, Minecraft, Picasso Painting, Game Map, Spaceship, Chinese Painting, Winter Village, or pass any custom art style. | `"Watercolor".to_string()` |
-| `name` | ✗ | The name of image. This value is mainly used for your own identification of the image. | `"Qr Code image".to_string()` |
+| Parameter      | Required | Description                                                                                                                                                                                                                                 | Example                                                                    |
+| -------------- | :------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `content`      |    ✓     | The content of the QR code.                                                                                                                                                                                                                 | `"https://magichour.ai".to_string()`                                       |
+| `style`        |    ✓     |                                                                                                                                                                                                                                             | `V1AiQrCodeGeneratorCreateBodyStyle {art_style: "Watercolor".to_string()}` |
+| `└─ art_style` |    ✓     | To use our templates, pass in one of Watercolor, Cyberpunk City, Ink Landscape, Interior Painting, Japanese Street, Mech, Minecraft, Picasso Painting, Game Map, Spaceship, Chinese Painting, Winter Village, or pass any custom art style. | `"Watercolor".to_string()`                                                 |
+| `name`         |    ✗     | The name of image. This value is mainly used for your own identification of the image.                                                                                                                                                      | `"Qr Code image".to_string()`                                              |
 
 #### Example Snippet
 
@@ -38,8 +38,11 @@ let res = client
 #### Response
 
 ##### Type
+
 [V1AiQrCodeGeneratorCreateResponse](/src/models/v1_ai_qr_code_generator_create_response.rs)
 
 ##### Example
-`V1AiQrCodeGeneratorCreateResponse {credits_charged: 0, frame_cost: 0, id: "cuid-example".to_string()}`
 
+```rust
+V1AiQrCodeGeneratorCreateResponse {credits_charged: 0, frame_cost: 0, id: "cuid-example".to_string()}
+```
