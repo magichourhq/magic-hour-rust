@@ -7,12 +7,12 @@ pub struct V1ImageProjectsGetResponse {
     /// If an error occurred while generating the image(s), credits will be refunded and this field will be updated to include the refund.
     pub credits_charged: i64,
     pub downloads: Vec<crate::models::V1ImageProjectsGetResponseDownloadsItem>,
-    /// Indicates whether the resource is deleted
+    /// Whether this resource is active. If false, it is deleted.
     pub enabled: bool,
     /// In the case of an error, this object will contain the error encountered during video render
     #[serde(deserialize_with = "crate::core::patch::deserialize_required_nullable")]
     pub error: Option<crate::models::V1ImageProjectsGetResponseError>,
-    /// Unique ID of the image. This value can be used in the [get image project API](https://docs.magichour.ai/api-reference/image-projects/get-image-details) to fetch additional details such as status
+    /// Unique ID of the image. Use it with the [Get image Project API](https://docs.magichour.ai/api-reference/image-projects/get-image-details) to fetch status and downloads.
     pub id: String,
     /// Number of images generated
     pub image_count: i64,

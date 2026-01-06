@@ -3,7 +3,7 @@
 pub struct V1AiPhotoEditorCreateBody {
     /// Provide the assets for photo editor
     pub assets: crate::models::V1AiPhotoEditorCreateBodyAssets,
-    /// The name of image. This value is mainly used for your own identification of the image.
+    /// Give your image a custom name for easy identification.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub name: Option<String>,
     /// The resolution of the final output image. The allowed value is based on your subscription. Please refer to our [pricing page](https://magichour.ai/pricing) for more details

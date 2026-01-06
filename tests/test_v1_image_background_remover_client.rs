@@ -12,7 +12,7 @@ async fn test_create_200_success_all_params() {
                 background_image_file_path: Some("api-assets/id/1234.png".to_string()),
                 image_file_path: "api-assets/id/1234.png".to_string(),
             },
-            name: Some("Background Remover image".to_string()),
+            name: Some("My Background Remover image".to_string()),
         })
         .await;
     println!("{res:?}");

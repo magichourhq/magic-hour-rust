@@ -17,7 +17,7 @@ async fn test_create_200_success_all_params() {
                     ],
                 ),
             },
-            name: Some("Ai Image Editor image".to_string()),
+            name: Some("My Ai Image Editor image".to_string()),
             style: magic_hour::models::V1AiImageEditorCreateBodyStyle {
                 model: Some(
                     magic_hour::models::V1AiImageEditorCreateBodyStyleModelEnum::NanoBanana,

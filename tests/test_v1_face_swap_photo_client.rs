@@ -22,7 +22,7 @@ async fn test_create_200_success_all_params() {
                 source_file_path: Some("api-assets/id/1234.png".to_string()),
                 target_file_path: "api-assets/id/1234.png".to_string(),
             },
-            name: Some("Face Swap image".to_string()),
+            name: Some("My Face Swap image".to_string()),
         })
         .await;
     println!("{res:?}");

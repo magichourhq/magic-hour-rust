@@ -15,7 +15,7 @@ pub struct CreateRequest {
     #[serde(default)]
     #[serde(skip_serializing_if = "crate::core::patch::Patch::is_undefined")]
     pub height: crate::core::patch::Patch<i64>,
-    /// The name of video. This value is mainly used for your own identification of the video.
+    /// Give your video a custom name for easy identification.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub name: Option<String>,
     /// Controls the output video resolution. Defaults to `720p` if not specified.

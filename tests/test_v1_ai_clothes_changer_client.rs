@@ -10,10 +10,12 @@ async fn test_create_200_success_all_params() {
         .create(magic_hour::resources::v1::ai_clothes_changer::CreateRequest {
             assets: magic_hour::models::V1AiClothesChangerCreateBodyAssets {
                 garment_file_path: "api-assets/id/outfit.png".to_string(),
-                garment_type: magic_hour::models::V1AiClothesChangerCreateBodyAssetsGarmentTypeEnum::UpperBody,
+                garment_type: Some(
+                    magic_hour::models::V1AiClothesChangerCreateBodyAssetsGarmentTypeEnum::UpperBody,
+                ),
                 person_file_path: "api-assets/id/model.png".to_string(),
             },
-            name: Some("Clothes Changer image".to_string()),
+            name: Some("My Clothes Changer image".to_string()),
         })
         .await;
     println!("{res:?}");

@@ -1,4 +1,4 @@
-/// V1VideoToVideoCreateBodyAssetsVideoSourceEnum
+/// Choose your video source.
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub enum V1VideoToVideoCreateBodyAssetsVideoSourceEnum {
     #[default]
