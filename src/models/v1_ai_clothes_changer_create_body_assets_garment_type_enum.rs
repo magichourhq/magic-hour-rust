@@ -1,4 +1,4 @@
-/// The type of the outfit.
+/// Deprecated: garment_type is no longer needed.
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub enum V1AiClothesChangerCreateBodyAssetsGarmentTypeEnum {
     #[default]

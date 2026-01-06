@@ -9,7 +9,7 @@ async fn test_create_200_success_all_params() {
         .text_to_video()
         .create(magic_hour::resources::v1::text_to_video::CreateRequest {
             end_seconds: 5.0,
-            name: Some("Text To Video video".to_string()),
+            name: Some("My Text To Video video".to_string()),
             orientation: magic_hour::models::V1TextToVideoCreateBodyOrientationEnum::Landscape,
             resolution: Some(
                 magic_hour::models::V1TextToVideoCreateBodyResolutionEnum::Enum720p,

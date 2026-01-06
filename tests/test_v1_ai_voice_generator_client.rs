@@ -8,7 +8,7 @@ async fn test_create_200_success_all_params() {
         .v1()
         .ai_voice_generator()
         .create(magic_hour::resources::v1::ai_voice_generator::CreateRequest {
-            name: Some("Voice Generator audio".to_string()),
+            name: Some("My Voice Generator audio".to_string()),
             style: magic_hour::models::V1AiVoiceGeneratorCreateBodyStyle {
                 prompt: "Hello, how are you?".to_string(),
                 voice_name: magic_hour::models::V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::ElonMusk,

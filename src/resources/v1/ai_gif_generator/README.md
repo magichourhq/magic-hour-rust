@@ -10,12 +10,12 @@ Create an AI GIF. Each GIF costs 50 credits.
 
 #### Parameters
 
-| Parameter       | Required | Description                                                                        | Example                                                                               |
-| --------------- | :------: | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| `style`         |    ✓     |                                                                                    | `V1AiGifGeneratorCreateBodyStyle {prompt: "Cute dancing cat, pixel art".to_string()}` |
-| `└─ prompt`     |    ✓     | The prompt used for the GIF.                                                       | `"Cute dancing cat, pixel art".to_string()`                                           |
-| `name`          |    ✗     | The name of gif. This value is mainly used for your own identification of the gif. | `"Ai Gif gif".to_string()`                                                            |
-| `output_format` |    ✗     | The output file format for the generated animation.                                | `V1AiGifGeneratorCreateBodyOutputFormatEnum::Gif`                                     |
+| Parameter       | Required | Description                                          | Example                                                                               |
+| --------------- | :------: | ---------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| `style`         |    ✓     |                                                      | `V1AiGifGeneratorCreateBodyStyle {prompt: "Cute dancing cat, pixel art".to_string()}` |
+| `└─ prompt`     |    ✓     | The prompt used for the GIF.                         | `"Cute dancing cat, pixel art".to_string()`                                           |
+| `name`          |    ✗     | Give your gif a custom name for easy identification. | `"My Ai Gif gif".to_string()`                                                         |
+| `output_format` |    ✗     | The output file format for the generated animation.  | `V1AiGifGeneratorCreateBodyOutputFormatEnum::Gif`                                     |
 
 #### Example Snippet
 
@@ -26,7 +26,7 @@ let res = client
     .v1()
     .ai_gif_generator()
     .create(magic_hour::resources::v1::ai_gif_generator::CreateRequest {
-        name: Some("Ai Gif gif".to_string()),
+        name: Some("My Ai Gif gif".to_string()),
         output_format: Some(
             magic_hour::models::V1AiGifGeneratorCreateBodyOutputFormatEnum::Gif,
         ),

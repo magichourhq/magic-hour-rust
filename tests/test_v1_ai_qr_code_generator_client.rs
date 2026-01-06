@@ -9,7 +9,7 @@ async fn test_create_200_success_all_params() {
         .ai_qr_code_generator()
         .create(magic_hour::resources::v1::ai_qr_code_generator::CreateRequest {
             content: "https://magichour.ai".to_string(),
-            name: Some("Qr Code image".to_string()),
+            name: Some("My Qr Code image".to_string()),
             style: magic_hour::models::V1AiQrCodeGeneratorCreateBodyStyle {
                 art_style: "Watercolor".to_string(),
             },

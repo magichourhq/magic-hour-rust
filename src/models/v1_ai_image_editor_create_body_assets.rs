@@ -5,7 +5,7 @@ pub struct V1AiImageEditorCreateBodyAssets {
     /// - a direct URL to the video file
     /// - `file_path` field from the response of the [upload urls API](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls).
     ///
-    /// Please refer to the [Input File documentation](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls#input-file) to learn more.
+    /// See the [file upload guide](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls#input-file) for details.
     ///
     #[serde(skip_serializing_if = "Option::is_none")]
     pub image_file_path: Option<String>,
@@ -13,7 +13,7 @@ pub struct V1AiImageEditorCreateBodyAssets {
     /// - a direct URL to the video file
     /// - `file_path` field from the response of the [upload urls API](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls).
     ///
-    /// Please refer to the [Input File documentation](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls#input-file) to learn more.
+    /// See the [file upload guide](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls#input-file) for details.
     ///
     #[serde(skip_serializing_if = "Option::is_none")]
     pub image_file_paths: Option<Vec<String>>,

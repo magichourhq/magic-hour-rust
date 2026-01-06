@@ -11,7 +11,7 @@ async fn test_create_200_success_all_params() {
             assets: magic_hour::models::V1AiFaceEditorCreateBodyAssets {
                 image_file_path: "api-assets/id/1234.png".to_string(),
             },
-            name: Some("Face Editor image".to_string()),
+            name: Some("My Face Editor image".to_string()),
             style: magic_hour::models::V1AiFaceEditorCreateBodyStyle {
                 enhance_face: Some(false),
                 eye_gaze_horizontal: Some(0.0),

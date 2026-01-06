@@ -15,7 +15,7 @@ Create an AI QR code. Each QR code costs 0 credits.
 | `content`      |    ✓     | The content of the QR code.                                                                                                                                                                                                                 | `"https://magichour.ai".to_string()`                                       |
 | `style`        |    ✓     |                                                                                                                                                                                                                                             | `V1AiQrCodeGeneratorCreateBodyStyle {art_style: "Watercolor".to_string()}` |
 | `└─ art_style` |    ✓     | To use our templates, pass in one of Watercolor, Cyberpunk City, Ink Landscape, Interior Painting, Japanese Street, Mech, Minecraft, Picasso Painting, Game Map, Spaceship, Chinese Painting, Winter Village, or pass any custom art style. | `"Watercolor".to_string()`                                                 |
-| `name`         |    ✗     | The name of image. This value is mainly used for your own identification of the image.                                                                                                                                                      | `"Qr Code image".to_string()`                                              |
+| `name`         |    ✗     | Give your image a custom name for easy identification.                                                                                                                                                                                      | `"My Qr Code image".to_string()`                                           |
 
 #### Example Snippet
 
@@ -27,7 +27,7 @@ let res = client
     .ai_qr_code_generator()
     .create(magic_hour::resources::v1::ai_qr_code_generator::CreateRequest {
         content: "https://magichour.ai".to_string(),
-        name: Some("Qr Code image".to_string()),
+        name: Some("My Qr Code image".to_string()),
         style: magic_hour::models::V1AiQrCodeGeneratorCreateBodyStyle {
             art_style: "Watercolor".to_string(),
         },

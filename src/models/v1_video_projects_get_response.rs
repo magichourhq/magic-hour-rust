@@ -10,9 +10,9 @@ pub struct V1VideoProjectsGetResponse {
     #[serde(deserialize_with = "crate::core::patch::deserialize_required_nullable")]
     pub download: Option<crate::models::V1VideoProjectsGetResponseDownload>,
     pub downloads: Vec<crate::models::V1VideoProjectsGetResponseDownloadsItem>,
-    /// Indicates whether the resource is deleted
+    /// Whether this resource is active. If false, it is deleted.
     pub enabled: bool,
-    /// The end time of the input video in seconds. This value is used to trim the input video. The value must be greater than 0.1, and more than the start_seconds.
+    /// End time of your clip (seconds). Must be greater than start_seconds.
     pub end_seconds: f64,
     /// In the case of an error, this object will contain the error encountered during video render
     #[serde(deserialize_with = "crate::core::patch::deserialize_required_nullable")]
@@ -21,12 +21,12 @@ pub struct V1VideoProjectsGetResponse {
     pub fps: f64,
     /// The height of the final output video. A value of -1 indicates the height can be ignored.
     pub height: i64,
-    /// Unique ID of the video. This value can be used in the [get video project API](https://docs.magichour.ai/api-reference/video-projects/get-video-details) to fetch additional details such as status
+    /// Unique ID of the video. Use it with the [Get video Project API](https://docs.magichour.ai/api-reference/video-projects/get-video-details) to fetch status and downloads.
     pub id: String,
     /// The name of the video.
     #[serde(deserialize_with = "crate::core::patch::deserialize_required_nullable")]
     pub name: Option<String>,
-    /// The start time of the input video in seconds. This value is used to trim the input video. The value must be greater than 0.
+    /// Start time of your clip (seconds). Must be ≥ 0.
     pub start_seconds: f64,
     /// The status of the video.
     pub status: crate::models::V1VideoProjectsGetResponseStatusEnum,

@@ -18,7 +18,7 @@ async fn test_create_200_success_all_params() {
                 magic_hour::models::V1VideoToVideoCreateBodyFpsResolutionEnum::Half,
             ),
             height: magic_hour::Patch::new(123),
-            name: Some("Video To Video video".to_string()),
+            name: Some("My Video To Video video".to_string()),
             start_seconds: 0.0,
             style: magic_hour::models::V1VideoToVideoCreateBodyStyle {
                 art_style: magic_hour::models::V1VideoToVideoCreateBodyStyleArtStyleEnum::Enum3dRender,

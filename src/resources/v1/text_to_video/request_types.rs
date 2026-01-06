@@ -7,7 +7,7 @@ pub struct CreateRequest {
     ///
     /// Note: For 480p resolution, the value must be either 5 or 10.
     pub end_seconds: f64,
-    /// The name of video. This value is mainly used for your own identification of the video.
+    /// Give your video a custom name for easy identification.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub name: Option<String>,
     /// Determines the orientation of the output video

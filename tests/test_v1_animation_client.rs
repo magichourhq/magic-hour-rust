@@ -17,7 +17,7 @@ async fn test_create_200_success_all_params() {
             end_seconds: 15.0,
             fps: 12.0,
             height: 960,
-            name: Some("Animation video".to_string()),
+            name: Some("My Animation video".to_string()),
             style: magic_hour::models::V1AnimationCreateBodyStyle {
                 art_style: magic_hour::models::V1AnimationCreateBodyStyleArtStyleEnum::PainterlyIllustration,
                 art_style_custom: Some("string".to_string()),

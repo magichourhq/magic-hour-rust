@@ -12,7 +12,7 @@ async fn test_create_200_success_all_params() {
                 video_file_path: "api-assets/id/1234.mp4".to_string(),
             },
             end_seconds: 15.0,
-            name: Some("Auto Subtitle video".to_string()),
+            name: Some("My Auto Subtitle video".to_string()),
             start_seconds: 0.0,
             style: magic_hour::models::V1AutoSubtitleGeneratorCreateBodyStyle {
                 custom_config: Some(magic_hour::models::V1AutoSubtitleGeneratorCreateBodyStyleCustomConfig {

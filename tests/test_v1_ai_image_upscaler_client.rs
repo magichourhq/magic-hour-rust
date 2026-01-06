@@ -11,7 +11,7 @@ async fn test_create_200_success_all_params() {
             assets: magic_hour::models::V1AiImageUpscalerCreateBodyAssets {
                 image_file_path: "api-assets/id/1234.png".to_string(),
             },
-            name: Some("Image Upscaler image".to_string()),
+            name: Some("My Image Upscaler image".to_string()),
             scale_factor: 2.0,
             style: magic_hour::models::V1AiImageUpscalerCreateBodyStyle {
                 enhancement: magic_hour::models::V1AiImageUpscalerCreateBodyStyleEnhancementEnum::Balanced,

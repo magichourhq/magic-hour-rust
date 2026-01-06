@@ -5,16 +5,19 @@ pub struct V1AiClothesChangerCreateBodyAssets {
     /// - a direct URL to the video file
     /// - `file_path` field from the response of the [upload urls API](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls).
     ///
-    /// Please refer to the [Input File documentation](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls#input-file) to learn more.
+    /// See the [file upload guide](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls#input-file) for details.
     ///
     pub garment_file_path: String,
-    /// The type of the outfit.
-    pub garment_type: crate::models::V1AiClothesChangerCreateBodyAssetsGarmentTypeEnum,
+    /// Deprecated: garment_type is no longer needed.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub garment_type: Option<
+        crate::models::V1AiClothesChangerCreateBodyAssetsGarmentTypeEnum,
+    >,
     /// The image with the person. This value is either
     /// - a direct URL to the video file
     /// - `file_path` field from the response of the [upload urls API](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls).
     ///
-    /// Please refer to the [Input File documentation](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls#input-file) to learn more.
+    /// See the [file upload guide](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls#input-file) for details.
     ///
     pub person_file_path: String,
 }
