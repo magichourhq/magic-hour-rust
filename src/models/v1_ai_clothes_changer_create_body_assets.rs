@@ -8,7 +8,11 @@ pub struct V1AiClothesChangerCreateBodyAssets {
     /// See the [file upload guide](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls#input-file) for details.
     ///
     pub garment_file_path: String,
-    /// Deprecated: garment_type is no longer needed.
+    /// Type of garment to swap. If not provided, swaps the entire outfit.
+    /// * `upper_body` - for shirts/jackets
+    /// * `lower_body` - for pants/skirts
+    /// * `dresses` - for entire outfit (deprecated, use `entire_outfit` instead)
+    /// * `entire_outfit` - for entire outfit
     #[serde(skip_serializing_if = "Option::is_none")]
     pub garment_type: Option<
         crate::models::V1AiClothesChangerCreateBodyAssetsGarmentTypeEnum,
