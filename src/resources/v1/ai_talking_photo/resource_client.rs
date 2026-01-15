@@ -24,6 +24,7 @@ impl<'a> AiTalkingPhotoClient<'a> {
         builder = builder
             .json(
                 &crate::models::V1AiTalkingPhotoCreateBody {
+                    max_resolution: request.max_resolution,
                     name: request.name,
                     style: request.style,
                     assets: request.assets,
