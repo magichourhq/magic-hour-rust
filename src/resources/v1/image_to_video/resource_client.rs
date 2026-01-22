@@ -46,6 +46,7 @@ impl<'a> ImageToVideoClient<'a> {
             .json(
                 &crate::models::V1ImageToVideoCreateBody {
                     height: request.height,
+                    model: request.model,
                     name: request.name,
                     resolution: request.resolution,
                     style: request.style,

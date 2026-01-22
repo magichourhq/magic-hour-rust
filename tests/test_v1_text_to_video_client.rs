@@ -8,9 +8,15 @@ async fn test_create_200_success_all_params() {
         .v1()
         .text_to_video()
         .create(magic_hour::resources::v1::text_to_video::CreateRequest {
+            aspect_ratio: Some(
+                magic_hour::models::V1TextToVideoCreateBodyAspectRatioEnum::Enum169,
+            ),
             end_seconds: 5.0,
+            model: Some(magic_hour::models::V1TextToVideoCreateBodyModelEnum::Sora2),
             name: Some("My Text To Video video".to_string()),
-            orientation: magic_hour::models::V1TextToVideoCreateBodyOrientationEnum::Landscape,
+            orientation: Some(
+                magic_hour::models::V1TextToVideoCreateBodyOrientationEnum::Landscape,
+            ),
             resolution: Some(
                 magic_hour::models::V1TextToVideoCreateBodyResolutionEnum::Enum720p,
             ),

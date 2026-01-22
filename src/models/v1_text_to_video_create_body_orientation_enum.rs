@@ -1,4 +1,4 @@
-/// Determines the orientation of the output video
+/// Deprecated. Use `aspect_ratio` instead.
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub enum V1TextToVideoCreateBodyOrientationEnum {
     #[default]

@@ -45,10 +45,12 @@ impl<'a> TextToVideoClient<'a> {
         builder = builder
             .json(
                 &crate::models::V1TextToVideoCreateBody {
+                    aspect_ratio: request.aspect_ratio,
+                    model: request.model,
                     name: request.name,
+                    orientation: request.orientation,
                     resolution: request.resolution,
                     end_seconds: request.end_seconds,
-                    orientation: request.orientation,
                     style: request.style,
                 },
             );

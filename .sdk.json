@@ -1,5 +1,5 @@
 {
-  "id": "0634bb59-a588-459b-87dd-92a7d1104103",
+  "id": "086b7149-d417-453a-833f-e4562a7b378a",
   "tracked_paths": [
     {
       "editable": true,
@@ -491,6 +491,10 @@
     },
     {
       "editable": false,
+      "path": "src/models/v1_image_to_video_create_body_model_enum.rs"
+    },
+    {
+      "editable": false,
       "path": "src/models/v1_image_to_video_create_body_resolution_enum.rs"
     },
     {
@@ -544,6 +548,14 @@
     {
       "editable": false,
       "path": "src/models/v1_text_to_video_create_body.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_text_to_video_create_body_aspect_ratio_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_text_to_video_create_body_model_enum.rs"
     },
     {
       "editable": false,
