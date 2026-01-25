@@ -10,7 +10,7 @@ impl<'a> AiImageGeneratorClient<'a> {
     }
     /// AI Image Generator
     ///
-    /// Create an AI image. Each standard image costs 5 credits. Pro quality images cost 30 credits.
+    /// Create an AI image with advanced model selection and quality controls.
     ///
     /// POST /v1/ai-image-generator
     pub async fn create(
@@ -24,9 +24,12 @@ impl<'a> AiImageGeneratorClient<'a> {
         builder = builder
             .json(
                 &crate::models::V1AiImageGeneratorCreateBody {
+                    aspect_ratio: request.aspect_ratio,
+                    model: request.model,
                     name: request.name,
-                    image_count: request.image_count,
                     orientation: request.orientation,
+                    resolution: request.resolution,
+                    image_count: request.image_count,
                     style: request.style,
                 },
             );

@@ -12,7 +12,9 @@ async fn test_create_200_success_all_params() {
                 magic_hour::models::V1TextToVideoCreateBodyAspectRatioEnum::Enum169,
             ),
             end_seconds: 5.0,
-            model: Some(magic_hour::models::V1TextToVideoCreateBodyModelEnum::Sora2),
+            model: Some(
+                magic_hour::models::V1TextToVideoCreateBodyModelEnum::Kling25Audio,
+            ),
             name: Some("My Text To Video video".to_string()),
             orientation: Some(
                 magic_hour::models::V1TextToVideoCreateBodyOrientationEnum::Landscape,

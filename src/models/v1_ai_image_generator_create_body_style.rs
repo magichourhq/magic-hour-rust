@@ -3,13 +3,13 @@
 pub struct V1AiImageGeneratorCreateBodyStyle {
     /// The prompt used for the image(s).
     pub prompt: String,
-    /// Controls the quality of the generated image. Defaults to 'standard' if not specified.
+    /// DEPRECATED: Use `model` field instead for explicit model selection.
     ///
-    /// **Options:**
-    /// - `standard` - Standard quality generation. Cost: 5 credits per image.
-    /// - `pro` - Pro quality generation with enhanced details and quality. Cost: 30 credits per image.
+    /// Legacy quality mode mapping:
+    /// - `standard` → `z-image-turbo` model
+    /// - `pro` → `seedream` model
     ///
-    /// Note: Pro mode is available for users on Creator, Pro, or Business tier.
+    /// If model is specified, it will take precedence over the legacy quality_mode field.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub quality_mode: Option<
         crate::models::V1AiImageGeneratorCreateBodyStyleQualityModeEnum,

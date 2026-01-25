@@ -13,7 +13,9 @@ async fn test_create_200_success_all_params() {
             },
             end_seconds: 5.0,
             height: magic_hour::Patch::new(123),
-            model: Some(magic_hour::models::V1ImageToVideoCreateBodyModelEnum::Sora2),
+            model: Some(
+                magic_hour::models::V1ImageToVideoCreateBodyModelEnum::Kling25Audio,
+            ),
             name: Some("My Image To Video video".to_string()),
             resolution: Some(
                 magic_hour::models::V1ImageToVideoCreateBodyResolutionEnum::Enum720p,
