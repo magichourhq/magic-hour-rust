@@ -1,5 +1,5 @@
 {
-  "id": "086b7149-d417-453a-833f-e4562a7b378a",
+  "id": "753f7420-b275-4220-8b9b-e98d0336acb6",
   "tracked_paths": [
     {
       "editable": true,
@@ -151,7 +151,19 @@
     },
     {
       "editable": false,
+      "path": "src/models/v1_ai_image_generator_create_body_aspect_ratio_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_image_generator_create_body_model_enum.rs"
+    },
+    {
+      "editable": false,
       "path": "src/models/v1_ai_image_generator_create_body_orientation_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_image_generator_create_body_resolution_enum.rs"
     },
     {
       "editable": false,
