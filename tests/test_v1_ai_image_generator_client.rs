@@ -25,7 +25,7 @@ async fn test_create_200_success_all_params() {
             style: magic_hour::models::V1AiImageGeneratorCreateBodyStyle {
                 prompt: "Cool image".to_string(),
                 quality_mode: Some(
-                    magic_hour::models::V1AiImageGeneratorCreateBodyStyleQualityModeEnum::Standard,
+                    magic_hour::models::V1AiImageGeneratorCreateBodyStyleQualityModeEnum::Pro,
                 ),
                 tool: Some(
                     magic_hour::models::V1AiImageGeneratorCreateBodyStyleToolEnum::AiAnimeGenerator,
