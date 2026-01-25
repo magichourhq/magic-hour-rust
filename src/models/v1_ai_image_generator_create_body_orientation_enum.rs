@@ -1,4 +1,6 @@
-/// The orientation of the output image(s).
+/// DEPRECATED: Use `aspect_ratio` instead.
+///
+/// The orientation of the output image(s). `aspect_ratio` takes precedence when `orientation` if both are provided.
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub enum V1AiImageGeneratorCreateBodyOrientationEnum {
     #[default]
