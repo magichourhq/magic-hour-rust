@@ -2,11 +2,14 @@
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub struct V1AiTalkingPhotoCreateBodyStyle {
     /// Controls overall motion style.
-    /// * `pro` -  Higher fidelity, realistic detail, accurate lip sync, and faster generation.
-    /// * `standard` -  More expressive motion, but lower visual fidelity.
+    /// * `realistic` - Maintains likeness well, high quality, and reliable.
+    /// * `prompted` - Slightly lower likeness; allows option to prompt scene.
     ///
-    /// * `expressive` - More motion and facial expressiveness; may introduce visual artifacts. (Deprecated: passing this value will be treated as `standard`)
-    /// * `stable` -  Reduced motion for cleaner output; may result in minimal animation. (Deprecated: passing this value will be treated as `pro`)
+    /// **Deprecated values (maintained for backward compatibility):**
+    /// * `pro` - Deprecated: use `realistic`
+    /// * `standard` - Deprecated: use `prompted`
+    /// * `stable` - Deprecated: use `realistic`
+    /// * `expressive` - Deprecated: use `prompted`
     #[serde(skip_serializing_if = "Option::is_none")]
     pub generation_mode: Option<
         crate::models::V1AiTalkingPhotoCreateBodyStyleGenerationModeEnum,
@@ -16,4 +19,8 @@ pub struct V1AiTalkingPhotoCreateBodyStyle {
     /// * Higher values increase motion and expressiveness, with a higher risk of distortion.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub intensity: Option<f64>,
+    /// A text prompt to guide the generation. Only applicable when generation_mode is `prompted`.
+    /// This field is ignored for other modes.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub prompt: Option<String>,
 }
