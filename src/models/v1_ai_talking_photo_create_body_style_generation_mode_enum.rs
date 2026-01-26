@@ -1,9 +1,12 @@
 /// Controls overall motion style.
-/// * `pro` -  Higher fidelity, realistic detail, accurate lip sync, and faster generation.
-/// * `standard` -  More expressive motion, but lower visual fidelity.
+/// * `realistic` - Maintains likeness well, high quality, and reliable.
+/// * `prompted` - Slightly lower likeness; allows option to prompt scene.
 ///
-/// * `expressive` - More motion and facial expressiveness; may introduce visual artifacts. (Deprecated: passing this value will be treated as `standard`)
-/// * `stable` -  Reduced motion for cleaner output; may result in minimal animation. (Deprecated: passing this value will be treated as `pro`)
+/// **Deprecated values (maintained for backward compatibility):**
+/// * `pro` - Deprecated: use `realistic`
+/// * `standard` - Deprecated: use `prompted`
+/// * `stable` - Deprecated: use `realistic`
+/// * `expressive` - Deprecated: use `prompted`
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub enum V1AiTalkingPhotoCreateBodyStyleGenerationModeEnum {
     #[default]
@@ -11,6 +14,10 @@ pub enum V1AiTalkingPhotoCreateBodyStyleGenerationModeEnum {
     Expressive,
     #[serde(rename = "pro")]
     Pro,
+    #[serde(rename = "prompted")]
+    Prompted,
+    #[serde(rename = "realistic")]
+    Realistic,
     #[serde(rename = "stable")]
     Stable,
     #[serde(rename = "standard")]
@@ -21,6 +28,8 @@ impl std::fmt::Display for V1AiTalkingPhotoCreateBodyStyleGenerationModeEnum {
         let str_val = match self {
             V1AiTalkingPhotoCreateBodyStyleGenerationModeEnum::Expressive => "expressive",
             V1AiTalkingPhotoCreateBodyStyleGenerationModeEnum::Pro => "pro",
+            V1AiTalkingPhotoCreateBodyStyleGenerationModeEnum::Prompted => "prompted",
+            V1AiTalkingPhotoCreateBodyStyleGenerationModeEnum::Realistic => "realistic",
             V1AiTalkingPhotoCreateBodyStyleGenerationModeEnum::Stable => "stable",
             V1AiTalkingPhotoCreateBodyStyleGenerationModeEnum::Standard => "standard",
         };
