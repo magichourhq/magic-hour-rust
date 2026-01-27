@@ -61,10 +61,6 @@ let client = magic_hour::Client::default()
 
 - [create](src/resources/v1/ai_meme_generator/README.md#create) - AI Meme Generator
 
-### [v1.ai_photo_editor](src/resources/v1/ai_photo_editor/README.md)
-
-- [create](src/resources/v1/ai_photo_editor/README.md#create) - AI Photo Editor
-
 ### [v1.ai_qr_code_generator](src/resources/v1/ai_qr_code_generator/README.md)
 
 - [create](src/resources/v1/ai_qr_code_generator/README.md#create) - AI QR Code Generator

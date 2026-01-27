@@ -1,5 +1,5 @@
 {
-  "id": "e1e2c0d5-7354-4942-ab05-6143b807e063",
+  "id": "8a563cec-0f5d-4df4-bcd7-a44b1ac876a9",
   "tracked_paths": [
     {
       "editable": true,
@@ -216,22 +216,6 @@
     {
       "editable": false,
       "path": "src/models/v1_ai_meme_generator_create_response.rs"
-    },
-    {
-      "editable": false,
-      "path": "src/models/v1_ai_photo_editor_create_body.rs"
-    },
-    {
-      "editable": false,
-      "path": "src/models/v1_ai_photo_editor_create_body_assets.rs"
-    },
-    {
-      "editable": false,
-      "path": "src/models/v1_ai_photo_editor_create_body_style.rs"
-    },
-    {
-      "editable": false,
-      "path": "src/models/v1_ai_photo_editor_create_response.rs"
     },
     {
       "editable": false,
@@ -791,22 +775,6 @@
     },
     {
       "editable": true,
-      "path": "src/resources/v1/ai_photo_editor/README.md"
-    },
-    {
-      "editable": false,
-      "path": "src/resources/v1/ai_photo_editor/mod.rs"
-    },
-    {
-      "editable": false,
-      "path": "src/resources/v1/ai_photo_editor/request_types.rs"
-    },
-    {
-      "editable": false,
-      "path": "src/resources/v1/ai_photo_editor/resource_client.rs"
-    },
-    {
-      "editable": true,
       "path": "src/resources/v1/ai_qr_code_generator/README.md"
     },
     {
@@ -1168,10 +1136,6 @@
     {
       "editable": false,
       "path": "tests/test_v1_ai_meme_generator_client.rs"
-    },
-    {
-      "editable": false,
-      "path": "tests/test_v1_ai_photo_editor_client.rs"
     },
     {
       "editable": false,
