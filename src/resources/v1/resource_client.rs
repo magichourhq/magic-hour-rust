@@ -106,15 +106,6 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
-    pub fn ai_photo_editor(
-        &mut self,
-    ) -> crate::resources::v1::ai_photo_editor::resource_client::AiPhotoEditorClient<
-        '_,
-    > {
-        crate::resources::v1::ai_photo_editor::resource_client::AiPhotoEditorClient::_new(
-            self.base_client,
-        )
-    }
     pub fn ai_qr_code_generator(
         &mut self,
     ) -> crate::resources::v1::ai_qr_code_generator::resource_client::AiQrCodeGeneratorClient<
