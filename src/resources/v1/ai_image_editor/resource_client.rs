@@ -10,7 +10,7 @@ impl<'a> AiImageEditorClient<'a> {
     }
     /// AI Image Editor
     ///
-    /// Edit images with AI. Each edit costs 50 credits.
+    /// Edit images with AI.
     ///
     /// POST /v1/ai-image-editor
     pub async fn create(
@@ -24,6 +24,9 @@ impl<'a> AiImageEditorClient<'a> {
         builder = builder
             .json(
                 &crate::models::V1AiImageEditorCreateBody {
+                    aspect_ratio: request.aspect_ratio,
+                    image_count: request.image_count,
+                    model: request.model,
                     name: request.name,
                     assets: request.assets,
                     style: request.style,

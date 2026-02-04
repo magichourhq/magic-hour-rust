@@ -1,5 +1,5 @@
 {
-  "id": "8a563cec-0f5d-4df4-bcd7-a44b1ac876a9",
+  "id": "95026d0f-fe22-4d50-a059-1d00c8884367",
   "tracked_paths": [
     {
       "editable": true,
@@ -131,7 +131,15 @@
     },
     {
       "editable": false,
+      "path": "src/models/v1_ai_image_editor_create_body_aspect_ratio_enum.rs"
+    },
+    {
+      "editable": false,
       "path": "src/models/v1_ai_image_editor_create_body_assets.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_image_editor_create_body_model_enum.rs"
     },
     {
       "editable": false,
