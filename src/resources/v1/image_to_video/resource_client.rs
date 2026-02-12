@@ -45,6 +45,7 @@ impl<'a> ImageToVideoClient<'a> {
         builder = builder
             .json(
                 &crate::models::V1ImageToVideoCreateBody {
+                    audio: request.audio,
                     height: request.height,
                     model: request.model,
                     name: request.name,
