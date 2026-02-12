@@ -11,6 +11,7 @@ async fn test_create_200_success_all_params() {
             aspect_ratio: Some(
                 magic_hour::models::V1TextToVideoCreateBodyAspectRatioEnum::Enum169,
             ),
+            audio: Some(true),
             end_seconds: 5.0,
             model: Some(
                 magic_hour::models::V1TextToVideoCreateBodyModelEnum::Kling25Audio,

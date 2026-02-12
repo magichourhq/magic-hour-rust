@@ -11,6 +11,7 @@ async fn test_create_200_success_all_params() {
             assets: magic_hour::models::V1ImageToVideoCreateBodyAssets {
                 image_file_path: "api-assets/id/1234.png".to_string(),
             },
+            audio: Some(true),
             end_seconds: 5.0,
             height: magic_hour::Patch::new(123),
             model: Some(

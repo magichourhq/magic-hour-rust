@@ -46,6 +46,7 @@ impl<'a> TextToVideoClient<'a> {
             .json(
                 &crate::models::V1TextToVideoCreateBody {
                     aspect_ratio: request.aspect_ratio,
+                    audio: request.audio,
                     model: request.model,
                     name: request.name,
                     orientation: request.orientation,
