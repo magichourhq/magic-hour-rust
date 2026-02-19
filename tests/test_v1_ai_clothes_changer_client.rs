@@ -11,7 +11,7 @@ async fn test_create_200_success_all_params() {
             assets: magic_hour::models::V1AiClothesChangerCreateBodyAssets {
                 garment_file_path: "api-assets/id/outfit.png".to_string(),
                 garment_type: Some(
-                    magic_hour::models::V1AiClothesChangerCreateBodyAssetsGarmentTypeEnum::UpperBody,
+                    magic_hour::models::V1AiClothesChangerCreateBodyAssetsGarmentTypeEnum::EntireOutfit,
                 ),
                 person_file_path: "api-assets/id/model.png".to_string(),
             },
