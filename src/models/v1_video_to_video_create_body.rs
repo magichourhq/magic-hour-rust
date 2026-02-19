@@ -12,10 +12,6 @@ pub struct V1VideoToVideoCreateBody {
     pub fps_resolution: Option<crate::models::V1VideoToVideoCreateBodyFpsResolutionEnum>,
     /// `height` is deprecated and no longer influences the output video's resolution.
     ///
-    /// Output resolution is determined by the **minimum** of:
-    /// - The resolution of the input video
-    /// - The maximum resolution allowed by your subscription tier. See our [pricing page](https://magichour.ai/pricing) for more details.
-    ///
     /// This field is retained only for backward compatibility and will be removed in a future release.
     #[serde(default)]
     #[serde(skip_serializing_if = "crate::core::patch::Patch::is_undefined")]
@@ -27,10 +23,6 @@ pub struct V1VideoToVideoCreateBody {
     pub start_seconds: f64,
     pub style: crate::models::V1VideoToVideoCreateBodyStyle,
     /// `width` is deprecated and no longer influences the output video's resolution.
-    ///
-    /// Output resolution is determined by the **minimum** of:
-    /// - The resolution of the input video
-    /// - The maximum resolution allowed by your subscription tier. See our [pricing page](https://magichour.ai/pricing) for more details.
     ///
     /// This field is retained only for backward compatibility and will be removed in a future release.
     #[serde(default)]
