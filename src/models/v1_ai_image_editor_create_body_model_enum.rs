@@ -10,6 +10,10 @@
 ///   - Available for tiers: free, creator, pro, business
 ///   - Image count allowed: 1
 ///   - Max additional input images: 9
+/// - `nano-banana-2` - 100 credits/image
+///   - Available for tiers: free, creator, pro, business
+///   - Image count allowed: 1
+///   - Max additional input images: 9
 /// - `seedream-v4` - 50 credits/image
 ///   - Available for tiers: free, creator, pro, business
 ///   - Image count allowed: 1
@@ -30,6 +34,8 @@ pub enum V1AiImageEditorCreateBodyModelEnum {
     Default,
     #[serde(rename = "nano-banana")]
     NanoBanana,
+    #[serde(rename = "nano-banana-2")]
+    NanoBanana2,
     #[serde(rename = "nano-banana-pro")]
     NanoBananaPro,
     #[serde(rename = "qwen-edit")]
@@ -44,6 +50,7 @@ impl std::fmt::Display for V1AiImageEditorCreateBodyModelEnum {
         let str_val = match self {
             V1AiImageEditorCreateBodyModelEnum::Default => "default",
             V1AiImageEditorCreateBodyModelEnum::NanoBanana => "nano-banana",
+            V1AiImageEditorCreateBodyModelEnum::NanoBanana2 => "nano-banana-2",
             V1AiImageEditorCreateBodyModelEnum::NanoBananaPro => "nano-banana-pro",
             V1AiImageEditorCreateBodyModelEnum::QwenEdit => "qwen-edit",
             V1AiImageEditorCreateBodyModelEnum::SeedreamV4 => "seedream-v4",

@@ -7,6 +7,7 @@
 /// * **`sora-2`**: Supports 720p.
 /// * **`veo3.1`**: Supports 720p, 1080p.
 ///
+/// Legacy models:
 /// * **`kling-1.6`**: Supports 720p, 1080p.
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub enum V1ImageToVideoCreateBodyResolutionEnum {
