@@ -14,6 +14,14 @@
 ///   - Supported resolutions: auto, 2k, 4k
 ///   - Available for tiers: free, creator, pro, business
 ///   - Image count allowed: 1, 2, 3, 4
+/// - `nano-banana` - 50 credits/image
+///   - Supported resolutions: auto
+///   - Available for tiers: free, creator, pro, business
+///   - Image count allowed: 1, 2, 3, 4
+/// - `nano-banana-2` - 100 credits/image
+///   - Supported resolutions: auto
+///   - Available for tiers: free, creator, pro, business
+///   - Image count allowed: 1, 2, 3, 4
 /// - `nano-banana-pro` - 150 credits/image
 ///   - Supported resolutions: auto
 ///   - Available for tiers: creator, pro, business
@@ -26,6 +34,10 @@ pub enum V1AiImageGeneratorCreateBodyModelEnum {
     Default,
     #[serde(rename = "flux-schnell")]
     FluxSchnell,
+    #[serde(rename = "nano-banana")]
+    NanoBanana,
+    #[serde(rename = "nano-banana-2")]
+    NanoBanana2,
     #[serde(rename = "nano-banana-pro")]
     NanoBananaPro,
     #[serde(rename = "seedream")]
@@ -38,6 +50,8 @@ impl std::fmt::Display for V1AiImageGeneratorCreateBodyModelEnum {
         let str_val = match self {
             V1AiImageGeneratorCreateBodyModelEnum::Default => "default",
             V1AiImageGeneratorCreateBodyModelEnum::FluxSchnell => "flux-schnell",
+            V1AiImageGeneratorCreateBodyModelEnum::NanoBanana => "nano-banana",
+            V1AiImageGeneratorCreateBodyModelEnum::NanoBanana2 => "nano-banana-2",
             V1AiImageGeneratorCreateBodyModelEnum::NanoBananaPro => "nano-banana-pro",
             V1AiImageGeneratorCreateBodyModelEnum::Seedream => "seedream",
             V1AiImageGeneratorCreateBodyModelEnum::ZImageTurbo => "z-image-turbo",

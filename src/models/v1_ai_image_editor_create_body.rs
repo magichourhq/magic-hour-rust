@@ -21,6 +21,10 @@ pub struct V1AiImageEditorCreateBody {
     ///   - Available for tiers: free, creator, pro, business
     ///   - Image count allowed: 1
     ///   - Max additional input images: 9
+    /// - `nano-banana-2` - 100 credits/image
+    ///   - Available for tiers: free, creator, pro, business
+    ///   - Image count allowed: 1
+    ///   - Max additional input images: 9
     /// - `seedream-v4` - 50 credits/image
     ///   - Available for tiers: free, creator, pro, business
     ///   - Image count allowed: 1
