@@ -43,5 +43,15 @@ pub struct V1AiImageEditorCreateBody {
     /// Give your image a custom name for easy identification.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub name: Option<String>,
+    /// Maximum resolution for the generated image.
+    ///
+    /// **Options:**
+    /// - `auto` - Automatic resolution (all tiers, default)
+    /// - `2k` - Up to 2048px (requires Pro or Business tier)
+    /// - `4k` - Up to 4096px (requires Business tier)
+    ///
+    /// Note: Resolution availability depends on your subscription tier. Defaults to `auto` if not specified.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub resolution: Option<crate::models::V1AiImageEditorCreateBodyResolutionEnum>,
     pub style: crate::models::V1AiImageEditorCreateBodyStyle,
 }

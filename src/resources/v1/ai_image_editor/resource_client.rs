@@ -28,6 +28,7 @@ impl<'a> AiImageEditorClient<'a> {
                     image_count: request.image_count,
                     model: request.model,
                     name: request.name,
+                    resolution: request.resolution,
                     assets: request.assets,
                     style: request.style,
                 },
