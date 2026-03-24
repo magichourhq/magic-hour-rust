@@ -1,5 +1,5 @@
 {
-  "id": "69436125-29fc-4a9b-81f6-4e8063c524d6",
+  "id": "8958827a-cd4c-4a9f-b88c-70ffc058d80f",
   "tracked_paths": [
     {
       "editable": true,
@@ -140,6 +140,10 @@
     {
       "editable": false,
       "path": "src/models/v1_ai_image_editor_create_body_model_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_image_editor_create_body_resolution_enum.rs"
     },
     {
       "editable": false,

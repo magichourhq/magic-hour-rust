@@ -23,6 +23,9 @@ async fn test_create_200_success_all_params() {
             image_count: Some(1.0),
             model: Some(magic_hour::models::V1AiImageEditorCreateBodyModelEnum::Default),
             name: Some("My Ai Image Editor image".to_string()),
+            resolution: Some(
+                magic_hour::models::V1AiImageEditorCreateBodyResolutionEnum::Auto,
+            ),
             style: magic_hour::models::V1AiImageEditorCreateBodyStyle {
                 model: Some(
                     magic_hour::models::V1AiImageEditorCreateBodyStyleModelEnum::NanoBanana,
