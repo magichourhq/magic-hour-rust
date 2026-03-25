@@ -18,6 +18,7 @@ pub mod face_detection;
 pub mod face_swap;
 pub mod face_swap_photo;
 pub mod files;
+pub mod head_swap;
 pub mod image_background_remover;
 pub mod image_projects;
 pub mod image_to_video;
