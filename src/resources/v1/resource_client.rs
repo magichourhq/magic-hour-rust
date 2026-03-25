@@ -179,6 +179,13 @@ impl<'a> V1Client<'a> {
     ) -> crate::resources::v1::files::resource_client::FilesClient<'_> {
         crate::resources::v1::files::resource_client::FilesClient::_new(self.base_client)
     }
+    pub fn head_swap(
+        &mut self,
+    ) -> crate::resources::v1::head_swap::resource_client::HeadSwapClient<'_> {
+        crate::resources::v1::head_swap::resource_client::HeadSwapClient::_new(
+            self.base_client,
+        )
+    }
     pub fn image_background_remover(
         &mut self,
     ) -> crate::resources::v1::image_background_remover::resource_client::ImageBackgroundRemoverClient<

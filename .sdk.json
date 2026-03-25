@@ -1,5 +1,5 @@
 {
-  "id": "287c9787-83d1-4bbb-bf65-e52723633380",
+  "id": "93fe2599-3c0f-41a6-b9ee-7f3c37fba09d",
   "tracked_paths": [
     {
       "editable": true,
@@ -460,6 +460,18 @@
     {
       "editable": false,
       "path": "src/models/v1_files_upload_urls_create_response_items_item.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_head_swap_create_body.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_head_swap_create_body_assets.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_head_swap_create_response.rs"
     },
     {
       "editable": false,
@@ -979,6 +991,22 @@
     },
     {
       "editable": true,
+      "path": "src/resources/v1/head_swap/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/head_swap/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/head_swap/request_types.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/head_swap/resource_client.rs"
+    },
+    {
+      "editable": true,
       "path": "src/resources/v1/image_background_remover/README.md"
     },
     {
@@ -1192,6 +1220,10 @@
     {
       "editable": false,
       "path": "tests/test_v1_files_upload_urls_client.rs"
+    },
+    {
+      "editable": false,
+      "path": "tests/test_v1_head_swap_client.rs"
     },
     {
       "editable": false,
