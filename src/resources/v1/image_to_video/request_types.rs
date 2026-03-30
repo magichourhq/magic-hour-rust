@@ -7,6 +7,7 @@ pub struct CreateRequest {
     ///
     /// Audio support varies by model:
     /// * **`ltx-2`**: Automatically included with no extra credits
+    /// * **`wan-2.2`**: Not supported
     /// * **`seedance`**: Not supported
     /// * **`kling-2.5`**: Automatically included with no extra credits
     /// * **`kling-3.0`**: Toggle-able (can enable/disable)
@@ -20,6 +21,7 @@ pub struct CreateRequest {
     /// The total duration of the output video in seconds. Supported durations depend on the chosen model:
     ///
     /// * **`ltx-2`**: 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30
+    /// * **`wan-2.2`**: 3, 4, 5, 6, 7, 8, 9, 10, 15
     /// * **`seedance`**: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
     /// * **`kling-2.5`**: 5, 10
     /// * **`kling-3.0`**: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
@@ -37,8 +39,9 @@ pub struct CreateRequest {
     pub height: crate::core::patch::Patch<i64>,
     /// The AI model to use for video generation.
     ///
-    /// * `default`: uses our currently recommended model for general use. For paid tiers, defaults to `kling-2.5`. For free tiers, it defaults to `ltx-2`.
+    /// * `default`: uses our currently recommended model for general use. For paid tiers, defaults to `kling-3.0`. For free tiers, it defaults to `ltx-2`.
     /// * `ltx-2`: Great for fast iteration with audio, lip-sync, and expressive faces
+    /// * `wan-2.2`: Fast, medium-quality model with strong visuals and effect support.
     /// * `seedance`: Great for fast iteration and start/end frame
     /// * `kling-2.5`: Great for motion, action, and camera control
     /// * `kling-3.0`: Great for cinematic, multi-scene storytelling with control
@@ -57,6 +60,7 @@ pub struct CreateRequest {
     /// Controls the output video resolution. Defaults to `720p` on paid tiers and `480p` on free tiers.
     ///
     /// * **`ltx-2`**: Supports 480p, 720p, 1080p.
+    /// * **`wan-2.2`**: Supports 480p, 720p, 1080p.
     /// * **`seedance`**: Supports 480p, 720p, 1080p.
     /// * **`kling-2.5`**: Supports 720p, 1080p.
     /// * **`kling-3.0`**: Supports 720p, 1080p.
