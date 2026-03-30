@@ -13,9 +13,7 @@ async fn test_create_200_success_all_params() {
             ),
             audio: Some(true),
             end_seconds: 5.0,
-            model: Some(
-                magic_hour::models::V1TextToVideoCreateBodyModelEnum::Kling25Audio,
-            ),
+            model: Some(magic_hour::models::V1TextToVideoCreateBodyModelEnum::Kling30),
             name: Some("My Text To Video video".to_string()),
             orientation: Some(
                 magic_hour::models::V1TextToVideoCreateBodyOrientationEnum::Landscape,
