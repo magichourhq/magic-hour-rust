@@ -14,6 +14,7 @@ pub mod ai_voice_generator;
 pub mod animation;
 pub mod audio_projects;
 pub mod auto_subtitle_generator;
+pub mod body_swap;
 pub mod face_detection;
 pub mod face_swap;
 pub mod face_swap_photo;

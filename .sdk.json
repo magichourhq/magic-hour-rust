@@ -1,5 +1,5 @@
 {
-  "id": "4df1d24a-ef8d-4877-8719-27b1300721a2",
+  "id": "111fd788-97f6-4197-95e6-d488d595dc7f",
   "tracked_paths": [
     {
       "editable": true,
@@ -364,6 +364,22 @@
     {
       "editable": false,
       "path": "src/models/v1_auto_subtitle_generator_create_response.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_body_swap_create_body.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_body_swap_create_body_assets.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_body_swap_create_body_resolution_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_body_swap_create_response.rs"
     },
     {
       "editable": false,
@@ -911,6 +927,22 @@
     },
     {
       "editable": true,
+      "path": "src/resources/v1/body_swap/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/body_swap/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/body_swap/request_types.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/body_swap/resource_client.rs"
+    },
+    {
+      "editable": true,
       "path": "src/resources/v1/face_detection/README.md"
     },
     {
@@ -1204,6 +1236,10 @@
     {
       "editable": false,
       "path": "tests/test_v1_auto_subtitle_generator_client.rs"
+    },
+    {
+      "editable": false,
+      "path": "tests/test_v1_body_swap_client.rs"
     },
     {
       "editable": false,
