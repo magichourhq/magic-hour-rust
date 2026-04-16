@@ -158,6 +158,13 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
+    pub fn body_swap(
+        &mut self,
+    ) -> crate::resources::v1::body_swap::resource_client::BodySwapClient<'_> {
+        crate::resources::v1::body_swap::resource_client::BodySwapClient::_new(
+            self.base_client,
+        )
+    }
     pub fn face_swap(
         &mut self,
     ) -> crate::resources::v1::face_swap::resource_client::FaceSwapClient<'_> {
