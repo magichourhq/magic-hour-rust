@@ -26,6 +26,10 @@
 ///   - Supported resolutions: 1k, 2k, 4k
 ///   - Available for tiers: creator, pro, business
 ///   - Image count allowed: 1, 4, 9, 16
+/// - `gpt-image-2` - from 50 credits/image
+///   - Supported resolutions: 640px, 1k, 2k, 4k
+///   - Available for tiers: creator, pro, business
+///   - Image count allowed: 1, 2, 3, 4
 ///
 /// **Deprecated Enum Values:**
 /// - `seedream` - Use `seedream-v4` instead.
@@ -37,6 +41,8 @@ pub enum V1AiImageGeneratorCreateBodyModelEnum {
     Default,
     #[serde(rename = "flux-schnell")]
     FluxSchnell,
+    #[serde(rename = "gpt-image-2")]
+    GptImage2,
     #[serde(rename = "nano-banana")]
     NanoBanana,
     #[serde(rename = "nano-banana-2")]
@@ -55,6 +61,7 @@ impl std::fmt::Display for V1AiImageGeneratorCreateBodyModelEnum {
         let str_val = match self {
             V1AiImageGeneratorCreateBodyModelEnum::Default => "default",
             V1AiImageGeneratorCreateBodyModelEnum::FluxSchnell => "flux-schnell",
+            V1AiImageGeneratorCreateBodyModelEnum::GptImage2 => "gpt-image-2",
             V1AiImageGeneratorCreateBodyModelEnum::NanoBanana => "nano-banana",
             V1AiImageGeneratorCreateBodyModelEnum::NanoBanana2 => "nano-banana-2",
             V1AiImageGeneratorCreateBodyModelEnum::NanoBananaPro => "nano-banana-pro",
