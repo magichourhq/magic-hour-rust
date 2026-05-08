@@ -26,12 +26,18 @@
 ///   - Supported resolutions: 640px, 1k, 2k, 4k
 ///   - Available for tiers: creator, pro, business
 ///   - Max additional input images: 9
+/// - `gpt-image-2` - from 50 credits/image
+///   - Supported resolutions: 640px, 1k, 2k, 4k
+///   - Available for tiers: creator, pro, business
+///   - Max additional input images: 9
 ///
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub enum V1AiImageEditorCreateBodyModelEnum {
     #[default]
     #[serde(rename = "default")]
     Default,
+    #[serde(rename = "gpt-image-2")]
+    GptImage2,
     #[serde(rename = "nano-banana")]
     NanoBanana,
     #[serde(rename = "nano-banana-2")]
@@ -49,6 +55,7 @@ impl std::fmt::Display for V1AiImageEditorCreateBodyModelEnum {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         let str_val = match self {
             V1AiImageEditorCreateBodyModelEnum::Default => "default",
+            V1AiImageEditorCreateBodyModelEnum::GptImage2 => "gpt-image-2",
             V1AiImageEditorCreateBodyModelEnum::NanoBanana => "nano-banana",
             V1AiImageEditorCreateBodyModelEnum::NanoBanana2 => "nano-banana-2",
             V1AiImageEditorCreateBodyModelEnum::NanoBananaPro => "nano-banana-pro",
