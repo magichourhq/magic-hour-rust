@@ -149,6 +149,13 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
+    pub fn audio_to_video(
+        &mut self,
+    ) -> crate::resources::v1::audio_to_video::resource_client::AudioToVideoClient<'_> {
+        crate::resources::v1::audio_to_video::resource_client::AudioToVideoClient::_new(
+            self.base_client,
+        )
+    }
     pub fn auto_subtitle_generator(
         &mut self,
     ) -> crate::resources::v1::auto_subtitle_generator::resource_client::AutoSubtitleGeneratorClient<

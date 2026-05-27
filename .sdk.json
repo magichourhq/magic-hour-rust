@@ -1,5 +1,5 @@
 {
-  "id": "04b8123f-4384-443d-8d05-295e4d20ec70",
+  "id": "fbc367f9-559a-4ff0-aacb-8d925a623c0c",
   "tracked_paths": [
     {
       "editable": true,
@@ -340,6 +340,26 @@
     {
       "editable": false,
       "path": "src/models/v1_audio_projects_get_response_status_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_audio_to_video_create_body.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_audio_to_video_create_body_assets.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_audio_to_video_create_body_resolution_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_audio_to_video_create_body_style.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_audio_to_video_create_response.rs"
     },
     {
       "editable": false,
@@ -911,6 +931,22 @@
     },
     {
       "editable": true,
+      "path": "src/resources/v1/audio_to_video/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/audio_to_video/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/audio_to_video/request_types.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/audio_to_video/resource_client.rs"
+    },
+    {
+      "editable": true,
       "path": "src/resources/v1/auto_subtitle_generator/README.md"
     },
     {
@@ -1232,6 +1268,10 @@
     {
       "editable": false,
       "path": "tests/test_v1_audio_projects_client.rs"
+    },
+    {
+      "editable": false,
+      "path": "tests/test_v1_audio_to_video_client.rs"
     },
     {
       "editable": false,
