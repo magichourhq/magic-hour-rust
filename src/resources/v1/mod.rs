@@ -13,6 +13,7 @@ pub mod ai_voice_cloner;
 pub mod ai_voice_generator;
 pub mod animation;
 pub mod audio_projects;
+pub mod audio_to_video;
 pub mod auto_subtitle_generator;
 pub mod body_swap;
 pub mod face_detection;

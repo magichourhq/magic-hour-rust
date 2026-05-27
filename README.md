@@ -86,6 +86,10 @@ let client = magic_hour::Client::default()
 - [delete](src/resources/v1/audio_projects/README.md#delete) - Delete audio
 - [get](src/resources/v1/audio_projects/README.md#get) - Get audio details
 
+### [v1.audio_to_video](src/resources/v1/audio_to_video/README.md)
+
+- [create](src/resources/v1/audio_to_video/README.md#create) - Audio-to-Video
+
 ### [v1.auto_subtitle_generator](src/resources/v1/auto_subtitle_generator/README.md)
 
 - [create](src/resources/v1/auto_subtitle_generator/README.md#create) - Auto Subtitle Generator
