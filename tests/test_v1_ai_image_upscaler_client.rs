@@ -14,7 +14,12 @@ async fn test_create_200_success_all_params() {
             name: Some("My Image Upscaler image".to_string()),
             scale_factor: 2.0,
             style: magic_hour::models::V1AiImageUpscalerCreateBodyStyle {
-                enhancement: magic_hour::models::V1AiImageUpscalerCreateBodyStyleEnhancementEnum::Balanced,
+                enhancement: Some(
+                    magic_hour::models::V1AiImageUpscalerCreateBodyStyleEnhancementEnum::Balanced,
+                ),
+                mode: Some(
+                    magic_hour::models::V1AiImageUpscalerCreateBodyStyleModeEnum::Creative,
+                ),
                 prompt: Some("string".to_string()),
             },
         })
