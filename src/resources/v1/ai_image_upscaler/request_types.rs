@@ -10,5 +10,6 @@ pub struct CreateRequest {
     ///
     /// Note: 4x upscale is only available on Creator, Pro, or Business tier.
     pub scale_factor: f64,
+    /// Style settings for the upscale. Use `mode` to select between `"pro"` (faster, no enhancement required) and `"creative"` (defaults to `"Balanced"` enhancement). Defaults to `"creative"`.
     pub style: crate::models::V1AiImageUpscalerCreateBodyStyle,
 }
