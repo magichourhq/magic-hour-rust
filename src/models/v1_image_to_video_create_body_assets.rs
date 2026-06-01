@@ -9,7 +9,7 @@ pub struct V1ImageToVideoCreateBodyAssets {
     /// * **`kling-3.0`**: Supports 720p, 1080p, 4k.
     /// * **`veo3.1-lite`**: Not supported
     /// * **`veo3.1`**: Not supported
-    /// * **`seedance`**: Supports 480p, 720p, 1080p.
+    /// * **`seedance`**: Not supported
     /// * **`seedance-2.0`**: Supports 480p, 720p.
     /// * **`sora-2`**: Not supported
     ///
