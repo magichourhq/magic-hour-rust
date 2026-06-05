@@ -17,6 +17,10 @@ pub struct V1AiImageEditorCreateBody {
     ///   - Supported resolutions: 640px, 1k, 2k
     ///   - Available for tiers: free, creator, pro, business
     ///   - Max additional input images: 2
+    /// - `flux-2-klein` - from 5 credits/image
+    ///   - Supported resolutions: 640px, 1k, 2k
+    ///   - Available for tiers: free, creator, pro, business
+    ///   - Max additional input images: 5
     /// - `nano-banana` - from 50 credits/image
     ///   - Supported resolutions: 640px, 1k
     ///   - Available for tiers: creator, pro, business
@@ -58,6 +62,7 @@ pub struct V1AiImageEditorCreateBody {
     ///
     /// **Per-model support:**
     /// - `qwen-edit` - 640px, 1k, 2k
+    /// - `flux-2-klein` - 640px, 1k, 2k
     /// - `nano-banana` - 640px, 1k
     /// - `nano-banana-2` - 640px, 1k, 2k, 4k
     /// - `seedream-v4` - 640px, 1k, 2k, 4k
