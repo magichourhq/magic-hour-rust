@@ -18,6 +18,10 @@
 ///   - Supported resolutions: 640px, 1k, 2k, 4k
 ///   - Available for tiers: creator, pro, business
 ///   - Max additional input images: 9
+/// - `nano-banana-2-lite` - from 50 credits/image
+///   - Supported resolutions: 640px, 1k
+///   - Available for tiers: creator, pro, business
+///   - Max additional input images: 9
 /// - `seedream-v4` - from 40 credits/image
 ///   - Supported resolutions: 640px, 1k, 2k, 4k
 ///   - Available for tiers: creator, pro, business
@@ -48,6 +52,8 @@ pub enum V1AiImageEditorCreateBodyModelEnum {
     NanoBanana,
     #[serde(rename = "nano-banana-2")]
     NanoBanana2,
+    #[serde(rename = "nano-banana-2-lite")]
+    NanoBanana2Lite,
     #[serde(rename = "nano-banana-pro")]
     NanoBananaPro,
     #[serde(rename = "qwen-edit")]
@@ -65,6 +71,7 @@ impl std::fmt::Display for V1AiImageEditorCreateBodyModelEnum {
             V1AiImageEditorCreateBodyModelEnum::GptImage2 => "gpt-image-2",
             V1AiImageEditorCreateBodyModelEnum::NanoBanana => "nano-banana",
             V1AiImageEditorCreateBodyModelEnum::NanoBanana2 => "nano-banana-2",
+            V1AiImageEditorCreateBodyModelEnum::NanoBanana2Lite => "nano-banana-2-lite",
             V1AiImageEditorCreateBodyModelEnum::NanoBananaPro => "nano-banana-pro",
             V1AiImageEditorCreateBodyModelEnum::QwenEdit => "qwen-edit",
             V1AiImageEditorCreateBodyModelEnum::SeedreamV4 => "seedream-v4",
