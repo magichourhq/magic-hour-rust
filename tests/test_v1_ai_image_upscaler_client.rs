@@ -13,15 +13,15 @@ async fn test_create_200_success_all_params() {
             },
             name: Some("My Image Upscaler image".to_string()),
             scale_factor: 2.0,
-            style: magic_hour::models::V1AiImageUpscalerCreateBodyStyle {
+            style: Some(magic_hour::models::V1AiImageUpscalerCreateBodyStyle {
                 enhancement: Some(
                     magic_hour::models::V1AiImageUpscalerCreateBodyStyleEnhancementEnum::Balanced,
                 ),
                 mode: Some(
-                    magic_hour::models::V1AiImageUpscalerCreateBodyStyleModeEnum::Creative,
+                    magic_hour::models::V1AiImageUpscalerCreateBodyStyleModeEnum::Balanced,
                 ),
                 prompt: Some("string".to_string()),
-            },
+            }),
         })
         .await;
     println!("{res:?}");

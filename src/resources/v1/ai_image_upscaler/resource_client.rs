@@ -10,7 +10,7 @@ impl<'a> AiImageUpscalerClient<'a> {
     }
     /// AI Image Upscaler
     ///
-    /// Upscale your image using AI. Each 2x upscale costs 50 credits, and 4x upscale costs 200 credits.
+    /// Upscale your image using AI. Each 2x upscale costs 50 credits for balanced/creative modes, and 25 credits for preserve. 4x upscale costs 200 and 100 credits respectively.
     ///
     /// POST /v1/ai-image-upscaler
     pub async fn create(
@@ -25,9 +25,9 @@ impl<'a> AiImageUpscalerClient<'a> {
             .json(
                 &crate::models::V1AiImageUpscalerCreateBody {
                     name: request.name,
+                    style: request.style,
                     assets: request.assets,
                     scale_factor: request.scale_factor,
-                    style: request.style,
                 },
             );
         builder = self
