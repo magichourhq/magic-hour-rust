@@ -69,6 +69,10 @@ let client = magic_hour::Client::default()
 
 - [create](src/resources/v1/ai_talking_photo/README.md#create) - AI Talking Photo
 
+### [v1.ai_video_editor](src/resources/v1/ai_video_editor/README.md)
+
+- [create](src/resources/v1/ai_video_editor/README.md#create) - AI Video Editor
+
 ### [v1.ai_voice_cloner](src/resources/v1/ai_voice_cloner/README.md)
 
 - [create](src/resources/v1/ai_voice_cloner/README.md#create) - AI Voice Cloner
@@ -97,6 +101,10 @@ let client = magic_hour::Client::default()
 ### [v1.body_swap](src/resources/v1/body_swap/README.md)
 
 - [create](src/resources/v1/body_swap/README.md#create) - Body Swap
+
+### [v1.character_replace](src/resources/v1/character_replace/README.md)
+
+- [create](src/resources/v1/character_replace/README.md#create) - Character Replace
 
 ### [v1.face_detection](src/resources/v1/face_detection/README.md)
 

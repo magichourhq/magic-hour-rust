@@ -1,5 +1,5 @@
 {
-  "id": "055e9dc2-510f-45af-83f4-937123dbda43",
+  "id": "4a3a9b50-242d-40ec-809a-d1aea608f550",
   "tracked_paths": [
     {
       "editable": true,
@@ -267,6 +267,22 @@
     },
     {
       "editable": false,
+      "path": "src/models/v1_ai_video_editor_create_body.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_video_editor_create_body_assets.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_video_editor_create_body_style.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_video_editor_create_response.rs"
+    },
+    {
+      "editable": false,
       "path": "src/models/v1_ai_voice_cloner_create_body.rs"
     },
     {
@@ -404,6 +420,38 @@
     {
       "editable": false,
       "path": "src/models/v1_body_swap_create_response.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_character_replace_create_body.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_character_replace_create_body_assets.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_character_replace_create_body_resolution_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_character_replace_create_body_style.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_character_replace_create_body_style_mode_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_character_replace_create_body_style_points_item.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_character_replace_create_body_style_selection_mode_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_character_replace_create_response.rs"
     },
     {
       "editable": false,
@@ -871,6 +919,22 @@
     },
     {
       "editable": true,
+      "path": "src/resources/v1/ai_video_editor/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_video_editor/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_video_editor/request_types.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_video_editor/resource_client.rs"
+    },
+    {
+      "editable": true,
       "path": "src/resources/v1/ai_voice_cloner/README.md"
     },
     {
@@ -980,6 +1044,22 @@
     {
       "editable": false,
       "path": "src/resources/v1/body_swap/resource_client.rs"
+    },
+    {
+      "editable": true,
+      "path": "src/resources/v1/character_replace/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/character_replace/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/character_replace/request_types.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/character_replace/resource_client.rs"
     },
     {
       "editable": true,
@@ -1259,6 +1339,10 @@
     },
     {
       "editable": false,
+      "path": "tests/test_v1_ai_video_editor_client.rs"
+    },
+    {
+      "editable": false,
       "path": "tests/test_v1_ai_voice_cloner_client.rs"
     },
     {
@@ -1284,6 +1368,10 @@
     {
       "editable": false,
       "path": "tests/test_v1_body_swap_client.rs"
+    },
+    {
+      "editable": false,
+      "path": "tests/test_v1_character_replace_client.rs"
     },
     {
       "editable": false,
