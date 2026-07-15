@@ -10,6 +10,7 @@ pub struct V1AiImageUpscalerCreateBody {
     ///
     /// Note: 4x upscale is only available on Creator, Pro, or Business tier.
     pub scale_factor: f64,
-    /// Style settings for the upscale. Use `mode` to select between `"pro"` (faster, no enhancement required) and `"creative"` (defaults to `"Balanced"` enhancement). Defaults to `"creative"`.
-    pub style: crate::models::V1AiImageUpscalerCreateBodyStyle,
+    /// Style settings for the upscale. Use `mode` (`"preserve"`, `"balanced"`, or `"creative"`). Defaults to `"balanced"`.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub style: Option<crate::models::V1AiImageUpscalerCreateBodyStyle>,
 }

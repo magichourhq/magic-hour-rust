@@ -1,4 +1,4 @@
-/// V1AiImageUpscalerCreateBodyStyleEnhancementEnum
+/// Deprecated: use `mode` instead. `"Resemblance"` maps to `"preserve"`. `"Balanced"` and `"Creative"` map to the same-named modes.
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub enum V1AiImageUpscalerCreateBodyStyleEnhancementEnum {
     #[default]
