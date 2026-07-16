@@ -124,6 +124,15 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
+    pub fn ai_video_editor(
+        &mut self,
+    ) -> crate::resources::v1::ai_video_editor::resource_client::AiVideoEditorClient<
+        '_,
+    > {
+        crate::resources::v1::ai_video_editor::resource_client::AiVideoEditorClient::_new(
+            self.base_client,
+        )
+    }
     pub fn ai_voice_cloner(
         &mut self,
     ) -> crate::resources::v1::ai_voice_cloner::resource_client::AiVoiceClonerClient<
@@ -169,6 +178,15 @@ impl<'a> V1Client<'a> {
         &mut self,
     ) -> crate::resources::v1::body_swap::resource_client::BodySwapClient<'_> {
         crate::resources::v1::body_swap::resource_client::BodySwapClient::_new(
+            self.base_client,
+        )
+    }
+    pub fn character_replace(
+        &mut self,
+    ) -> crate::resources::v1::character_replace::resource_client::CharacterReplaceClient<
+        '_,
+    > {
+        crate::resources::v1::character_replace::resource_client::CharacterReplaceClient::_new(
             self.base_client,
         )
     }

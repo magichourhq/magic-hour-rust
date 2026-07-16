@@ -4,7 +4,7 @@
 
 ### Body Swap <a name="create"></a>
 
-Swap a person into a scene image using Nano Banana 2. Credits depend on `resolution` (from 100 credits at 640px upward).
+Swap a person into a scene image using Nano Banana 2. Credits depend on `resolution` (from 50 credits at 640px upward).
 
 **API Endpoint**: `POST /v1/body-swap`
 
@@ -46,5 +46,5 @@ let res = client
 ##### Example
 
 ```rust
-V1BodySwapCreateResponse {credits_charged: 100, frame_cost: 100, id: "cuid-example".to_string()}
+V1BodySwapCreateResponse {credits_charged: 50, frame_cost: 50, id: "cuid-example".to_string()}
 ```
