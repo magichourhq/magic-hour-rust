@@ -42,9 +42,17 @@ impl<'a> CharacterReplaceClient<'a> {
         let mut builder = reqwest::Client::default().post(&url);
         builder = builder.header("x-sideko-sdk-language", "rust");
         builder = builder.header("content-type", "application/json");
-        if let Some(data) = request.data {
-            builder = builder.json(&data);
-        }
+        builder = builder
+            .json(
+                &crate::models::V1CharacterReplaceCreateBody {
+                    name: request.name,
+                    resolution: request.resolution,
+                    start_seconds: request.start_seconds,
+                    style: request.style,
+                    assets: request.assets,
+                    end_seconds: request.end_seconds,
+                },
+            );
         builder = self
             .base_client
             .apply_auths_to_builder(builder, &["bearerAuth"])
