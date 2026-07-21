@@ -51,6 +51,8 @@ mod v1_ai_talking_photo_create_body_style_generation_mode_enum;
 mod v1_ai_talking_photo_create_response;
 mod v1_ai_video_editor_create_body;
 mod v1_ai_video_editor_create_body_assets;
+mod v1_ai_video_editor_create_body_model_enum;
+mod v1_ai_video_editor_create_body_resolution_enum;
 mod v1_ai_video_editor_create_body_style;
 mod v1_ai_video_editor_create_response;
 mod v1_ai_voice_cloner_create_body;
@@ -222,6 +224,8 @@ pub use v1_ai_talking_photo_create_body_style_generation_mode_enum::V1AiTalkingP
 pub use v1_ai_talking_photo_create_response::V1AiTalkingPhotoCreateResponse;
 pub use v1_ai_video_editor_create_body::V1AiVideoEditorCreateBody;
 pub use v1_ai_video_editor_create_body_assets::V1AiVideoEditorCreateBodyAssets;
+pub use v1_ai_video_editor_create_body_model_enum::V1AiVideoEditorCreateBodyModelEnum;
+pub use v1_ai_video_editor_create_body_resolution_enum::V1AiVideoEditorCreateBodyResolutionEnum;
 pub use v1_ai_video_editor_create_body_style::V1AiVideoEditorCreateBodyStyle;
 pub use v1_ai_video_editor_create_response::V1AiVideoEditorCreateResponse;
 pub use v1_ai_voice_cloner_create_body::V1AiVoiceClonerCreateBody;

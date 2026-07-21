@@ -45,7 +45,9 @@ impl<'a> AiVideoEditorClient<'a> {
         builder = builder
             .json(
                 &crate::models::V1AiVideoEditorCreateBody {
+                    model: request.model,
                     name: request.name,
+                    resolution: request.resolution,
                     start_seconds: request.start_seconds,
                     assets: request.assets,
                     end_seconds: request.end_seconds,
