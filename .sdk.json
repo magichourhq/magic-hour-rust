@@ -1,5 +1,5 @@
 {
-  "id": "92a771ca-8e15-4224-b5cb-f4b63be9c8f0",
+  "id": "83c68dd5-30cf-438e-980c-5448a0ad618c",
   "tracked_paths": [
     {
       "editable": true,
@@ -272,6 +272,14 @@
     {
       "editable": false,
       "path": "src/models/v1_ai_video_editor_create_body_assets.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_video_editor_create_body_model_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_video_editor_create_body_resolution_enum.rs"
     },
     {
       "editable": false,
