@@ -31,7 +31,7 @@ impl<'a> AiVideoEditorClient<'a> {
     /// **Cost**
     /// Credits are only charged for the frames that actually render. You'll see an estimate when the job is queued, and the final total after it's done.
     ///
-    /// For detailed examples, see the [product page](https://magichour.ai/products/video-editor).
+    /// For detailed examples, see the [product page](https://magichour.ai/products/ai-video-editor).
     ///
     /// POST /v1/ai-video-editor
     pub async fn create(

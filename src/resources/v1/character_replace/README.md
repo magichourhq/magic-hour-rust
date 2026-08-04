@@ -67,7 +67,15 @@ let res = client
             magic_hour::models::V1CharacterReplaceCreateBodyResolutionEnum::Enum720p,
         ),
         start_seconds: Some(0.0),
-        ..Default::default()
+        style: Some(magic_hour::models::V1CharacterReplaceCreateBodyStyle {
+            mode: Some(
+                magic_hour::models::V1CharacterReplaceCreateBodyStyleModeEnum::Replace,
+            ),
+            selection_mode: Some(
+                magic_hour::models::V1CharacterReplaceCreateBodyStyleSelectionModeEnum::Auto,
+            ),
+            ..Default::default()
+        }),
     })
     .await;
 ```
