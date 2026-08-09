@@ -9,6 +9,7 @@
 /// * `seedance-1.5`: Smooth, consistent motion with precision.
 /// * `seedance-2.0-mini`: Fast, consistent video with strong motion quality
 /// * `seedance-2.0`: Top quality with reference-to-video control.
+/// * `seedance-2.5`: Highest quality with superior realism, detail, and motion
 /// * `sora-2`: Open AI's model. Great for creativity and viral clips.
 ///
 /// If you specify the deprecated model value that includes the `-audio` suffix, this will be the same as included `audio` as `true`.
@@ -37,6 +38,8 @@ pub enum V1ImageToVideoCreateBodyModelEnum {
     Seedance20,
     #[serde(rename = "seedance-2.0-mini")]
     Seedance20Mini,
+    #[serde(rename = "seedance-2.5")]
+    Seedance25,
     #[serde(rename = "sora-2")]
     Sora2,
     #[serde(rename = "veo3.1")]
@@ -62,6 +65,7 @@ impl std::fmt::Display for V1ImageToVideoCreateBodyModelEnum {
             V1ImageToVideoCreateBodyModelEnum::Seedance15 => "seedance-1.5",
             V1ImageToVideoCreateBodyModelEnum::Seedance20 => "seedance-2.0",
             V1ImageToVideoCreateBodyModelEnum::Seedance20Mini => "seedance-2.0-mini",
+            V1ImageToVideoCreateBodyModelEnum::Seedance25 => "seedance-2.5",
             V1ImageToVideoCreateBodyModelEnum::Sora2 => "sora-2",
             V1ImageToVideoCreateBodyModelEnum::Veo31 => "veo3.1",
             V1ImageToVideoCreateBodyModelEnum::Veo31Audio => "veo3.1-audio",
