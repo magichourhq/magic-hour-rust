@@ -8,6 +8,7 @@
 /// * **`seedance-1.5`**: Supports 480p, 720p, 1080p.
 /// * **`seedance-2.0-mini`**: Supports 480p, 720p.
 /// * **`seedance-2.0`**: Supports 480p, 720p.
+/// * **`seedance-2.5`**: Supports 480p, 720p.
 /// * **`sora-2`**: Supports 720p.
 ///
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
