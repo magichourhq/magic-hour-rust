@@ -10,7 +10,7 @@ impl<'a> AiVoiceGeneratorClient<'a> {
     }
     /// AI Voice Generator
     ///
-    /// Generate speech from text. Each character costs 0.05 credits. The cost is rounded up to the nearest whole number.
+    /// Generate speech from text. Each character costs 0.1 credits. The cost is rounded up to the nearest whole number.
     ///
     /// POST /v1/ai-voice-generator
     pub async fn create(
