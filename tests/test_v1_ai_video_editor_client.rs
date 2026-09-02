@@ -13,7 +13,7 @@ async fn test_create_200_success_all_params() {
             },
             end_seconds: 5.0,
             model: Some(
-                magic_hour::models::V1AiVideoEditorCreateBodyModelEnum::GeminiOmni,
+                magic_hour::models::V1AiVideoEditorCreateBodyModelEnum::GeminiOmni11,
             ),
             name: Some("My Video Editor video".to_string()),
             resolution: Some(
