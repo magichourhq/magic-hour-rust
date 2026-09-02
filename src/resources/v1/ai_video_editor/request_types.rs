@@ -3,15 +3,15 @@
 pub struct CreateRequest {
     /// Provide the assets for video editing.
     pub assets: crate::models::V1AiVideoEditorCreateBodyAssets,
-    /// End time of your clip in seconds. Must be greater than `start_seconds`. Minimum duration depends on model: `gemini-omni`: 3s, `ltx-2.3`: 0.5s. Maximum duration depends on model: `gemini-omni`: 10s, `ltx-2.3`: 45s.
+    /// End time of your clip in seconds. Must be greater than `start_seconds`. Minimum duration depends on model: `gemini-omni-1.1`: 3s, `ltx-2.3`: 0.5s. Maximum duration depends on model: `gemini-omni-1.1`: 10s, `ltx-2.3`: 45s.
     pub end_seconds: f64,
-    /// Editing model. Defaults to `ltx-2.3` for free tier and `gemini-omni` for paid. Use `ltx-2.3` for LTX video edit.
+    /// Editing model. Defaults to `ltx-2.3` for free tier and `gemini-omni-1.1` for paid. `gemini-omni` is deprecated; use `gemini-omni-1.1` instead.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub model: Option<crate::models::V1AiVideoEditorCreateBodyModelEnum>,
     /// Give your video a custom name for easy identification.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub name: Option<String>,
-    /// Output resolution. Defaults to `480p` for free tier and `720p` for paid. Google Omni supports 720p only; LTX-2.3 supports 480p, 720p, and 1080p.
+    /// Output resolution. Defaults to `480p` for free tier and `720p` for paid. `gemini-omni-1.1` and deprecated `gemini-omni` support 720p and 1080p; LTX-2.3 supports 480p, 720p, and 1080p.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub resolution: Option<crate::models::V1AiVideoEditorCreateBodyResolutionEnum>,
     /// Start time of your clip (seconds). Must be ≥ 0.
