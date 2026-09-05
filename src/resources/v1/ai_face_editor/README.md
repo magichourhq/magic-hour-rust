@@ -75,5 +75,5 @@ let res = client
 ##### Example
 
 ```rust
-V1AiFaceEditorCreateResponse {credits_charged: 1, frame_cost: 1, id: "cuid-example".to_string()}
+V1AiFaceEditorCreateResponse {credits_charged: 1, frame_cost: 123, id: "cuid-example".to_string()}
 ```
