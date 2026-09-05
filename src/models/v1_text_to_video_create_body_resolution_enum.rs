@@ -20,6 +20,8 @@ pub enum V1TextToVideoCreateBodyResolutionEnum {
     #[default]
     #[serde(rename = "1080p")]
     Enum1080p,
+    #[serde(rename = "360p")]
+    Enum360p,
     #[serde(rename = "480p")]
     Enum480p,
     #[serde(rename = "4k")]
@@ -31,6 +33,7 @@ impl std::fmt::Display for V1TextToVideoCreateBodyResolutionEnum {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         let str_val = match self {
             V1TextToVideoCreateBodyResolutionEnum::Enum1080p => "1080p",
+            V1TextToVideoCreateBodyResolutionEnum::Enum360p => "360p",
             V1TextToVideoCreateBodyResolutionEnum::Enum480p => "480p",
             V1TextToVideoCreateBodyResolutionEnum::Enum4k => "4k",
             V1TextToVideoCreateBodyResolutionEnum::Enum720p => "720p",
