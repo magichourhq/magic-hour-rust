@@ -49,5 +49,5 @@ let res = client
 ##### Example
 
 ```rust
-V1AiImageUpscalerCreateResponse {credits_charged: 50, frame_cost: 50, id: "cuid-example".to_string()}
+V1AiImageUpscalerCreateResponse {credits_charged: 50, frame_cost: 123, id: "cuid-example".to_string()}
 ```

@@ -48,5 +48,5 @@ let res = client
 ##### Example
 
 ```rust
-V1AiClothesChangerCreateResponse {credits_charged: 25, frame_cost: 25, id: "cuid-example".to_string()}
+V1AiClothesChangerCreateResponse {credits_charged: 25, frame_cost: 123, id: "cuid-example".to_string()}
 ```

@@ -46,5 +46,5 @@ let res = client
 ##### Example
 
 ```rust
-V1AiMemeGeneratorCreateResponse {credits_charged: 10, frame_cost: 10, id: "cuid-example".to_string()}
+V1AiMemeGeneratorCreateResponse {credits_charged: 10, frame_cost: 123, id: "cuid-example".to_string()}
 ```
