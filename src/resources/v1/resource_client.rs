@@ -29,6 +29,13 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
+    pub fn account(
+        &mut self,
+    ) -> crate::resources::v1::account::resource_client::AccountClient<'_> {
+        crate::resources::v1::account::resource_client::AccountClient::_new(
+            self.base_client,
+        )
+    }
     pub fn face_detection(
         &mut self,
     ) -> crate::resources::v1::face_detection::resource_client::FaceDetectionClient<'_> {
