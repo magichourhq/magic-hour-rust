@@ -1,5 +1,5 @@
 {
-  "id": "37a5fe89-e8a0-4249-bf83-ce78a0bd770d",
+  "id": "d5177b9f-2585-4989-b315-09f5b09ff611",
   "tracked_paths": [
     {
       "editable": true,
@@ -60,6 +60,34 @@
     {
       "editable": false,
       "path": "src/models/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_account_list_response.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_account_list_response_subscription.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_account_list_response_subscription_billing_interval_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_account_list_response_subscription_discount.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_account_list_response_subscription_price.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_account_list_response_subscription_status_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_account_list_response_tier_enum.rs"
     },
     {
       "editable": false,
@@ -767,6 +795,22 @@
     },
     {
       "editable": true,
+      "path": "src/resources/v1/account/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/account/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/account/request_types.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/account/resource_client.rs"
+    },
+    {
+      "editable": true,
       "path": "src/resources/v1/ai_clothes_changer/README.md"
     },
     {
@@ -1304,6 +1348,10 @@
     {
       "editable": false,
       "path": "src/resources/v1/video_to_video/resource_client.rs"
+    },
+    {
+      "editable": false,
+      "path": "tests/test_v1_account_client.rs"
     },
     {
       "editable": false,

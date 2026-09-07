@@ -1,4 +1,5 @@
 pub(crate) mod resource_client;
+pub mod account;
 pub mod ai_clothes_changer;
 pub mod ai_face_editor;
 pub mod ai_gif_generator;
