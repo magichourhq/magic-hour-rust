@@ -14,6 +14,10 @@
 ///   - Supported resolutions: 640px, 1k, 2k, 4k
 ///   - Available for tiers: creator, pro, business
 ///   - Max additional input images: 9
+/// - `krea-2` - from 10 credits/image
+///   - Supported resolutions: 640px, 1k
+///   - Available for tiers: free, creator, pro, business
+///   - Max additional input images: 1
 /// - `nano-banana` - from 50 credits/image
 ///   - Supported resolutions: 640px, 1k
 ///   - Available for tiers: creator, pro, business
@@ -58,6 +62,8 @@ pub enum V1AiImageEditorCreateBodyModelEnum {
     GptImage2,
     #[serde(rename = "gpt-image-2.5-flare")]
     GptImage25Flare,
+    #[serde(rename = "krea-2")]
+    Krea2,
     #[serde(rename = "nano-banana")]
     NanoBanana,
     #[serde(rename = "nano-banana-2")]
@@ -82,6 +88,7 @@ impl std::fmt::Display for V1AiImageEditorCreateBodyModelEnum {
             V1AiImageEditorCreateBodyModelEnum::Flux2Klein => "flux-2-klein",
             V1AiImageEditorCreateBodyModelEnum::GptImage2 => "gpt-image-2",
             V1AiImageEditorCreateBodyModelEnum::GptImage25Flare => "gpt-image-2.5-flare",
+            V1AiImageEditorCreateBodyModelEnum::Krea2 => "krea-2",
             V1AiImageEditorCreateBodyModelEnum::NanoBanana => "nano-banana",
             V1AiImageEditorCreateBodyModelEnum::NanoBanana2 => "nano-banana-2",
             V1AiImageEditorCreateBodyModelEnum::NanoBanana2Lite => "nano-banana-2-lite",

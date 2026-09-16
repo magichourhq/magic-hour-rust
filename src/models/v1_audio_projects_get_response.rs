@@ -28,7 +28,7 @@ pub struct V1AudioProjectsGetResponse {
     ///
     /// **Note:** `rendering`, `complete`, and `error` have matching webhook events; `canceled` does not - a canceled job emits no webhook event, so poll this endpoint to detect cancellation.
     pub status: crate::models::V1AudioProjectsGetResponseStatusEnum,
-    /// The type of the audio project. Possible values are VOICE_GENERATOR, VOICE_CHANGER, VOICE_CLONER, VIDEO_TO_AUDIO, MUSIC_GENERATOR
+    /// The type of the audio project. Possible values are AUDIO_TRANSLATOR, VOICE_GENERATOR, VOICE_CHANGER, VOICE_CLONER, VIDEO_TO_AUDIO, MUSIC_GENERATOR
     #[serde(rename = "type")]
     pub type_: String,
 }
