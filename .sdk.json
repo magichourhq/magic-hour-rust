@@ -1,5 +1,5 @@
 {
-  "id": "0d4ad7dd-6fa6-4bf1-90e6-00743563c38c",
+  "id": "036ca6e1-ba74-4708-8947-f12478c2d36f",
   "tracked_paths": [
     {
       "editable": true,
@@ -691,6 +691,30 @@
     },
     {
       "editable": false,
+      "path": "src/models/v1_saved_items_list_response.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_saved_items_list_response_items_item.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_saved_items_list_response_items_item_assets_item.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_saved_items_list_response_items_item_assets_item_media_kind_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_saved_items_list_response_items_item_type_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_saved_items_list_type_enum.rs"
+    },
+    {
+      "editable": false,
       "path": "src/models/v1_text_to_video_create_body.rs"
     },
     {
@@ -1303,6 +1327,22 @@
     },
     {
       "editable": true,
+      "path": "src/resources/v1/saved_items/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/saved_items/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/saved_items/request_types.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/saved_items/resource_client.rs"
+    },
+    {
+      "editable": true,
       "path": "src/resources/v1/text_to_video/README.md"
     },
     {
@@ -1468,6 +1508,10 @@
     {
       "editable": false,
       "path": "tests/test_v1_photo_colorizer_client.rs"
+    },
+    {
+      "editable": false,
+      "path": "tests/test_v1_saved_items_client.rs"
     },
     {
       "editable": false,
