@@ -14,6 +14,7 @@
 /// * **`veo3.1`**: Supports 720p, 1080p.
 /// * **`veo3.1-lite`**: Supports 720p, 1080p.
 /// * **`wan-2.2`**: Supports 480p, 720p, 1080p.
+/// * **`wan-3.0`**: Supports 480p, 720p, 1080p.
 ///
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub enum V1ImageToVideoCreateBodyResolutionEnum {

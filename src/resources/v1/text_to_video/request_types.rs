@@ -17,6 +17,7 @@ pub struct CreateRequest {
     /// * **`veo3.1`**: Supports 9:16, 16:9.
     /// * **`veo3.1-lite`**: Supports 9:16, 16:9.
     /// * **`wan-2.2`**: Supports 9:16, 16:9, 1:1.
+    /// * **`wan-3.0`**: Supports 16:9, 9:16, 1:1.
     ///
     #[serde(skip_serializing_if = "Option::is_none")]
     pub aspect_ratio: Option<crate::models::V1TextToVideoCreateBodyAspectRatioEnum>,
@@ -37,6 +38,7 @@ pub struct CreateRequest {
     /// * **`veo3.1`**: Toggle-able: audio adds extra credits when enabled
     /// * **`veo3.1-lite`**: Toggle-able: audio adds extra credits when enabled
     /// * **`wan-2.2`**: Not supported
+    /// * **`wan-3.0`**: Toggle-able: no additional credits for audio
     ///
     #[serde(skip_serializing_if = "Option::is_none")]
     pub audio: Option<bool>,
@@ -56,6 +58,7 @@ pub struct CreateRequest {
     /// * **`veo3.1`**: 4, 6, 8, 16, 24, 32, 40, 48, 56
     /// * **`veo3.1-lite`**: 4, 6, 8, 16, 24, 32, 40, 48, 56
     /// * **`wan-2.2`**: 3, 4, 5, 6, 7, 8, 9, 10, 15
+    /// * **`wan-3.0`**: 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30
     ///
     pub end_seconds: f64,
     /// The AI model to use for video generation.
@@ -75,6 +78,7 @@ pub struct CreateRequest {
     /// * `veo3.1`: Best for romantic interactions and expressive action, with realistic detail.
     /// * `veo3.1-lite`: Balanced realism and audio at a lower cost than Veo 3.1.
     /// * `wan-2.2`: Best for physical motion, action, and camera movement.
+    /// * `wan-3.0`: High-quality video with native audio, long clips, and end-frame control.
     ///
     /// If you specify the deprecated model value that includes the `-audio` suffix, this will be the same as included `audio` as `true`.
     #[serde(skip_serializing_if = "Option::is_none")]
@@ -101,6 +105,7 @@ pub struct CreateRequest {
     /// * **`veo3.1`**: Supports 720p, 1080p.
     /// * **`veo3.1-lite`**: Supports 720p, 1080p.
     /// * **`wan-2.2`**: Supports 480p, 720p, 1080p.
+    /// * **`wan-3.0`**: Supports 480p, 720p, 1080p.
     ///
     #[serde(skip_serializing_if = "Option::is_none")]
     pub resolution: Option<crate::models::V1TextToVideoCreateBodyResolutionEnum>,

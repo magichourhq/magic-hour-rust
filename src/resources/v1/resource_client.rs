@@ -43,6 +43,13 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
+    pub fn saved_items(
+        &mut self,
+    ) -> crate::resources::v1::saved_items::resource_client::SavedItemsClient<'_> {
+        crate::resources::v1::saved_items::resource_client::SavedItemsClient::_new(
+            self.base_client,
+        )
+    }
     pub fn ai_clothes_changer(
         &mut self,
     ) -> crate::resources::v1::ai_clothes_changer::resource_client::AiClothesChangerClient<

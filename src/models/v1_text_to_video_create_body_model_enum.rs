@@ -15,6 +15,7 @@
 /// * `veo3.1`: Best for romantic interactions and expressive action, with realistic detail.
 /// * `veo3.1-lite`: Balanced realism and audio at a lower cost than Veo 3.1.
 /// * `wan-2.2`: Best for physical motion, action, and camera movement.
+/// * `wan-3.0`: High-quality video with native audio, long clips, and end-frame control.
 ///
 /// If you specify the deprecated model value that includes the `-audio` suffix, this will be the same as included `audio` as `true`.
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
@@ -62,6 +63,8 @@ pub enum V1TextToVideoCreateBodyModelEnum {
     Veo31Lite,
     #[serde(rename = "wan-2.2")]
     Wan22,
+    #[serde(rename = "wan-3.0")]
+    Wan30,
 }
 impl std::fmt::Display for V1TextToVideoCreateBodyModelEnum {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
@@ -87,6 +90,7 @@ impl std::fmt::Display for V1TextToVideoCreateBodyModelEnum {
             V1TextToVideoCreateBodyModelEnum::Veo31Audio => "veo3.1-audio",
             V1TextToVideoCreateBodyModelEnum::Veo31Lite => "veo3.1-lite",
             V1TextToVideoCreateBodyModelEnum::Wan22 => "wan-2.2",
+            V1TextToVideoCreateBodyModelEnum::Wan30 => "wan-3.0",
         };
         write!(f, "{}", str_val)
     }

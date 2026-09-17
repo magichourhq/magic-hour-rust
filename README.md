@@ -152,6 +152,10 @@ let client = magic_hour::Client::default()
 
 - [create](src/resources/v1/photo_colorizer/README.md#create) - Photo Colorizer
 
+### [v1.saved_items](src/resources/v1/saved_items/README.md)
+
+- [list](src/resources/v1/saved_items/README.md#list) - List saved items
+
 ### [v1.text_to_video](src/resources/v1/text_to_video/README.md)
 
 - [create](src/resources/v1/text_to_video/README.md#create) - Text-to-Video
