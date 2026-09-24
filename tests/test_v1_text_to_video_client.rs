@@ -18,6 +18,12 @@ async fn test_create_200_success_all_params() {
             orientation: Some(
                 magic_hour::models::V1TextToVideoCreateBodyOrientationEnum::Landscape,
             ),
+            references: Some(
+                vec![
+                    magic_hour::models::V1TextToVideoCreateBodyReferencesItem { file_path
+                    : "string".to_string(), name : "string".to_string() }
+                ],
+            ),
             resolution: Some(
                 magic_hour::models::V1TextToVideoCreateBodyResolutionEnum::Enum720p,
             ),
