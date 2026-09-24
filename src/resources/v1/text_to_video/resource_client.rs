@@ -50,6 +50,7 @@ impl<'a> TextToVideoClient<'a> {
                     model: request.model,
                     name: request.name,
                     orientation: request.orientation,
+                    references: request.references,
                     resolution: request.resolution,
                     end_seconds: request.end_seconds,
                     style: request.style,
