@@ -20,7 +20,7 @@ async fn test_create_200_success_all_params() {
                 magic_hour::models::V1AiImageGeneratorCreateBodyOrientationEnum::Landscape,
             ),
             resolution: Some(
-                magic_hour::models::V1AiImageGeneratorCreateBodyResolutionEnum::Auto,
+                magic_hour::models::V1AiImageGeneratorCreateBodyResolutionEnum::Enum1k,
             ),
             style: magic_hour::models::V1AiImageGeneratorCreateBodyStyle {
                 prompt: "Cool image".to_string(),

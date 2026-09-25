@@ -11,6 +11,7 @@ pub mod ai_meme_generator;
 pub mod ai_qr_code_generator;
 pub mod ai_talking_photo;
 pub mod ai_video_editor;
+pub mod ai_video_translator;
 pub mod ai_voice_cloner;
 pub mod ai_voice_generator;
 pub mod animation;

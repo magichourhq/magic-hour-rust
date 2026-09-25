@@ -147,6 +147,15 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
+    pub fn ai_video_translator(
+        &mut self,
+    ) -> crate::resources::v1::ai_video_translator::resource_client::AiVideoTranslatorClient<
+        '_,
+    > {
+        crate::resources::v1::ai_video_translator::resource_client::AiVideoTranslatorClient::_new(
+            self.base_client,
+        )
+    }
     pub fn ai_voice_cloner(
         &mut self,
     ) -> crate::resources::v1::ai_voice_cloner::resource_client::AiVoiceClonerClient<

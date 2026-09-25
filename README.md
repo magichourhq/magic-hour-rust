@@ -77,6 +77,10 @@ let client = magic_hour::Client::default()
 
 - [create](src/resources/v1/ai_video_editor/README.md#create) - AI Video Editor
 
+### [v1.ai_video_translator](src/resources/v1/ai_video_translator/README.md)
+
+- [create](src/resources/v1/ai_video_translator/README.md#create) - AI Video Translator
+
 ### [v1.ai_voice_cloner](src/resources/v1/ai_voice_cloner/README.md)
 
 - [create](src/resources/v1/ai_voice_cloner/README.md#create) - AI Voice Cloner

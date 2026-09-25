@@ -1,5 +1,5 @@
 {
-  "id": "d257bad9-4361-4c9b-877c-37345008fd2b",
+  "id": "4554ce36-2d11-463f-841a-0c32bc520637",
   "tracked_paths": [
     {
       "editable": true,
@@ -316,6 +316,26 @@
     {
       "editable": false,
       "path": "src/models/v1_ai_video_editor_create_response.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_video_translator_create_body.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_video_translator_create_body_assets.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_video_translator_create_body_resolution_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_video_translator_create_body_target_language_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_video_translator_create_response.rs"
     },
     {
       "editable": false,
@@ -1015,6 +1035,22 @@
     },
     {
       "editable": true,
+      "path": "src/resources/v1/ai_video_translator/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_video_translator/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_video_translator/request_types.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_video_translator/resource_client.rs"
+    },
+    {
+      "editable": true,
       "path": "src/resources/v1/ai_voice_cloner/README.md"
     },
     {
@@ -1440,6 +1476,10 @@
     {
       "editable": false,
       "path": "tests/test_v1_ai_video_editor_client.rs"
+    },
+    {
+      "editable": false,
+      "path": "tests/test_v1_ai_video_translator_client.rs"
     },
     {
       "editable": false,
