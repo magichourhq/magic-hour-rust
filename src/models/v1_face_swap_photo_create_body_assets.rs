@@ -7,8 +7,8 @@ pub struct V1FaceSwapPhotoCreateBodyAssets {
         Vec<crate::models::V1FaceSwapPhotoCreateBodyAssetsFaceMappingsItem>,
     >,
     /// Choose how to swap faces:
-    /// **all-faces** (recommended) — swap all detected faces using one source image (`source_file_path` required)
-    /// +- **individual-faces** — specify exact mappings using `face_mappings`
+    /// - **all-faces** (recommended) — swap all detected faces using one source image (`source_file_path` required)
+    /// - **individual-faces** — specify exact mappings using `face_mappings`
     #[serde(skip_serializing_if = "Option::is_none")]
     pub face_swap_mode: Option<
         crate::models::V1FaceSwapPhotoCreateBodyAssetsFaceSwapModeEnum,
