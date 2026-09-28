@@ -45,6 +45,7 @@ impl<'a> CharacterReplaceClient<'a> {
         builder = builder
             .json(
                 &crate::models::V1CharacterReplaceCreateBody {
+                    model: request.model,
                     name: request.name,
                     resolution: request.resolution,
                     start_seconds: request.start_seconds,
