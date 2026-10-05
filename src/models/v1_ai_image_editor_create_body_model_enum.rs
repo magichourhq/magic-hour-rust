@@ -38,6 +38,10 @@
 ///   - Supported resolutions: 640px, 1k, 2k
 ///   - Available for tiers: free, creator, pro, business
 ///   - Max additional input images: 2
+/// - `qwen-image-2.1` - from 10 credits/image
+///   - Supported resolutions: 640px, 1k, 2k
+///   - Available for tiers: free, creator, pro, business
+///   - Max additional input images: 2
 /// - `seedream-v4` - from 40 credits/image
 ///   - Supported resolutions: 640px, 1k, 2k, 4k
 ///   - Available for tiers: creator, pro, business
@@ -74,6 +78,8 @@ pub enum V1AiImageEditorCreateBodyModelEnum {
     NanoBananaPro,
     #[serde(rename = "qwen-edit")]
     QwenEdit,
+    #[serde(rename = "qwen-image-2.1")]
+    QwenImage21,
     #[serde(rename = "seedream-v4")]
     SeedreamV4,
     #[serde(rename = "seedream-v4.5")]
@@ -94,6 +100,7 @@ impl std::fmt::Display for V1AiImageEditorCreateBodyModelEnum {
             V1AiImageEditorCreateBodyModelEnum::NanoBanana2Lite => "nano-banana-2-lite",
             V1AiImageEditorCreateBodyModelEnum::NanoBananaPro => "nano-banana-pro",
             V1AiImageEditorCreateBodyModelEnum::QwenEdit => "qwen-edit",
+            V1AiImageEditorCreateBodyModelEnum::QwenImage21 => "qwen-image-2.1",
             V1AiImageEditorCreateBodyModelEnum::SeedreamV4 => "seedream-v4",
             V1AiImageEditorCreateBodyModelEnum::SeedreamV45 => "seedream-v4.5",
             V1AiImageEditorCreateBodyModelEnum::SeedreamV5Pro => "seedream-v5-pro",
