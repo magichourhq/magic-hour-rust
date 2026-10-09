@@ -34,6 +34,10 @@
 ///   - Supported resolutions: 640px, 1k
 ///   - Available for tiers: creator, pro, business
 ///   - Image count allowed: 1, 2, 3, 4
+/// - `nano-banana-2.1` - from 50 credits/image
+///   - Supported resolutions: 640px, 1k, 2k, 4k
+///   - Available for tiers: creator, pro, business
+///   - Image count allowed: 1, 4, 9, 16
 /// - `nano-banana-pro` - from 150 credits/image
 ///   - Supported resolutions: 1k, 2k, 4k
 ///   - Available for tiers: creator, pro, business
@@ -79,6 +83,8 @@ pub enum V1AiImageGeneratorCreateBodyModelEnum {
     NanoBanana2,
     #[serde(rename = "nano-banana-2-lite")]
     NanoBanana2Lite,
+    #[serde(rename = "nano-banana-2.1")]
+    NanoBanana21,
     #[serde(rename = "nano-banana-pro")]
     NanoBananaPro,
     #[serde(rename = "qwen-image-2.1")]
@@ -108,6 +114,7 @@ impl std::fmt::Display for V1AiImageGeneratorCreateBodyModelEnum {
             V1AiImageGeneratorCreateBodyModelEnum::NanoBanana2Lite => {
                 "nano-banana-2-lite"
             }
+            V1AiImageGeneratorCreateBodyModelEnum::NanoBanana21 => "nano-banana-2.1",
             V1AiImageGeneratorCreateBodyModelEnum::NanoBananaPro => "nano-banana-pro",
             V1AiImageGeneratorCreateBodyModelEnum::QwenImage21 => "qwen-image-2.1",
             V1AiImageGeneratorCreateBodyModelEnum::Seedream => "seedream",

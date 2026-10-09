@@ -8,7 +8,7 @@ pub struct V1AiTalkingPhotoCreateBody {
     /// Constrains the larger dimension (height or width) of the output video. Allows you to set a lower resolution than your plan's maximum if desired. The value is capped by your plan's max resolution.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub max_resolution: Option<i64>,
-    /// Give your image a custom name for easy identification.
+    /// Give your video a custom name for easy identification.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub name: Option<String>,
     /// The start time of the input audio in seconds. Maximum clip length depends on style.generation_mode: realistic 300s, prompted 45s.
