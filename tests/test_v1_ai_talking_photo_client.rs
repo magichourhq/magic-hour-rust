@@ -14,7 +14,7 @@ async fn test_create_200_success_all_params() {
             },
             end_seconds: 15.0,
             max_resolution: Some(1024),
-            name: Some("My Talking Photo image".to_string()),
+            name: Some("My Talking Photo video".to_string()),
             start_seconds: 0.0,
             style: Some(magic_hour::models::V1AiTalkingPhotoCreateBodyStyle {
                 generation_mode: Some(
