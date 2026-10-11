@@ -37,11 +37,11 @@ let res = client
         ),
         image_count: 1,
         model: Some(
-            magic_hour::models::V1AiImageGeneratorCreateBodyModelEnum::Default,
+            magic_hour::models::V1AiImageGeneratorCreateBodyModelEnum::ZImageTurbo,
         ),
         name: Some("My Ai Image image".to_string()),
         resolution: Some(
-            magic_hour::models::V1AiImageGeneratorCreateBodyResolutionEnum::Enum1k,
+            magic_hour::models::V1AiImageGeneratorCreateBodyResolutionEnum::Enum640px,
         ),
         style: magic_hour::models::V1AiImageGeneratorCreateBodyStyle {
             prompt: "Cool image".to_string(),
@@ -64,5 +64,5 @@ let res = client
 ##### Example
 
 ```rust
-V1AiImageGeneratorCreateResponse {credits_charged: 5, frame_cost: 123, id: "cuid-example".to_string()}
+V1AiImageGeneratorCreateResponse {credits_charged: 5, frame_cost: 5, id: "cuid-example".to_string()}
 ```
