@@ -11,10 +11,10 @@ async fn test_create_200_success_all_params() {
             assets: magic_hour::models::V1AiVideoTranslatorCreateBodyAssets {
                 video_file_path: "api-assets/id/1234.mp4".to_string(),
             },
-            end_seconds: 15.0,
+            end_seconds: 5.0,
             name: Some("My Video Translator video".to_string()),
             resolution: Some(
-                magic_hour::models::V1AiVideoTranslatorCreateBodyResolutionEnum::Enum720p,
+                magic_hour::models::V1AiVideoTranslatorCreateBodyResolutionEnum::Enum480p,
             ),
             start_seconds: Some(0.0),
             target_language: magic_hour::models::V1AiVideoTranslatorCreateBodyTargetLanguageEnum::Spanish,

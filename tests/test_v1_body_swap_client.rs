@@ -13,7 +13,7 @@ async fn test_create_200_success_all_params() {
                 scene_file_path: "api-assets/id/5678.png".to_string(),
             },
             name: Some("My Body Swap image".to_string()),
-            resolution: magic_hour::models::V1BodySwapCreateBodyResolutionEnum::Enum1k,
+            resolution: magic_hour::models::V1BodySwapCreateBodyResolutionEnum::Enum640px,
         })
         .await;
     println!("{res:?}");

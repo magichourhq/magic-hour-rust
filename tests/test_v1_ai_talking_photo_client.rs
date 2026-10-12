@@ -12,8 +12,8 @@ async fn test_create_200_success_all_params() {
                 audio_file_path: "api-assets/id/1234.mp3".to_string(),
                 image_file_path: "api-assets/id/1234.png".to_string(),
             },
-            end_seconds: 15.0,
-            max_resolution: Some(1024),
+            end_seconds: 5.0,
+            max_resolution: Some(512),
             name: Some("My Talking Photo video".to_string()),
             start_seconds: 0.0,
             style: Some(magic_hour::models::V1AiTalkingPhotoCreateBodyStyle {
@@ -21,7 +21,9 @@ async fn test_create_200_success_all_params() {
                     magic_hour::models::V1AiTalkingPhotoCreateBodyStyleGenerationModeEnum::Realistic,
                 ),
                 intensity: Some(123.45),
-                prompt: Some("string".to_string()),
+                prompt: Some(
+                    "A person smiling and speaking naturally to the camera".to_string(),
+                ),
             }),
         })
         .await;

@@ -13,7 +13,10 @@ async fn test_create_200_success_all_params() {
             },
             name: Some("My Ai Headshot image".to_string()),
             style: Some(magic_hour::models::V1AiHeadshotGeneratorCreateBodyStyle {
-                prompt: Some("string".to_string()),
+                prompt: Some(
+                    "Professional studio headshot with soft lighting and a neutral background"
+                        .to_string(),
+                ),
             }),
         })
         .await;

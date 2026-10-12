@@ -18,9 +18,11 @@ async fn test_create_200_success_all_params() {
                     magic_hour::models::V1AiImageUpscalerCreateBodyStyleEnhancementEnum::Balanced,
                 ),
                 mode: Some(
-                    magic_hour::models::V1AiImageUpscalerCreateBodyStyleModeEnum::Balanced,
+                    magic_hour::models::V1AiImageUpscalerCreateBodyStyleModeEnum::Preserve,
                 ),
-                prompt: Some("string".to_string()),
+                prompt: Some(
+                    "Enhance fine details and keep the image natural".to_string(),
+                ),
             }),
         })
         .await;

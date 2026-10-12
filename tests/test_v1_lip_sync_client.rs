@@ -14,7 +14,7 @@ async fn test_create_200_success_all_params() {
                 video_source: magic_hour::models::V1LipSyncCreateBodyAssetsVideoSourceEnum::File,
                 youtube_url: Some("http://www.example.com".to_string()),
             },
-            end_seconds: 15.0,
+            end_seconds: 5.0,
             height: magic_hour::Patch::new(123),
             max_fps_limit: Some(12.0),
             name: Some("My Lip Sync video".to_string()),
