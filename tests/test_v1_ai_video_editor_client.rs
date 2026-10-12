@@ -12,12 +12,10 @@ async fn test_create_200_success_all_params() {
                 video_file_path: "api-assets/id/1234.mp4".to_string(),
             },
             end_seconds: 5.0,
-            model: Some(
-                magic_hour::models::V1AiVideoEditorCreateBodyModelEnum::GeminiOmni11,
-            ),
+            model: Some(magic_hour::models::V1AiVideoEditorCreateBodyModelEnum::Ltx25),
             name: Some("My Video Editor video".to_string()),
             resolution: Some(
-                magic_hour::models::V1AiVideoEditorCreateBodyResolutionEnum::Enum720p,
+                magic_hour::models::V1AiVideoEditorCreateBodyResolutionEnum::Enum480p,
             ),
             start_seconds: Some(0.0),
             style: magic_hour::models::V1AiVideoEditorCreateBodyStyle {

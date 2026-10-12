@@ -41,9 +41,9 @@ For detailed examples, see the [product page](https://magichour.ai/products/ai-v
 | `end_seconds`        |    ✓     | End time of your clip in seconds. Must be greater than `start_seconds`. Minimum duration depends on model: `gemini-omni-1.1`: 3s, LTX 2.5: 0.5s. Maximum duration depends on model: `gemini-omni-1.1`: 10s, LTX 2.5: 20s.                                                                                                                        | `5.0`                                                                                     |
 | `style`              |    ✓     |                                                                                                                                                                                                                                                                                                                                                  | `V1AiVideoEditorCreateBodyStyle {prompt: "Change the car color to blue".to_string()}`     |
 | `└─ prompt`          |    ✓     | The prompt used to edit the video.                                                                                                                                                                                                                                                                                                               | `"Change the car color to blue".to_string()`                                              |
-| `model`              |    ✗     | Editing model. Defaults to LTX 2.5 for free tier and `gemini-omni-1.1` for paid. `gemini-omni` is deprecated; use `gemini-omni-1.1` instead.                                                                                                                                                                                                     | `V1AiVideoEditorCreateBodyModelEnum::GeminiOmni11`                                        |
+| `model`              |    ✗     | Editing model. Defaults to LTX 2.5 for free tier and `gemini-omni-1.1` for paid. `gemini-omni` is deprecated; use `gemini-omni-1.1` instead.                                                                                                                                                                                                     | `V1AiVideoEditorCreateBodyModelEnum::Ltx25`                                               |
 | `name`               |    ✗     | Give your video a custom name for easy identification.                                                                                                                                                                                                                                                                                           | `"My Video Editor video".to_string()`                                                     |
-| `resolution`         |    ✗     | Output resolution. Defaults to `480p` for free tier and `720p` for paid. `gemini-omni-1.1` and deprecated `gemini-omni` support 720p and 1080p; LTX 2.5 supports 480p, 720p, and 1080p.                                                                                                                                                          | `V1AiVideoEditorCreateBodyResolutionEnum::Enum720p`                                       |
+| `resolution`         |    ✗     | Output resolution. Defaults to `480p` for free tier and `720p` for paid. `gemini-omni-1.1` and deprecated `gemini-omni` support 720p and 1080p; LTX 2.5 supports 480p, 720p, and 1080p.                                                                                                                                                          | `V1AiVideoEditorCreateBodyResolutionEnum::Enum480p`                                       |
 | `start_seconds`      |    ✗     | Start time of your clip (seconds). Must be ≥ 0.                                                                                                                                                                                                                                                                                                  | `0.0`                                                                                     |
 
 #### Example Snippet
@@ -59,12 +59,10 @@ let res = client
             video_file_path: "api-assets/id/1234.mp4".to_string(),
         },
         end_seconds: 5.0,
-        model: Some(
-            magic_hour::models::V1AiVideoEditorCreateBodyModelEnum::GeminiOmni11,
-        ),
+        model: Some(magic_hour::models::V1AiVideoEditorCreateBodyModelEnum::Ltx25),
         name: Some("My Video Editor video".to_string()),
         resolution: Some(
-            magic_hour::models::V1AiVideoEditorCreateBodyResolutionEnum::Enum720p,
+            magic_hour::models::V1AiVideoEditorCreateBodyResolutionEnum::Enum480p,
         ),
         start_seconds: Some(0.0),
         style: magic_hour::models::V1AiVideoEditorCreateBodyStyle {

@@ -13,14 +13,14 @@ async fn test_create_200_success_all_params() {
             ),
             image_count: 1,
             model: Some(
-                magic_hour::models::V1AiImageGeneratorCreateBodyModelEnum::Default,
+                magic_hour::models::V1AiImageGeneratorCreateBodyModelEnum::ZImageTurbo,
             ),
             name: Some("My Ai Image image".to_string()),
             orientation: Some(
                 magic_hour::models::V1AiImageGeneratorCreateBodyOrientationEnum::Landscape,
             ),
             resolution: Some(
-                magic_hour::models::V1AiImageGeneratorCreateBodyResolutionEnum::Enum1k,
+                magic_hour::models::V1AiImageGeneratorCreateBodyResolutionEnum::Enum640px,
             ),
             style: magic_hour::models::V1AiImageGeneratorCreateBodyStyle {
                 prompt: "Cool image".to_string(),

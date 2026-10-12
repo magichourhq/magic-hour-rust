@@ -13,7 +13,7 @@ async fn test_create_200_success_all_params() {
                 video_source: magic_hour::models::V1VideoToVideoCreateBodyAssetsVideoSourceEnum::File,
                 youtube_url: Some("http://www.example.com".to_string()),
             },
-            end_seconds: 15.0,
+            end_seconds: 5.0,
             fps_resolution: Some(
                 magic_hour::models::V1VideoToVideoCreateBodyFpsResolutionEnum::Half,
             ),
@@ -21,11 +21,13 @@ async fn test_create_200_success_all_params() {
             name: Some("My Video To Video video".to_string()),
             start_seconds: 0.0,
             style: magic_hour::models::V1VideoToVideoCreateBodyStyle {
-                art_style: magic_hour::models::V1VideoToVideoCreateBodyStyleArtStyleEnum::Enum3dRender,
+                art_style: magic_hour::models::V1VideoToVideoCreateBodyStyleArtStyleEnum::Minecraft,
                 model: Some(
                     magic_hour::models::V1VideoToVideoCreateBodyStyleModelEnum::Default,
                 ),
-                prompt: magic_hour::Patch::new("string".to_string()),
+                prompt: magic_hour::Patch::new(
+                    "A cinematic scene with warm lighting".to_string(),
+                ),
                 prompt_type: Some(
                     magic_hour::models::V1VideoToVideoCreateBodyStylePromptTypeEnum::Default,
                 ),

@@ -21,10 +21,12 @@ async fn test_create_200_success_all_params() {
                 ),
             },
             image_count: Some(1.0),
-            model: Some(magic_hour::models::V1AiImageEditorCreateBodyModelEnum::Default),
+            model: Some(
+                magic_hour::models::V1AiImageEditorCreateBodyModelEnum::Flux2Klein,
+            ),
             name: Some("My Ai Image Editor image".to_string()),
             resolution: Some(
-                magic_hour::models::V1AiImageEditorCreateBodyResolutionEnum::Enum1k,
+                magic_hour::models::V1AiImageEditorCreateBodyResolutionEnum::Enum640px,
             ),
             style: magic_hour::models::V1AiImageEditorCreateBodyStyle {
                 model: Some(

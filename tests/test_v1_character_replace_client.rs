@@ -12,13 +12,13 @@ async fn test_create_200_success_all_params() {
                 image_file_path: "api-assets/id/5678.png".to_string(),
                 video_file_path: "api-assets/id/1234.mp4".to_string(),
             },
-            end_seconds: 15.0,
+            end_seconds: 5.0,
             model: Some(
                 magic_hour::models::V1CharacterReplaceCreateBodyModelEnum::WanAnimate,
             ),
             name: Some("My Character Replace video".to_string()),
             resolution: Some(
-                magic_hour::models::V1CharacterReplaceCreateBodyResolutionEnum::Enum720p,
+                magic_hour::models::V1CharacterReplaceCreateBodyResolutionEnum::Enum480p,
             ),
             start_seconds: Some(0.0),
             style: Some(magic_hour::models::V1CharacterReplaceCreateBodyStyle {

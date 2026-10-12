@@ -15,10 +15,10 @@ async fn test_create_200_success_all_params() {
             audio: Some(true),
             end_seconds: 5.0,
             height: magic_hour::Patch::new(123),
-            model: Some(magic_hour::models::V1ImageToVideoCreateBodyModelEnum::Kling30),
+            model: Some(magic_hour::models::V1ImageToVideoCreateBodyModelEnum::Ltx25),
             name: Some("My Image To Video video".to_string()),
             resolution: Some(
-                magic_hour::models::V1ImageToVideoCreateBodyResolutionEnum::Enum720p,
+                magic_hour::models::V1ImageToVideoCreateBodyResolutionEnum::Enum480p,
             ),
             style: Some(magic_hour::models::V1ImageToVideoCreateBodyStyle {
                 high_quality: Some(true),

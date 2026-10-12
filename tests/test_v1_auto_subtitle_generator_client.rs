@@ -11,7 +11,7 @@ async fn test_create_200_success_all_params() {
             assets: magic_hour::models::V1AutoSubtitleGeneratorCreateBodyAssets {
                 video_file_path: "api-assets/id/1234.mp4".to_string(),
             },
-            end_seconds: 15.0,
+            end_seconds: 5.0,
             name: Some("My Auto Subtitle video".to_string()),
             start_seconds: 0.0,
             style: magic_hour::models::V1AutoSubtitleGeneratorCreateBodyStyle {
@@ -27,7 +27,7 @@ async fn test_create_200_success_all_params() {
                     vertical_position: Some("bottom".to_string()),
                 }),
                 template: Some(
-                    magic_hour::models::V1AutoSubtitleGeneratorCreateBodyStyleTemplateEnum::Cinematic,
+                    magic_hour::models::V1AutoSubtitleGeneratorCreateBodyStyleTemplateEnum::Karaoke,
                 ),
             },
         })

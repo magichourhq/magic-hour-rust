@@ -13,7 +13,7 @@ async fn test_create_200_success_all_params() {
             ),
             audio: Some(true),
             end_seconds: 5.0,
-            model: Some(magic_hour::models::V1TextToVideoCreateBodyModelEnum::Kling30),
+            model: Some(magic_hour::models::V1TextToVideoCreateBodyModelEnum::Ltx25),
             name: Some("My Text To Video video".to_string()),
             orientation: Some(
                 magic_hour::models::V1TextToVideoCreateBodyOrientationEnum::Landscape,
@@ -21,11 +21,11 @@ async fn test_create_200_success_all_params() {
             references: Some(
                 vec![
                     magic_hour::models::V1TextToVideoCreateBodyReferencesItem { file_path
-                    : "string".to_string(), name : "string".to_string() }
+                    : "api-assets/id/1234.png".to_string(), name : "hero".to_string() }
                 ],
             ),
             resolution: Some(
-                magic_hour::models::V1TextToVideoCreateBodyResolutionEnum::Enum720p,
+                magic_hour::models::V1TextToVideoCreateBodyResolutionEnum::Enum480p,
             ),
             style: magic_hour::models::V1TextToVideoCreateBodyStyle {
                 prompt: "a dog running".to_string(),

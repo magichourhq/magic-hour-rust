@@ -14,13 +14,15 @@ async fn test_create_200_success_all_params() {
                 image_file_path: Some("api-assets/id/1234.png".to_string()),
                 youtube_url: Some("http://www.example.com".to_string()),
             },
-            end_seconds: 15.0,
+            end_seconds: 5.0,
             fps: 12.0,
-            height: 960,
+            height: 512,
             name: Some("My Animation video".to_string()),
             style: magic_hour::models::V1AnimationCreateBodyStyle {
                 art_style: magic_hour::models::V1AnimationCreateBodyStyleArtStyleEnum::PainterlyIllustration,
-                art_style_custom: Some("string".to_string()),
+                art_style_custom: Some(
+                    "Watercolor painting with soft pastel colors".to_string(),
+                ),
                 camera_effect: magic_hour::models::V1AnimationCreateBodyStyleCameraEffectEnum::SimpleZoomIn,
                 prompt: Some("Cyberpunk city".to_string()),
                 prompt_type: magic_hour::models::V1AnimationCreateBodyStylePromptTypeEnum::Custom,
