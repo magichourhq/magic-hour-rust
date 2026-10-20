@@ -138,6 +138,13 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
+    pub fn ai_ugc_ad(
+        &mut self,
+    ) -> crate::resources::v1::ai_ugc_ad::resource_client::AiUgcAdClient<'_> {
+        crate::resources::v1::ai_ugc_ad::resource_client::AiUgcAdClient::_new(
+            self.base_client,
+        )
+    }
     pub fn ai_video_editor(
         &mut self,
     ) -> crate::resources::v1::ai_video_editor::resource_client::AiVideoEditorClient<

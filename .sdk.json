@@ -1,5 +1,5 @@
 {
-  "id": "98ec0e24-da1b-4e31-8dfe-344be5e5711b",
+  "id": "db95b988-2367-4d6e-9110-5b56a6512a36",
   "tracked_paths": [
     {
       "editable": true,
@@ -283,6 +283,10 @@
     },
     {
       "editable": false,
+      "path": "src/models/v1_ai_talking_photo_create_body_resolution_enum.rs"
+    },
+    {
+      "editable": false,
       "path": "src/models/v1_ai_talking_photo_create_body_style.rs"
     },
     {
@@ -292,6 +296,26 @@
     {
       "editable": false,
       "path": "src/models/v1_ai_talking_photo_create_response.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_ugc_ad_create_body.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_ugc_ad_create_body_assets.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_ugc_ad_create_body_model_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_ugc_ad_create_body_resolution_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_ugc_ad_create_response.rs"
     },
     {
       "editable": false,
@@ -1023,6 +1047,22 @@
     },
     {
       "editable": true,
+      "path": "src/resources/v1/ai_ugc_ad/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_ugc_ad/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_ugc_ad/request_types.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_ugc_ad/resource_client.rs"
+    },
+    {
+      "editable": true,
       "path": "src/resources/v1/ai_video_editor/README.md"
     },
     {
@@ -1476,6 +1516,10 @@
     {
       "editable": false,
       "path": "tests/test_v1_ai_talking_photo_client.rs"
+    },
+    {
+      "editable": false,
+      "path": "tests/test_v1_ai_ugc_ad_client.rs"
     },
     {
       "editable": false,
