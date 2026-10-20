@@ -26,6 +26,7 @@ impl<'a> AiTalkingPhotoClient<'a> {
                 &crate::models::V1AiTalkingPhotoCreateBody {
                     max_resolution: request.max_resolution,
                     name: request.name,
+                    resolution: request.resolution,
                     style: request.style,
                     assets: request.assets,
                     end_seconds: request.end_seconds,

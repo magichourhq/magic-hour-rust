@@ -73,6 +73,10 @@ let client = magic_hour::Client::default()
 
 - [create](src/resources/v1/ai_talking_photo/README.md#create) - AI Talking Photo
 
+### [v1.ai_ugc_ad](src/resources/v1/ai_ugc_ad/README.md)
+
+- [create](src/resources/v1/ai_ugc_ad/README.md#create) - AI UGC Ad Generator
+
 ### [v1.ai_video_editor](src/resources/v1/ai_video_editor/README.md)
 
 - [create](src/resources/v1/ai_video_editor/README.md#create) - AI Video Editor

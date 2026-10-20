@@ -8,6 +8,7 @@
 /// * `minimax-h3`: Great for reference-driven clips with native audio and longer durations.
 /// * `seedance-1.5`: Best for smooth, consistent motion with an end frame.
 /// * `seedance-2.0`: Best for reference-led clips with precise subject control.
+/// * `seedance-2.0-fast`: Fast reference-led clips with consistent motion and audio.
 /// * `seedance-2.0-mini`: Faster reference-led clips with consistent motion and audio.
 /// * `seedance-2.5`: Best for premium realism, detail, and natural motion.
 /// * `veo3.1`: Best for romantic interactions and expressive action, with realistic detail.
@@ -47,6 +48,8 @@ pub enum V1TextToVideoCreateBodyModelEnum {
     Seedance15,
     #[serde(rename = "seedance-2.0")]
     Seedance20,
+    #[serde(rename = "seedance-2.0-fast")]
+    Seedance20Fast,
     #[serde(rename = "seedance-2.0-mini")]
     Seedance20Mini,
     #[serde(rename = "seedance-2.5")]
@@ -81,6 +84,7 @@ impl std::fmt::Display for V1TextToVideoCreateBodyModelEnum {
             V1TextToVideoCreateBodyModelEnum::Seedance => "seedance",
             V1TextToVideoCreateBodyModelEnum::Seedance15 => "seedance-1.5",
             V1TextToVideoCreateBodyModelEnum::Seedance20 => "seedance-2.0",
+            V1TextToVideoCreateBodyModelEnum::Seedance20Fast => "seedance-2.0-fast",
             V1TextToVideoCreateBodyModelEnum::Seedance20Mini => "seedance-2.0-mini",
             V1TextToVideoCreateBodyModelEnum::Seedance25 => "seedance-2.5",
             V1TextToVideoCreateBodyModelEnum::Sora2 => "sora-2",
