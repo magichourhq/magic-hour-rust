@@ -120,6 +120,15 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
+    pub fn ai_music_generator(
+        &mut self,
+    ) -> crate::resources::v1::ai_music_generator::resource_client::AiMusicGeneratorClient<
+        '_,
+    > {
+        crate::resources::v1::ai_music_generator::resource_client::AiMusicGeneratorClient::_new(
+            self.base_client,
+        )
+    }
     pub fn ai_qr_code_generator(
         &mut self,
     ) -> crate::resources::v1::ai_qr_code_generator::resource_client::AiQrCodeGeneratorClient<
@@ -160,6 +169,15 @@ impl<'a> V1Client<'a> {
         '_,
     > {
         crate::resources::v1::ai_video_translator::resource_client::AiVideoTranslatorClient::_new(
+            self.base_client,
+        )
+    }
+    pub fn ai_video_upscaler(
+        &mut self,
+    ) -> crate::resources::v1::ai_video_upscaler::resource_client::AiVideoUpscalerClient<
+        '_,
+    > {
+        crate::resources::v1::ai_video_upscaler::resource_client::AiVideoUpscalerClient::_new(
             self.base_client,
         )
     }

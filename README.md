@@ -65,6 +65,10 @@ let client = magic_hour::Client::default()
 
 - [create](src/resources/v1/ai_meme_generator/README.md#create) - AI Meme Generator
 
+### [v1.ai_music_generator](src/resources/v1/ai_music_generator/README.md)
+
+- [create](src/resources/v1/ai_music_generator/README.md#create) - AI Music Generator
+
 ### [v1.ai_qr_code_generator](src/resources/v1/ai_qr_code_generator/README.md)
 
 - [create](src/resources/v1/ai_qr_code_generator/README.md#create) - AI QR Code Generator
@@ -84,6 +88,10 @@ let client = magic_hour::Client::default()
 ### [v1.ai_video_translator](src/resources/v1/ai_video_translator/README.md)
 
 - [create](src/resources/v1/ai_video_translator/README.md#create) - AI Video Translator
+
+### [v1.ai_video_upscaler](src/resources/v1/ai_video_upscaler/README.md)
+
+- [create](src/resources/v1/ai_video_upscaler/README.md#create) - AI Video Upscaler
 
 ### [v1.ai_voice_cloner](src/resources/v1/ai_voice_cloner/README.md)
 

@@ -1,5 +1,5 @@
 {
-  "id": "db95b988-2367-4d6e-9110-5b56a6512a36",
+  "id": "f881334a-701e-4710-b69e-92a5cd1136c4",
   "tracked_paths": [
     {
       "editable": true,
@@ -263,6 +263,18 @@
     },
     {
       "editable": false,
+      "path": "src/models/v1_ai_music_generator_create_body.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_music_generator_create_body_style.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_music_generator_create_response.rs"
+    },
+    {
+      "editable": false,
       "path": "src/models/v1_ai_qr_code_generator_create_body.rs"
     },
     {
@@ -360,6 +372,22 @@
     {
       "editable": false,
       "path": "src/models/v1_ai_video_translator_create_response.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_video_upscaler_create_body.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_video_upscaler_create_body_assets.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_video_upscaler_create_body_resolution_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_video_upscaler_create_response.rs"
     },
     {
       "editable": false,
@@ -1015,6 +1043,22 @@
     },
     {
       "editable": true,
+      "path": "src/resources/v1/ai_music_generator/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_music_generator/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_music_generator/request_types.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_music_generator/resource_client.rs"
+    },
+    {
+      "editable": true,
       "path": "src/resources/v1/ai_qr_code_generator/README.md"
     },
     {
@@ -1092,6 +1136,22 @@
     {
       "editable": false,
       "path": "src/resources/v1/ai_video_translator/resource_client.rs"
+    },
+    {
+      "editable": true,
+      "path": "src/resources/v1/ai_video_upscaler/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_video_upscaler/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_video_upscaler/request_types.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/ai_video_upscaler/resource_client.rs"
     },
     {
       "editable": true,
@@ -1511,6 +1571,10 @@
     },
     {
       "editable": false,
+      "path": "tests/test_v1_ai_music_generator_client.rs"
+    },
+    {
+      "editable": false,
       "path": "tests/test_v1_ai_qr_code_generator_client.rs"
     },
     {
@@ -1528,6 +1592,10 @@
     {
       "editable": false,
       "path": "tests/test_v1_ai_video_translator_client.rs"
+    },
+    {
+      "editable": false,
+      "path": "tests/test_v1_ai_video_upscaler_client.rs"
     },
     {
       "editable": false,
