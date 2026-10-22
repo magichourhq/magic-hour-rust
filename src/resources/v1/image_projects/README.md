@@ -17,7 +17,7 @@ Permanently delete the rendered image(s). This action is not reversible, please 
 #### Example Snippet
 
 ```rust
-let client = magic_hour::Client::default()
+let mut client = magic_hour::Client::default()
     .with_bearer_auth(&std::env::var("API_TOKEN").unwrap());
 let res = client
     .v1()
@@ -52,7 +52,7 @@ Check the progress of a image project. The `downloads` field is populated after 
 #### Example Snippet
 
 ```rust
-let client = magic_hour::Client::default()
+let mut client = magic_hour::Client::default()
     .with_bearer_auth(&std::env::var("API_TOKEN").unwrap());
 let res = client
     .v1()

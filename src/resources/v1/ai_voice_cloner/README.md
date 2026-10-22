@@ -24,7 +24,7 @@ Clone a voice from an audio sample and generate speech.
 #### Example Snippet
 
 ```rust
-let client = magic_hour::Client::default()
+let mut client = magic_hour::Client::default()
     .with_bearer_auth(&std::env::var("API_TOKEN").unwrap());
 let res = client
     .v1()

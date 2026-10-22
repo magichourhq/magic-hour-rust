@@ -19,7 +19,7 @@ Use this API to get the list of faces detected in the image or video to use in t
 #### Example Snippet
 
 ```rust
-let client = magic_hour::Client::default()
+let mut client = magic_hour::Client::default()
     .with_bearer_auth(&std::env::var("API_TOKEN").unwrap());
 let res = client
     .v1()
@@ -63,7 +63,7 @@ Note: Face detection is free to use for the near future. Pricing may change in t
 #### Example Snippet
 
 ```rust
-let client = magic_hour::Client::default()
+let mut client = magic_hour::Client::default()
     .with_bearer_auth(&std::env::var("API_TOKEN").unwrap());
 let res = client
     .v1()

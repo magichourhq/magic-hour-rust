@@ -33,7 +33,7 @@ Create a Animation video. The estimated frame cost is calculated based on the `f
 #### Example Snippet
 
 ```rust
-let client = magic_hour::Client::default()
+let mut client = magic_hour::Client::default()
     .with_bearer_auth(&std::env::var("API_TOKEN").unwrap());
 let res = client
     .v1()

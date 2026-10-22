@@ -21,7 +21,7 @@ Swap a head onto a body image. Each image costs 10 credits. Output resolution de
 #### Example Snippet
 
 ```rust
-let client = magic_hour::Client::default()
+let mut client = magic_hour::Client::default()
     .with_bearer_auth(&std::env::var("API_TOKEN").unwrap());
 let res = client
     .v1()
