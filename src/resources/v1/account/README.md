@@ -11,7 +11,7 @@ Get the current credit balance and subscription details of the account that owns
 #### Example Snippet
 
 ```rust
-let client = magic_hour::Client::default()
+let mut client = magic_hour::Client::default()
     .with_bearer_auth(&std::env::var("API_TOKEN").unwrap());
 let res = client.v1().account().list().await;
 ```

@@ -22,7 +22,7 @@ Create a face swap photo. Each photo costs 10 credits. The height/width of the o
 #### Example Snippet
 
 ```rust
-let client = magic_hour::Client::default()
+let mut client = magic_hour::Client::default()
     .with_bearer_auth(&std::env::var("API_TOKEN").unwrap());
 let res = client
     .v1()

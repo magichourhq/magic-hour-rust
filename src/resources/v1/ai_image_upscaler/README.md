@@ -24,7 +24,7 @@ Upscale your image using AI. Each 2x upscale costs 50 credits for balanced/creat
 #### Example Snippet
 
 ```rust
-let client = magic_hour::Client::default()
+let mut client = magic_hour::Client::default()
     .with_bearer_auth(&std::env::var("API_TOKEN").unwrap());
 let res = client
     .v1()

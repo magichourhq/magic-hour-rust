@@ -20,7 +20,7 @@ Generate speech from text. Each character costs 0.1 credits. The cost is rounded
 #### Example Snippet
 
 ```rust
-let client = magic_hour::Client::default()
+let mut client = magic_hour::Client::default()
     .with_bearer_auth(&std::env::var("API_TOKEN").unwrap());
 let res = client
     .v1()

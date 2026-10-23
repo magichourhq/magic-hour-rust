@@ -21,7 +21,7 @@ Change outfits in photos in seconds with just a photo reference. Each photo cost
 #### Example Snippet
 
 ```rust
-let client = magic_hour::Client::default()
+let mut client = magic_hour::Client::default()
     .with_bearer_auth(&std::env::var("API_TOKEN").unwrap());
 let res = client
     .v1()
