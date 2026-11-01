@@ -3,7 +3,7 @@
 pub struct V1AiTalkingPhotoCreateBody {
     /// Provide the assets for creating a talking photo
     pub assets: crate::models::V1AiTalkingPhotoCreateBodyAssets,
-    /// The end time of the input audio in seconds. Maximum clip length depends on style.generation_mode: realistic 300s, prompted 45s.
+    /// The end time of the input audio in seconds. Maximum clip length depends on style.generation_mode: realistic 300s, prompted 60s.
     pub end_seconds: f64,
     /// Deprecated: use `resolution`. Still accepted as a larger-dimension cap, limited by your plan. Ignored when `resolution` is provided.
     ///
@@ -18,7 +18,7 @@ pub struct V1AiTalkingPhotoCreateBody {
     /// Output preset. Overrides `max_resolution`. Defaults to 480p in prompted mode; realistic mode uses the mapped plan maximum.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub resolution: Option<crate::models::V1AiTalkingPhotoCreateBodyResolutionEnum>,
-    /// The start time of the input audio in seconds. Maximum clip length depends on style.generation_mode: realistic 300s, prompted 45s.
+    /// The start time of the input audio in seconds. Maximum clip length depends on style.generation_mode: realistic 300s, prompted 60s.
     pub start_seconds: f64,
     /// Attributes used to dictate the style of the output
     #[serde(skip_serializing_if = "Option::is_none")]

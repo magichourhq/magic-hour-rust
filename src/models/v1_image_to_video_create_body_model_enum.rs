@@ -4,6 +4,7 @@
 /// * `gemini-omni-1.1`: Best for precise short clips, first/last frames, and high-resolution output.
 /// * `kling-2.6`: Best for action, motion blur, and controlled camera moves.
 /// * `kling-3.0`: Best for cinematic stories, references, and optional audio.
+/// * `kling-4.0`: Create cinematic videos with image and video references and optional audio.
 /// * `ltx-2.5`: Fastest for general scenes, long clips, audio, and rapid iteration.
 /// * `minimax-h3`: Great for reference-driven clips with native audio and longer durations.
 /// * `seedance-1.5`: Best for smooth, consistent motion with an end frame.
@@ -34,6 +35,8 @@ pub enum V1ImageToVideoCreateBodyModelEnum {
     Kling26,
     #[serde(rename = "kling-3.0")]
     Kling30,
+    #[serde(rename = "kling-4.0")]
+    Kling40,
     #[serde(rename = "ltx-2")]
     Ltx2,
     #[serde(rename = "ltx-2.3")]
@@ -77,6 +80,7 @@ impl std::fmt::Display for V1ImageToVideoCreateBodyModelEnum {
             V1ImageToVideoCreateBodyModelEnum::Kling25Audio => "kling-2.5-audio",
             V1ImageToVideoCreateBodyModelEnum::Kling26 => "kling-2.6",
             V1ImageToVideoCreateBodyModelEnum::Kling30 => "kling-3.0",
+            V1ImageToVideoCreateBodyModelEnum::Kling40 => "kling-4.0",
             V1ImageToVideoCreateBodyModelEnum::Ltx2 => "ltx-2",
             V1ImageToVideoCreateBodyModelEnum::Ltx23 => "ltx-2.3",
             V1ImageToVideoCreateBodyModelEnum::Ltx25 => "ltx-2.5",

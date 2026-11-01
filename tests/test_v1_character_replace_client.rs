@@ -31,6 +31,7 @@ async fn test_create_200_success_all_params() {
                         position_x : 320, position_y : 180, time_seconds : 2.5 }
                     ],
                 ),
+                prompt: Some("string".to_string()),
                 selection_mode: Some(
                     magic_hour::models::V1CharacterReplaceCreateBodyStyleSelectionModeEnum::Auto,
                 ),

@@ -15,10 +15,10 @@ pub struct V1AiUgcAdCreateBody {
     #[serde(skip_serializing_if = "Option::is_none")]
     pub resolution: Option<crate::models::V1AiUgcAdCreateBodyResolutionEnum>,
     /// The words the actor should speak. Character limits apply after trimming:
-    /// * kling-3.0: 2500 characters.
+    /// * kling-3.0: 2304 characters.
     /// * ltx-2.5: 1804 characters.
     /// * veo3.1: 2500 characters.
-    /// LTX's dialogue wrapper counts toward its model prompt limit.
+    /// LTX and Kling dialogue wrappers count toward their model prompt limit.
     pub script: String,
     #[serde(flatten)]
     pub additional_properties: std::collections::HashMap<String, serde_json::Value>,
