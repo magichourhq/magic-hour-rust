@@ -40,7 +40,7 @@ pub struct V1ImageToVideoCreateBody {
     /// * **`veo3.1`**: 4, 6, 8, 16, 24, 32, 40, 48, 56
     /// * **`veo3.1-lite`**: 4, 6, 8, 16, 24, 32, 40, 48, 56
     /// * **`wan-2.2`**: 3, 4, 5, 6, 7, 8, 9, 10, 15
-    /// * **`wan-3.0`**: 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30
+    /// * **`wan-3.0`**: any integer from 2 to 30
     ///
     pub end_seconds: f64,
     /// `height` is deprecated and no longer influences the output video's resolution.
