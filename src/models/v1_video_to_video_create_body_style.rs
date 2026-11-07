@@ -5,6 +5,7 @@ pub struct V1VideoToVideoCreateBodyStyle {
     /// * `Dreamshaper` - a good all-around model that works for both animations as well as realism.
     /// * `Absolute Reality` - better at realism, but you'll often get similar results with Dreamshaper as well.
     /// * `Flat 2D Anime` - best for a flat illustration style that's common in most anime.
+    /// * `Default` - the v3 model.
     /// * `default` - use the default recommended model for the selected art style.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub model: Option<crate::models::V1VideoToVideoCreateBodyStyleModelEnum>,
@@ -19,7 +20,8 @@ pub struct V1VideoToVideoCreateBodyStyle {
     pub prompt_type: Option<crate::models::V1VideoToVideoCreateBodyStylePromptTypeEnum>,
     /// * `v1` - more detail, closer prompt adherence, and frame-by-frame previews.
     /// * `v2` - faster, more consistent, and less noisy.
-    /// * `default` - use the selected art style's default version. Some art styles default to v3, which is unavailable through this API. For `Studio Ghibli`, explicitly set `version` to `v2` to use its supported preset.
+    /// * `v3` - consistent styling guided by a caller-supplied reference image. Requires assets.initial_image_path and positive width/height.
+    /// * `default` - use the selected art style's default version, including v3.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub version: Option<crate::models::V1VideoToVideoCreateBodyStyleVersionEnum>,
 }

@@ -50,6 +50,13 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
+    pub fn voices(
+        &mut self,
+    ) -> crate::resources::v1::voices::resource_client::VoicesClient<'_> {
+        crate::resources::v1::voices::resource_client::VoicesClient::_new(
+            self.base_client,
+        )
+    }
     pub fn ai_clothes_changer(
         &mut self,
     ) -> crate::resources::v1::ai_clothes_changer::resource_client::AiClothesChangerClient<

@@ -1,6 +1,9 @@
 /// Provide the assets for video-to-video. For video, The `video_source` field determines whether `video_file_path` or `youtube_url` field is used
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub struct V1VideoToVideoCreateBodyAssets {
+    /// Required for v3: an uploaded reference image path, or a completed image output owned by you. The caller supplies this image; the API does not generate it.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub initial_image_path: Option<String>,
     /// Your video file. Required if `video_source` is `file`. This value is either
     /// - a direct URL to the file. The URL path must end in a supported file extension.
     /// - `file_path` field from the response of the [upload urls API](https://docs.magichour.ai/api-reference/files/generate-asset-upload-urls).

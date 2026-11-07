@@ -13,7 +13,11 @@ async fn test_create_200_success_all_params() {
             },
             name: Some("My Voice Cloner audio".to_string()),
             style: magic_hour::models::V1AiVoiceClonerCreateBodyStyle {
+                language: Some(
+                    magic_hour::models::V1AiVoiceClonerCreateBodyStyleLanguageEnum::Spanish,
+                ),
                 prompt: "Hello, this is my cloned voice.".to_string(),
+                speed: Some(1.15),
             },
         })
         .await;

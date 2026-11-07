@@ -14,6 +14,13 @@ async fn test_create_200_success_all_params() {
             end_seconds: 5.0,
             model: Some(magic_hour::models::V1AiVideoEditorCreateBodyModelEnum::Ltx25),
             name: Some("My Video Editor video".to_string()),
+            references: Some(
+                vec![
+                    magic_hour::models::V1AiVideoEditorCreateBodyReferencesItem {
+                    file_path : "api-assets/id/1234.png".to_string(), name : "hero"
+                    .to_string() }
+                ],
+            ),
             resolution: Some(
                 magic_hour::models::V1AiVideoEditorCreateBodyResolutionEnum::Enum480p,
             ),

@@ -1,5 +1,5 @@
 {
-  "id": "a382fa85-ba1e-45a6-bf1a-6b4a750e0f0f",
+  "id": "9ffb7b79-c677-4614-bd71-ddc4a941cf70",
   "tracked_paths": [
     {
       "editable": true,
@@ -343,6 +343,10 @@
     },
     {
       "editable": false,
+      "path": "src/models/v1_ai_video_editor_create_body_references_item.rs"
+    },
+    {
+      "editable": false,
       "path": "src/models/v1_ai_video_editor_create_body_resolution_enum.rs"
     },
     {
@@ -403,6 +407,10 @@
     },
     {
       "editable": false,
+      "path": "src/models/v1_ai_voice_cloner_create_body_style_language_enum.rs"
+    },
+    {
+      "editable": false,
       "path": "src/models/v1_ai_voice_cloner_create_response.rs"
     },
     {
@@ -412,6 +420,10 @@
     {
       "editable": false,
       "path": "src/models/v1_ai_voice_generator_create_body_style.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_ai_voice_generator_create_body_style_language_enum.rs"
     },
     {
       "editable": false,
@@ -580,6 +592,10 @@
     {
       "editable": false,
       "path": "src/models/v1_face_detection_get_response.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_face_detection_get_response_error.rs"
     },
     {
       "editable": false,
@@ -884,6 +900,14 @@
     {
       "editable": false,
       "path": "src/models/v1_video_to_video_create_response.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_voices_list_response.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_voices_list_response_voices_item.rs"
     },
     {
       "editable": false,
@@ -1534,6 +1558,22 @@
       "path": "src/resources/v1/video_to_video/resource_client.rs"
     },
     {
+      "editable": true,
+      "path": "src/resources/v1/voices/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/voices/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/voices/request_types.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/voices/resource_client.rs"
+    },
+    {
       "editable": false,
       "path": "tests/test_v1_account_client.rs"
     },
@@ -1684,6 +1724,10 @@
     {
       "editable": false,
       "path": "tests/test_v1_video_to_video_client.rs"
+    },
+    {
+      "editable": false,
+      "path": "tests/test_v1_voices_client.rs"
     }
   ]
 }

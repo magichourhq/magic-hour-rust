@@ -185,4 +185,8 @@ let client = magic_hour::Client::default()
 
 - [create](src/resources/v1/video_to_video/README.md#create) - Video-to-Video
 
+### [v1.voices](src/resources/v1/voices/README.md)
+
+- [list](src/resources/v1/voices/README.md#list) - List voices
+
 <!-- MODULE DOCS END -->

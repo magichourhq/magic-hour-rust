@@ -47,6 +47,7 @@ impl<'a> AiVideoEditorClient<'a> {
                 &crate::models::V1AiVideoEditorCreateBody {
                     model: request.model,
                     name: request.name,
+                    references: request.references,
                     resolution: request.resolution,
                     start_seconds: request.start_seconds,
                     assets: request.assets,
