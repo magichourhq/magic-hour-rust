@@ -41,7 +41,7 @@ let res = client
 ##### Example
 
 ```rust
-V1FaceDetectionGetResponse {credits_charged: 0, error: Some(V1FaceDetectionGetResponseError {code: "no_source_face".to_string(), message: "Please use an image with a detectable face".to_string()}), faces: vec![V1FaceDetectionGetResponseFacesItem {path: "api-assets/id/0-0.png".to_string(), url: "https://videos.magichour.ai/api-assets/id/0-0.png".to_string()}], id: "uuid-example".to_string(), status: V1FaceDetectionGetResponseStatusEnum::Complete}
+V1FaceDetectionGetResponse {credits_charged: 0, error: None, faces: vec![V1FaceDetectionGetResponseFacesItem {path: "api-assets/id/0-0.png".to_string(), url: "https://videos.magichour.ai/api-assets/id/0-0.png".to_string()}], id: "uuid-example".to_string(), status: V1FaceDetectionGetResponseStatusEnum::Complete}
 ```
 
 ### Face Detection <a name="create"></a>
