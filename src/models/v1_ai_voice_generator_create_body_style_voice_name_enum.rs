@@ -1,4 +1,4 @@
-/// The voice to use for the speech. Available voices: Elon Musk, Mark Zuckerberg, Joe Rogan, Barack Obama, Morgan Freeman, Kanye West, Donald Trump, Joe Biden, Kim Kardashian, Taylor Swift, James Earl Jones, Samuel L. Jackson, Jeff Goldblum, David Attenborough, Sean Connery, Cillian Murphy, Anne Hathaway, Julia Roberts, Natalie Portman, Steve Carell, Amy Poehler, Stephen Colbert, Jimmy Fallon, David Letterman, Alex Trebek, Katy Perry, Prince, Kevin Bacon, Tom Hiddleston, Adam Driver, Alan Rickman, Alexz Johnson, Ana Gasteyer, Andrew Rannells, Arden Cho, Bear Grylls, Ben McKenzie, Ben Stiller, Ben Whishaw, Billie Joe Armstrong, Bingbing Li, Booboo Stewart, Bradley Steven Perry, Bruno Mars, Caity Lotz, Cameron Boyce, Candice Accola, Carrie Underwood, Casey Affleck, Caterina Scorsone, Cedric the Entertainer, Chace Crawford, Chadwick Boseman, Charlie Day, Chris Hemsworth, Chris Martin, Christopher Mintz-Plasse, Dan Fogler, Dan Stevens, Daniel Dae Kim, Danielle Panabaker, Dave Bautista, David Schwimmer, Denis Leary, Derek Mears, Diego Luna, Donald Glover, Donnie Yen, Doutzen Kroes, Dr. Dre, Drake Bell, Elle Fanning, Ernie Hudson, Fergie, Forest Whitaker, Francia Raisa, Freddie Highmore, Gillian Jacobs, Gina Carano, Ginnifer Goodwin, Gordon Ramsay, Guy Pearce, Gwendoline Christie, Hailee Steinfeld, Howie Mandel, Hugh Jackman, Hugh Laurie, J. K. Simmons, Jack Black, Jared Leto, Jennifer Carpenter, Kesha, Kris Jenner, Kristen Bell, Lorde, Matt Smith, Marilyn Monroe, Charlie Chaplin, Albert Einstein, Abraham Lincoln, John F. Kennedy, Lucille Ball, A.R. Rahman, Aamir Khan, Ajay Devgn, Akshay Kumar, Alain Delon, Alan Alda, Alan Cumming, Amitabh Bachchan, Ang Lee, Ansel Elgort, Anthony Anderson, Anthony Mackie, Armie Hammer, Asa Butterfield, B.J. Novak, Barbara Eden, Betty White, Bill Nighy, Bill Pullman, Blake Shelton, Bonnie Wright, Brad Paisley, Brendan Gleeson, Brian Cox, Bruno Ganz, Burt Reynolds, Carrie Fisher, Charles Dance, Chiwetel Ejiofor, Chris Pine, Christina Hendricks, Christina Ricci, Dakota Fanning, Damian Lewis, Dan Aykroyd, Daniel Craig, David Oyelowo, David Tennant, Diane Keaton, Diane Kruger, Dick Van Dyke, Domhnall Gleeson, Dominic Cooper, Donald Sutherland, Drew Carey, Eartha Kitt, Eddie Izzard, Edward Asner, Eli Roth, Elisabeth Moss, Ellen Burstyn, Emile Hirsch, Ezra Miller, Felicity Jones, Fiona Shaw, Florence Henderson, Freida Pinto, Geena Davis, Gemma Arterton, Geri Halliwell, Glenn Close, Gloria Steinem, Greta Gerwig, Gugu Mbatha-Raw, Hans Zimmer, Harry Connick Jr., Harvey Keitel, Helena Bonham Carter, Henry Cavill, Hilary Swank, Hugh Bonneville, Idina Menzel, Imelda Staunton, Ingrid Bergman, Irrfan Khan, Isla Fisher, Iwan Rheon, Jack Lemmon, Janet Jackson, Jason Bateman, Jason Segel, Jennifer Coolidge, Johnny Galecki, Jon Favreau, Joseph Gordon-Levitt, Josh Brolin, Josh Gad, Josh Groban, Julia Louis-Dreyfus, Kristen Stewart, Kristen Wiig, Rooney Mara, Caitriona Balfe, J.J. Abrams, Zoe Saldana, SpongeBob SquarePants, Patrick Star, Squidward Tentacles, Homer Simpson, Bart Simpson, Peter Griffin, Stewie Griffin, Eric Cartman, Rick Sanchez, Bugs Bunny, Mickey Mouse, Donald Duck, Shrek, Donkey (Shrek), Elsa (Frozen), Woody (Toy Story), Buzz Lightyear, Scooby-Doo, Shaggy Rogers, Bender (Futurama), Optimus Prime, Batman (Animated), The Joker (Animated), Darth Vader, Yoda, Gollum Smeagol, Gandalf, Winnie the Pooh, Kermit the Frog, Elmo, SpiderMan (Tom Holland ver.), Mario, Luigi, Sonic the Hedgehog, Naruto Uzumaki, Goku, Vegeta, Light Yagami, Luffy (One Piece), Edward Elric, Eren Jaeger, Levi Ackerman, Tanjiro Kamado, All Might, GLaDOS, Master Chief, Kratos, Arthur Morgan, Geralt of Rivia, Dwayne 'The Rock' Johnson, LeBron James, Shaquille O'Neal, Conor McGregor, Mike Tyson, Kobe Bryant, Floyd Mayweather, Cristiano Ronaldo, Lionel Messi, Serena Williams, Tom Brady, Stephen Curry, John Cena, Hulk Hogan, Stone Cold Steve Austin, The Undertaker, Nate Diaz, Charles Barkley, Shannon Sharpe, Drake, Rihanna, Eminem, Snoop Dogg, Jay-Z, Ed Sheeran, Billie Eilish, Ariana Grande, Post Malone, Travis Scott, Nicki Minaj, Cardi B, Doja Cat, Bad Bunny, Justin Bieber, Sabrina Carpenter, Chappell Roan, Dua Lipa, The Weeknd, Miley Cyrus, Lady Gaga, Kendrick Lamar, Ozzy Osbourne, Freddie Mercury, Elvis Presley, Bob Marley, Frank Sinatra, MrBeast, PewDiePie, Kai Cenat, IShowSpeed, Markiplier, Jacksepticeye, KSI, Logan Paul, Jake Paul, Dream (Minecraft), Corpse Husband, xQc, Pokimane, Valkyrae, Ninja, Joe Scott, Linus (LTT), Ryan Reynolds, Tom Hanks, Robert Downey Jr., Will Smith, Denzel Washington, Leonardo DiCaprio, Brad Pitt, Keanu Reeves, Nicolas Cage, Al Pacino, Robert De Niro, Arnold Schwarzenegger, Sylvester Stallone, Vin Diesel, Jason Statham, Tom Cruise, Johnny Depp, Scarlett Johansson, Angelina Jolie, Jennifer Aniston, Emma Watson, Margot Robbie, Sydney Sweeney, Zendaya, Timothee Chalamet, Pedro Pascal, Oscar Isaac, Benedict Cumberbatch, Ian McKellen, Patrick Stewart, Christopher Walken, Matthew McConaughey, Harrison Ford, Mark Wahlberg, Owen Wilson, Seth Rogen, Kevin Hart, Adam Sandler, Jim Carrey, Eddie Murphy, Robin Williams, Will Ferrell, Melissa McCarthy, Awkwafina, Jason Momoa, Idris Elba, Tom Hardy, Michael B. Jordan, Austin Butler, Glen Powell, Paul Giamatti, Bryan Cranston, Bob Odenkirk, Vladimir Putin, Queen Elizabeth II, Winston Churchill, Martin Luther King Jr., Kamala Harris, Bernie Sanders, Alexandria Ocasio-Cortez, Narendra Modi, Oprah Winfrey, Ellen DeGeneres, Dr. Phil, Steve Harvey, Trevor Noah, John Oliver, James Corden, Ryan Seacrest, Howard Stern, Conan O'Brien, Seth Meyers, Bill Nye, Neil deGrasse Tyson, Guy Fieri, Dave Chappelle, Chris Rock, Jerry Seinfeld, Ali Wong, John Mulaney, Hasan Minhaj, Nikki Glaser, Matt Rife, Gabriel Iglesias, Bo Burnham, Jeff Bezos, Bill Gates, Steve Jobs, Tim Cook, Sam Altman, Jensen Huang, Gilbert Gottfried, James May, Jeremy Clarkson, Richard Hammond, Bob Ross, Anthony Bourdain, David Goggins, Jordan Peterson, Joe Pesci, Danny DeVito, Seth MacFarlane, Patrick Warburton, Keith David, Mark Hamill, Liam Neeson, Antonio Banderas, Sofia Vergara, Penelope Cruz, Gal Gadot, Cate Blanchett, Viola Davis, Meryl Streep, Sandra Bullock, Reese Witherspoon, Salma Hayek, Lupita Nyong'o, Florence Pugh, Jenna Ortega, Ana de Armas, Jacob Elordi, Barry White, Dolly Parton, Willie Nelson, Lil Wayne, 50 Cent, Ice Cube, Tupac Shakur, Notorious B.I.G., David Bowie, Michael Jackson, Whitney Houston, Amy Winehouse, SZA, Tyler, The Creator, Thanos, Tony Stark, Captain Jack Sparrow, Walter White, Tommy Shelby, Michael Scott, Dwight Schrute, Bowser, Usain Bolt, Tyson Fury, Dana White, Pat McAfee, Giannis Antetokounmpo, Lex Fridman, Ben Shapiro, Tucker Carlson, Martha Stewart, Gordon Lightfoot, Lizzo, Megan Thee Stallion, Ice Spice, 21 Savage, Metro Boomin, Jack Harlow, Peso Pluma, BTS Jungkook, Quentin Tarantino, Werner Herzog, Anderson Cooper, Rachel Maddow, Mahatma Gandhi, Muhammad Ali, Princess Diana, Nelson Mandela, Steve Irwin, Morty Smith, Andrew Huberman, Willem Dafoe, Mike Rowe, Terminator, Deadpool, Plankton, Mr. Krabs, Picard, Ludwig, Emma Chamberlain, Casey Neistat, Marques Brownlee, Technoblade, Shroud, Charli D'Amelio, Khaby Lame, Adin Ross, Trainwreckstv, Hasan Piker, Joey Diaz, Theo Von, Andrew Schulz, Bert Kreischer, Tom Segura, Shane Gillis, Joe List, Bobby Lee, Chris Williamson, Destiny, Ethan Klein, Hila Klein, Olivia Rodrigo, Gracie Abrams, Benson Boone, Noah Kahan, Zach Bryan, Morgan Wallen, Luke Combs, Chris Stapleton, Rauw Alejandro, Karol G, Feid, J Balvin, Central Cee, Dave (rapper), Stormzy, Gunna, Future, Lil Baby, Playboi Carti, Don Toliver, Lana Del Rey, Halsey, Charli XCX, Tate McRae, Conan Gray, Troye Sivan, Harry Styles, Niall Horan, Shawn Mendes, John Legend, Sam Smith, Roman Reigns, Cody Rhodes, Seth Rollins, CM Punk, Randy Orton, Triple H, Ric Flair, Khabib Nurmagomedov, Jon Jones, Israel Adesanya, Alex Pereira, Jorge Masvidal, Patrick Mahomes, Travis Kelce, Aaron Rodgers, Kyrie Irving, Kevin Durant, Nikola Jokic, Simone Biles, Novak Djokovic, Rafael Nadal, Roger Federer, Max Verstappen, Lewis Hamilton, Mark Rober, Naval Ravikant, Peter Attia, Gary Vaynerchuk, Alex Hormozi, Grant Cardone, JD Vance, Nancy Pelosi, Ron DeSantis, Volodymyr Zelenskyy, Xi Jinping, Justin Trudeau, Emmanuel Macron, Boris Johnson, Rishi Sunak, Keir Starmer, Tom Holland, Anya Taylor-Joy, Barry Keoghan, Paul Mescal, Rachel Zegler, Millie Bobby Brown, Finn Wolfhard, Noah Schnapp, Ke Huy Quan, Ayo Edebiri, Jeremy Allen White, Cloud Strife, Sephiroth, Solid Snake, Nathan Drake, Joel Miller, Ellie Williams, Duke Nukem, Lara Croft, Link (Zelda), Samus Aran, Kirby, Pikachu, Ash Ketchum, Agent 47, Vergil (DMC), Dante (DMC), Ryu (Street Fighter), Chun-Li, Scorpion (Mortal Kombat), Sub-Zero, Steve (Minecraft), Herobrine, Cortana, Aloy, Ezio Auditore, Altair, BJ Blazkowicz, Doom Slayer, Handsome Jack, Tracer (Overwatch), Genji (Overwatch), Reaper (Overwatch), Jinx (Arcane), Vi (Arcane), Nezuko Kamado, Zenitsu Agatsuma, Gojo Satoru, Itadori Yuji, Denji (Chainsaw Man), Power (Chainsaw Man), Zoro (One Piece), Nami (One Piece), Sasuke Uchiha, Kakashi Hatake, Itachi Uchiha, Spike Spiegel, L (Death Note), Saitama (One Punch Man), Deku (My Hero Academia), Bakugo Katsuki, Captain America (MCU), Thor (MCU), Loki (MCU), Wolverine, Groot, Rocket Raccoon, Venom, The Mandalorian, Baby Yoda (Grogu), Tony Montana (Scarface), John Wick, James Bond (Craig era), Ferris Bueller, Tyler Durden, The Dude (Big Lebowski), Forrest Gump, Willy Wonka, Freddy Krueger, Jason Voorhees, Michael Myers, Pennywise, Hannibal Lecter, Family Guy Quagmire, Lois Griffin, Marge Simpson, Lisa Simpson, Ned Flanders, Krusty the Clown, Mr. Burns, Timmy Turner, Dexter (Dexter's Lab), Johnny Bravo, Courage the Cowardly Dog, Finn the Human, Jake the Dog, Rick Grimes, Negan (Walking Dead), Jesse Pinkman, Saul Goodman, Tony Soprano, Jim Halpert, Ron Swanson, Barney Stinson, Sheldon Cooper, Jon Snow, Tyrion Lannister, Daenerys Targaryen, Arya Stark, Homelander, Billy Butcher, Airrack, Zach King, Dude Perfect Tyler, Colleen Ballinger, David Dobrik, James Charles, NikkieTutorials, Jeffree Star, Danny Duncan, FaZe Rug, SSSniperWolf, Vegetta777, Rubius, Ibai Llanos, Fuerza Regida, Grupo Frontera, Bizarrap, Anitta, Rosalia, Maluma, Ozuna, Manuel Turizo, Camilo, Sam Fender, Hozier, Fred again, GloRilla, Sexyy Red, Flo Milli, Latto, Coi Leray, Ja Morant, Anthony Edwards, Victor Wembanyama, Caitlin Clark, Angel Reese, Sha'Carri Richardson, Erling Haaland, Kylian Mbappe, Jude Bellingham, Neymar, Vinicius Junior, Shohei Ohtani, Connor McDavid, Sidney Crosby, Steven Crowder, Candace Owens, Charlie Kirk, Matt Walsh, Tim Dillon, Whitney Cummings, Sam Harris, Malcolm Gladwell, Simon Sinek, Mel Robbins, Jocko Willink, Emma Stone, Ryan Gosling, Bradley Cooper, Christian Bale, Joaquin Phoenix, Mahershala Ali, Jamie Foxx, Regina King, Taraji P. Henson, Octavia Spencer, John Boyega, Daisy Ridley, Jonathan Majors, Simu Liu, Constance Wu, Henry Golding, Dev Patel, Riz Ahmed, Mindy Kaling, Aubrey Plaza, Aziz Ansari, Randall Park, Rainbow Dash, Twilight Sparkle, Gumball Watterson, Rigby (Regular Show), Mordecai (Regular Show), Steven Universe, Garnet (Steven Universe), Aang (Avatar), Zuko (Avatar), Aretha Franklin, Stevie Wonder, Ray Charles, Johnny Cash, Jimi Hendrix, Janis Joplin, Kurt Cobain, Freddie Prinze, Selena Gomez, Justin Timberlake, Usher, Chris Brown, A$AP Rocky, RM (BTS), V (BTS), Jimin, Lisa (Blackpink), Jennie (Blackpink), Rose (Blackpink), Calvin Harris, David Guetta, Marshmello, Skrillex, Diplo, Zedd, Jimmy Kimmel, Graham Norton, Bill Maher, Sean Hannity, Wolf Blitzer, Lester Holt, Satya Nadella, Sundar Pichai, Warren Buffett, Sheryl Sandberg, Marc Andreessen, Peter Thiel, Stephen Hawking, Carl Sagan, Richard Feynman, Jane Goodall, Franklin D. Roosevelt, Ronald Reagan, Margaret Thatcher, King Charles III, Prince Harry, Prince William, Stephen King, J.K. Rowling, George R.R. Martin, Neil Gaiman, Malcolm X, Jamie Oliver, Tiger Woods, Venus Williams, David Beckham, Michael Phelps, Peyton Manning, Virat Kohli, Sachin Tendulkar, MS Dhoni, The Rock, Rey Mysterio, Bray Wyatt, Kevin Owens, H3H3, Philip DeFranco, Jenna Marbles, Shane Dawson, Liza Koshy, Lilly Singh, Rhett and Link, Danny Gonzalez, Drew Gooden, Cody Ko, Kurtis Conner, Trisha Paytas, Tana Mongeau, Jaclyn Hill, Bretman Rock, Safiya Nygaard, Shah Rukh Khan, Salman Khan, Priyanka Chopra, Deepika Padukone, Jennifer Lawrence, Chris Evans, Daniel Radcliffe, Rupert Grint, Anthony Hopkins, Jack Nicholson, Clint Eastwood, Obi-Wan Kenobi, Luke Skywalker, Han Solo, Princess Leia, Emperor Palpatine, Kylo Ren, C-3PO, Frodo Baggins, Aragorn, Legolas, Samwise Gamgee, Harry Potter, Hermione Granger, Ron Weasley, Albus Dumbledore, Severus Snape, Voldemort, Hagrid, Belle (Beauty and the Beast), Ariel (Little Mermaid), Cinderella, Snow White, Mulan, Rapunzel (Tangled), Fiona (Shrek), Ross Geller, Chandler Bing, Joey Tribbiani, Monica Geller, Rachel Green, Phoebe Buffay, George Costanza, Kramer (Seinfeld), Elaine Benes, Carlton Banks, Hinata Hyuga, Ichigo Kurosaki, Yoshi, Spyro, Ryu Hayabusa, Leon Kennedy, Chris Redfield, Jill Valentine, Ada Wong, Big Boss (MGS), Raiden (MGS), Commander Shepard, Garrus Vakarian, V (Cyberpunk), Johnny Silverhand, Valorant Jett, League of Legends Ahri, Yasuo (LoL), Superman, Wonder Woman, Harley Quinn, Black Panther, Doctor Strange, Hulk, Black Widow, Nick Fury, Ant-Man, Don Draper, Walter Bishop (Fringe), Frank Underwood, Dexter Morgan, Sherlock Holmes, Dr. House, Michael Corleone, Vito Corleone, Daffy Duck, Porky Pig, Tweety Bird, Sylvester the Cat, Fred Flintstone, Barney Rubble, George Jetson, Popeye, Skip Bayless, Stephen A Smith, Colin Cowherd, Ricky Gervais, Bill Burr, Sebastian Maniscalco, Trevor Wallace, Iliza Shlesinger, Bruce Springsteen, Eric Clapton, Mick Jagger, Paul McCartney, John Lennon, Elton John, Billy Joel, Fleetwood Mac Stevie Nicks, Sia, Demi Lovato, Camila Cabello, Enrique Iglesias, Ricky Martin, Faze Clan Banks, Tfue, Timthetatman, DrLupo, CouRage, Sykkuno, Disguised Toast, Fuslie, Jerma985, Vinesauce Vinny, Northernlion, Moistcr1tikal, Asmongold, Mizkif, Esfand, Quin69, Summit1g, Sodapoppin, Forsen, Pestily, Joe Budden, Charlamagne Tha God, Angela Yee, Big Boy, Zane Lowe, Rich Eisen, Bill Simmons, Dan Le Batard, Slash (musician), James Hetfield, Dave Grohl, Chris Cornell, Axl Rose, Robert Plant, Jon Bon Jovi, Chester Bennington, Corey Taylor, Fernando Alonso, Charles Leclerc, Daniel Ricciardo, Valentino Rossi, Marc Marquez, Travis Pastrana, Tony Hawk, Rohit Sharma, Babar Azam, Ben Stokes, Joe Root, Anthony Joshua, Canelo Alvarez, Ronda Rousey, Amanda Nunes, Bruce Willis, Chris Pratt, Charlize Theron, Nicole Kidman, Amy Adams, Jamie Lee Curtis, Gary Oldman, Mark Ruffalo, Jeremy Renner, Chris Tucker, Jonah Hill, Ranveer Singh, Alia Bhatt, Hrithik Roshan, Lee Min Ho, Song Joong Ki, Park Seo Joon, Kylie Jenner, Khloe Kardashian, Paris Hilton, Neil Armstrong, Buzz Aldrin, Yuri Gagarin, Killua Zoldyck, Gon Freecss, Meliodas, Natsu Dragneel, Lucy Heartfilia, Erza Scarlet, Inuyasha, Kagome Higurashi, Yusuke Urameshi, Vash the Stampede, Alucard (Hellsing), Guts (Berserk), Griffith (Berserk), Reigen Arataka, Mob (Mob Psycho 100), Anya Forger, Loid Forger, Yor Forger, Pit (Kid Icarus), Marth (Fire Emblem), Ike (Fire Emblem), Sora (Kingdom Hearts), Riku (Kingdom Hearts), Sam Porter Bridges, Big Smoke (GTA), CJ (GTA San Andreas), Niko Bellic, Trevor Philips, Michael De Santa, Franklin Clinton, Marcus Fenix, Isaac Clarke, Ellie (Borderlands), Lilith (Borderlands), Claptrap, Widowmaker (Overwatch), Mercy (Overwatch), Reinhardt (Overwatch), Phineas Flynn, Doofenshmirtz, Blossom (PPG), Bubbles (PPG), Buttercup (PPG), Mojo Jojo, Ben Tennyson, Danny Phantom, Invader Zim, GIR (Invader Zim), Sandy Cheeks, Ellen Ripley, Sarah Connor, Indiana Jones, Austin Powers, Inspector Clouseau, Gru (Despicable Me), Alvin (Chipmunks), Megatron, Chucky, Ghostface (Scream), The Grinch, Jack Skellington, Jayson Tatum, Devin Booker, Damian Lillard, James Harden, Russell Westbrook, Joel Embiid, Justin Jefferson, Josh Allen, Joe Burrow, Micah Parsons, Myles Garrett, CeeDee Lamb, Burna Boy, Wizkid, Tems, Magnus Carlsen, Hikaru Nakamura, MrBallen, Ned Fulmer, Zach Kornfeld, Eugene Lee Yang, Alton Brown, Andrew Rea, Steve-O, Johnny Knoxville, Bam Margera, Russell Brand, Piers Morgan, Douglas Murray, Dave Rubin, Michael Knowles, Vivek Ramaswamy, Marjorie Taylor Greene, Mitch McConnell, Mike Pence, Hillary Clinton, Bill Clinton, George W Bush, George H W Bush, Jimmy Carter, Angela Merkel, Tara Strong, Tom Kenny, Nolan North, Troy Baker, Jennifer Hale, Steve Blum, Cersei Lannister, Jaime Lannister, Sansa Stark, Bran Stark, The Hound, Melisandre, Varys, Petyr Baelish, Ned Stark, Gus Fring, Mike Ehrmantraut, Hank Schrader, Skyler White, Joy (Inside Out), Sadness (Inside Out), Anger (Inside Out), Mirabel (Encanto), Bruno (Encanto), Remy (Ratatouille), Lightning McQueen, Mater (Cars), Wreck-It Ralph, Vanellope von Schweetz, PointCrow, Ranboo, Wilbur Soot, Tubbo, GeorgeNotFound, Sapnap, Quackity, Karl Jacobs, Norman Bates, Anton Chigurh, Patrick Bateman, Travis Bickle, Rocky Balboa, Rambo, Maximus (Gladiator), William Wallace, King Leonidas, Leslie Knope, Tom Haverford, April Ludgate, Andy Dwyer, Kevin Malone, Creed Bratton, Stanley Hudson, Toby Flenderson, Angela Martin, Summer Smith, Beth Smith, Jerry Smith, BoJack Horseman, Todd Chavez, Princess Carolyn, Diane Nguyen, Big Mouth Nick, Maury (Big Mouth), Archer (Sterling), Lana Kane, Malory Archer, Fry (Futurama), Leela (Futurama), Professor Farnsworth, Zapp Brannigan, Beavis, Butt-Head, King of the Hill Hank Hill, Bobby Hill, Dale Gribble, Stan Marsh, Kyle Broflovski, Randy Marsh, Towelie, Butters Stotch, Mr. Garrison, Chef (South Park), Ike Broflovski, Wendy Testaburger, PC Principal, Jimmy Valmer, Michelle Obama, Al Gore, Desmond Tutu, Anthony Fauci, Greta Thunberg, Malala Yousafzai, Grimes, Jafar (Aladdin), Ursula (Little Mermaid), Iago (Aladdin parrot), Zazu (Lion King), Yzma (Emperor's New Groove), Kronk (Emperor's New Groove), Discord (My Little Pony), Skeletor (He-Man), Captain Hook (Peter Pan), Sebastian (Little Mermaid), HAL 9000, Mushu (Mulan), Lumiere (Beauty and the Beast), Cogsworth (Beauty and the Beast), Scuttle (Little Mermaid), Rafiki (Lion King), Kristoff (Frozen), Hans (Frozen), Merlin (Sword in the Stone)
+/// The voice to use for the speech. Use the `id` of a voice returned by `GET /v1/voices`.
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub enum V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum {
     #[default]
@@ -2522,6 +2522,978 @@ pub enum V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum {
     ZoroOnePiece,
     #[serde(rename = "Zuko (Avatar)")]
     ZukoAvatar,
+    #[serde(rename = "cv-0001")]
+    Cv0001,
+    #[serde(rename = "cv-0002")]
+    Cv0002,
+    #[serde(rename = "cv-0003")]
+    Cv0003,
+    #[serde(rename = "cv-0004")]
+    Cv0004,
+    #[serde(rename = "cv-0005")]
+    Cv0005,
+    #[serde(rename = "cv-0006")]
+    Cv0006,
+    #[serde(rename = "cv-0007")]
+    Cv0007,
+    #[serde(rename = "cv-0008")]
+    Cv0008,
+    #[serde(rename = "cv-0009")]
+    Cv0009,
+    #[serde(rename = "cv-0010")]
+    Cv0010,
+    #[serde(rename = "cv-0011")]
+    Cv0011,
+    #[serde(rename = "cv-0012")]
+    Cv0012,
+    #[serde(rename = "cv-0013")]
+    Cv0013,
+    #[serde(rename = "cv-0014")]
+    Cv0014,
+    #[serde(rename = "cv-0015")]
+    Cv0015,
+    #[serde(rename = "cv-0016")]
+    Cv0016,
+    #[serde(rename = "cv-0017")]
+    Cv0017,
+    #[serde(rename = "cv-0018")]
+    Cv0018,
+    #[serde(rename = "cv-0019")]
+    Cv0019,
+    #[serde(rename = "cv-0020")]
+    Cv0020,
+    #[serde(rename = "cv-0021")]
+    Cv0021,
+    #[serde(rename = "cv-0022")]
+    Cv0022,
+    #[serde(rename = "cv-0023")]
+    Cv0023,
+    #[serde(rename = "cv-0024")]
+    Cv0024,
+    #[serde(rename = "cv-0025")]
+    Cv0025,
+    #[serde(rename = "cv-0026")]
+    Cv0026,
+    #[serde(rename = "cv-0028")]
+    Cv0028,
+    #[serde(rename = "cv-0029")]
+    Cv0029,
+    #[serde(rename = "cv-0030")]
+    Cv0030,
+    #[serde(rename = "cv-0031")]
+    Cv0031,
+    #[serde(rename = "cv-0032")]
+    Cv0032,
+    #[serde(rename = "cv-0033")]
+    Cv0033,
+    #[serde(rename = "cv-0034")]
+    Cv0034,
+    #[serde(rename = "cv-0035")]
+    Cv0035,
+    #[serde(rename = "cv-0036")]
+    Cv0036,
+    #[serde(rename = "cv-0037")]
+    Cv0037,
+    #[serde(rename = "cv-0038")]
+    Cv0038,
+    #[serde(rename = "cv-0039")]
+    Cv0039,
+    #[serde(rename = "cv-0040")]
+    Cv0040,
+    #[serde(rename = "cv-0041")]
+    Cv0041,
+    #[serde(rename = "cv-0042")]
+    Cv0042,
+    #[serde(rename = "cv-0043")]
+    Cv0043,
+    #[serde(rename = "cv-0044")]
+    Cv0044,
+    #[serde(rename = "cv-0045")]
+    Cv0045,
+    #[serde(rename = "cv-0046")]
+    Cv0046,
+    #[serde(rename = "cv-0047")]
+    Cv0047,
+    #[serde(rename = "cv-0048")]
+    Cv0048,
+    #[serde(rename = "cv-0049")]
+    Cv0049,
+    #[serde(rename = "cv-0050")]
+    Cv0050,
+    #[serde(rename = "cv-0051")]
+    Cv0051,
+    #[serde(rename = "cv-0052")]
+    Cv0052,
+    #[serde(rename = "cv-0053")]
+    Cv0053,
+    #[serde(rename = "cv-0054")]
+    Cv0054,
+    #[serde(rename = "cv-0055")]
+    Cv0055,
+    #[serde(rename = "cv-0056")]
+    Cv0056,
+    #[serde(rename = "cv-0057")]
+    Cv0057,
+    #[serde(rename = "cv-0058")]
+    Cv0058,
+    #[serde(rename = "cv-0059")]
+    Cv0059,
+    #[serde(rename = "cv-0060")]
+    Cv0060,
+    #[serde(rename = "cv-0061")]
+    Cv0061,
+    #[serde(rename = "cv-0062")]
+    Cv0062,
+    #[serde(rename = "cv-0063")]
+    Cv0063,
+    #[serde(rename = "cv-0064")]
+    Cv0064,
+    #[serde(rename = "cv-0065")]
+    Cv0065,
+    #[serde(rename = "cv-0066")]
+    Cv0066,
+    #[serde(rename = "cv-0067")]
+    Cv0067,
+    #[serde(rename = "cv-0068")]
+    Cv0068,
+    #[serde(rename = "cv-0069")]
+    Cv0069,
+    #[serde(rename = "cv-0070")]
+    Cv0070,
+    #[serde(rename = "cv-0071")]
+    Cv0071,
+    #[serde(rename = "cv-0072")]
+    Cv0072,
+    #[serde(rename = "cv-0073")]
+    Cv0073,
+    #[serde(rename = "cv-0074")]
+    Cv0074,
+    #[serde(rename = "cv-0075")]
+    Cv0075,
+    #[serde(rename = "cv-0076")]
+    Cv0076,
+    #[serde(rename = "cv-0077")]
+    Cv0077,
+    #[serde(rename = "cv-0078")]
+    Cv0078,
+    #[serde(rename = "cv-0079")]
+    Cv0079,
+    #[serde(rename = "cv-0080")]
+    Cv0080,
+    #[serde(rename = "cv-0081")]
+    Cv0081,
+    #[serde(rename = "cv-0082")]
+    Cv0082,
+    #[serde(rename = "cv-0083")]
+    Cv0083,
+    #[serde(rename = "cv-0084")]
+    Cv0084,
+    #[serde(rename = "cv-0085")]
+    Cv0085,
+    #[serde(rename = "cv-0086")]
+    Cv0086,
+    #[serde(rename = "cv-0087")]
+    Cv0087,
+    #[serde(rename = "cv-0088")]
+    Cv0088,
+    #[serde(rename = "cv-0089")]
+    Cv0089,
+    #[serde(rename = "cv-0090")]
+    Cv0090,
+    #[serde(rename = "cv-0091")]
+    Cv0091,
+    #[serde(rename = "cv-0092")]
+    Cv0092,
+    #[serde(rename = "cv-0093")]
+    Cv0093,
+    #[serde(rename = "cv-0094")]
+    Cv0094,
+    #[serde(rename = "cv-0095")]
+    Cv0095,
+    #[serde(rename = "cv-0096")]
+    Cv0096,
+    #[serde(rename = "cv-0097")]
+    Cv0097,
+    #[serde(rename = "cv-0098")]
+    Cv0098,
+    #[serde(rename = "cv-0099")]
+    Cv0099,
+    #[serde(rename = "cv-0100")]
+    Cv0100,
+    #[serde(rename = "cv-0101")]
+    Cv0101,
+    #[serde(rename = "cv-0102")]
+    Cv0102,
+    #[serde(rename = "cv-0103")]
+    Cv0103,
+    #[serde(rename = "cv-0104")]
+    Cv0104,
+    #[serde(rename = "cv-0105")]
+    Cv0105,
+    #[serde(rename = "cv-0106")]
+    Cv0106,
+    #[serde(rename = "cv-0107")]
+    Cv0107,
+    #[serde(rename = "cv-0108")]
+    Cv0108,
+    #[serde(rename = "cv-0109")]
+    Cv0109,
+    #[serde(rename = "cv-0110")]
+    Cv0110,
+    #[serde(rename = "cv-0111")]
+    Cv0111,
+    #[serde(rename = "cv-0112")]
+    Cv0112,
+    #[serde(rename = "cv-0113")]
+    Cv0113,
+    #[serde(rename = "cv-0114")]
+    Cv0114,
+    #[serde(rename = "cv-0115")]
+    Cv0115,
+    #[serde(rename = "cv-0116")]
+    Cv0116,
+    #[serde(rename = "cv-0117")]
+    Cv0117,
+    #[serde(rename = "cv-0118")]
+    Cv0118,
+    #[serde(rename = "cv-0119")]
+    Cv0119,
+    #[serde(rename = "cv-0120")]
+    Cv0120,
+    #[serde(rename = "cv-0121")]
+    Cv0121,
+    #[serde(rename = "cv-0122")]
+    Cv0122,
+    #[serde(rename = "cv-0123")]
+    Cv0123,
+    #[serde(rename = "cv-0124")]
+    Cv0124,
+    #[serde(rename = "cv-0125")]
+    Cv0125,
+    #[serde(rename = "cv-0126")]
+    Cv0126,
+    #[serde(rename = "cv-0127")]
+    Cv0127,
+    #[serde(rename = "cv-0128")]
+    Cv0128,
+    #[serde(rename = "cv-0129")]
+    Cv0129,
+    #[serde(rename = "cv-0130")]
+    Cv0130,
+    #[serde(rename = "cv-0131")]
+    Cv0131,
+    #[serde(rename = "cv-0132")]
+    Cv0132,
+    #[serde(rename = "cv-0133")]
+    Cv0133,
+    #[serde(rename = "cv-0134")]
+    Cv0134,
+    #[serde(rename = "cv-0135")]
+    Cv0135,
+    #[serde(rename = "cv-0136")]
+    Cv0136,
+    #[serde(rename = "cv-0137")]
+    Cv0137,
+    #[serde(rename = "cv-0138")]
+    Cv0138,
+    #[serde(rename = "cv-0139")]
+    Cv0139,
+    #[serde(rename = "cv-0140")]
+    Cv0140,
+    #[serde(rename = "cv-0141")]
+    Cv0141,
+    #[serde(rename = "cv-0142")]
+    Cv0142,
+    #[serde(rename = "cv-0143")]
+    Cv0143,
+    #[serde(rename = "cv-0144")]
+    Cv0144,
+    #[serde(rename = "cv-0145")]
+    Cv0145,
+    #[serde(rename = "cv-0146")]
+    Cv0146,
+    #[serde(rename = "cv-0147")]
+    Cv0147,
+    #[serde(rename = "cv-0148")]
+    Cv0148,
+    #[serde(rename = "cv-0149")]
+    Cv0149,
+    #[serde(rename = "cv-0150")]
+    Cv0150,
+    #[serde(rename = "cv-0151")]
+    Cv0151,
+    #[serde(rename = "cv-0152")]
+    Cv0152,
+    #[serde(rename = "cv-0153")]
+    Cv0153,
+    #[serde(rename = "cv-0154")]
+    Cv0154,
+    #[serde(rename = "cv-0155")]
+    Cv0155,
+    #[serde(rename = "cv-0156")]
+    Cv0156,
+    #[serde(rename = "cv-0157")]
+    Cv0157,
+    #[serde(rename = "cv-0158")]
+    Cv0158,
+    #[serde(rename = "cv-0159")]
+    Cv0159,
+    #[serde(rename = "cv-0160")]
+    Cv0160,
+    #[serde(rename = "cv-0161")]
+    Cv0161,
+    #[serde(rename = "cv-0162")]
+    Cv0162,
+    #[serde(rename = "cv-0163")]
+    Cv0163,
+    #[serde(rename = "cv-0164")]
+    Cv0164,
+    #[serde(rename = "cv-0165")]
+    Cv0165,
+    #[serde(rename = "cv-0166")]
+    Cv0166,
+    #[serde(rename = "cv-0167")]
+    Cv0167,
+    #[serde(rename = "cv-0168")]
+    Cv0168,
+    #[serde(rename = "cv-0169")]
+    Cv0169,
+    #[serde(rename = "cv-0170")]
+    Cv0170,
+    #[serde(rename = "cv-0171")]
+    Cv0171,
+    #[serde(rename = "cv-0172")]
+    Cv0172,
+    #[serde(rename = "cv-0173")]
+    Cv0173,
+    #[serde(rename = "cv-0174")]
+    Cv0174,
+    #[serde(rename = "cv-0175")]
+    Cv0175,
+    #[serde(rename = "cv-0176")]
+    Cv0176,
+    #[serde(rename = "cv-0177")]
+    Cv0177,
+    #[serde(rename = "cv-0178")]
+    Cv0178,
+    #[serde(rename = "cv-0179")]
+    Cv0179,
+    #[serde(rename = "cv-0180")]
+    Cv0180,
+    #[serde(rename = "cv-0181")]
+    Cv0181,
+    #[serde(rename = "cv-0182")]
+    Cv0182,
+    #[serde(rename = "cv-0183")]
+    Cv0183,
+    #[serde(rename = "cv-0184")]
+    Cv0184,
+    #[serde(rename = "cv-0185")]
+    Cv0185,
+    #[serde(rename = "cv-0186")]
+    Cv0186,
+    #[serde(rename = "cv-0187")]
+    Cv0187,
+    #[serde(rename = "cv-0188")]
+    Cv0188,
+    #[serde(rename = "cv-0189")]
+    Cv0189,
+    #[serde(rename = "cv-0190")]
+    Cv0190,
+    #[serde(rename = "cv-0191")]
+    Cv0191,
+    #[serde(rename = "cv-0192")]
+    Cv0192,
+    #[serde(rename = "cv-0193")]
+    Cv0193,
+    #[serde(rename = "cv-0194")]
+    Cv0194,
+    #[serde(rename = "cv-0195")]
+    Cv0195,
+    #[serde(rename = "cv-0196")]
+    Cv0196,
+    #[serde(rename = "cv-0197")]
+    Cv0197,
+    #[serde(rename = "cv-0198")]
+    Cv0198,
+    #[serde(rename = "cv-0199")]
+    Cv0199,
+    #[serde(rename = "cv-0200")]
+    Cv0200,
+    #[serde(rename = "cv-0201")]
+    Cv0201,
+    #[serde(rename = "cv-0202")]
+    Cv0202,
+    #[serde(rename = "cv-0203")]
+    Cv0203,
+    #[serde(rename = "cv-0205")]
+    Cv0205,
+    #[serde(rename = "cv-0206")]
+    Cv0206,
+    #[serde(rename = "cv-0207")]
+    Cv0207,
+    #[serde(rename = "cv-0208")]
+    Cv0208,
+    #[serde(rename = "cv-0209")]
+    Cv0209,
+    #[serde(rename = "cv-0210")]
+    Cv0210,
+    #[serde(rename = "cv-0211")]
+    Cv0211,
+    #[serde(rename = "cv-0212")]
+    Cv0212,
+    #[serde(rename = "cv-0213")]
+    Cv0213,
+    #[serde(rename = "cv-0214")]
+    Cv0214,
+    #[serde(rename = "cv-0215")]
+    Cv0215,
+    #[serde(rename = "cv-0216")]
+    Cv0216,
+    #[serde(rename = "cv-0217")]
+    Cv0217,
+    #[serde(rename = "cv-0218")]
+    Cv0218,
+    #[serde(rename = "cv-0219")]
+    Cv0219,
+    #[serde(rename = "cv-0220")]
+    Cv0220,
+    #[serde(rename = "cv-0221")]
+    Cv0221,
+    #[serde(rename = "cv-0222")]
+    Cv0222,
+    #[serde(rename = "cv-0223")]
+    Cv0223,
+    #[serde(rename = "cv-0224")]
+    Cv0224,
+    #[serde(rename = "cv-0225")]
+    Cv0225,
+    #[serde(rename = "cv-0226")]
+    Cv0226,
+    #[serde(rename = "cv-0227")]
+    Cv0227,
+    #[serde(rename = "cv-0228")]
+    Cv0228,
+    #[serde(rename = "cv-0229")]
+    Cv0229,
+    #[serde(rename = "cv-0230")]
+    Cv0230,
+    #[serde(rename = "cv-0231")]
+    Cv0231,
+    #[serde(rename = "cv-0232")]
+    Cv0232,
+    #[serde(rename = "cv-0233")]
+    Cv0233,
+    #[serde(rename = "cv-0234")]
+    Cv0234,
+    #[serde(rename = "cv-0235")]
+    Cv0235,
+    #[serde(rename = "cv-0236")]
+    Cv0236,
+    #[serde(rename = "cv-0237")]
+    Cv0237,
+    #[serde(rename = "cv-0238")]
+    Cv0238,
+    #[serde(rename = "cv-0239")]
+    Cv0239,
+    #[serde(rename = "cv-0240")]
+    Cv0240,
+    #[serde(rename = "cv-0241")]
+    Cv0241,
+    #[serde(rename = "cv-0242")]
+    Cv0242,
+    #[serde(rename = "cv-0243")]
+    Cv0243,
+    #[serde(rename = "cv-0244")]
+    Cv0244,
+    #[serde(rename = "cv-0245")]
+    Cv0245,
+    #[serde(rename = "cv-0246")]
+    Cv0246,
+    #[serde(rename = "cv-0247")]
+    Cv0247,
+    #[serde(rename = "cv-0248")]
+    Cv0248,
+    #[serde(rename = "cv-0249")]
+    Cv0249,
+    #[serde(rename = "cv-0250")]
+    Cv0250,
+    #[serde(rename = "cv-0251")]
+    Cv0251,
+    #[serde(rename = "cv-0252")]
+    Cv0252,
+    #[serde(rename = "cv-0253")]
+    Cv0253,
+    #[serde(rename = "cv-0254")]
+    Cv0254,
+    #[serde(rename = "cv-0255")]
+    Cv0255,
+    #[serde(rename = "cv-0256")]
+    Cv0256,
+    #[serde(rename = "cv-0257")]
+    Cv0257,
+    #[serde(rename = "cv-0258")]
+    Cv0258,
+    #[serde(rename = "cv-0259")]
+    Cv0259,
+    #[serde(rename = "cv-0260")]
+    Cv0260,
+    #[serde(rename = "cv-0261")]
+    Cv0261,
+    #[serde(rename = "cv-0262")]
+    Cv0262,
+    #[serde(rename = "cv-0263")]
+    Cv0263,
+    #[serde(rename = "cv-0264")]
+    Cv0264,
+    #[serde(rename = "cv-0265")]
+    Cv0265,
+    #[serde(rename = "cv-0266")]
+    Cv0266,
+    #[serde(rename = "cv-0267")]
+    Cv0267,
+    #[serde(rename = "cv-0268")]
+    Cv0268,
+    #[serde(rename = "cv-0269")]
+    Cv0269,
+    #[serde(rename = "cv-0270")]
+    Cv0270,
+    #[serde(rename = "cv-0271")]
+    Cv0271,
+    #[serde(rename = "cv-0272")]
+    Cv0272,
+    #[serde(rename = "cv-0273")]
+    Cv0273,
+    #[serde(rename = "cv-0274")]
+    Cv0274,
+    #[serde(rename = "cv-0275")]
+    Cv0275,
+    #[serde(rename = "cv-0276")]
+    Cv0276,
+    #[serde(rename = "cv-0277")]
+    Cv0277,
+    #[serde(rename = "cv-0278")]
+    Cv0278,
+    #[serde(rename = "cv-0279")]
+    Cv0279,
+    #[serde(rename = "cv-0280")]
+    Cv0280,
+    #[serde(rename = "cv-0281")]
+    Cv0281,
+    #[serde(rename = "cv-0282")]
+    Cv0282,
+    #[serde(rename = "cv-0283")]
+    Cv0283,
+    #[serde(rename = "cv-0284")]
+    Cv0284,
+    #[serde(rename = "cv-0285")]
+    Cv0285,
+    #[serde(rename = "cv-0286")]
+    Cv0286,
+    #[serde(rename = "cv-0287")]
+    Cv0287,
+    #[serde(rename = "cv-0288")]
+    Cv0288,
+    #[serde(rename = "cv-0289")]
+    Cv0289,
+    #[serde(rename = "cv-0290")]
+    Cv0290,
+    #[serde(rename = "cv-0291")]
+    Cv0291,
+    #[serde(rename = "cv-0292")]
+    Cv0292,
+    #[serde(rename = "cv-0293")]
+    Cv0293,
+    #[serde(rename = "cv-0294")]
+    Cv0294,
+    #[serde(rename = "cv-0295")]
+    Cv0295,
+    #[serde(rename = "cv-0296")]
+    Cv0296,
+    #[serde(rename = "cv-0297")]
+    Cv0297,
+    #[serde(rename = "cv-0298")]
+    Cv0298,
+    #[serde(rename = "cv-0299")]
+    Cv0299,
+    #[serde(rename = "cv-0300")]
+    Cv0300,
+    #[serde(rename = "cv-0301")]
+    Cv0301,
+    #[serde(rename = "cv-0302")]
+    Cv0302,
+    #[serde(rename = "cv-0303")]
+    Cv0303,
+    #[serde(rename = "cv-0304")]
+    Cv0304,
+    #[serde(rename = "cv-0305")]
+    Cv0305,
+    #[serde(rename = "cv-0306")]
+    Cv0306,
+    #[serde(rename = "cv-0307")]
+    Cv0307,
+    #[serde(rename = "cv-0308")]
+    Cv0308,
+    #[serde(rename = "cv-0309")]
+    Cv0309,
+    #[serde(rename = "cv-0310")]
+    Cv0310,
+    #[serde(rename = "cv-0311")]
+    Cv0311,
+    #[serde(rename = "cv-0312")]
+    Cv0312,
+    #[serde(rename = "cv-0313")]
+    Cv0313,
+    #[serde(rename = "cv-0314")]
+    Cv0314,
+    #[serde(rename = "cv-0315")]
+    Cv0315,
+    #[serde(rename = "cv-0316")]
+    Cv0316,
+    #[serde(rename = "cv-0317")]
+    Cv0317,
+    #[serde(rename = "cv-0318")]
+    Cv0318,
+    #[serde(rename = "cv-0319")]
+    Cv0319,
+    #[serde(rename = "cv-0320")]
+    Cv0320,
+    #[serde(rename = "cv-0321")]
+    Cv0321,
+    #[serde(rename = "cv-0322")]
+    Cv0322,
+    #[serde(rename = "cv-0323")]
+    Cv0323,
+    #[serde(rename = "cv-0324")]
+    Cv0324,
+    #[serde(rename = "cv-0325")]
+    Cv0325,
+    #[serde(rename = "cv-0326")]
+    Cv0326,
+    #[serde(rename = "cv-0327")]
+    Cv0327,
+    #[serde(rename = "cv-0328")]
+    Cv0328,
+    #[serde(rename = "cv-0329")]
+    Cv0329,
+    #[serde(rename = "cv-0330")]
+    Cv0330,
+    #[serde(rename = "cv-0331")]
+    Cv0331,
+    #[serde(rename = "cv-0332")]
+    Cv0332,
+    #[serde(rename = "cv-0333")]
+    Cv0333,
+    #[serde(rename = "cv-0334")]
+    Cv0334,
+    #[serde(rename = "cv-0335")]
+    Cv0335,
+    #[serde(rename = "cv-0336")]
+    Cv0336,
+    #[serde(rename = "cv-0337")]
+    Cv0337,
+    #[serde(rename = "cv-0338")]
+    Cv0338,
+    #[serde(rename = "cv-0339")]
+    Cv0339,
+    #[serde(rename = "cv-0340")]
+    Cv0340,
+    #[serde(rename = "cv-0341")]
+    Cv0341,
+    #[serde(rename = "cv-0342")]
+    Cv0342,
+    #[serde(rename = "cv-0343")]
+    Cv0343,
+    #[serde(rename = "cv-0344")]
+    Cv0344,
+    #[serde(rename = "cv-0345")]
+    Cv0345,
+    #[serde(rename = "cv-0346")]
+    Cv0346,
+    #[serde(rename = "cv-0347")]
+    Cv0347,
+    #[serde(rename = "cv-0348")]
+    Cv0348,
+    #[serde(rename = "cv-0349")]
+    Cv0349,
+    #[serde(rename = "cv-0350")]
+    Cv0350,
+    #[serde(rename = "cv-0351")]
+    Cv0351,
+    #[serde(rename = "cv-0352")]
+    Cv0352,
+    #[serde(rename = "cv-0353")]
+    Cv0353,
+    #[serde(rename = "cv-0354")]
+    Cv0354,
+    #[serde(rename = "cv-0355")]
+    Cv0355,
+    #[serde(rename = "cv-0356")]
+    Cv0356,
+    #[serde(rename = "cv-0357")]
+    Cv0357,
+    #[serde(rename = "cv-0358")]
+    Cv0358,
+    #[serde(rename = "cv-0359")]
+    Cv0359,
+    #[serde(rename = "cv-0360")]
+    Cv0360,
+    #[serde(rename = "cv-0361")]
+    Cv0361,
+    #[serde(rename = "cv-0362")]
+    Cv0362,
+    #[serde(rename = "cv-0363")]
+    Cv0363,
+    #[serde(rename = "cv-0364")]
+    Cv0364,
+    #[serde(rename = "cv-0365")]
+    Cv0365,
+    #[serde(rename = "cv-0366")]
+    Cv0366,
+    #[serde(rename = "cv-0367")]
+    Cv0367,
+    #[serde(rename = "cv-0368")]
+    Cv0368,
+    #[serde(rename = "cv-0369")]
+    Cv0369,
+    #[serde(rename = "cv-0370")]
+    Cv0370,
+    #[serde(rename = "cv-0371")]
+    Cv0371,
+    #[serde(rename = "cv-0372")]
+    Cv0372,
+    #[serde(rename = "cv-0373")]
+    Cv0373,
+    #[serde(rename = "cv-0374")]
+    Cv0374,
+    #[serde(rename = "cv-0375")]
+    Cv0375,
+    #[serde(rename = "cv-0376")]
+    Cv0376,
+    #[serde(rename = "cv-0377")]
+    Cv0377,
+    #[serde(rename = "cv-0378")]
+    Cv0378,
+    #[serde(rename = "cv-0379")]
+    Cv0379,
+    #[serde(rename = "cv-0380")]
+    Cv0380,
+    #[serde(rename = "cv-0381")]
+    Cv0381,
+    #[serde(rename = "cv-0382")]
+    Cv0382,
+    #[serde(rename = "cv-0383")]
+    Cv0383,
+    #[serde(rename = "cv-0384")]
+    Cv0384,
+    #[serde(rename = "cv-0385")]
+    Cv0385,
+    #[serde(rename = "cv-0386")]
+    Cv0386,
+    #[serde(rename = "cv-0387")]
+    Cv0387,
+    #[serde(rename = "cv-0388")]
+    Cv0388,
+    #[serde(rename = "cv-0389")]
+    Cv0389,
+    #[serde(rename = "cv-0390")]
+    Cv0390,
+    #[serde(rename = "cv-0391")]
+    Cv0391,
+    #[serde(rename = "cv-0392")]
+    Cv0392,
+    #[serde(rename = "cv-0393")]
+    Cv0393,
+    #[serde(rename = "cv-0394")]
+    Cv0394,
+    #[serde(rename = "cv-0395")]
+    Cv0395,
+    #[serde(rename = "cv-0396")]
+    Cv0396,
+    #[serde(rename = "cv-0397")]
+    Cv0397,
+    #[serde(rename = "cv-0398")]
+    Cv0398,
+    #[serde(rename = "cv-0399")]
+    Cv0399,
+    #[serde(rename = "cv-0400")]
+    Cv0400,
+    #[serde(rename = "cv-0401")]
+    Cv0401,
+    #[serde(rename = "cv-0402")]
+    Cv0402,
+    #[serde(rename = "cv-0403")]
+    Cv0403,
+    #[serde(rename = "cv-0404")]
+    Cv0404,
+    #[serde(rename = "cv-0405")]
+    Cv0405,
+    #[serde(rename = "cv-0406")]
+    Cv0406,
+    #[serde(rename = "cv-0407")]
+    Cv0407,
+    #[serde(rename = "cv-0408")]
+    Cv0408,
+    #[serde(rename = "cv-0409")]
+    Cv0409,
+    #[serde(rename = "cv-0410")]
+    Cv0410,
+    #[serde(rename = "cv-0411")]
+    Cv0411,
+    #[serde(rename = "cv-0412")]
+    Cv0412,
+    #[serde(rename = "cv-0413")]
+    Cv0413,
+    #[serde(rename = "cv-0414")]
+    Cv0414,
+    #[serde(rename = "cv-0415")]
+    Cv0415,
+    #[serde(rename = "cv-0416")]
+    Cv0416,
+    #[serde(rename = "cv-0417")]
+    Cv0417,
+    #[serde(rename = "cv-0418")]
+    Cv0418,
+    #[serde(rename = "cv-0419")]
+    Cv0419,
+    #[serde(rename = "cv-0420")]
+    Cv0420,
+    #[serde(rename = "cv-0421")]
+    Cv0421,
+    #[serde(rename = "cv-0422")]
+    Cv0422,
+    #[serde(rename = "cv-0423")]
+    Cv0423,
+    #[serde(rename = "cv-0424")]
+    Cv0424,
+    #[serde(rename = "cv-0425")]
+    Cv0425,
+    #[serde(rename = "cv-0426")]
+    Cv0426,
+    #[serde(rename = "cv-0427")]
+    Cv0427,
+    #[serde(rename = "cv-0428")]
+    Cv0428,
+    #[serde(rename = "cv-0429")]
+    Cv0429,
+    #[serde(rename = "cv-0430")]
+    Cv0430,
+    #[serde(rename = "cv-0431")]
+    Cv0431,
+    #[serde(rename = "cv-0432")]
+    Cv0432,
+    #[serde(rename = "cv-0433")]
+    Cv0433,
+    #[serde(rename = "cv-0434")]
+    Cv0434,
+    #[serde(rename = "cv-0435")]
+    Cv0435,
+    #[serde(rename = "cv-0436")]
+    Cv0436,
+    #[serde(rename = "cv-0437")]
+    Cv0437,
+    #[serde(rename = "cv-0438")]
+    Cv0438,
+    #[serde(rename = "cv-0439")]
+    Cv0439,
+    #[serde(rename = "cv-0440")]
+    Cv0440,
+    #[serde(rename = "cv-0441")]
+    Cv0441,
+    #[serde(rename = "cv-0442")]
+    Cv0442,
+    #[serde(rename = "cv-0443")]
+    Cv0443,
+    #[serde(rename = "cv-0444")]
+    Cv0444,
+    #[serde(rename = "cv-0445")]
+    Cv0445,
+    #[serde(rename = "cv-0446")]
+    Cv0446,
+    #[serde(rename = "cv-0447")]
+    Cv0447,
+    #[serde(rename = "cv-0448")]
+    Cv0448,
+    #[serde(rename = "cv-0449")]
+    Cv0449,
+    #[serde(rename = "cv-0450")]
+    Cv0450,
+    #[serde(rename = "cv-0451")]
+    Cv0451,
+    #[serde(rename = "cv-0452")]
+    Cv0452,
+    #[serde(rename = "cv-0453")]
+    Cv0453,
+    #[serde(rename = "cv-0454")]
+    Cv0454,
+    #[serde(rename = "cv-0455")]
+    Cv0455,
+    #[serde(rename = "cv-0456")]
+    Cv0456,
+    #[serde(rename = "cv-0457")]
+    Cv0457,
+    #[serde(rename = "cv-0458")]
+    Cv0458,
+    #[serde(rename = "cv-0459")]
+    Cv0459,
+    #[serde(rename = "cv-0460")]
+    Cv0460,
+    #[serde(rename = "cv-0461")]
+    Cv0461,
+    #[serde(rename = "cv-0462")]
+    Cv0462,
+    #[serde(rename = "cv-0463")]
+    Cv0463,
+    #[serde(rename = "cv-0464")]
+    Cv0464,
+    #[serde(rename = "cv-0465")]
+    Cv0465,
+    #[serde(rename = "cv-0466")]
+    Cv0466,
+    #[serde(rename = "cv-0467")]
+    Cv0467,
+    #[serde(rename = "cv-0469")]
+    Cv0469,
+    #[serde(rename = "cv-0470")]
+    Cv0470,
+    #[serde(rename = "cv-0471")]
+    Cv0471,
+    #[serde(rename = "cv-0472")]
+    Cv0472,
+    #[serde(rename = "cv-0473")]
+    Cv0473,
+    #[serde(rename = "cv-0474")]
+    Cv0474,
+    #[serde(rename = "cv-0475")]
+    Cv0475,
+    #[serde(rename = "cv-0476")]
+    Cv0476,
+    #[serde(rename = "cv-0477")]
+    Cv0477,
+    #[serde(rename = "cv-0478")]
+    Cv0478,
+    #[serde(rename = "cv-0479")]
+    Cv0479,
+    #[serde(rename = "cv-0480")]
+    Cv0480,
+    #[serde(rename = "cv-0481")]
+    Cv0481,
+    #[serde(rename = "cv-0482")]
+    Cv0482,
+    #[serde(rename = "cv-0483")]
+    Cv0483,
+    #[serde(rename = "cv-0484")]
+    Cv0484,
+    #[serde(rename = "cv-0485")]
+    Cv0485,
+    #[serde(rename = "cv-0486")]
+    Cv0486,
+    #[serde(rename = "cv-0487")]
+    Cv0487,
+    #[serde(rename = "cv-0488")]
+    Cv0488,
+    #[serde(rename = "cv-0489")]
+    Cv0489,
     #[serde(rename = "xQc")]
     XQc,
 }
@@ -4962,6 +5934,492 @@ impl std::fmt::Display for V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum {
                 "Zoro (One Piece)"
             }
             V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::ZukoAvatar => "Zuko (Avatar)",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0001 => "cv-0001",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0002 => "cv-0002",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0003 => "cv-0003",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0004 => "cv-0004",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0005 => "cv-0005",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0006 => "cv-0006",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0007 => "cv-0007",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0008 => "cv-0008",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0009 => "cv-0009",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0010 => "cv-0010",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0011 => "cv-0011",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0012 => "cv-0012",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0013 => "cv-0013",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0014 => "cv-0014",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0015 => "cv-0015",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0016 => "cv-0016",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0017 => "cv-0017",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0018 => "cv-0018",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0019 => "cv-0019",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0020 => "cv-0020",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0021 => "cv-0021",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0022 => "cv-0022",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0023 => "cv-0023",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0024 => "cv-0024",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0025 => "cv-0025",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0026 => "cv-0026",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0028 => "cv-0028",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0029 => "cv-0029",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0030 => "cv-0030",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0031 => "cv-0031",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0032 => "cv-0032",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0033 => "cv-0033",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0034 => "cv-0034",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0035 => "cv-0035",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0036 => "cv-0036",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0037 => "cv-0037",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0038 => "cv-0038",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0039 => "cv-0039",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0040 => "cv-0040",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0041 => "cv-0041",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0042 => "cv-0042",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0043 => "cv-0043",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0044 => "cv-0044",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0045 => "cv-0045",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0046 => "cv-0046",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0047 => "cv-0047",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0048 => "cv-0048",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0049 => "cv-0049",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0050 => "cv-0050",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0051 => "cv-0051",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0052 => "cv-0052",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0053 => "cv-0053",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0054 => "cv-0054",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0055 => "cv-0055",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0056 => "cv-0056",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0057 => "cv-0057",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0058 => "cv-0058",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0059 => "cv-0059",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0060 => "cv-0060",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0061 => "cv-0061",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0062 => "cv-0062",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0063 => "cv-0063",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0064 => "cv-0064",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0065 => "cv-0065",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0066 => "cv-0066",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0067 => "cv-0067",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0068 => "cv-0068",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0069 => "cv-0069",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0070 => "cv-0070",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0071 => "cv-0071",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0072 => "cv-0072",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0073 => "cv-0073",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0074 => "cv-0074",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0075 => "cv-0075",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0076 => "cv-0076",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0077 => "cv-0077",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0078 => "cv-0078",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0079 => "cv-0079",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0080 => "cv-0080",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0081 => "cv-0081",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0082 => "cv-0082",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0083 => "cv-0083",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0084 => "cv-0084",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0085 => "cv-0085",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0086 => "cv-0086",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0087 => "cv-0087",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0088 => "cv-0088",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0089 => "cv-0089",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0090 => "cv-0090",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0091 => "cv-0091",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0092 => "cv-0092",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0093 => "cv-0093",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0094 => "cv-0094",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0095 => "cv-0095",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0096 => "cv-0096",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0097 => "cv-0097",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0098 => "cv-0098",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0099 => "cv-0099",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0100 => "cv-0100",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0101 => "cv-0101",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0102 => "cv-0102",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0103 => "cv-0103",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0104 => "cv-0104",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0105 => "cv-0105",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0106 => "cv-0106",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0107 => "cv-0107",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0108 => "cv-0108",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0109 => "cv-0109",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0110 => "cv-0110",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0111 => "cv-0111",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0112 => "cv-0112",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0113 => "cv-0113",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0114 => "cv-0114",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0115 => "cv-0115",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0116 => "cv-0116",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0117 => "cv-0117",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0118 => "cv-0118",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0119 => "cv-0119",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0120 => "cv-0120",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0121 => "cv-0121",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0122 => "cv-0122",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0123 => "cv-0123",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0124 => "cv-0124",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0125 => "cv-0125",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0126 => "cv-0126",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0127 => "cv-0127",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0128 => "cv-0128",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0129 => "cv-0129",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0130 => "cv-0130",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0131 => "cv-0131",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0132 => "cv-0132",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0133 => "cv-0133",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0134 => "cv-0134",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0135 => "cv-0135",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0136 => "cv-0136",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0137 => "cv-0137",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0138 => "cv-0138",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0139 => "cv-0139",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0140 => "cv-0140",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0141 => "cv-0141",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0142 => "cv-0142",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0143 => "cv-0143",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0144 => "cv-0144",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0145 => "cv-0145",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0146 => "cv-0146",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0147 => "cv-0147",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0148 => "cv-0148",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0149 => "cv-0149",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0150 => "cv-0150",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0151 => "cv-0151",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0152 => "cv-0152",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0153 => "cv-0153",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0154 => "cv-0154",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0155 => "cv-0155",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0156 => "cv-0156",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0157 => "cv-0157",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0158 => "cv-0158",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0159 => "cv-0159",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0160 => "cv-0160",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0161 => "cv-0161",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0162 => "cv-0162",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0163 => "cv-0163",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0164 => "cv-0164",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0165 => "cv-0165",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0166 => "cv-0166",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0167 => "cv-0167",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0168 => "cv-0168",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0169 => "cv-0169",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0170 => "cv-0170",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0171 => "cv-0171",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0172 => "cv-0172",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0173 => "cv-0173",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0174 => "cv-0174",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0175 => "cv-0175",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0176 => "cv-0176",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0177 => "cv-0177",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0178 => "cv-0178",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0179 => "cv-0179",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0180 => "cv-0180",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0181 => "cv-0181",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0182 => "cv-0182",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0183 => "cv-0183",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0184 => "cv-0184",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0185 => "cv-0185",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0186 => "cv-0186",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0187 => "cv-0187",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0188 => "cv-0188",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0189 => "cv-0189",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0190 => "cv-0190",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0191 => "cv-0191",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0192 => "cv-0192",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0193 => "cv-0193",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0194 => "cv-0194",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0195 => "cv-0195",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0196 => "cv-0196",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0197 => "cv-0197",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0198 => "cv-0198",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0199 => "cv-0199",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0200 => "cv-0200",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0201 => "cv-0201",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0202 => "cv-0202",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0203 => "cv-0203",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0205 => "cv-0205",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0206 => "cv-0206",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0207 => "cv-0207",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0208 => "cv-0208",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0209 => "cv-0209",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0210 => "cv-0210",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0211 => "cv-0211",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0212 => "cv-0212",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0213 => "cv-0213",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0214 => "cv-0214",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0215 => "cv-0215",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0216 => "cv-0216",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0217 => "cv-0217",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0218 => "cv-0218",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0219 => "cv-0219",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0220 => "cv-0220",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0221 => "cv-0221",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0222 => "cv-0222",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0223 => "cv-0223",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0224 => "cv-0224",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0225 => "cv-0225",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0226 => "cv-0226",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0227 => "cv-0227",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0228 => "cv-0228",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0229 => "cv-0229",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0230 => "cv-0230",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0231 => "cv-0231",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0232 => "cv-0232",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0233 => "cv-0233",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0234 => "cv-0234",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0235 => "cv-0235",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0236 => "cv-0236",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0237 => "cv-0237",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0238 => "cv-0238",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0239 => "cv-0239",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0240 => "cv-0240",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0241 => "cv-0241",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0242 => "cv-0242",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0243 => "cv-0243",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0244 => "cv-0244",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0245 => "cv-0245",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0246 => "cv-0246",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0247 => "cv-0247",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0248 => "cv-0248",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0249 => "cv-0249",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0250 => "cv-0250",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0251 => "cv-0251",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0252 => "cv-0252",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0253 => "cv-0253",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0254 => "cv-0254",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0255 => "cv-0255",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0256 => "cv-0256",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0257 => "cv-0257",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0258 => "cv-0258",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0259 => "cv-0259",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0260 => "cv-0260",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0261 => "cv-0261",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0262 => "cv-0262",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0263 => "cv-0263",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0264 => "cv-0264",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0265 => "cv-0265",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0266 => "cv-0266",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0267 => "cv-0267",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0268 => "cv-0268",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0269 => "cv-0269",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0270 => "cv-0270",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0271 => "cv-0271",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0272 => "cv-0272",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0273 => "cv-0273",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0274 => "cv-0274",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0275 => "cv-0275",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0276 => "cv-0276",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0277 => "cv-0277",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0278 => "cv-0278",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0279 => "cv-0279",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0280 => "cv-0280",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0281 => "cv-0281",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0282 => "cv-0282",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0283 => "cv-0283",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0284 => "cv-0284",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0285 => "cv-0285",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0286 => "cv-0286",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0287 => "cv-0287",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0288 => "cv-0288",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0289 => "cv-0289",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0290 => "cv-0290",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0291 => "cv-0291",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0292 => "cv-0292",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0293 => "cv-0293",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0294 => "cv-0294",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0295 => "cv-0295",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0296 => "cv-0296",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0297 => "cv-0297",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0298 => "cv-0298",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0299 => "cv-0299",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0300 => "cv-0300",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0301 => "cv-0301",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0302 => "cv-0302",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0303 => "cv-0303",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0304 => "cv-0304",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0305 => "cv-0305",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0306 => "cv-0306",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0307 => "cv-0307",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0308 => "cv-0308",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0309 => "cv-0309",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0310 => "cv-0310",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0311 => "cv-0311",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0312 => "cv-0312",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0313 => "cv-0313",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0314 => "cv-0314",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0315 => "cv-0315",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0316 => "cv-0316",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0317 => "cv-0317",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0318 => "cv-0318",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0319 => "cv-0319",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0320 => "cv-0320",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0321 => "cv-0321",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0322 => "cv-0322",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0323 => "cv-0323",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0324 => "cv-0324",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0325 => "cv-0325",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0326 => "cv-0326",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0327 => "cv-0327",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0328 => "cv-0328",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0329 => "cv-0329",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0330 => "cv-0330",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0331 => "cv-0331",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0332 => "cv-0332",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0333 => "cv-0333",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0334 => "cv-0334",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0335 => "cv-0335",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0336 => "cv-0336",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0337 => "cv-0337",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0338 => "cv-0338",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0339 => "cv-0339",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0340 => "cv-0340",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0341 => "cv-0341",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0342 => "cv-0342",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0343 => "cv-0343",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0344 => "cv-0344",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0345 => "cv-0345",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0346 => "cv-0346",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0347 => "cv-0347",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0348 => "cv-0348",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0349 => "cv-0349",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0350 => "cv-0350",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0351 => "cv-0351",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0352 => "cv-0352",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0353 => "cv-0353",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0354 => "cv-0354",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0355 => "cv-0355",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0356 => "cv-0356",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0357 => "cv-0357",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0358 => "cv-0358",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0359 => "cv-0359",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0360 => "cv-0360",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0361 => "cv-0361",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0362 => "cv-0362",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0363 => "cv-0363",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0364 => "cv-0364",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0365 => "cv-0365",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0366 => "cv-0366",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0367 => "cv-0367",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0368 => "cv-0368",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0369 => "cv-0369",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0370 => "cv-0370",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0371 => "cv-0371",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0372 => "cv-0372",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0373 => "cv-0373",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0374 => "cv-0374",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0375 => "cv-0375",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0376 => "cv-0376",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0377 => "cv-0377",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0378 => "cv-0378",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0379 => "cv-0379",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0380 => "cv-0380",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0381 => "cv-0381",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0382 => "cv-0382",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0383 => "cv-0383",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0384 => "cv-0384",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0385 => "cv-0385",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0386 => "cv-0386",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0387 => "cv-0387",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0388 => "cv-0388",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0389 => "cv-0389",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0390 => "cv-0390",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0391 => "cv-0391",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0392 => "cv-0392",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0393 => "cv-0393",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0394 => "cv-0394",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0395 => "cv-0395",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0396 => "cv-0396",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0397 => "cv-0397",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0398 => "cv-0398",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0399 => "cv-0399",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0400 => "cv-0400",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0401 => "cv-0401",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0402 => "cv-0402",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0403 => "cv-0403",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0404 => "cv-0404",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0405 => "cv-0405",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0406 => "cv-0406",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0407 => "cv-0407",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0408 => "cv-0408",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0409 => "cv-0409",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0410 => "cv-0410",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0411 => "cv-0411",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0412 => "cv-0412",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0413 => "cv-0413",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0414 => "cv-0414",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0415 => "cv-0415",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0416 => "cv-0416",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0417 => "cv-0417",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0418 => "cv-0418",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0419 => "cv-0419",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0420 => "cv-0420",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0421 => "cv-0421",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0422 => "cv-0422",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0423 => "cv-0423",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0424 => "cv-0424",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0425 => "cv-0425",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0426 => "cv-0426",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0427 => "cv-0427",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0428 => "cv-0428",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0429 => "cv-0429",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0430 => "cv-0430",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0431 => "cv-0431",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0432 => "cv-0432",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0433 => "cv-0433",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0434 => "cv-0434",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0435 => "cv-0435",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0436 => "cv-0436",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0437 => "cv-0437",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0438 => "cv-0438",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0439 => "cv-0439",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0440 => "cv-0440",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0441 => "cv-0441",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0442 => "cv-0442",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0443 => "cv-0443",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0444 => "cv-0444",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0445 => "cv-0445",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0446 => "cv-0446",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0447 => "cv-0447",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0448 => "cv-0448",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0449 => "cv-0449",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0450 => "cv-0450",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0451 => "cv-0451",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0452 => "cv-0452",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0453 => "cv-0453",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0454 => "cv-0454",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0455 => "cv-0455",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0456 => "cv-0456",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0457 => "cv-0457",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0458 => "cv-0458",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0459 => "cv-0459",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0460 => "cv-0460",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0461 => "cv-0461",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0462 => "cv-0462",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0463 => "cv-0463",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0464 => "cv-0464",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0465 => "cv-0465",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0466 => "cv-0466",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0467 => "cv-0467",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0469 => "cv-0469",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0470 => "cv-0470",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0471 => "cv-0471",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0472 => "cv-0472",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0473 => "cv-0473",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0474 => "cv-0474",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0475 => "cv-0475",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0476 => "cv-0476",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0477 => "cv-0477",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0478 => "cv-0478",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0479 => "cv-0479",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0480 => "cv-0480",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0481 => "cv-0481",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0482 => "cv-0482",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0483 => "cv-0483",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0484 => "cv-0484",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0485 => "cv-0485",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0486 => "cv-0486",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0487 => "cv-0487",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0488 => "cv-0488",
+            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Cv0489 => "cv-0489",
             V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::XQc => "xQc",
         };
         write!(f, "{}", str_val)

@@ -50,6 +50,10 @@
 ///   - Supported resolutions: 640px, 1k, 2k, 4k
 ///   - Available for tiers: creator, pro, business
 ///   - Image count allowed: 1, 2, 3, 4
+/// - `seedream-v4.5` - from 50 credits/image
+///   - Supported resolutions: 640px, 1k, 2k, 4k
+///   - Available for tiers: creator, pro, business
+///   - Image count allowed: 1, 2, 3, 4
 /// - `seedream-v5-pro` - from 75 credits/image
 ///   - Supported resolutions: 640px, 1k, 2k
 ///   - Available for tiers: creator, pro, business
@@ -93,6 +97,8 @@ pub enum V1AiImageGeneratorCreateBodyModelEnum {
     Seedream,
     #[serde(rename = "seedream-v4")]
     SeedreamV4,
+    #[serde(rename = "seedream-v4.5")]
+    SeedreamV45,
     #[serde(rename = "seedream-v5-pro")]
     SeedreamV5Pro,
     #[serde(rename = "z-image-turbo")]
@@ -119,6 +125,7 @@ impl std::fmt::Display for V1AiImageGeneratorCreateBodyModelEnum {
             V1AiImageGeneratorCreateBodyModelEnum::QwenImage21 => "qwen-image-2.1",
             V1AiImageGeneratorCreateBodyModelEnum::Seedream => "seedream",
             V1AiImageGeneratorCreateBodyModelEnum::SeedreamV4 => "seedream-v4",
+            V1AiImageGeneratorCreateBodyModelEnum::SeedreamV45 => "seedream-v4.5",
             V1AiImageGeneratorCreateBodyModelEnum::SeedreamV5Pro => "seedream-v5-pro",
             V1AiImageGeneratorCreateBodyModelEnum::ZImageTurbo => "z-image-turbo",
         };

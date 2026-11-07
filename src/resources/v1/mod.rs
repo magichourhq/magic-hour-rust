@@ -37,3 +37,4 @@ pub mod saved_items;
 pub mod text_to_video;
 pub mod video_projects;
 pub mod video_to_video;
+pub mod voices;

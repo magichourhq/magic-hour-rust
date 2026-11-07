@@ -14,6 +14,8 @@ impl<'a> FaceDetectionClient<'a> {
     ///
     /// Use this API to get the list of faces detected in the image or video to use in the [face swap photo](https://docs.magichour.ai/api-reference/image-projects/face-swap-photo) or [face swap video](https://docs.magichour.ai/api-reference/video-projects/face-swap-video) API calls for multi-face swaps.
     ///
+    /// When `status` is `error`, the `error` field explains why (for example `nsfw` when the content-safety filter blocked the file). It is `null` otherwise.
+    ///
     /// GET /v1/face-detection/{id}
     pub async fn get(
         &mut self,

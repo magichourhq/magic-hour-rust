@@ -1,6 +1,7 @@
 /// * `Dreamshaper` - a good all-around model that works for both animations as well as realism.
 /// * `Absolute Reality` - better at realism, but you'll often get similar results with Dreamshaper as well.
 /// * `Flat 2D Anime` - best for a flat illustration style that's common in most anime.
+/// * `Default` - the v3 model.
 /// * `default` - use the default recommended model for the selected art style.
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub enum V1VideoToVideoCreateBodyStyleModelEnum {
@@ -9,6 +10,8 @@ pub enum V1VideoToVideoCreateBodyStyleModelEnum {
     Enum3dAnime,
     #[serde(rename = "Absolute Reality")]
     AbsoluteReality,
+    #[serde(rename = "Default")]
+    DefaultV3,
     #[serde(rename = "Dreamshaper")]
     Dreamshaper,
     #[serde(rename = "Flat 2D Anime")]
@@ -27,6 +30,7 @@ impl std::fmt::Display for V1VideoToVideoCreateBodyStyleModelEnum {
         let str_val = match self {
             V1VideoToVideoCreateBodyStyleModelEnum::Enum3dAnime => "3D Anime",
             V1VideoToVideoCreateBodyStyleModelEnum::AbsoluteReality => "Absolute Reality",
+            V1VideoToVideoCreateBodyStyleModelEnum::DefaultV3 => "Default",
             V1VideoToVideoCreateBodyStyleModelEnum::Dreamshaper => "Dreamshaper",
             V1VideoToVideoCreateBodyStyleModelEnum::Flat2dAnime => "Flat 2D Anime",
             V1VideoToVideoCreateBodyStyleModelEnum::Kaywaii => "Kaywaii",

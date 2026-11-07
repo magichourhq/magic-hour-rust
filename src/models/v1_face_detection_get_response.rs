@@ -3,6 +3,9 @@
 pub struct V1FaceDetectionGetResponse {
     /// The credits charged for the task.
     pub credits_charged: i64,
+    /// Why the face detection failed. Present only when `status` is `error`; `null` otherwise.
+    #[serde(deserialize_with = "crate::core::patch::deserialize_required_nullable")]
+    pub error: Option<crate::models::V1FaceDetectionGetResponseError>,
     /// The faces detected in the image or video. The list is populated as faces are detected.
     pub faces: Vec<crate::models::V1FaceDetectionGetResponseFacesItem>,
     /// The id of the task. This value is returned by the [face detection API](https://docs.magichour.ai/api-reference/files/face-detection#response-id).
