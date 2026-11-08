@@ -1238,8 +1238,6 @@ pub enum V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum {
     JimCarrey,
     #[serde(rename = "Jim Halpert")]
     JimHalpert,
-    #[serde(rename = "Jimi Hendrix")]
-    JimiHendrix,
     #[serde(rename = "Jimin")]
     Jimin,
     #[serde(rename = "Jimmy Carter")]
@@ -4716,7 +4714,6 @@ impl std::fmt::Display for V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum {
             }
             V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::JimCarrey => "Jim Carrey",
             V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::JimHalpert => "Jim Halpert",
-            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::JimiHendrix => "Jimi Hendrix",
             V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::Jimin => "Jimin",
             V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::JimmyCarter => "Jimmy Carter",
             V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::JimmyFallon => "Jimmy Fallon",
