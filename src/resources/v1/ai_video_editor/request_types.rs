@@ -3,9 +3,9 @@
 pub struct CreateRequest {
     /// Provide the assets for video editing.
     pub assets: crate::models::V1AiVideoEditorCreateBodyAssets,
-    /// End time of your clip in seconds. Must be greater than `start_seconds`. Allowed duration depends on model: `gemini-omni-1.1`: 3-10s, `wan-3.0`: 2-15s, `ltx-2.5`: 0.5-60s (30s at 1080p).
+    /// End time of your clip in seconds. Must be greater than `start_seconds`. Allowed duration depends on model: `gemini-omni-1.2`: 3-15s, `wan-3.0`: 2-15s, `ltx-2.5`: 0.5-60s (30s at 1080p).
     pub end_seconds: f64,
-    /// Editing model. Defaults to LTX 2.5 for free tier and `gemini-omni-1.1` for paid. `wan-3.0` requires a paid tier. `gemini-omni` is deprecated; use `gemini-omni-1.1` instead.
+    /// Editing model. Defaults to LTX 2.5 for free tier and `gemini-omni-1.2` for paid. `wan-3.0` requires a paid tier. `gemini-omni` and `gemini-omni-1.1` are deprecated and run on `gemini-omni-1.2`.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub model: Option<crate::models::V1AiVideoEditorCreateBodyModelEnum>,
     /// Give your video a custom name for easy identification.
@@ -13,10 +13,10 @@ pub struct CreateRequest {
     pub name: Option<String>,
     /// Name references without @ and refer to them as @name in style.prompt. Names must be unique, ignoring case. Maximum 10 references total. Omit for no references.
     ///
-    /// Reference images for gemini-omni-1.1, wan-3.0, gemini-omni.
+    /// Reference images for gemini-omni-1.2, wan-3.0.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub references: Option<Vec<crate::models::V1AiVideoEditorCreateBodyReferencesItem>>,
-    /// Output resolution. Defaults to `480p` for free tier and `720p` for paid. Supported per model: `gemini-omni-1.1`: 360p, 720p, 1080p, 4k; `wan-3.0`: 480p, 720p, 1080p; `ltx-2.5`: 480p, 720p, 1080p.
+    /// Output resolution. Defaults to `480p` for free tier and `720p` for paid. Supported per model: `gemini-omni-1.2`: 360p, 720p, 1080p, 4k; `wan-3.0`: 480p, 720p, 1080p; `ltx-2.5`: 480p, 720p, 1080p.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub resolution: Option<crate::models::V1AiVideoEditorCreateBodyResolutionEnum>,
     /// Start time of your clip (seconds). Must be ≥ 0.

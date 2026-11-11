@@ -1,7 +1,7 @@
 /// The AI model to use for video generation.
 ///
 /// * `default`: uses our currently recommended model for general use. For paid tiers, defaults to `kling-3.0`. For free tiers, it defaults to `ltx-2.5`.
-/// * `gemini-omni-1.1`: Best for precise short clips, first/last frames, and high-resolution output.
+/// * `gemini-omni-1.2`: Best for precise clips up to 15s, references, and high-resolution output.
 /// * `kling-2.6`: Best for action, motion blur, and controlled camera moves.
 /// * `kling-3.0`: Best for cinematic stories, references, and optional audio.
 /// * `kling-4.0`: Create cinematic videos with image and video references and optional audio.
@@ -25,6 +25,8 @@ pub enum V1ImageToVideoCreateBodyModelEnum {
     Default,
     #[serde(rename = "gemini-omni-1.1")]
     GeminiOmni11,
+    #[serde(rename = "gemini-omni-1.2")]
+    GeminiOmni12,
     #[serde(rename = "kling-1.6")]
     Kling16,
     #[serde(rename = "kling-2.5")]
@@ -75,6 +77,7 @@ impl std::fmt::Display for V1ImageToVideoCreateBodyModelEnum {
         let str_val = match self {
             V1ImageToVideoCreateBodyModelEnum::Default => "default",
             V1ImageToVideoCreateBodyModelEnum::GeminiOmni11 => "gemini-omni-1.1",
+            V1ImageToVideoCreateBodyModelEnum::GeminiOmni12 => "gemini-omni-1.2",
             V1ImageToVideoCreateBodyModelEnum::Kling16 => "kling-1.6",
             V1ImageToVideoCreateBodyModelEnum::Kling25 => "kling-2.5",
             V1ImageToVideoCreateBodyModelEnum::Kling25Audio => "kling-2.5-audio",
