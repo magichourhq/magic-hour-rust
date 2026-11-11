@@ -198,8 +198,6 @@ pub enum V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum {
     BabarAzam,
     #[serde(rename = "Baby Yoda (Grogu)")]
     BabyYodaGrogu,
-    #[serde(rename = "Bad Bunny")]
-    BadBunny,
     #[serde(rename = "Bakugo Katsuki")]
     BakugoKatsuki,
     #[serde(rename = "Bam Margera")]
@@ -3678,7 +3676,6 @@ impl std::fmt::Display for V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum {
             V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::BabyYodaGrogu => {
                 "Baby Yoda (Grogu)"
             }
-            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::BadBunny => "Bad Bunny",
             V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::BakugoKatsuki => {
                 "Bakugo Katsuki"
             }
