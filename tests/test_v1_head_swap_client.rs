@@ -12,7 +12,7 @@ async fn test_create_200_success_all_params() {
                 body_file_path: "api-assets/id/1234.png".to_string(),
                 head_file_path: "api-assets/id/5678.png".to_string(),
             },
-            max_resolution: Some(1024),
+            max_resolution: Some(512),
             name: Some("My Head Swap image".to_string()),
         })
         .await;
