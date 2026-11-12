@@ -13,9 +13,9 @@ async fn test_create_200_success_all_params() {
                 ..Default::default()
             },
             end_seconds: 4.0,
-            model: Some(magic_hour::models::V1AiUgcAdCreateBodyModelEnum::Kling30),
+            model: Some(magic_hour::models::V1AiUgcAdCreateBodyModelEnum::Ltx25),
             resolution: Some(
-                magic_hour::models::V1AiUgcAdCreateBodyResolutionEnum::Enum1080p,
+                magic_hour::models::V1AiUgcAdCreateBodyResolutionEnum::Enum480p,
             ),
             script: "Meet your new everyday essential.".to_string(),
             ..Default::default()
