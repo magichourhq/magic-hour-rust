@@ -10,7 +10,7 @@ impl Display for Environment {
         match self {
             Environment::Environment => write!(f, "https://api.magichour.ai"),
             Environment::MockServer => {
-                write!(f, "https://api.sideko.dev/v1/mock/magichour/magic-hour/0.96.2")
+                write!(f, "https://api.sideko.dev/v1/mock/magichour/magic-hour/0.97.0")
             }
         }
     }
