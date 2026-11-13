@@ -16,7 +16,7 @@ pub struct V1AiUgcAdCreateBody {
     pub resolution: Option<crate::models::V1AiUgcAdCreateBodyResolutionEnum>,
     /// The words the actor should speak. Character limits apply after trimming:
     /// * kling-3.0: 2304 characters.
-    /// * ltx-2.5: 1804 characters.
+    /// * ltx-2.5: 3804 characters.
     /// * veo3.1: 2500 characters.
     /// LTX and Kling dialogue wrappers count toward their model prompt limit.
     pub script: String,

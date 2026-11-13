@@ -50,6 +50,10 @@
 ///   - Supported resolutions: 640px, 1k, 2k, 4k
 ///   - Available for tiers: creator, pro, business
 ///   - Max additional input images: 9
+/// - `seedream-v5-flash` - from 30 credits/image
+///   - Supported resolutions: 640px, 1k, 2k
+///   - Available for tiers: creator, pro, business
+///   - Max additional input images: 9
 /// - `seedream-v5-pro` - from 75 credits/image
 ///   - Supported resolutions: 640px, 1k, 2k
 ///   - Available for tiers: creator, pro, business
@@ -86,6 +90,8 @@ pub enum V1AiImageEditorCreateBodyModelEnum {
     SeedreamV4,
     #[serde(rename = "seedream-v4.5")]
     SeedreamV45,
+    #[serde(rename = "seedream-v5-flash")]
+    SeedreamV5Flash,
     #[serde(rename = "seedream-v5-pro")]
     SeedreamV5Pro,
 }
@@ -106,6 +112,7 @@ impl std::fmt::Display for V1AiImageEditorCreateBodyModelEnum {
             V1AiImageEditorCreateBodyModelEnum::QwenImage21 => "qwen-image-2.1",
             V1AiImageEditorCreateBodyModelEnum::SeedreamV4 => "seedream-v4",
             V1AiImageEditorCreateBodyModelEnum::SeedreamV45 => "seedream-v4.5",
+            V1AiImageEditorCreateBodyModelEnum::SeedreamV5Flash => "seedream-v5-flash",
             V1AiImageEditorCreateBodyModelEnum::SeedreamV5Pro => "seedream-v5-pro",
         };
         write!(f, "{}", str_val)
