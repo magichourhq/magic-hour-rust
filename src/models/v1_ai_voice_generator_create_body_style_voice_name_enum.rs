@@ -1188,8 +1188,6 @@ pub enum V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum {
     JasonStatham,
     #[serde(rename = "Jason Voorhees")]
     JasonVoorhees,
-    #[serde(rename = "Jay-Z")]
-    JayZ,
     #[serde(rename = "Jayson Tatum")]
     JaysonTatum,
     #[serde(rename = "Jeff Bezos")]
@@ -4659,7 +4657,6 @@ impl std::fmt::Display for V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum {
             V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::JasonVoorhees => {
                 "Jason Voorhees"
             }
-            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::JayZ => "Jay-Z",
             V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::JaysonTatum => "Jayson Tatum",
             V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::JeffBezos => "Jeff Bezos",
             V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::JeffGoldblum => {
