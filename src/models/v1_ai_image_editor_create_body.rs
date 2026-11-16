@@ -1,7 +1,7 @@
 /// V1AiImageEditorCreateBody
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub struct V1AiImageEditorCreateBody {
-    /// The aspect ratio of the output image(s). If not specified, defaults to `auto`.
+    /// The aspect ratio of the output image(s). If not specified, defaults to `auto`. Ignored for `krea-2` and `flux-2-klein` when an input image is provided; the output keeps the source image's aspect ratio.
     #[serde(skip_serializing_if = "Option::is_none")]
     pub aspect_ratio: Option<crate::models::V1AiImageEditorCreateBodyAspectRatioEnum>,
     /// Provide the assets for image edit
