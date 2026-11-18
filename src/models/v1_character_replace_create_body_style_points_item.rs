@@ -5,6 +5,6 @@ pub struct V1CharacterReplaceCreateBodyStylePointsItem {
     pub position_x: i64,
     /// Vertical pixel coordinate in the source video frame at `time_seconds`, measured from the top edge.
     pub position_y: i64,
-    /// Timestamp on the source video timeline in seconds. Uses the same clock as `start_seconds` and `end_seconds`.
+    /// Timestamp on the source video timeline in seconds. Uses the same clock as `start_seconds` and `end_seconds`. For MiniMax H3 manual replacement, `start_seconds <= time_seconds < end_seconds`.
     pub time_seconds: f64,
 }
