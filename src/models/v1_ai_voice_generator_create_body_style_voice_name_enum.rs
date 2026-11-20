@@ -784,8 +784,6 @@ pub enum V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum {
     ErenJaeger,
     #[serde(rename = "Eric Cartman")]
     EricCartman,
-    #[serde(rename = "Eric Clapton")]
-    EricClapton,
     #[serde(rename = "Erling Haaland")]
     ErlingHaaland,
     #[serde(rename = "Ernie Hudson")]
@@ -4249,7 +4247,6 @@ impl std::fmt::Display for V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum {
             }
             V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::ErenJaeger => "Eren Jaeger",
             V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::EricCartman => "Eric Cartman",
-            V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::EricClapton => "Eric Clapton",
             V1AiVoiceGeneratorCreateBodyStyleVoiceNameEnum::ErlingHaaland => {
                 "Erling Haaland"
             }
