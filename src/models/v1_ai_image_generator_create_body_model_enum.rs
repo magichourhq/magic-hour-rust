@@ -6,6 +6,10 @@
 ///   - Supported resolutions: 640px, 1k, 2k
 ///   - Available for tiers: free, creator, pro, business
 ///   - Image count allowed: 1
+/// - `flux-3-klein` - from 5 credits/image
+///   - Supported resolutions: 640px, 1k, 2k
+///   - Available for tiers: free, creator, pro, business
+///   - Image count allowed: 1, 2, 3, 4
 /// - `flux-schnell` - from 5 credits/image
 ///   - Supported resolutions: 640px, 1k, 2k
 ///   - Available for tiers: free, creator, pro, business
@@ -73,6 +77,8 @@ pub enum V1AiImageGeneratorCreateBodyModelEnum {
     Default,
     #[serde(rename = "flux-2-klein")]
     Flux2Klein,
+    #[serde(rename = "flux-3-klein")]
+    Flux3Klein,
     #[serde(rename = "flux-schnell")]
     FluxSchnell,
     #[serde(rename = "gpt-image-2")]
@@ -111,6 +117,7 @@ impl std::fmt::Display for V1AiImageGeneratorCreateBodyModelEnum {
         let str_val = match self {
             V1AiImageGeneratorCreateBodyModelEnum::Default => "default",
             V1AiImageGeneratorCreateBodyModelEnum::Flux2Klein => "flux-2-klein",
+            V1AiImageGeneratorCreateBodyModelEnum::Flux3Klein => "flux-3-klein",
             V1AiImageGeneratorCreateBodyModelEnum::FluxSchnell => "flux-schnell",
             V1AiImageGeneratorCreateBodyModelEnum::GptImage2 => "gpt-image-2",
             V1AiImageGeneratorCreateBodyModelEnum::GptImage25Flare => {
