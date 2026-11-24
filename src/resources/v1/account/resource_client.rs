@@ -8,6 +8,13 @@ impl<'a> AccountClient<'a> {
     ) -> Self {
         Self { base_client }
     }
+    pub fn checkout(
+        &mut self,
+    ) -> crate::resources::v1::account::checkout::resource_client::CheckoutClient<'_> {
+        crate::resources::v1::account::checkout::resource_client::CheckoutClient::_new(
+            self.base_client,
+        )
+    }
     /// Get account details
     ///
     /// Get the current credit balance and subscription details of the account that owns the API key.

@@ -1,5 +1,5 @@
 {
-  "id": "1abebc33-cf12-4b78-ae2b-96518ad1a3e4",
+  "id": "b5f148aa-f3ae-4a00-bbaf-d0457086ce75",
   "tracked_paths": [
     {
       "editable": true,
@@ -60,6 +60,18 @@
     {
       "editable": false,
       "path": "src/models/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_account_checkout_create_body.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_account_checkout_create_body_type_enum.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_account_checkout_create_response.rs"
     },
     {
       "editable": false,
@@ -926,6 +938,22 @@
       "path": "src/resources/v1/account/README.md"
     },
     {
+      "editable": true,
+      "path": "src/resources/v1/account/checkout/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/account/checkout/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/account/checkout/request_types.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/account/checkout/resource_client.rs"
+    },
+    {
       "editable": false,
       "path": "src/resources/v1/account/mod.rs"
     },
@@ -1572,6 +1600,10 @@
     {
       "editable": false,
       "path": "src/resources/v1/voices/resource_client.rs"
+    },
+    {
+      "editable": false,
+      "path": "tests/test_v1_account_checkout_client.rs"
     },
     {
       "editable": false,

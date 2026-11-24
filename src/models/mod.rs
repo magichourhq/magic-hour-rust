@@ -1,3 +1,6 @@
+mod v1_account_checkout_create_body;
+mod v1_account_checkout_create_body_type_enum;
+mod v1_account_checkout_create_response;
 mod v1_account_list_response;
 mod v1_account_list_response_subscription;
 mod v1_account_list_response_subscription_billing_interval_enum;
@@ -210,6 +213,9 @@ mod v1_video_to_video_create_body_style_version_enum;
 mod v1_video_to_video_create_response;
 mod v1_voices_list_response;
 mod v1_voices_list_response_voices_item;
+pub use v1_account_checkout_create_body::V1AccountCheckoutCreateBody;
+pub use v1_account_checkout_create_body_type_enum::V1AccountCheckoutCreateBodyTypeEnum;
+pub use v1_account_checkout_create_response::V1AccountCheckoutCreateResponse;
 pub use v1_account_list_response::V1AccountListResponse;
 pub use v1_account_list_response_subscription::V1AccountListResponseSubscription;
 pub use v1_account_list_response_subscription_billing_interval_enum::V1AccountListResponseSubscriptionBillingIntervalEnum;
