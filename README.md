@@ -33,6 +33,10 @@ let client = magic_hour::Client::default()
 
 - [list](src/resources/v1/account/README.md#list) - Get account details
 
+### [v1.account.checkout](src/resources/v1/account/checkout/README.md)
+
+- [create](src/resources/v1/account/checkout/README.md#create) - Create checkout
+
 ### [v1.ai_clothes_changer](src/resources/v1/ai_clothes_changer/README.md)
 
 - [create](src/resources/v1/ai_clothes_changer/README.md#create) - AI Clothes Changer
