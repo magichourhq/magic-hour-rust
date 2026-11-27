@@ -36,6 +36,13 @@ impl<'a> V1Client<'a> {
             self.base_client,
         )
     }
+    pub fn estimate(
+        &mut self,
+    ) -> crate::resources::v1::estimate::resource_client::EstimateClient<'_> {
+        crate::resources::v1::estimate::resource_client::EstimateClient::_new(
+            self.base_client,
+        )
+    }
     pub fn face_detection(
         &mut self,
     ) -> crate::resources::v1::face_detection::resource_client::FaceDetectionClient<'_> {

@@ -1,6 +1,7 @@
 /// V1AccountListResponse
 #[derive(serde::Serialize, serde::Deserialize, Debug, Default, Clone)]
 pub struct V1AccountListResponse {
+    pub auto_reload: crate::models::V1AccountListResponseAutoReload,
     /// Credits currently available to spend. Includes subscription credits and any purchased credit packs.
     pub credits: i64,
     /// Email address of the account.
