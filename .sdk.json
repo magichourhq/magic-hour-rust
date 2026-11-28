@@ -1,5 +1,5 @@
 {
-  "id": "6b6ab188-2368-46ca-b3c8-99b293e385c4",
+  "id": "f752f39c-5eb8-4914-9280-8b0c27e0c5b0",
   "tracked_paths": [
     {
       "editable": true,
@@ -76,6 +76,14 @@
     {
       "editable": false,
       "path": "src/models/v1_account_list_response.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_account_list_response_auto_reload.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_account_list_response_auto_reload_status_enum.rs"
     },
     {
       "editable": false,
@@ -588,6 +596,14 @@
     {
       "editable": false,
       "path": "src/models/v1_character_replace_create_response.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_estimate_image_list_response.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/models/v1_estimate_image_list_tool_enum.rs"
     },
     {
       "editable": false,
@@ -1335,6 +1351,38 @@
     },
     {
       "editable": true,
+      "path": "src/resources/v1/estimate/README.md"
+    },
+    {
+      "editable": true,
+      "path": "src/resources/v1/estimate/image/README.md"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/estimate/image/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/estimate/image/request_types.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/estimate/image/resource_client.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/estimate/mod.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/estimate/request_types.rs"
+    },
+    {
+      "editable": false,
+      "path": "src/resources/v1/estimate/resource_client.rs"
+    },
+    {
+      "editable": true,
       "path": "src/resources/v1/face_detection/README.md"
     },
     {
@@ -1700,6 +1748,10 @@
     {
       "editable": false,
       "path": "tests/test_v1_character_replace_client.rs"
+    },
+    {
+      "editable": false,
+      "path": "tests/test_v1_estimate_image_client.rs"
     },
     {
       "editable": false,

@@ -23,6 +23,7 @@ pub mod audio_to_video;
 pub mod auto_subtitle_generator;
 pub mod body_swap;
 pub mod character_replace;
+pub mod estimate;
 pub mod face_detection;
 pub mod face_swap;
 pub mod face_swap_photo;
