@@ -130,9 +130,17 @@ let client = magic_hour::Client::default()
 
 - [create](src/resources/v1/character_replace/README.md#create) - Character Replace
 
+### [v1.estimate.audio](src/resources/v1/estimate/audio/README.md)
+
+- [list](src/resources/v1/estimate/audio/README.md#list) - Estimate audio credits
+
 ### [v1.estimate.image](src/resources/v1/estimate/image/README.md)
 
 - [list](src/resources/v1/estimate/image/README.md#list) - Estimate image credits
+
+### [v1.estimate.video](src/resources/v1/estimate/video/README.md)
+
+- [list](src/resources/v1/estimate/video/README.md#list) - Estimate video credits
 
 ### [v1.face_detection](src/resources/v1/face_detection/README.md)
 
